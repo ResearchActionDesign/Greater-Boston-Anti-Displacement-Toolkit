@@ -61,8 +61,17 @@ header{
   margin: auto
 }
 
+.tooltipLogo_large{
+  margin: auto;
+  max-height: 50vh;
+}
+
 
 // Toolkit Tiles
+.workshopRoute{
+  text-decoration: none;
+  color: black
+}
 .toolkipTile {
   border: 1px solid black;
   margin: 1em auto;
@@ -70,8 +79,22 @@ header{
   width: 70vw;
 }
 
+// Workshops
+.workshop{
+  max-width: 700px;
+  margin: auto;
+}
+
+.workshop_content{
+  text-align: left;
+  margin: 5em 2em;
+}
 
 // Global
+.bold{
+  font-weight: bold
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

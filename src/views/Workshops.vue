@@ -1,19 +1,17 @@
 <template>
-  <div class="toolkits">
-    <Toolkit :workshops="toolkits"></Toolkit>
+  <div class="workshops">
+    <Mapping></Mapping>
   </div>
 </template>
 
-
-
 <script>
-import Toolkit from './../components/Toolkit'
+import Mapping from './../components/Workshops/Mapping'
 import { mapState } from "vuex";
 
 export default {
-  name: "Toolkits",
+  name: "workshops",
   components: {
-    Toolkit
+    Mapping
   },
   computed: {
     ...mapState(["toolkits"])

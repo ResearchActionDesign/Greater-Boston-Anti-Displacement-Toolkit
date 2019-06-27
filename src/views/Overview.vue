@@ -21,30 +21,11 @@
 <script>
 import Toolkit from "./../components/Toolkit";
 import { mapState } from "vuex";
-// @ is an alias to /src
 
 export default {
-  // "workshopName",
-  //   "workshopQuestion",
-  //   "workshopImg",
-  //   "workshopNum",
-  //   "workshopColor"
   name: "Overview",
   components: {
     Toolkit
-  },
-  data() {
-    return {
-      workshops: [
-        {
-        name: "workshopName",
-        question: "workshopQuestion",
-        img: require("./../assets/2.jpg"),
-        num: "workshopNum",
-        color: "#CA1452"
-      }
-      ]
-    };
   },
   computed: {
     ...mapState(["overviewToolkit", "overviewLogo"])

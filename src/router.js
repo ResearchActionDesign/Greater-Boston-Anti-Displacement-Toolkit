@@ -19,6 +19,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "Toolkits" */ './views/Toolkits.vue')
     },
     {
+      path: '/Toolkits/Workshops',
+      name: 'Workshops',
+      component: () => import(/* webpackChunkName: "Workshops" */ './views/Workshops.vue')
+    },
+    {
       path: '/Film',
       name: 'Film',
       component: () => import(/* webpackChunkName: "Film" */ './views/Film.vue')
