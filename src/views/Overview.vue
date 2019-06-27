@@ -14,7 +14,6 @@
       </p>
       <Toolkit :workshops="overviewToolkit"></Toolkit>
     </main>
-    <!-- <div>{{toolkits}}</div> -->
   </div>
 </template>
 

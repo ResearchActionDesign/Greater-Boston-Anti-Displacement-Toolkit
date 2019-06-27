@@ -3,7 +3,7 @@
     <router-link
       v-for="(workshop, index) in workshops"
       :key="index"
-      :to="workshop.link"
+      :to="{ name: workshop.link, params: {WorkshopName: workshop.nameRoute } }"
       :aria-label="workshop.name"
       class="workshopRoute"
     >

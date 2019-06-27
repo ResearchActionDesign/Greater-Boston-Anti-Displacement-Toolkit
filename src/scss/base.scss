@@ -29,7 +29,7 @@ header{
 .nav {
   background-color: black;
   width: 100vw;
-  margin: 1em auto;
+  margin: 1em auto 2em;
 
   .toolkitsNav{
     border-left: .5px solid white;
@@ -87,7 +87,16 @@ header{
 
 .workshop_content{
   text-align: left;
-  margin: 5em 2em;
+  margin: 5em 3em;
+
+  h3{
+    margin-top: 2em;
+    border-bottom: .5px solid $proj_gray;
+  }
+}
+
+.red_bold {
+  color: $proj_redText;
 }
 
 // Global
