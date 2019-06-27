@@ -1,5 +1,5 @@
 <template>
-    <article>
+    <article class="partners">
         <div v-grid="'1fr 1fr 1fr 1fr 1fr'" class="partnerLogos">
             <img src="./../assets/partnerLogos/CHA_logo.png" alt="Cambridge Health Alliance Logo">
             <img src="./../assets/partnerLogos/colab-logo.png" alt="MIT Community Innovators Lab Logo">

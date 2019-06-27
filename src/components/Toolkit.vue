@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section :class="{toolkit_Tiles : fullPath =='/Toolkits'}">
     <router-link
       v-for="(workshop, index) in workshops"
       :key="index"
@@ -7,7 +7,7 @@
       :aria-label="workshop.name"
       class="workshopRoute"
     >
-      <div class="toolkipTile" :style="{ borderLeft: '12px solid ' + workshop.color }">
+      <div class="toolkitTile" :style="{ borderLeft: '12px solid ' + workshop.color }">
         <h2 :style="{ color: workshop.color }">{{workshop.name}}</h2>
         <p>{{workshop.question}}</p>
         <img :src="workshop.img" class="tooltipLogo" alt>
@@ -19,6 +19,11 @@
 
 <script>
 export default {
-  props: ["workshops"]
+  props: ["workshops"],
+  data() {
+      return {
+        fullPath: this.$route.fullPath
+      }
+    },
 };
 </script>

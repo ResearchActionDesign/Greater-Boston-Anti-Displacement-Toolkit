@@ -48,6 +48,11 @@ export default new Router({
       component: () => import( /* webpackChunkName: "Stories" */ './views/Stories.vue')
     },
     {
+      path: '/Workshop/:WorkshopName',
+      name: 'ToolkitOverview',
+      component: () => import( /* webpackChunkName: "ToolkitOverview" */ './views/ToolkitOverview.vue')
+    },
+    {
       path: '/Film',
       name: 'Film',
       component: () => import( /* webpackChunkName: "Film" */ './views/Film.vue')

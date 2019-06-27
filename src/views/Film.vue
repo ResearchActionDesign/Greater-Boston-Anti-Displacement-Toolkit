@@ -1,10 +1,8 @@
 <template>
-  <div class="overview">
-    <img :src="overviewLogo" class="overviewImg" alt>
+  <div class="film">
     <main>
       <Toolkit :workshops="overviewToolkit"></Toolkit>
     </main>
-    <!-- <div>{{toolkits}}</div> -->
   </div>
 </template>
 

@@ -1,0 +1,24 @@
+@media only screen and (min-width: 550px) {
+    .partnerLogos {
+        img {
+            max-height: 7em;
+            max-width: 5em;
+        }
+    }
+}
+@media only screen and (min-width: 700px) {
+    .partnerLogos {
+        img {
+            max-height: 10em;
+            max-width: 7em;
+        }
+    }
+}
+@media only screen and (min-width: 800px) {
+    .toolkit_Tiles{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        max-width: 800px
+    }
+}
