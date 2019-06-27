@@ -1,20 +1,23 @@
 <template>
   <div id="app">
     <Header></Header>
-    <div id="nav">
-      <router-link to="/">Overview</router-link> |
-      <router-link to="/Toolkits">Toolkits</router-link> |
+    <nav class="nav" v-grid="'1fr 1fr 1fr'">
+      <router-link to="/">Overview</router-link>
+      <router-link to="/Toolkits" class="toolkitsNav">Toolkits</router-link>
       <router-link to="/Film">Film</router-link>
-    </div>
+    </nav>
     <router-view/>
+    <Partners></Partners>
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
+import Partners from './components/Partners'
 export default {
   components: {
-    Header
+    Header,
+    Partners
   }
 }
 </script>
