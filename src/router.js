@@ -13,44 +13,44 @@ export default new Router({
       component: Overview
     },
     {
-      path: '/Toolkits',
-      name: 'Toolkits',
-      component: () => import( /* webpackChunkName: "Toolkits" */ './views/Toolkits.vue')
+      path: '/Toolkit',
+      name: 'Toolkit',
+      component: () => import( /* webpackChunkName: "Toolkits" */ './views/Toolkits.vue'),
     },
     {
-      path: '/Workshop/:WorkshopName',
+      path: '/Toolkit/Mapping_power_and_money',
       name: 'Mapping',
-      component: () => import( /* webpackChunkName: "Mapping" */ './views/Mapping.vue')
+      component: () => import( /* webpackChunkName: "Mapping" */ './views/Toolkit/Mapping.vue')
     },
     {
-      path: '/Workshop/:WorkshopName',
+      path: '/Toolkit/Finding_data_about_your_community',
       name: 'FindData',
-      component: () => import( /* webpackChunkName: "FindData" */ './views/FindData.vue')
+      component: () => import( /* webpackChunkName: "FindData" */ './views/Toolkit/FindData.vue')
     },
     {
-      path: '/Workshop/:WorkshopName',
+      path: '/Toolkit/Using_data_&_storytelling_to_make_arguments',
       name: 'UseData',
-      component: () => import( /* webpackChunkName: "UseData" */ './views/UseData.vue')
+      component: () => import( /* webpackChunkName: "UseData" */ './views/Toolkit/UseData.vue')
     },
     {
-      path: '/Workshop/:WorkshopName',
+      path: '/Toolkit/Identifying_&_evaluating_policies',
       name: 'Policies',
-      component: () => import( /* webpackChunkName: "Policies" */ './views/Policies.vue')
+      component: () => import( /* webpackChunkName: "Policies" */ './views/Toolkit/Policies.vue')
     },
     {
-      path: '/Workshop/:WorkshopName',
+      path: '/Toolkit/Identifying_community_strategies_&_tactics',
       name: 'Strategies',
-      component: () => import( /* webpackChunkName: "Strategies" */ './views/Strategies.vue')
+      component: () => import( /* webpackChunkName: "Strategies" */ './views/Toolkit/Strategies.vue')
     },
     {
-      path: '/Workshop/:WorkshopName',
+      path: '/Toolkit/Sharing_our_stories',
       name: 'Stories',
-      component: () => import( /* webpackChunkName: "Stories" */ './views/Stories.vue')
+      component: () => import( /* webpackChunkName: "Stories" */ './views/Toolkit/Stories.vue')
     },
     {
-      path: '/Workshop/:WorkshopName',
+      path: '/Toolkit/Toolkit_Overview',
       name: 'ToolkitOverview',
-      component: () => import( /* webpackChunkName: "ToolkitOverview" */ './views/ToolkitOverview.vue')
+      component: () => import( /* webpackChunkName: "ToolkitOverview" */ './views/Toolkit/ToolkitOverview.vue')
     },
     {
       path: '/Film',
@@ -58,11 +58,16 @@ export default new Router({
       component: () => import( /* webpackChunkName: "Film" */ './views/Film.vue')
     },
     {
+      path: '/Resources',
+      name: 'Resources',
+      component: () => import( /* webpackChunkName: "Resources" */ './views/Resources.vue')
+    },
+    {
       path: '*',
       redirect: '/'
     }
   ],
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior() {
     return { x: 0, y: 0 }
   }
 })

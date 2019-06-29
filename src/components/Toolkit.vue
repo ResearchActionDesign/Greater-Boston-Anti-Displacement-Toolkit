@@ -1,9 +1,9 @@
 <template>
-  <section :class="{toolkit_Tiles : fullPath =='/Toolkits'}">
+  <section :class="{toolkit_Tiles : fullPath =='/Toolkit'}">
     <router-link
       v-for="(workshop, index) in workshops"
       :key="index"
-      :to="{ name: workshop.link, params: {WorkshopName: workshop.nameRoute } }"
+      :to="{ name: workshop.link }"
       :aria-label="workshop.name"
       class="workshopRoute"
     >

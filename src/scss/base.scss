@@ -89,9 +89,13 @@ header{
 .toolkitTile {
   border: 1px solid black;
   margin: 1em auto;
-  padding: 1em;
+  padding: .5em;
   width: 70vw;
   max-width: 300px;
+  height: 450px;
+  -webkit-box-shadow: 8px 8px 26px -24px rgba(0,0,0,0.75);
+  -moz-box-shadow: 8px 8px 26px -24px rgba(0,0,0,0.75);
+  box-shadow: 8px 8px 26px -24px rgba(0,0,0,0.75);
 }
 
 // Workshops
@@ -104,7 +108,7 @@ header{
   text-align: left;
   margin: 5em 3em;
 
-  h3{
+  h3, .subcategory{
     margin-top: 2em;
     border-bottom: .5px solid $proj_gray;
   }
@@ -112,6 +116,9 @@ header{
 
 .red_bold {
   color: $proj_redText;
+}
+.italic{
+  font-style: italic;
 }
 
 // Global

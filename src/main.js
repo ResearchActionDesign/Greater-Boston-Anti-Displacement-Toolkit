@@ -18,5 +18,6 @@ Vue.directive('grid', {
 new Vue({
   router,
   store,
+  scss,
   render: h => h(App)
 }).$mount('#app')

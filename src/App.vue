@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <Header></Header>
-    <nav class="nav" v-grid="'1fr 1fr 1fr'">
+    <nav class="nav" v-grid="'1fr 1fr 1fr 1fr'">
       <router-link to="/">Overview</router-link>
-      <router-link to="/Toolkits" class="toolkitsNav">Toolkits</router-link>
-      <router-link to="/Film">Film</router-link>
+      <router-link to="/Toolkit" class="toolkitsNav">Toolkit</router-link>
+      <router-link to="/Film" class="toolkitsNav">Film</router-link>
+      <router-link to="/Resources">Resources</router-link>
     </nav>
     <router-view/>
     <Partners></Partners>
