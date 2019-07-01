@@ -1,5 +1,5 @@
 <template>
     <p>
-        <strong class="red_bold">INSTRUCTIONS: </strong> <slot></slot>
+        <strong class="red_bold">{{ $t('instructions') }}: </strong> <slot></slot>
     </p>
 </template>

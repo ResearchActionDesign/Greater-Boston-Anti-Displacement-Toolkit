@@ -2,17 +2,11 @@
   <div class="overview">
     <img :src="overviewLogo" class="overviewImg" alt>
     <main>
-      <h2>WHY A DISPLACEMENT TOOLKIT FOR GREATER BOSTON?</h2>
-      <p>
-        Our communities (Chelsea and Everett, MA) are facing a lot of pressure from developers, which has resulted in land being lost, housing prices
-        and rent increasing, forcing residents and small businesses to be
-        pushed out, or displaced. Displacement has many negative effects on
-        individuals, families and communities. See here for a short video on
-        some of these, including impacts on health, educational outcomes,
-        and community power. We wanted to create a guide for community
-        members to work together to protect & preserve their communities.
-      </p>
+      <h2>{{$t('overviewView.title')}}</h2>
+      <p>{{$t('overviewView.summary')}}</p>
       <Toolkit :workshops="overviewToolkit"></Toolkit>
+
+      {{toolkits}}
     </main>
   </div>
 </template>
@@ -27,7 +21,7 @@ export default {
     Toolkit
   },
   computed: {
-    ...mapState(["overviewToolkit", "overviewLogo"])
+    ...mapState(["overviewToolkit", "overviewLogo", "toolkits"])
   }
 };
 </script>

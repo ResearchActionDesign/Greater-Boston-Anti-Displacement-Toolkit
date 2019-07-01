@@ -1,0 +1,232 @@
+{
+  "header": "spanish",
+
+  "overview": "spanish",
+  "toolkit": "spanish",
+  "film": "spanish",
+  "resources": "spanish",
+
+  "overviewView": {
+    "title": "spanish",
+    "summary": "spanish"
+  },
+
+  "facilitator": "spanish",
+  "instructions": "spanish",
+
+  "partnersDisclaimer": {
+    "SurdnaFoundation": "spanish",
+    "Surdnacontent": "spanish",
+    "CreativeCommonsAttribution": "spanish",
+    "Attributiocontent": "spanish",
+    "license": "spanish"
+  },
+
+
+
+  "toolkits": [{
+      "name": "spanish",
+      "question": "Who has the power and money to make the changes we need in our community?",
+      "img": "/img/2.1a438139.jpg",
+      "num": "1",
+      "color": "#CA1452",
+      "link": "Mapping",
+      "resources": [{
+          "name": "Tools for Campaign Planning",
+          "link": "https://organizingforpower.org/tools/",
+          "text": "Organizing for Power, Organizing for Change,"
+        },
+        {
+          "name": "Power Analysis* - Trainer - Training",
+          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
+          "text": "Northeast Action Training,"
+        },
+        {
+          "name": "Power Mapping, Charting Strategic Relationships",
+          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
+          "text": "DFA Training Academy,"
+        },
+        {
+          "name": "Power Mapping Tool",
+          "link": "https://beautifulrising.org/tool/power-mapping",
+          "text": "Beautiful Rising,"
+        },
+        {
+          "name": "SCOPELA Power Mapping Slides",
+          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
+          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+        }
+      ]
+    },
+    {
+      "name": "spanish",
+      "question": "spanish",
+      "img": "/img/2.1a438139.jpg",
+      "num": "2",
+      "color": "#6B00D6",
+      "link": "FindData",
+      "resources": [{
+          "name": "Tools for Campaign Planning",
+          "link": "https://organizingforpower.org/tools/",
+          "text": "Organizing for Power, Organizing for Change,"
+        },
+        {
+          "name": "Power Analysis* - Trainer - Training",
+          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
+          "text": "Northeast Action Training,"
+        },
+        {
+          "name": "Power Mapping, Charting Strategic Relationships",
+          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
+          "text": "DFA Training Academy,"
+        },
+        {
+          "name": "Power Mapping Tool",
+          "link": "https://beautifulrising.org/tool/power-mapping",
+          "text": "Beautiful Rising,"
+        },
+        {
+          "name": "SCOPELA Power Mapping Slides",
+          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
+          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+        }
+      ]
+    },
+    {
+      "name": "spanish",
+      "question": "How can we use data from Chelsea and Everett to strengthen our voice?",
+      "img": "/img/2.1a438139.jpg",
+      "num": "3",
+      "color": "#0000FF",
+      "link": "UseData",
+      "resources": [{
+          "name": "Tools for Campaign Planning",
+          "link": "https://organizingforpower.org/tools/",
+          "text": "Organizing for Power, Organizing for Change,"
+        },
+        {
+          "name": "Power Analysis* - Trainer - Training",
+          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
+          "text": "Northeast Action Training,"
+        },
+        {
+          "name": "Power Mapping, Charting Strategic Relationships",
+          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
+          "text": "DFA Training Academy,"
+        },
+        {
+          "name": "Power Mapping Tool",
+          "link": "https://beautifulrising.org/tool/power-mapping",
+          "text": "Beautiful Rising,"
+        },
+        {
+          "name": "SCOPELA Power Mapping Slides",
+          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
+          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+        }
+      ]
+    },
+    {
+      "name": "spanish",
+      "question": "How do we protect where we live?",
+      "img": "/img/2.1a438139.jpg",
+      "num": "4",
+      "color": "#006100",
+      "link": "Policies",
+      "resources": [{
+          "name": "Tools for Campaign Planning",
+          "link": "https://organizingforpower.org/tools/",
+          "text": "Organizing for Power, Organizing for Change,"
+        },
+        {
+          "name": "Power Analysis* - Trainer - Training",
+          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
+          "text": "Northeast Action Training,"
+        },
+        {
+          "name": "Power Mapping, Charting Strategic Relationships",
+          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
+          "text": "DFA Training Academy,"
+        },
+        {
+          "name": "Power Mapping Tool",
+          "link": "https://beautifulrising.org/tool/power-mapping",
+          "text": "Beautiful Rising,"
+        },
+        {
+          "name": "SCOPELA Power Mapping Slides",
+          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
+          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+        }
+      ]
+    },
+    {
+      "name": "spanish",
+      "question": "How can we prepare to act effectively?",
+      "img": "/img/2.1a438139.jpg",
+      "num": "5",
+      "color": "#A80054",
+      "link": "Strategies",
+      "resources": [{
+          "name": "Tools for Campaign Planning",
+          "link": "https://organizingforpower.org/tools/",
+          "text": "Organizing for Power, Organizing for Change,"
+        },
+        {
+          "name": "Power Analysis* - Trainer - Training",
+          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
+          "text": "Northeast Action Training,"
+        },
+        {
+          "name": "Power Mapping, Charting Strategic Relationships",
+          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
+          "text": "DFA Training Academy,"
+        },
+        {
+          "name": "Power Mapping Tool",
+          "link": "https://beautifulrising.org/tool/power-mapping",
+          "text": "Beautiful Rising,"
+        },
+        {
+          "name": "SCOPELA Power Mapping Slides",
+          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
+          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+        }
+      ]
+    },
+    {
+      "name": "spanish",
+      "question": "What is displacement and how is it impacting Greater Boston?",
+      "img": "/img/2.1a438139.jpg",
+      "num": "6",
+      "color": "#0052A3",
+      "link": "Stories",
+      "resources": [{
+          "name": "Tools for Campaign Planning",
+          "link": "https://organizingforpower.org/tools/",
+          "text": "Organizing for Power, Organizing for Change,"
+        },
+        {
+          "name": "Power Analysis* - Trainer - Training",
+          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
+          "text": "Northeast Action Training,"
+        },
+        {
+          "name": "Power Mapping, Charting Strategic Relationships",
+          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
+          "text": "DFA Training Academy,"
+        },
+        {
+          "name": "Power Mapping Tool",
+          "link": "https://beautifulrising.org/tool/power-mapping",
+          "text": "Beautiful Rising,"
+        },
+        {
+          "name": "SCOPELA Power Mapping Slides",
+          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
+          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+        }
+      ]
+    }
+  ]
+}
