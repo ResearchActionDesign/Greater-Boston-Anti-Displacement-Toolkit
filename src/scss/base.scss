@@ -1,40 +1,59 @@
-body{
+body {
   margin: 0
 }
 
-header{
-  margin: 3em auto 1em;
-  width: 95vw;
-  max-width: 600px;
-  font-size: 1em;
+.langChanger {
+  background-color: transparent;
+  border: none;
+  margin: auto
 }
 
+.langLabel {
+  margin: 0;
+  font-weight: bold;
+}
+
+.header {
+  h1{
+    margin-bottom: 0
+  }
+  margin: 1em auto;
+    width: 95vw;
+    font-size: 1em;
+}
+
+header{
+  max-width: 600px;
+margin: auto
+}
 
 // Partners
-.partners{
+.partners {
   padding: 1em;
 }
-.partnerLogos{
+
+.partnerLogos {
   margin: auto;
   padding: 3em 1em 1em;
   max-width: 800px;
-  img{
+
+  img {
     max-height: 4em;
     max-width: 3em;
-    top:0;
-    bottom:0;
-    margin:auto;
+    top: 0;
+    bottom: 0;
+    margin: auto;
   }
 }
 
-.partnersMessage{
+.partnersMessage {
   font-size: .8em;
   padding-bottom: 5em;
 }
 
 // Main page
-.overview{
-  main{
+.overview {
+  main {
     padding: 2em
   }
 }
@@ -45,10 +64,11 @@ header{
   background-color: black;
   margin: 1em auto 2em;
 
-  .toolkitsNav{
+  .toolkitsNav {
     border-left: .5px solid white;
     border-right: .5px solid white;
   }
+
   a {
     font-weight: bold;
     color: white;
@@ -63,11 +83,12 @@ header{
 }
 
 // Images
-.overviewImg{
+.overviewImg {
   max-width: 90vw;
   max-height: 60vh;
   margin: 2em auto 1em;
 }
+
 .tooltipLogo {
   width: 40%;
   min-width: 12em;
@@ -75,17 +96,18 @@ header{
   margin: auto
 }
 
-.tooltipLogo_large{
+.tooltipLogo_large {
   margin: auto;
   max-height: 50vh;
 }
 
 
 // Toolkit Tiles
-.workshopRoute{
+.workshopRoute {
   text-decoration: none;
   color: black
 }
+
 .toolkitTile {
   border: 1px solid black;
   margin: 1em auto;
@@ -93,22 +115,23 @@ header{
   width: 70vw;
   max-width: 300px;
   height: 450px;
-  -webkit-box-shadow: 8px 8px 26px -24px rgba(0,0,0,0.75);
-  -moz-box-shadow: 8px 8px 26px -24px rgba(0,0,0,0.75);
-  box-shadow: 8px 8px 26px -24px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 8px 8px 26px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 8px 26px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 8px 8px 26px -24px rgba(0, 0, 0, 0.75);
 }
 
 // Workshops
-.workshop{
+.workshop {
   max-width: 700px;
   margin: auto;
 }
 
-.workshop_content{
+.workshop_content {
   text-align: left;
   margin: 5em 3em;
 
-  h3, .subcategory{
+  h3,
+  .subcategory {
     margin-top: 2em;
     border-bottom: .5px solid $proj_gray;
   }
@@ -117,17 +140,18 @@ header{
 .red_bold {
   color: $proj_redText;
 }
-.italic{
+
+.italic {
   font-style: italic;
 }
 
 // Global
-.routerLink{
+.routerLink {
   text-decoration: none;
   color: black
 }
 
-.bold{
+.bold {
   font-weight: bold
 }
 

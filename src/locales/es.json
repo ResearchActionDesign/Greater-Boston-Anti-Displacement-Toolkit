@@ -22,7 +22,7 @@
     "license": "spanish"
   },
 
-
+  "translateTo": "Traducir a ingles",
 
   "toolkits": [{
       "name": "spanish",

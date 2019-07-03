@@ -41,6 +41,8 @@ export default new Vuex.Store({
         },
       ]
     }],
+
+    translateTo: i18n.t('translateTo'),
     // toolkits: i18n.t('toolkits'),
     // toolkits: [{
     //     name: "Mapping power and money",
