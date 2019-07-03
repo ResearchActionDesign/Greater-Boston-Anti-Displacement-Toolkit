@@ -13,6 +13,8 @@ export default new Vuex.Store({
       img: require("./assets/2.jpg"),
       color: "#993300",
       link: 'ToolkitOverview',
+      edit: "https://www.google.com/",
+      print: "https://www.google.com/",
       resources: [
         {
           name: 'Tools for Campaign Planning',
@@ -43,6 +45,8 @@ export default new Vuex.Store({
     }],
 
     translateTo: i18n.t('translateTo'),
+    edit: i18n.t('edit'),
+    print: i18n.t('print'),
     // toolkits: i18n.t('toolkits'),
     // toolkits: [{
     //     name: "Mapping power and money",

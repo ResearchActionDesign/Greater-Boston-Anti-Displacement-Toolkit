@@ -1,6 +1,6 @@
 <template>
 <div class="header">
-  <button @click="changeLanguage" class="langChanger" :aria-label="'Translate to ' + otherLang">
+  <button @click="changeLanguage" class="langChanger" :aria-label="translateTo">
     <img src="./../assets/web.svg" :alt="translateTo">
     <p class="langLabel">{{this.$i18n.locale}}</p>
   </button>
