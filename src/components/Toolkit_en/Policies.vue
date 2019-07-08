@@ -187,7 +187,7 @@
 
 <script>
 import { mapState } from "vuex";
-import ToolkitIntro from "./../../components/ToolkitInto";
+import ToolkitIntro from "../ToolkitIntro";
 import Introduction from "./../../components/Introduction";
 import FacilitationGuide from "./../../components/FacilitationGuide";
 import Facilitator from "./../../components/Facilitator";

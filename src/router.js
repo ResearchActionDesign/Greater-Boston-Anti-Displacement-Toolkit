@@ -11,12 +11,12 @@ export default new Router({
       path: '/',
       alias: '/Overview',
       name: 'Overview',
-      component: Overview
+      component: () => import( /* webpackChunkName: "Overview" */ './views/Overview.vue'),
     },
     {
       path: '/Toolkit',
       name: 'Toolkit',
-      component: () => import( /* webpackChunkName: "Toolkits" */ './views/Toolkits.vue'),
+      component: () => import( /* webpackChunkName: "Toolkits" */ './views/ToolkitList.vue'),
     },
     {
       path: '/Toolkit/Mapping_power_and_money',
@@ -47,11 +47,6 @@ export default new Router({
       path: '/Toolkit/Sharing_our_stories',
       name: 'Stories',
       component: () => import( /* webpackChunkName: "Stories" */ './views/Toolkit/Stories.vue')
-    },
-    {
-      path: '/Toolkit/Toolkit_Overview',
-      name: 'ToolkitOverview',
-      component: () => import( /* webpackChunkName: "ToolkitOverview" */ './views/Toolkit/ToolkitOverview.vue')
     },
     {
       path: '/Film',

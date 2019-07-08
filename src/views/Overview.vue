@@ -1,27 +1,20 @@
 <template>
-  <div class="overview">
-    <img :src="overviewLogo" class="overviewImg" alt>
-    <main>
-      <h2>{{$t('overviewView.title')}}</h2>
-      <p>{{$t('overviewView.summary')}}</p>
-      <Toolkit :workshops="overviewToolkit"></Toolkit>
-
-      {{toolkits}}
-    </main>
+  <div>
+    <OverviewEng v-if="this.$i18n.locale == 'en'"></OverviewEng>
+    <OverviewEs v-else></OverviewEs>
   </div>
 </template>
 
-<script>
-import Toolkit from "./../components/Toolkit";
-import { mapState } from "vuex";
 
-export default {
-  name: "Overview",
-  components: {
-    Toolkit
-  },
-  computed: {
-    ...mapState(["overviewToolkit", "overviewLogo", "toolkits"])
-  }
-};
+<script>
+  import OverviewEng from "../components/Toolkit_en/Overview";
+  import OverviewEs from "../components/Toolkit_es/Overview";
+
+  export default {
+    name: "workshops",
+    components: {
+      OverviewEng,
+      OverviewEs
+    }
+  };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PoliciesEng v-if="this.$i18n.locale == 'English'"></PoliciesEng>
+    <PoliciesEng v-if="this.$i18n.locale == 'en'"></PoliciesEng>
     <PoliciesEs v-else></PoliciesEs>
   </div>
 </template>

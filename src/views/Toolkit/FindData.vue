@@ -1,6 +1,6 @@
 <template>
 <div>
-<FindDataEng v-if="this.$i18n.locale == 'English'"></FindDataEng>
+<FindDataEng v-if="this.$i18n.locale == 'en'"></FindDataEng>
 <FindDataEs v-else></FindDataEs>
 </div>
 </template>

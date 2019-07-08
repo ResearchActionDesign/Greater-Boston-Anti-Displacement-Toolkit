@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MappingEng v-if="this.$i18n.locale == 'English'"></MappingEng>
+    <MappingEng v-if="this.$i18n.locale == 'en'"></MappingEng>
     <MappingEs v-else></MappingEs>
   </div>
 </template>

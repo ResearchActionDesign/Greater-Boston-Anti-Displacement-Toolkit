@@ -7,10 +7,10 @@
       :aria-label="workshop.name"
       class="workshopRoute"
     >
-      <div class="toolkitTile" :style="{ borderLeft: '12px solid ' + workshop.color }">
+      <div class="toolkitTile" :style="{ borderLeft: '12px solid ' + workshop.color }" v-if="workshop.link">
         <h2 :style="{ color: workshop.color }">{{workshop.name}}</h2>
         <p>{{workshop.question}}</p>
-        <img :src="workshop.img" class="tooltipLogo" alt />
+        <img :src="require(`@/assets/${workshop.link}.png`)" class="workshopLogo" alt />
         <p :style="{ color: workshop.color }" class="bold">Workshop {{workshop.num}}</p>
         
         <!-- Print and Edit -->
