@@ -28,7 +28,7 @@
 
   "toolkits": [{
       "name": "Mapping power and money",
-      "question": "Who has the power and money to make the changes we need in our community?",
+      "question": "Who has the power and money to make the changes we need in our communities?",
       "num": "1",
       "color": "#D82C88",
       "link": "Mapping",
@@ -63,7 +63,7 @@
     },
     {
       "name": "Finding data about your community",
-      "question": "Missing tagline Missing tagline Missing tagline Missing tagline Missing tagline?",
+      "question": "How can we dig deeper into the issues facing our communities?",
       "num": "2",
       "color": "#743589",
       "link": "FindData",
