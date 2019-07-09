@@ -40,16 +40,14 @@ table {
   border-collapse: collapse;
   margin: 1em auto;
 
-  caption {
+  caption, thead {
     background: black;
     color: white;
     font-weight: bold;
     text-align: center;
-    padding: 1em;
   }
-  thead {
-    font-weight: bold;
-    text-align: center;
+  caption {
+    padding: 1em;
   }
   td, th {
     border: 1px solid black;
@@ -57,10 +55,10 @@ table {
   }
   td {
     vertical-align: top;
-    p:first-of-type {
+    p:first-of-type, ol:first-of-type, ul:first-of-type {
       margin-top: 0;
     }
-    ol {
+    ol, ul {
       padding-left: 1em;
     }
   }

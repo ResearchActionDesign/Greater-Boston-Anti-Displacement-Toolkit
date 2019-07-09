@@ -18,13 +18,13 @@
 
       <FacilitationGuide :toolkit="$t('toolkits')[0]">
         <!-- Purpose and Outcome -->
-        <div slot="workshop_purpose">
+        <div slot="Workshop_Purpose">
           <ul>
             <li>To co-create a visual map of different systems of power and influence in our communities.</li>
             <li>To discuss how we can use our power maps for action.</li>
           </ul>
         </div>
-        <div slot="workshop_outcomes">
+        <div slot="Workshop_Outcomes">
           <ol>
             <li>Assessment of local and regional political and community environments to help identify opportunities to advocate for change.</li>
             <li>A shared understanding of community stakeholders, power, and money. </li>
@@ -33,7 +33,7 @@
         </div>
 
         <!-- Who to Invite -->
-        <template slot="Who_to_Invite">
+        <template slot="Whom_to_Invite">
           <p>Those you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing an activity mapping power and money in your community. Ideally, there would be a minimum of 8 participants to break out into smaller groups for the mapping activity.</p>
           <p>Once this has been identified, then ask:</p>
           <ul>
@@ -101,16 +101,14 @@
         </template>
 
         <!-- Detailed Plan -->
-        <template slot="Introducing_the_Activity">
+        <template slot="Detailed_Plan">
           <h4 class="subcategory">Step 1: Introducing the Activity (5 min)</h4>
           <Facilitator>Understanding power relationships and the flow of resources that shape the problem we are trying to solve will be crucial in helping us strategize effectively, adapt to new events or changes, and evaluate our progress.
             <p>Power-mapping is a common community-organizing technique used to visually represent relevant stakeholders relative to an issue, the types of power they have, and how they relate to one another regarding a specific issue or problem. Like other maps, power maps help users orient themselves in relation to the world around them. These maps can be used for specific actions or campaigns with tight timelines and focused objectives—like planning an action or event—but can also be used for bigger, ongoing efforts, like coalition-building.</p>
             <p>Unlike most other maps, they are likely to change—sometimes dramatically in response to new events or circumstances. When the power dynamics of a situation around displacement changes—for example, a new development is planned, or a new policy is put into place—power maps change, too.</p>
             <p>Before we go into more detail, let’s take a minute to draw from the experiences of the group.</p>
           </Facilitator>
-        </template>
 
-        <template slot="Group_Big_Picture_Questions">
           <h4 class="subcategory">Step 2: Group Big-Picture Questions (5 min)</h4>
           <Facilitator>We’re curious to know from you all how or why you think mapping power might be useful. Does anyone have any ideas or experiences that speak to why we might want to map the power dynamics around an issue or campaign?
           <p class="instructions">Follow-up with:</p>
@@ -120,9 +118,7 @@
           </ul>
           </Facilitator>
           <Instructions>Recognize (verbal or written) experiences shared by the group. This information can be used to build or reinforce reviewing the basics of mapping power and money in the next step.</Instructions>
-        </template>
 
-        <template slot="Reviewing_the_Basics">
           <h4 class="subcategory">Step 3: Reviewing the Basics (5 min)</h4>
           <Facilitator>Let’s recap what we’ve learned so far:
             <ul>
@@ -155,9 +151,6 @@
             <li>They show how power is embedded within these relationships.</li>
           </ul>
           </Facilitator>
-        </template>
-
-        <template slot="Producing_Power_Maps_in_Groups">
           <h4 class="subcategory">Step 4: Group Work — Produce Power Maps: “Displacement in My Community” (15 min)</h4>
           <Facilitator>We’re going to dive right into creating our own power map for resisting displacement. While there are lots of power-mapping formulas out there, <b>our priority is to start with what we know</b>, allowing our analysis to guide map formation, rather than imposing a predetermined format without knowing in advance if it’s right for us. That means that today, we’re producing our first draft(s), and will conclude this exercise by agreeing on a plan to synthesize and refine the final product (which will keep changing). This means we can focus on being analytical and creative without worrying about how every detail is going to be fine-tuned.</Facilitator>
           <Instructions>The power map should be focused on the group’s objective. The power map can be focused on a broad issue, such as resisting displacement, but it can also be focused on a specific effort or event, like a teach-in or an election.
@@ -176,8 +169,6 @@
                 <ul><li>Share this hint: <em class="italic">It might be helpful to start with sticky notes so you can move things around!</em></li></ul></li>
             </ul>
           </Instructions>
-        </template>
-        <template slot="Show_and_Tell">
           <h4 class="subcategory">Step 5: Show & Tell (10 min)</h4>
           <Instructions>Ask each group to take turns sharing their power and money map with the larger group. When they do so, they should answer the 3 questions from the flip chart:
             <ol class="italic">
@@ -186,8 +177,6 @@
               <li>How would you use it?</li>
             </ol>
           </Instructions>
-        </template>
-        <template slot="Discussion_and_Planning">
           <h4 class="subcategory">Step 6: Discussion & Planning (15-20 min)</h4>
           <Facilitator>Now that we’ve heard from all the groups, it’s time to reflect on the different power-mapping techniques that have emerged from your work. Now, our goal is to figure out how to finalize our shared power map so that it can be useful and in service of our larger goals.
             <p>Since power maps are meant to be revised and adapted as circumstances change, let’s start by thinking about the structure and form of the map, rather than the specific content (e.g., which actors are included).</p>
