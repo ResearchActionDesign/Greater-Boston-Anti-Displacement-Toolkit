@@ -4,20 +4,21 @@
 
     <!-- Facilitation Guide -->
     <section aria-label="introduction" class="facilitationGuide">
-      <h3 :style="{ borderBottom: '1px solid ' + toolkit.color }">Purpose and Outcomes</h3>
+      <h4 class="subcategory">Purpose</h4>
       <slot name="workshop_purpose"></slot>
+      <h4 class="subcategory">Outcomes</h4>
       <slot name="workshop_outcomes"></slot>
     </section>
 
     <!-- Who to Invite -->
     <section aria-label="Who to Invite" class="Who_to_Invite">
-      <h3 :style="{ borderBottom: '1px solid ' + toolkit.color }">Purpose and Outcomes</h3>
+      <h3 :style="{ borderBottom: '1px solid ' + toolkit.color }">Whom to Invite</h3>
       <slot name="Who_to_Invite"></slot>
     </section>
 
     <!-- Materials and Preparation -->
     <section aria-label="Materials and Preparation" class="Materials_and_Preparation">
-      <h3 :style="{ borderBottom: '1px solid ' + toolkit.color }">Material and Preparation</h3>
+      <h3 :style="{ borderBottom: '1px solid ' + toolkit.color }">Material & Prep</h3>
       <slot name="Materials_and_Preparation"></slot>
     </section>
 
@@ -50,3 +51,11 @@ export default {
   props: ["toolkit"]
 };
 </script>
+
+<style>
+  img {
+    max-width: 90%;
+    margin: 1em auto;
+    display: block;
+  }
+</style>

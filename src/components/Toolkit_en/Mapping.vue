@@ -4,66 +4,88 @@
 
     <div class="workshop_content">
       <Introduction :toolkit="$t('toolkits')[0]">
-        <p>EN ESPANOL In our communities, many have experienced the negative impacts of exclusionary political and corporate decisions that have led to displacement. Understanding the systems of who or where these decisions are being made and how as a community member you can influence is critical to advocate for change. [add data point]</p>
-        <p>Mapping power and money is a useful tool for engaging communities in thinking about the current community systems and informing organizing strategies and tactics. This tool can help groups identify and assess the local, regional political and community environment by:</p>
+        <p>Many have experienced the negative impacts of exclusionary political and corporate decisions that have led to displacement. Understanding the systems of power in which these decisions are being made and how you as a community member can influence the process is critical to advocate for change.</p>
+        <p>Mapping power and money is a useful activity for engaging communities to think about relationships affecting the issues they grapple with, which inform organizing strategies and tactics. This activity helps identify and assess the local and regional political and community environment related to a specific issue by:</p>
         <ul>
-          <li>Identifying the different actors, specific targets for campaigns,</li>
-          <li>Identifying community members roles as actors,</li>
-          <li>Identifying different forms of power and how different actors, things interact,</li>
-          <li>Analyzing “what or who” can weaken or strengthen the power in the community,</li>
-          <li>Identifying opportunities to advocate for change, where to intervene..</li>
+          <li>Identifying different actors and specific targets for campaigns, </li>
+          <li>Identifying community members’ roles as actors,</li>
+          <li>Identifying different forms of power and how different actors and systems interact and relate,</li>
+          <li>Analyzing “what or who” can weaken or strengthen the power in the community, and</li>
+          <li>Identifying opportunities to advocate for change, where to intervene.</li>
         </ul>
-        <p>Communities often use this tool as part of developing a campaign or strategy to fight against a specific problem, though it can be helpful any time the landscape shifts within the community systems(e.g. new actors, decisions, issues change/grow).</p>
+        <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
       </Introduction>
 
       <FacilitationGuide :toolkit="$t('toolkits')[0]">
         <!-- Purpose and Outcome -->
         <div slot="workshop_purpose">
-          <h4 class="subcategory">Purpose</h4>
           <ul>
-            <li>To co-create a visual map of the different systems of power and influence in our communities.</li>
+            <li>To co-create a visual map of different systems of power and influence in our communities.</li>
             <li>To discuss how we can use our power maps for action.</li>
           </ul>
         </div>
         <div slot="workshop_outcomes">
-          <h4 class="subcategory">Outcomes</h4>
           <ol>
             <li>Assessment of local and regional political and community environments to help identify opportunities to advocate for change.</li>
-            <li>A shared understanding of community stakeholders, power, and money.</li>
-            <li>Useable maps to influence and/or leverage identified power and money in the community for identified organizing strategies and tactics.</li>
+            <li>A shared understanding of community stakeholders, power, and money. </li>
+            <li>Useable maps to influence and/or leverage identified power and money in the community for identified organizing strategies and tactics. </li>
           </ol>
         </div>
 
         <!-- Who to Invite -->
         <template slot="Who_to_Invite">
-          <p>Who you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing a mapping power and money activity in your community.</p>
-          <p>Once this has been identified, then ask, Who can help fulfill this purpose? Who is most relevant for this activity? Who might threaten the purpose? For example:</p>
+          <p>Those you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing an activity mapping power and money in your community. Ideally, there would be a minimum of 8 participants to break out into smaller groups for the mapping activity.</p>
+          <p>Once this has been identified, then ask:</p>
           <ul>
-            <li>There is a specific development proposed in the downtown area of your community that will push out renters and a locally owned business. You can target inviting the renters likely to be pushed out, the business owners and consumers who frequent this business. Key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
-            <li>Gentrification and displacement is a growing concern for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can target inviting organizations, community members and youth, local business owners, and government representatives to have a broader conversation and discussion of the issues occurring in the community and region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
+            <li>Who can help fulfill this purpose?</li>
+            <li>Who is most relevant for this activity?</li>
+            <li>Who might threaten this purpose?</li>
           </ul>
-        </template>
-
-        <!-- Who to Invite -->
-        <template slot="Who_to_Invite">
-          <p>Who you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing a mapping power and money activity in your community.</p>
-          <p>Once this has been identified, then ask, Who can help fulfill this purpose? Who is most relevant for this activity? Who might threaten the purpose? For example:</p>
+          <p>For example:</p>
           <ul>
-            <li>There is a specific development proposed in the downtown area of your community that will push out renters and a locally owned business. You can target inviting the renters likely to be pushed out, the business owners and consumers who frequent this business. Key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
-            <li>Gentrification and displacement is a growing concern for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can target inviting organizations, community members and youth, local business owners, and government representatives to have a broader conversation and discussion of the issues occurring in the community and region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
+            <li>A development proposed in the downtown area of your community will push out renters and a locally owned business. You can identify/invite the renters likely to be pushed out and the business owners and consumers who frequent this business. You may also want to invite key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
+            <li>Gentrification and displacement are growing concerns for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can invite local organizations, community members of all ages, local business owners, and government representatives to have a broader discussion about issues occurring in the region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
           </ul>
         </template>
 
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Identify facilitators roles for the session, including notetakers and timekeeper.</li>
-            <li>Pre-scribe (1) the map “legend”, three things asking participants to show in the power maps for the group exercise, including examples. (2) the questions to address during the show and tell.</li>
-            <li>Examples of power maps drawn by other groups can be useful to demonstrate output for the activity but are not necessary for conducting the activity.</li>
-            <li>Flip chart/Butcher paper for each break out group.</li>
-            <li>Markers (multiple colors) for creating power maps.</li>
-            <li>Color stickies for labeling or showing different types of information on power maps.</li>
-            <li>Photograph participant power maps after the session for recording (with participants permission).</li>
+            <li>Identify 1-2 facilitators and assign roles for the session, including at least 1 note takers and at least 1 timekeeper.</li>
+            <li>Write the activity instructions (examples below) on the flip chart for:</li>
+            <ul>
+              <li>the <b>Map Legend</b> asking participants to show the 3 core elements in the power maps for the group exercise, including examples.</li>
+              <li>questions to address during the <b>Show and Tell</b>.</li>
+              <li>each core element (Actors/Stakeholders, Relationships, Types of Power) on a separate sheet to record notes from the <b>Discussion and Planning</b> activity. (Use butcher or flip-chart paper to post in the room ahead of time and use during the activity.)</li>
+            </ul>
+            <table>
+              <caption>Examples of Flip Charts to Prep</caption>
+              <thead><tr><th>Map Legend</th><th>Show & Tell</th><th>Mapping Techniques<p>Discussion & Planning</p></th></tr></thead>
+              <tbody>
+              <tr><td>
+                <p><b>Actors/Stakeholders</b>: individuals, institutions, groups (e.g., mayor, tenants, church, community groups, city council).</p>
+                <p><b>Relationships</b>: allies, opposition, authoritative (e.g., close allies, mayor, city council).</p>
+                <p><b>Types of Power</b>: political power, money, people (e.g., church, community groups).</p>
+              </td>
+                <td>
+                  <ol>
+                    <li>Why did you choose this way of presenting power and money?</li>
+                    <li>How would you develop it further or go deeper?</li>
+                    <li>How would you use it?</li>
+                  </ol>
+                </td>
+                <td>
+                  <p>What worked well?</p>
+                  <p>What do you still need to figure out?</p>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+            <li>Examples of power maps drawn by other groups can be useful to demonstrate output for the activity but are not necessary for conducting the activity. (Examples in the activity instructions below.)</li>
+            <li>Blank flip-chart/butcher paper for each break-out group.</li>
+            <li>Colored markers for creating power maps.</li>
+            <li>Colored sticky notes for indicating varied information on power maps.</li>
+            <li>Photographed participants’ power maps after the session for recording purposes (with participants’ permission).</li>
           </ul>
         </template>
 
@@ -71,111 +93,137 @@
         <template slot="Tips">
           <ul>
             <li>Design for what you want! Customize the facilitation guide to fit your desired purpose, needs, and outcomes for conducting this activity.</li>
-            <li>Identify the collective purpose of mapping power and money in your community. E.g. Is this for a specific campaign, issue, target the community is wanting to influence? The purpose can be established in advance or participants can set as part of the activity.</li>
-            <li>Identify how much time you will need for each discussion and activity. The total suggested time for this activity is 60 minutes. The group work and show and tell is where you will likely allocate most of the time.</li>
-            <li>Identify the anticipated number of breakout groups based on who is participating. If participants are from different communities, consider grouping by communities as well.</li>
-            <li>Schedule time after your activity to debrief with the facilitators on what worked and what you might change if conduct the activity again. Identify any action items for you, your organization or community as an outcome from the activity.</li>
+            <li>Identify the collective purpose—either established in advance or as part of the activity—of mapping power and money in your community (e.g., Is this for a specific campaign or issue the community wants to influence?)</li>
+            <li>Identify how much time you will need for each discussion and activity (suggested time: 60 minutes). You will most likely allocate most time for group work and show-and-tell.</li>
+            <li>Identify the anticipated number of break-out groups based on who is participating. If participants are from different communities, consider grouping by communities as well.</li>
+            <li>Schedule time after your activity to debrief with the facilitators on what worked and what you might change if conducting the activity again. Identify any action items for you, your organization, or community.</li>
           </ul>
         </template>
 
         <!-- Detailed Plan -->
         <template slot="Introducing_the_Activity">
-          <h4 class="subcategory">Introducing the Activity</h4>
-          <Facilitator>Understanding the power relationships and flows of money and resources that shape the problem we are trying to solve will be crucial to helping us strategize effectively, adapt to new events or changes, and evaluate our progress.</Facilitator>
-          <Facilitator>Power mapping is a common community organizing technique used to visually represent who the important stakeholders relevant to an issue are, what types of power they have, and how they relate to one another when it comes to a specific issue or problem. Like other maps, they are supposed to help those who use them orient themselves in relation to the world around them, and help the user find their way. They can be used for specific actions or campaigns with tight timelines and focused objectives, like planning an event, but they can also be used for bigger ongoing efforts, like building a coalition.</Facilitator>
-          <Facilitator>What sets them apart from most other maps is that they are likely to change - maybe even a lot! - in response to new events or circumstances. In this case, as the situation around displacement changes -- for example, a new development is planned, or a new policy is put into place -- power maps change too, whenever the power dynamics of a situation change significantly.</Facilitator>
+          <h4 class="subcategory">Step 1: Introducing the Activity (5 min)</h4>
+          <Facilitator>Understanding power relationships and the flow of resources that shape the problem we are trying to solve will be crucial in helping us strategize effectively, adapt to new events or changes, and evaluate our progress.
+            <p>Power-mapping is a common community-organizing technique used to visually represent relevant stakeholders relative to an issue, the types of power they have, and how they relate to one another regarding a specific issue or problem. Like other maps, power maps help users orient themselves in relation to the world around them. These maps can be used for specific actions or campaigns with tight timelines and focused objectives—like planning an action or event—but can also be used for bigger, ongoing efforts, like coalition-building.</p>
+            <p>Unlike most other maps, they are likely to change—sometimes dramatically in response to new events or circumstances. When the power dynamics of a situation around displacement changes—for example, a new development is planned, or a new policy is put into place—power maps change, too.</p>
+            <p>Before we go into more detail, let’s take a minute to draw from the experiences of the group.</p>
+          </Facilitator>
         </template>
 
         <template slot="Group_Big_Picture_Questions">
-          <h4 class="subcategory">Group Big Picture Questions</h4>
-          <Facilitator>Has anyone in the room done power-mapping before?</Facilitator>
+          <h4 class="subcategory">Step 2: Group Big-Picture Questions (5 min)</h4>
+          <Facilitator>We’re curious to know from you all how or why you think mapping power might be useful. Does anyone have any ideas or experiences that speak to why we might want to map the power dynamics around an issue or campaign?
+          <p class="instructions">Follow-up with:</p>
           <ul>
-            <li>
-              <strong class="bold">Follow-up with:</strong> How did it go? What did you do/learn?
-            </li>
+            <li>Has anyone in the room done power-mapping before?</li>
+            <li>How did it go? What did you do/learn?</li>
           </ul>
-          <Facilitator>We’re curious to hear from you all why you think mapping power might be useful. Does anyone have any ideas or experiences that speak to why we might want to map the power dynamics of around an issue or campaign?</Facilitator>
-          <ul>
-            <li>
-              <strong class="bold">Follow-up with:</strong> MISSING MISSING MISSING MISSING MISSING MISSING MISSING
-            </li>
-          </ul>
+          </Facilitator>
+          <Instructions>Recognize (verbal or written) experiences shared by the group. This information can be used to build or reinforce reviewing the basics of mapping power and money in the next step.</Instructions>
         </template>
 
         <template slot="Reviewing_the_Basics">
-          <h4 class="subcategory">Reviewing the Basics</h4>
-          <Facilitator>Let’s recap what we’ve learned so far...</Facilitator>
-          <ul>
-            <li>
-              The
-              <strong class="bold">role</strong> of power mapping is to help you orient your group in relation to the other stakeholders involved in the issue you are taking you on, and to help you strategize about how to both build power and change the power relationships between other stakeholders.
-            </li>
-            <li>
-              The
-              <strong class="bold">goal</strong> of a power map is to clearly represent the power relationships between the stakeholders involved in the issue you are taking on.
-            </li>
-
-            <li>
-              The
-              <strong class="bold">core elements</strong> of a useful power map include:
+          <h4 class="subcategory">Step 3: Reviewing the Basics (5 min)</h4>
+          <Facilitator>Let’s recap what we’ve learned so far:
+            <ul>
+              <li>The <b>role</b> of power-mapping is to help you orient your group to the other stakeholders involved in the issue you are engaging, and to help you strategize about how to both build power and change power relationships between other stakeholders.</li>
+              <li>The <b>goal</b> of a power map is to clearly represent power relationships between the stakeholders involved in the issue you are engaging.</li>
+              <li>The <b>core elements</b> of a useful power map include:
               <ul>
-                <li>
-                  All of the relevant stakeholders (individuals, groups, institutions, etc.)
-                  <br>For example: the mayor, tenants, city planners, allied community groups
-                </li>
-                <li>
-                  The types of power that stakeholders have (individually or together)
-                  <br>For example: political power, people power, financial resources, land ownership.
-                </li>
-                <li>
-                  The relationships between stakeholders
-                  <br>Who is allied with who? Who is opposed to who? Who has power over who?”
-                </li>
+                <li>The relevant stakeholders (individuals, groups, institutions, etc.)
+                <ul><li>For example: the mayor, tenants, city planners, allied community groups</li></ul></li>
+                <li>The types of power that stakeholders have (individually or collectively)
+                  <ul><li>For example: political power, people power, financial resources, land ownership</li></ul></li>
+                <li>The relationships between stakeholders
+                  <ul><li>Who is allied with who? Who is opposed to whom? Who has power over whom?</li></ul></li>
               </ul>
             </li>
-          </ul>
-
-          <Facilitator>Let’s review a couple of examples to help you become more familiar</Facilitator>
-
-          <ul>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-          </ul>
-
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
+            </ul>
+          </Facilitator>
+          <Facilitator>Let’s review a couple of examples to help you become more familiar:
 
           <ul>
-            <li>They show who the key “actors” or stakeholders are,</li>
-            <li>They show how the actors are related to one another,</li>
-            <li>They show how power is embedded in these relationships.</li>
+            <li><b>Example #1:</b> This community map focusing on displacement in Chelsea identifies the different systems, how they relate, and the types of power they hold.<img src="../../assets/workshop_images/mapping/Example_1.png" alt=""></li>
+            <li><b>Example #2:</b> This community map focusing on displacement issues lists and connects the different actors, roles, relationships, and types of power they each hold in the community.<img src="../../assets/workshop_images/mapping/Example_2.png" alt=""></li>
+            <li><b>Example #3:</b> This community map illustrates the different actors involved in passing an ordinance for a food policy council in Everett. It shows how actors, their influence, and their connections to one another can ultimately work to reach City Council (the “target”).<b>TODO: ADD IMAGE</b></li>
           </ul>
+          </Facilitator>
+          <Facilitator>As a very flexible tool, power maps can take many different forms, and how they take shape will likely evolve as you refine your analysis of the situation and as new events or changes occur. At the same time, all of the examples have the same core elements previously mentioned:
+          <ul>
+            <li>They show who the key “actors” or stakeholders are.</li>
+            <li>They show how the actors are related to one another.</li>
+            <li>They show how power is embedded within these relationships.</li>
+          </ul>
+          </Facilitator>
         </template>
 
         <template slot="Producing_Power_Maps_in_Groups">
-          <h4 class="subcategory">Producing Power Maps in Groups</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
+          <h4 class="subcategory">Step 4: Group Work — Produce Power Maps: “Displacement in My Community” (15 min)</h4>
+          <Facilitator>We’re going to dive right into creating our own power map for resisting displacement. While there are lots of power-mapping formulas out there, <b>our priority is to start with what we know</b>, allowing our analysis to guide map formation, rather than imposing a predetermined format without knowing in advance if it’s right for us. That means that today, we’re producing our first draft(s), and will conclude this exercise by agreeing on a plan to synthesize and refine the final product (which will keep changing). This means we can focus on being analytical and creative without worrying about how every detail is going to be fine-tuned.</Facilitator>
+          <Instructions>The power map should be focused on the group’s objective. The power map can be focused on a broad issue, such as resisting displacement, but it can also be focused on a specific effort or event, like a teach-in or an election.
+            <ul>
+              <li>Group participants into clusters of 2-3.</li>
+              <li>Every group should have paper, markers, and sticky notes.</li>
+            <li>Ask each group to make a map—a visual representation—of the power relationships and money that are shaping your effort/issue.
+            <li>Encourage groups to use different shapes, sizes, and arrows to represent the 3 core elements of power and money maps [refer to prior flip chart]:
+              <ul>
+                <li>The relevant <b>stakeholders</b></li>
+                <li>The <b>types of power and money</b> that stakeholders have</li>
+                <li>The <b>relationships</b> between stakeholders</li>
+              </ul>
+            </li>
+              <li>Let the groups know that how you arrange the page is up to your group!
+                <ul><li>Share this hint: <em class="italic">It might be helpful to start with sticky notes so you can move things around!</em></li></ul></li>
+            </ul>
+          </Instructions>
         </template>
         <template slot="Show_and_Tell">
-          <h4 class="subcategory">Show and Tell</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
+          <h4 class="subcategory">Step 5: Show & Tell (10 min)</h4>
+          <Instructions>Ask each group to take turns sharing their power and money map with the larger group. When they do so, they should answer the 3 questions from the flip chart:
+            <ol class="italic">
+              <li>Why did you choose this way of presenting power and money?</li>
+              <li>How would you develop it further or go deeper?</li>
+              <li>How would you use it?</li>
+            </ol>
+          </Instructions>
         </template>
         <template slot="Discussion_and_Planning">
-          <h4 class="subcategory">Discussion and Planning</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
+          <h4 class="subcategory">Step 6: Discussion & Planning (15-20 min)</h4>
+          <Facilitator>Now that we’ve heard from all the groups, it’s time to reflect on the different power-mapping techniques that have emerged from your work. Now, our goal is to figure out how to finalize our shared power map so that it can be useful and in service of our larger goals.
+            <p>Since power maps are meant to be revised and adapted as circumstances change, let’s start by thinking about the structure and form of the map, rather than the specific content (e.g., which actors are included).</p>
+          <p><span class="instructions">Open the discussion by asking the group,</span> What have you done and witnessed other groups do today?</p>
+            <p>What <b>strategies or techniques</b> do you envision for <b>representing stakeholders / relationships between stakeholders / types of power</b> in the power maps in the room that you think we should adopt for our shared version?</p>
+            <ul>
+              <li><span class="instructions">An alternative way to ask this:</span> What did other groups do that helped you see <b>the stakeholders / the relationships between stakeholders / types of power</b> in a new or clearer way?</li>
+              <li><span class="instructions">Follow up each comment with:</span> How do you think that will make the map more useful for our purposes?</li>
+            </ul>
+            <p>What do we as a group still need to figure about out how to represent <b>stakeholders / types of power / relationships</b>?</p>
+            <ul><li><span class="instructions">Follow-up each comment with:</span> How do you think that will make the map more useful for our purposes?</li></ul>
+            <p>What <b>other information</b> have we uncovered? Are there specific forms of research we need to do in order to have enough information for an effective and actionable power map?</p>
+            <ul><li><span class="instructions">Follow-up each comment with:</span> How do you think that will make the map more useful for our purposes?</li></ul>
+          </Facilitator>
+          <Instructions>During this discussion, you or the note-taker will record comments on flip charts—1 for each core element (Actors/Stakeholders, Relationships, Types of Power) divided into 2 sections (1. What worked well? 2. What do we still need to figure out?). During the discussion, attempt to synthesize any duplicate/overlapping suggestions, and gain consensus about which ideas/suggestions to incorporate into the final power map.</Instructions>
+          <Instructions>Depending on the size of your group and the number of power maps created, you and the group may decide to further refine the structure and format of your power maps before discussing the content. For example, the group may decide to take elements from several of the maps presented to create a single, shared power map. In this case, it might make sense to facilitate a follow-up activity focusing on designing a shared power map, and then diving into the content questions so that everyone is working from the same map. Alternatively, you could focus on the content questions of one or two maps depending on the group’s priorities.</Instructions>
+          <Facilitator>Now let’s pivot from the structure and format to think more about the content. Here, we want to reflect on specific stakeholders, types of power, and relationships, and understand if there are any gaps in our understanding that we need to address and how to make these maps actionable.
+            <ul>
+              <li>First, review the stakeholders that have been listed. Is there any individual, group or organization that is missing representation? If so, is there consensus on including them, or do we need more information?</li>
+              <li>Second, think about the types of power that have been suggested. Does anyone notice ways we can more accurately label the different types of power? Are there any types of power that you think affect the issue of displacement but have not yet been accounted for?</li>
+              <li>Finally, consider the relationships between stakeholders. Have all of the important connections been noted? Are there any gaps in our understanding, and if so, how can we fill them? Do we need more information?</li>
+            </ul>
+          </Facilitator>
+          <Instructions>Record comments on sticky notes to position on the most relevant parts of the map. For example, if the group identifies an action for a specific actor, then you would place that action next to the actor on the map.</Instructions>
+
         </template>
       </FacilitationGuide>
 
       <TakingAction :toolkit="$t('toolkits')[0]">
-        <p>At the close of the activity, consider any asks of the group to support community mobilizing efforts and actions in and outside the space created today.</p>
+        <p>At the close of the activity, consider asking the group to support community mobilizing efforts and actions in and outside the space created today.
+        </p>
         <ul>
-          <li>Take your power map home and see how others in your circle might add to your map!</li>
+          <li>Take your power map home and check if others in your circle might have something to add! If facilitating a follow-up activity to design a single map, this could be a great homework assignment for participants to engage more voices and bring back to a future activity.</li>
           <li>Try leading your own mapping activity in the community.</li>
-          <li>Ask if there are other spaces or people to engage in a mapping power and money activity.</li>
-          <li>Use the maps to inform the development of strategies and tactics for their community.</li>
+          <li>Ask if there are other spaces or people to engage in an activity mapping power and money.</li>
+          <li>Use the maps to inform the development of strategies and tactics for your community.</li>
         </ul>
       </TakingAction>
 

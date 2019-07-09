@@ -7,9 +7,9 @@
       :aria-label="workshop.name"
       class="workshopRoute"
     >
-      <div class="toolkitTile" :style="{ borderLeft: '12px solid ' + workshop.color }" v-if="workshop.link">
+      <div class="toolkitTile" :style="{ borderLeft: '12px solid ' + workshop.color, '--workshop-color': workshop.color }" v-if="workshop.link">
         <h2 :style="{ color: workshop.color }">{{workshop.name}}</h2>
-        <p>{{workshop.question}}</p>
+        <p class="toolkitTile__tagline">{{workshop.question}}</p>
         <img :src="require(`@/assets/${workshop.link}.png`)" class="workshopLogo" alt />
         <p :style="{ color: workshop.color }" class="bold">Workshop {{workshop.num}}</p>
         
@@ -41,3 +41,13 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+  .toolkitTile {
+    transition: 0.2s;
+  }
+
+  .toolkitTile:hover {
+    box-shadow: 8px 8px 26px 0.25px var(--workshop-color);
+  }
+</style>
