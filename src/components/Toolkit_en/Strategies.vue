@@ -45,7 +45,7 @@
           <ul>
             <li>Identify 2 facilitators and assign roles for the session, including 1 note taker and 1 timekeeper. If 2 facilitators, the 2 can rotate roles—e.g., 1 person facilitates and the other takes notes and keeps time.</li>
             <li>Flip-chart paper</li>
-            <li>Print copies of the Design Sprint activity sheet <B>TODO: ADD LINK</B></li>
+            <li>Print copies of the <a href="/handouts/Design-Sprint.pdf" target="_blank">Design Sprint activity sheet</a></li>
             <li>Art Supplies - markers, colored pencils, crayons, etc.</li>
             <li>Sticky notes</li>
             <li>Packs of colorful dots that contain at least 3 different colors</li>
