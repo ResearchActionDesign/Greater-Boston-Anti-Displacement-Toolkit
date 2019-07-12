@@ -1,6 +1,6 @@
 <template>
     <p>
-        <strong class="red_bold">{{ $t('facilitator') }}: </strong> <em class="italic"><slot></slot></em>
+        <strong class="red_bold">{{ $t('strings.facilitator') }}: </strong> <em class="italic"><slot></slot></em>
     </p>
 </template>
 

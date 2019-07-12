@@ -121,7 +121,7 @@
 
           <h4 class="subcategory">Step 3: Reviewing the Basics (5 min)</h4>
           <Facilitator>Let’s recap what we’ve learned so far:
-            <ul>
+            <ul class="instructions">
               <li>The <b>role</b> of power-mapping is to help you orient your group to the other stakeholders involved in the issue you are engaging, and to help you strategize about how to both build power and change power relationships between other stakeholders.</li>
               <li>The <b>goal</b> of a power map is to clearly represent power relationships between the stakeholders involved in the issue you are engaging.</li>
               <li>The <b>core elements</b> of a useful power map include:
@@ -141,7 +141,7 @@
           <ul>
             <li><b>Example #1:</b> This community map focusing on displacement in Chelsea identifies the different systems, how they relate, and the types of power they hold.<img src="../../assets/workshop_images/mapping/Example_1.png" alt=""></li>
             <li><b>Example #2:</b> This community map focusing on displacement issues lists and connects the different actors, roles, relationships, and types of power they each hold in the community.<img src="../../assets/workshop_images/mapping/Example_2.png" alt=""></li>
-            <li><b>Example #3:</b> This community map illustrates the different actors involved in passing an ordinance for a food policy council in Everett. It shows how actors, their influence, and their connections to one another can ultimately work to reach City Council (the “target”).<b>TODO: ADD IMAGE</b></li>
+            <li><b>Example #3:</b> This community map illustrates the different actors involved in passing an ordinance for a food policy council in Everett. It shows how actors, their influence, and their connections to one another can ultimately work to reach City Council (the “target”).<img src="../../assets/workshop_images/mapping/Example_3.png" alt=""></li>
           </ul>
           </Facilitator>
           <Facilitator>As a very flexible tool, power maps can take many different forms, and how they take shape will likely evolve as you refine your analysis of the situation and as new events or changes occur. At the same time, all of the examples have the same core elements previously mentioned:

@@ -1,6 +1,6 @@
 <template>
-  <section aria-label="Taking Action" class="Taking_Action">
-        <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }">Taking Action!</h2>
+  <section :aria-label="$t('strings.takingAction')" class="Taking_Action">
+        <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }">{{ $t('strings.takingAction') }}</h2>
     <slot></slot>
   </section>
 </template>

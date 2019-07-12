@@ -1,6 +1,6 @@
 <template>
     <p>
-        <strong class="red_bold">{{ $t('instructions') }}: </strong> <slot></slot>
+        <strong class="red_bold">{{ $t('strings.instructions') }}: </strong> <slot></slot>
     </p>
 </template>
 

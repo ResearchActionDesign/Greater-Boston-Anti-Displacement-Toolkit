@@ -2,6 +2,14 @@ body {
   margin: 0
 }
 
+a {
+  color: $proj_pink;
+}
+
+a:visited {
+  color: #222222;
+}
+
 .langChanger {
   background-color: transparent;
   border: none;

@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <img :src="overviewLogo" class="overviewImg" alt>
     <main class="workshop">
-      <h1>{{$t('overviewView.title')}}</h1>
+    <ToolkitIntro :toolkit="$t('overviewToolkit')"></ToolkitIntro>
       <div class="workshop_content">
       <h2>Purpose</h2>
       <p>This multi-media organizing toolkit is a collection of activities, how-to guides, facilitation plans, and resources that organizers and residents can use to fight displacement in their communities.</p>
@@ -24,43 +22,77 @@
       <p>This toolkit was made possible by the contributions of many organizations and community members, whom we thank for sharing their time, expertise, and commitment.</p>
       <h4>COMMUNITY PARTNER ORGANIZATIONS</h4>
       <p>We thank all community partners and members for their participation and thoughtful feedback at the toolkit co-design session.</p>
-      <div class="who-was-involved__org"><div class="org__logo">LOGO</div>
-        <p><a href="https://www.challiance.org/community/everett-health-partnership" class="org__name">The Everett Community Health Partnership (ECHP)</a> is a multisector community coalition facilitated by the Cambridge Health Alliance Department of Community Health Improvement. ECHP seeks to improve the health and quality of life in Everett by creating opportunities to strategically address challenges facing the community, raising awareness about the impact of development on neighborhood well-being, and ensuring that critical data regarding community health is made widely available. ECHP is a community research partner with Healthy Neighborhoods Study, a participatory action research study co-led by the Conservation Law Foundation, Mariana Arcaya and MIT Community Innovators Lab (CoLab).</p>
-          <p class="org__people">Kathleen O’Brien with Cambridge Health Alliance, Iliana Panameno and Yrma Fiestas with La Comunidad, Inc.</p>
-      </div>
-      <div class="who-was-involved__org"><div class="org__logo">LOGO</div>
+        <table>
+          <tr>
+            <td class="partnerLogos">
+              <img src="../../assets/partnerLogos/echp-logo-no-sac-copy2.png" alt="Everett Community Health Partnership Logo">
+              <img src="../../assets/partnerLogos/CHA_logo.png" alt="Cambridge Health Alliance Logo">
+            </td>
+            <td><p><a href="https://www.challiance.org/community/everett-health-partnership" class="org__name">The Everett Community Health Partnership (ECHP)</a> is a multisector community coalition facilitated by the Cambridge Health Alliance Department of Community Health Improvement. ECHP seeks to improve the health and quality of life in Everett by creating opportunities to strategically address challenges facing the community, raising awareness about the impact of development on neighborhood well-being, and ensuring that critical data regarding community health is made widely available. ECHP is a community research partner with Healthy Neighborhoods Study, a participatory action research study co-led by the Conservation Law Foundation, Mariana Arcaya and MIT Community Innovators Lab (CoLab).</p>
+          <p class="italic">Kathleen O’Brien with Cambridge Health Alliance, Iliana Panameno and Yrma Fiestas with La Comunidad, Inc.</p>
+      </td>
+          </tr>
+          <tr>
+            <td class="partnerLogos">            <img src="../../assets/partnerLogos/GreenRootsLogo_flat.jpg" alt="Green Roots Logo">
+            </td>
+            <td>
         <p><a href="https://www.greenrootschelsea.org/" class="org__name">GreenRoots</a>, a resident-led, community-based organization, is dedicated to improving and enhancing urban environment and public health in Chelsea and surrounding communities. GreenRoots carries out its work with deep community engagement and empowerment, youth leadership, and implementation of innovative projects and campaigns. GreenRoots is a community research partner with Healthy Neighborhoods Study, a participatory action research study led by Mariana Arcaya and CoLab.
         </p>
-        <p class="org__people">Maria Belen Power, Indira Garmendia Alfaro</p>
-      </div>
+        <p class="italic">Maria Belen Power, Indira Garmendia Alfaro</p>
+            </td></tr>
+        </table>
       <p>We thank Lisa Owens and Andres del Castillo with <a href="https://www.clvu.org">City Life/Vida Urbana</a> for their participation and contributions to the initial concept and co-design of this toolkit. The film, [ADD NAME WHEN CONFIRMED] for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustin Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo.</p>
-      <h4>Coordinating Organizations</h4>
-      <div class="who-was-involved__org"><div class="org__logo">LOGO</div>
+      <h4>COORDINATING ORGANIZATIONS</h4>
+  <table><tr><td class="partnerLogos"><img src="../../assets/partnerLogos/RAD_logo3_large---transparency.png" alt="Research Action Design Logo">
+  </td>
+    <td>
         <p><a href="https://rad.cat" class="org__name">Research Action Design (RAD)</a> uses community-led research, collaborative design of technology and media, and secure digital strategies to build the power of grassroots social movements. RAD is a worker-owned collective whose projects are grounded in the needs and leadership of communities in the struggle for justice and liberation.</p>
-        <p class="org__people">Caroline Rivas, Chris Schweidler, Tim Stallmann</p>
-      </div>
-      <div class="who-was-involved__org"><div class="org__logo">LOGO</div>
-        <p><a href="https://www.colab.mit.edu" class="org__name">MIT Community Innovators Lab (CoLab)</a> ) supports the development and use of knowledge from excluded communities to deepen civic engagement, improve community practice, inform policy, mobilize community assets, and generate shared wealth. We believe in the power of community-driven knowledge and its potential to innovate solutions to complex urban challenges. CoLab facilitates the interchange of knowledge and resources between MIT and community organizations, engaging students and faculty to be practitioners of this approach to community change and sustainability.</p>
-        <p class="org__people">Allegra Williams, Andrew Binet, Augustin Cepeda, Natalia Coachman, Taina McField, Taylor Cain.</p>
-      </div>
+        <p class="italic">Caroline Rivas, Chris Schweidler, Tim Stallmann</p>
+    </td>
+  </tr>
+    <tr><td class="partnerLogos"><img src="../../assets/partnerLogos/colab-logo.png" alt="MIT Community Innovators Lab Logo">
+    </td>
+      <td>
+        <p><a href="https://www.colab.mit.edu" class="org__name">MIT Community Innovators Lab (CoLab)</a> supports the development and use of knowledge from excluded communities to deepen civic engagement, improve community practice, inform policy, mobilize community assets, and generate shared wealth. We believe in the power of community-driven knowledge and its potential to innovate solutions to complex urban challenges. CoLab facilitates the interchange of knowledge and resources between MIT and community organizations, engaging students and faculty to be practitioners of this approach to community change and sustainability.</p>
+        <p class="italic">Allegra Williams, Andrew Binet, Augustin Cepeda, Natalia Coachman, Taina McField, Taylor Cain.</p>
+      </td></tr>
+  </table>
       <p>We also thank <a href="https://www.queerblackediting.com/">Queer Black Editing</a> for copyediting the toolkit, and [TRANSLATOR NAMES] for its translation. This project would not have been possible without the generous support of The Surdna Foundation.</p>
       <p>All materials developed for the toolkit are licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, which means they may be adapted to fit your community needs; however, you must give appropriate credit, indicate if changes were made, and distribute your contributions under the same license as the original. Please review the guidelines linked above.</p>
       <h2>Methodology</h2>
       <p>This toolkit is a co-design project. In the first year of its development, community partner organizations identified, shared, and prioritized the problems, audiences, and potential tools needed to help influence change in their communities. In April 2018, the partners agreed upon a shared problem statement for the project: “We want people to be able to stay in their communities safely, affordably, and healthily. We want people to have a voice in shaping place. This is not currently happening in the communities of Chelsea, Everett, and East Boston.”</p>
       <p>Based on the problem statement, the community-partner organizations agreed on developing a multimedia organizing toolkit. The co-design process included reviewing existing toolkits and resources, developing the outline and components of the toolkit; co-creating the story and script for the film; and drafting, gathering, and reviewing content for each of the components. In March 2019, a co-design session was held to engage community-partner organizations and their community members and networks in the design and testing of the toolkit. The two-day co-design session and debrief consisted of conducting two idea labs to shape and generate content, three test labs to refine select components of the toolkit, and a small group screening and final review of the film cut. The feedback and evaluations from the co-design session were used to refine and finalize the multimedia organizing toolkit to fight displacement.</p>
-    <h2>TODO: ADD RESOURCES</h2>
+    <AdditionalResources :toolkit="$t('overviewToolkit')"/>
       </div>
     </main>
-  </div>
 </template>
 
 <script>
 import { mapState } from "vuex";
 
+import AdditionalResources from '../AdditionalResources';
+import ToolkitIntro from '../ToolkitIntro';
+
 export default {
   name: "Overview",
+  components: {
+    AdditionalResources,
+    ToolkitIntro,
+  },
   computed: {
     ...mapState(["overviewToolkit", "overviewLogo", "toolkits"])
   }
 };
 </script>
+
+<style scoped>
+  .partnerLogos {
+    background: white;
+  }
+
+  .partnerLogos img {
+    margin: 0.5em auto;
+  }
+  h2 { border-bottom: 2px solid #cc0000; }
+
+</style>

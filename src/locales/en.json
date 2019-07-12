@@ -5,6 +5,22 @@
   "toolkit": "Toolkit",
   "film": "Film",
   "resources": "Resources",
+  "strings": {
+    "facilitationGuide": "Facilitation Guide",
+    "purposeOutcomes": "Purpose & Outcomes",
+    "purpose": "Purpose",
+    "outcomes": "Outcomes",
+    "whomToInvite": "Whom to Invite",
+    "materialsPrep": "Materials and Preparation",
+    "tips": "Tips",
+    "detailedPlan": "Detailed Plan",
+    "additionalResources": "Additional Resources and Tools",
+    "introduction": "Introduction",
+    "takingAction": "Taking Action",
+    "workshop": "Workshop",
+    "instructions": "INSTRUCTIONS",
+    "facilitator": "FACILITATOR"
+  },
 
   "overviewView": {
     "title": "WHY A DISPLACEMENT TOOLKIT FOR GREATER BOSTON?",
@@ -18,14 +34,25 @@
     "SurdnaFoundation": "This project was funded by the Surdna Foundation, ",
     "Surdnacontent": "and was a collaboration between GreenRoots, the Everett Community Health Partnership (ECHP), Research Action Design (RAD), and MIT CoLab.",
     "CreativeCommonsAttribution": "Creative Commons Attribution: ",
-    "Attributiocontent": "This license lets you remix, tweak, and build upon this work non- commercially, as long as you credit us and license your new creations under the identical terms.",
-    "license": "This work is licensed under a "
+    "AttributionContent": "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. This license lets you remix, tweak, and build upon this work non- commercially, as long as you credit us and license your new creations under the identical terms."
   },
 
   "translateTo": "Translate to spanish",
   "edit": "edit",
   "print": "print",
-
+  "overviewToolkit": {
+    "name": "Overview",
+    "question": "Why an anti-displacement toolkit for Greater Boston?",
+    "link": "Overview",
+    "color": "#cc0000",
+    "resources": [
+      {
+        "name": "Pushed Out",
+        "link": "https://www.urbandisplacement.org/pushedout",
+        "text": "by Urban Displacement Project"
+      }
+      ]
+  },
   "toolkits": [{
       "name": "Mapping Power and Money",
       "question": "Who has the power and money to make the changes we need in our communities?",
