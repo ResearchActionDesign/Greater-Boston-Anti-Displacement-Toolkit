@@ -27,7 +27,7 @@
   "print": "print",
 
   "toolkits": [{
-      "name": "Mapping Power & Money",
+      "name": "Mapping Power and Money",
       "question": "Who has the power and money to make the changes we need in our communities?",
       "num": "1",
       "color": "#D82C88",
@@ -151,29 +151,30 @@
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
       "resources": [{
-          "name": "Tools for Campaign Planning",
-          "link": "https://organizingforpower.org/tools/",
-          "text": "Organizing for Power, Organizing for Change,"
+          "name": "All-In Cities Policy Toolkit",
+          "link": "https://allincities.org/toolkit"
         },
         {
-          "name": "Power Analysis* - Trainer - Training",
-          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
-          "text": "Northeast Action Training,"
+          "name": "Dealing with Gentrification Toolkit",
+          "link": "http://dealingwithgentrification.org/toolkit/",
+          "text": "Northeast Action Training"
         },
         {
-          "name": "Power Mapping, Charting Strategic Relationships",
-          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
-          "text": "DFA Training Academy,"
+          "name": "Just Cause Eviction Ordinances,",
+          "link": "http://www.justcauseboston.org/what_jim_brooks_act",
+          "text": "The Jim Brooks Community Stabilization Act"
         },
         {
-          "name": "Power Mapping Tool",
-          "link": "https://beautifulrising.org/tool/power-mapping",
-          "text": "Beautiful Rising,"
+          "name": "Our Homes, Our Future: How Rent Control Can Build Stable, Healthy Communities",
+          "link": "https://ourhomesourfuture.org/wp-content/uploads/2019/04/OurHomesOurFuture-2pg-Summary.pdf"
         },
         {
-          "name": "SCOPELA Power Mapping Slides",
-          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
-          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+          "name": "Somerville Community Preservation Act",
+          "link": "https://www.somervillema.gov/departments/community-preservation-act"
+        },
+        {
+          "name": "Greater Boston Community Land Trust",
+          "link": "https://www.facebook.com/CLTNetwork/"
         }
       ]
     },
