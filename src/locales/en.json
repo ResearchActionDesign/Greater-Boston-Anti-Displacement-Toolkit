@@ -186,29 +186,34 @@
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
       "resources": [{
-          "name": "Tools for Campaign Planning",
-          "link": "https://organizingforpower.org/tools/",
-          "text": "Organizing for Power, Organizing for Change,"
+          "name": "I Am Not My Pixels: Crazy 8s",
+          "link": "https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/",
+          "text": "Website outlining a participatory process for using the Design Sprint activity as an organizing tool."
         },
         {
-          "name": "Power Analysis* - Trainer - Training",
-          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
-          "text": "Northeast Action Training,"
+          "name": "AgitArte Art Toolkit",
+          "link": "https://www.facebook.com/agitarteculturalworks/",
+          "text": "An extensive arts toolkit that provides step by step instructions on creating artistic posters as tools for social change."
         },
         {
-          "name": "Power Mapping, Charting Strategic Relationships",
-          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
-          "text": "DFA Training Academy,"
+          "name": "Bread and Puppet Theater",
+          "link": "https://www.wbur.org/artery/2016/02/16/bread-puppet-oscar-lopez-rivera",
+          "text": "uses life-sized puppets as a tool for advancing campaigns."
         },
         {
-          "name": "Power Mapping Tool",
-          "link": "https://beautifulrising.org/tool/power-mapping",
-          "text": "Beautiful Rising,"
+          "name": "Theater of the Oppressed NYC",
+          "link": "https://www.tonyc.nyc/",
+          "text": "is a theatrical tool addressing social justice issues."
         },
         {
-          "name": "SCOPELA Power Mapping Slides",
-          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
-          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+          "name":"Listening to the City Toolkit",
+          "link": "https://www.colab.mit.edu/resources-1/2018/4/2/listening-to-the-city-handbook",
+          "text": "highlights community research and action through sound and story."
+        },
+        {
+          "name":"Jolt's Quinceañera at the Capitol",
+          "link": "https://www.jolttx.org/en/quinceanera-at-the-capitol/",
+          "text": "uses cultural norms as a tool to increase civic participation."
         }
       ]
     },
@@ -221,29 +226,9 @@
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
       "resources": [{
-          "name": "Tools for Campaign Planning",
-          "link": "https://organizingforpower.org/tools/",
-          "text": "Organizing for Power, Organizing for Change,"
-        },
-        {
-          "name": "Power Analysis* - Trainer - Training",
-          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
-          "text": "Northeast Action Training,"
-        },
-        {
-          "name": "Power Mapping, Charting Strategic Relationships",
-          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
-          "text": "DFA Training Academy,"
-        },
-        {
-          "name": "Power Mapping Tool",
-          "link": "https://beautifulrising.org/tool/power-mapping",
-          "text": "Beautiful Rising,"
-        },
-        {
-          "name": "SCOPELA Power Mapping Slides",
-          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
-          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+          "name": "Working Narratives: How to facilitate a Story Circle",
+          "link": "https://workingnarratives.org/article/story-circles/",
+          "text": "Story circles are used in many traditions. Working narratives is an organization that facilitates story circles, a practice deeply rooted in the US South."
         }
       ]
     }

@@ -49,9 +49,7 @@
             <li>Art Supplies - markers, colored pencils, crayons, etc.</li>
             <li>Sticky notes</li>
             <li>Packs of colorful dots that contain at least 3 different colors</li>
-            <li>11x17 one-pagers of examples of games/tools/activities for talking to neighbors about displacement</li>
             <li>Masking tape or painter&#39;s tape</li>
-            <li>Online presentation of different tools and methods</li>
           </ul>
         </template>
 
@@ -92,7 +90,7 @@
           </Facilitator>
             <h4 class="subcategory">Step 3: Design Sprint: Sketching Out Organizing Strategies (15 min)</h4>
               <Instructions>Design Sprint is a way to facilitate an &quot;ideas lab.&quot; This activity sheet provides a framework for participants to quickly sketch creative ideas for addressing displacement. Give participants 2 minutes to gather art supplies, 3 minutes to think of ideas, and then cue music that will play for 8 minutes while participants illustrate sample actions in the Design Sprint template (8 boxes—1 minute per sketch box). Participants will know the time is up when the music is turned off or the volume is lowered.
-                <p>Find more information on facilitating the <a href="https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/">Design Spring</a> activity.</p>
+                <p>Find more information on facilitating the <a href="https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/">Design Sprint</a> activity.</p>
                 <p><strong>Note</strong> : This facilitation technique is referred to elsewhere as Crazy 8s, but we&#39;re choosing to rename it to &#39;Design Sprint&#39; in this toolkit out of respect for folks with mental illness who prefer not to use the word crazy in this sort of context.</p>
               </Instructions>
                 <Facilitator>We&#39;re here today to think through tools that we may utilize in order to have conversations with community stakeholders about displacement.
@@ -102,7 +100,7 @@
                   <p>We&#39;re going to set the timer and when we say, &quot;Go,&quot; sketch 1 idea per box until we stay, &quot;Stop.&quot;</p>
                   <p>If it is helpful, share examples of multi-media or cultural organizing strategies and tactics to prompt the activity, such as:</p>
                   <ul>
-                    <li>Community murals (Chelsea&amp;#39;s 2018 mural process)</li>
+                    <li>Community murals (Chelsea&#39;s 2018 mural process)</li>
                     <li>Community tours/photo walks</li>
                     <li>Community archiving project (audiovisual collection of community histories, documentation of community histories)</li>
 <li>Filmmaking, organizing community dialogues around displacement, mobilizing and firing up folks
@@ -111,27 +109,26 @@
                   </li><li><a href="https://creativesantafe.org/events/affordable-housing/">Disruptive-futures dialogue</a></li>
                   </ul>
                 </Facilitator>
-          <h4 class="subcategory">Step 4: Share Back</strong> (13 min)</p>
-                    <Facilitator> Once the allotted time has lapsed, ask volunteers to share ideas illustrated in the sketches and describe them, if necessary. Facilitators will write down ideas on flip-chart paper to get as many ideas written down for the large group to review.</p>
-                      <p>After a full list is created, ask participants to use the color-coded dots to identify the top 3 ideas that resonate with them for the group to use as tools for community actions.</p>
+          <h4 class="subcategory">Step 4: Share Back (13 min)</h4>
+                    <Facilitator> Once the allotted time has lapsed, ask volunteers to share ideas illustrated in the sketches and describe them, if necessary. Facilitators will write down ideas on flip-chart paper to get as many ideas written down for the large group to review.
+                      <p class="instructions">After a full list is created, ask participants to use the color-coded dots to identify the top 3 ideas that resonate with them for the group to use as tools for community actions.</p>
                       <ul>
-                        <li><em>What are some of the top ideas?</em></li>
-                        <li><em>Questions posed to the listening group: What do we like? What&#39;s missing?</em></li>
-                        <li><em>How could we infuse multimedia tools into traditional organizing practices?</em></li>
+                        <li>What are some of the top ideas?</li>
+                        <li>Questions posed to the listening group: What do we like? What&#39;s missing?</li>
+                        <li>How could we infuse multimedia tools into traditional organizing practices?</li>
                       </ul>
-                      <h4 class="subcategory">Step 5: Closing</strong> (5-7 min)</p>
-                        <Instructions> Close the workshop by celebrating the creativity demonstrated by all participants. Review the top 3 choices identified by the group and determine possible next steps for implementing the proposed ideas, such as selecting the next meeting date to explore options with a small subcommittee, and plan dates for potential implementation.</p>
+                    </Facilitator>
+                      <h4 class="subcategory">Step 5: Closing (5-7 min)</h4>
+                        <Instructions> Close the workshop by celebrating the creativity demonstrated by all participants. Review the top 3 choices identified by the group and determine possible next steps for implementing the proposed ideas, such as selecting the next meeting date to explore options with a small subcommittee, and plan dates for potential implementation.
                           <p>Gather in a circle to close out the session as it began. Ask participants to share &quot;glows&quot; (positive outcomes) and &quot;grows&quot; (challenges or things to do differently next time) experienced in the workshop. Participants can close out the session by doing a movement that the group repeats after sharing the glow and grow. Repeat this process for each member of the circle and end with the facilitator&#39;s thanks for participation.</p>
+                        </Instructions>
         </template>
       </FacilitationGuide>
 
       <TakingAction :toolkit="$t('toolkits')[4]">
-        <p>At the close of the activity, consider any asks of the group to support community mobilizing efforts and actions in and outside the space created today.</p>
         <ul>
-          <li>Take your power map home and see how others in your circle might add to your map!</li>
-          <li>Try leading your own mapping activity in the community.</li>
-          <li>Ask if there are other spaces or people to engage in a mapping power and money activity.</li>
-          <li>Use the maps to inform the development of strategies and tactics for their community.</li>
+          <li>Identify 2-3 projects that the group will take on.</li>
+          <li>Develop a timeline for taking action on 1 cultural strategy identified during the workshop.</li>
         </ul>
       </TakingAction>
 

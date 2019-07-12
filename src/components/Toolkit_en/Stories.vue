@@ -22,7 +22,7 @@
             <li>To share our stories about coming to—and fighting to stay in—our communities, and reflect on the successes of organizing against displacement.</li>
           </ul>
         </div>
-        <div slot="Workshop_o=Outcomes">
+        <div slot="Workshop_Outcomes">
           <ol>
             <li>A shared understanding and illustration of how displacement has impacted our communities.</li>
             <li>Shared stories of the connections between migration, gentrification, and displacement.</li>
@@ -100,17 +100,44 @@
             <p>Check in after 4 minutes (now you should be moving on to the next person if you haven&#39;t already) and after 8 minutes, etc.</p>
             <p>While groups are discussing, pass out materials. Each group gets roots and branches per person as well as a trunk and some fruit. Groups also get a blank sheet of larger paper, tape or glue, and markers.</p>
           </Instructions>
-
+          <Facilitator>Together, as a group, fill out the roots and branches of your tree. <span class="instructions">(10 min)</span>
+          <ul>
+            <li>Now, it&#39;s time to fill in your collective story. You should have some art supplies as well as some blank roots, branches, and fruits. As a group, you&#39;ll be using those to assemble a collective story.</li>
+            <li>On each of your roots, write an answer to the prompt &quot;we came from ____&quot;</li>
+            <li>On each of your branches, write an answer to the prompt &quot;we struggled with ____ to get here&quot;</li>
+          </ul>
+          <p class="instructions">Now move on to the fruit. (5 min)</p>
+          <ul>
+            <li>How do you envision the future of your communities? As you think of possibilities for your communities in the future, write each of them on a piece of fruit and mount that on the tree.</li>
+          </ul>
+          <p class="instructions">At close of the activity, invite the groups to plant the trees along the river.</p>
+          </Facilitator>
+          <Facilitator>What story do we make together in the room?
+            <p>We invite each of you to bring your trees, your collective stories, to the front of the room and tape them along the river. Once that&#39;s done, take some time for a break, get some snacks, and also witness the stories of other groups. We&#39;ll reconvene in 10 minutes. At that point, we&#39;ll also give each of you a chance to share your tree with the rest of the group.</p></Facilitator>
+          <h4 class="subcategory">Step 4: Sharing Back (20 min)</h4>
+          <Instructions>The goal of this section is to move from personal narratives to shared connections in each small group, through to shared experiences for the full group. At the end of reporting out, participants should be aware of parallels in experiences and reflect on lessons learned and stories shared by participants.
+          <p>Welcome group back from break.</p>
+          <p>Ask groups to come up one-by-one by their tree and share with the group what they came away with from the activity. Sample guiding questions:</p>
+          <ul class="facilitator">
+            <li>What stood out to you about your shared story?</li>
+            <li>What is one thing that you struggled with in your group?</li>
+            <li>What commonalities did you see?</li>
+            <li>What was a moment of creativity / when did you learn something new?</li>
+            <li>Why did you choose the roots/branches that you did?</li>
+            <li>What were your visions for the future?</li>
+          </ul>
+          <p>As commonalities, struggles and moments of creativity are mentioned, write them in the river with markers in a creative way.</p>
+          <p>If there&#39;s time, open up a discussion to the large group around the same guiding questions by reading back the themes written into the river.</p>
+          </Instructions>
         </template>
       </FacilitationGuide>
 
       <TakingAction :toolkit="$t('toolkits')[5]">
-        <p>At the close of the activity, consider any asks of the group to support community mobilizing efforts and actions in and outside the space created today.</p>
+        <p>At the close of this activity, ask the group to consider other populations and partners that should participate in a story sharing exercise.</p>
         <ul>
-          <li>Take your power map home and see how others in your circle might add to your map!</li>
-          <li>Try leading your own mapping activity in the community.</li>
-          <li>Ask if there are other spaces or people to engage in a mapping power and money activity.</li>
-          <li>Use the maps to inform the development of strategies and tactics for their community.</li>
+          <li>Identify other potential participants (e.g., youth) who should experience the story-share activity. Are there opportunities for an intergenerational conversation?</li>
+          <li>Sign up any new participants to current campaigns or to the organization&#39;s newsletter to sustain engagement.</li>
+          <li>Create a visual, mapped representation of the areas where participants come from and where they reside now in Massachusetts. Consider using a world map with pushpins and colorful yarn to track the group&#39;s migration story.</li>
         </ul>
       </TakingAction>
 
