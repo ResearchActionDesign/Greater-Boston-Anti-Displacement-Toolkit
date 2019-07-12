@@ -6,6 +6,6 @@
 
 <style scoped>
     .instructions {
-        font-style: unset;
+        font-style: normal;
     }
 </style>

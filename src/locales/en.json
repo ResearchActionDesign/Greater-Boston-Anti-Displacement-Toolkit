@@ -1,5 +1,5 @@
 {
-  "header": "ANTI-DISPLACEMENT ORGANIZING TOOLKIT FOR GREATER BOSTON",
+  "header": "Greater Boston Anti-Displacement Toolkit",
 
   "overview": "Overview",
   "toolkit": "Toolkit",
@@ -35,29 +35,24 @@
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
       "resources": [{
-          "name": "Tools for Campaign Planning",
-          "link": "https://organizingforpower.org/tools/",
-          "text": "Organizing for Power, Organizing for Change,"
+          "name": "Organizing for Power, Organizing for Change Tools for Campaign Planning",
+          "link": "https://organizingforpower.org/tools/"
         },
         {
-          "name": "Power Analysis* - Trainer - Training",
-          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
-          "text": "Northeast Action Training,"
+          "name": "Northeast Action Training: Power Analysis - Trainer - Training",
+          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf"
         },
         {
-          "name": "Power Mapping, Charting Strategic Relationships",
-          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
-          "text": "DFA Training Academy,"
+          "name": "DFA Training Academy: Power Mapping, Charting Strategic Relationships",
+          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf"
         },
         {
-          "name": "Power Mapping Tool",
-          "link": "https://beautifulrising.org/tool/power-mapping",
-          "text": "Beautiful Rising,"
+          "name": "Beautiful Rising: Power Mapping Tool",
+          "link": "https://beautifulrising.org/tool/power-mapping"
         },
         {
-          "name": "SCOPELA Power Mapping Slides",
-          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
-          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+          "name": "Strategic Concepts in Organizing & Policy Education Power Mapping Slides",
+          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf"
         }
       ]
     },
@@ -70,29 +65,37 @@
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
       "resources": [{
-          "name": "Tools for Campaign Planning",
-          "link": "https://organizingforpower.org/tools/",
-          "text": "Organizing for Power, Organizing for Change,"
+          "name": "Urban Institute Guide to Measuring Neighborhood Change to Understand and Prevent Displacement",
+          "link": "https://www.urban.org/research/publication/guide-measuring-neighborhood-change-understand-and-prevent-displacement"
         },
         {
-          "name": "Power Analysis* - Trainer - Training",
-          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
-          "text": "Northeast Action Training,"
+          "name": "Boston Indicators",
+          "link": "https://www.bostonindicators.org/ "
         },
         {
-          "name": "Power Mapping, Charting Strategic Relationships",
-          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
-          "text": "DFA Training Academy,"
+          "name": "Data Center Power to Our People",
+          "link": "http://www.datacenter.org/wp-content/uploads/creatingsurveys.pdf",
+          "text": "participatory research guide to creating surveys"
         },
         {
-          "name": "Power Mapping Tool",
-          "link": "https://beautifulrising.org/tool/power-mapping",
-          "text": "Beautiful Rising,"
+          "name": "Research for Organizing",
+          "link": "http://www.researchfororganizing.org/"
         },
         {
-          "name": "SCOPELA Power Mapping Slides",
-          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
-          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+          "name": "Catalog of Administrative Data Sources for Neighborhood Indicators",
+          "link": "https://www.urban.org/research/publication/catalog-administrative-data-sources-neighborhood-indicators"
+        },
+        {
+          "name": "US Census Academy",
+          "link": "https://www.census.gov/academy"
+        },
+        {
+          "name": "Data Therapy",
+          "link": "https://datatherapy.org/"
+        },
+        {
+          "name": "Community Toolbox (Chapter 3: Assessing Community Needs and Resources)",
+          "link": "https://ctb.ku.edu/en/table-of-contents/assessment/assessing-community-needs-and-resources"
         }
       ]
     },
@@ -105,29 +108,37 @@
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
       "resources": [{
-          "name": "Tools for Campaign Planning",
-          "link": "https://organizingforpower.org/tools/",
-          "text": "Organizing for Power, Organizing for Change,"
+          "name": "Original version of the Convince Me! activity",
+          "link": "https://databasic.io/en/culture/convince-me",
+          "text": "with videos to introduce the activity in English, Portuguese, and Spanish"
         },
         {
-          "name": "Power Analysis* - Trainer - Training",
-          "link": "http://www.ctbh.org/documents/Power_Analysis_Trainer_Training.pdf",
-          "text": "Northeast Action Training,"
+          "name": "How to create data murals",
+          "link": "https://datatherapy.org/data-mural-gallery/"
         },
         {
-          "name": "Power Mapping, Charting Strategic Relationships",
-          "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf",
-          "text": "DFA Training Academy,"
+          "name": "Boston Displacement Mapping Project",
+          "link": "http://www.bostondisplacement.org/",
+          "text": "combines maps and storytelling around displacement in Boston"
         },
         {
-          "name": "Power Mapping Tool",
-          "link": "https://beautifulrising.org/tool/power-mapping",
-          "text": "Beautiful Rising,"
+          "name": "StoryMap",
+          "link": "https://storymap.knightlab.com/",
+          "text": "creates interactive maps combining stories and data"
         },
         {
-          "name": "SCOPELA Power Mapping Slides",
-          "link": "https://network.progressivetech.org/system/files/SCOPEpresentationonPA.pdf",
-          "text": "Strategic Concepts in Organizing & Policy Education, SCOPELA Training,"
+          "name": "Anti-Eviction Mapping Project Handbook",
+          "link": "https://static1.squarespace.com/static/52b7d7a6e4b0b3e376ac8ea2/t/5bc76571b208fc10defc815a/1539794295823/AEMP+Handbook.pdf",
+          "text": "lists specific instructions on how to combine oral histories and data in organizing against displacement"
+        },
+        {
+          "name": "Public Narrative / Story of Self",
+          "link": "https://workingnarratives.org/article/public-narrative/",
+          "text": "is one framework for thinking about how to tell your personal story in a way that moves others into action"
+        },
+        {
+          "name": "Public Narrative worksheet",
+          "link": "https://web.archive.org/web/20150510144352/http://www.wholecommunities.org/pdf/Public%20Story%20Worksheet07Ganz.pdf"
         }
       ]
     },

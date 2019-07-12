@@ -4,178 +4,196 @@
 
     <div class="workshop_content">
       <Introduction :toolkit="$t('toolkits')[2]">
-        <p>In our communities, many have experienced the negative impacts of exclusionary political and corporate decisions that have led to displacement. Understanding the systems of who or where these decisions are being made and how as a community member you can influence is critical to advocate for change. [add data point]</p>
-        <p>Mapping power and money is a useful tool for engaging communities in thinking about the current community systems and informing organizing strategies and tactics. This tool can help groups identify and assess the local, regional political and community environment by:</p>
+        <p>Statistics—like rent increases, number of families paying more than one-third of their income for housing, or the number of evictions per year—can oftentimes take on a life of their own, and can get twisted in support of developers and gentrifiers instead of community. In Chelsea, we&#39;ve seen this happen when city officials use a percentage of affordable housing units as a way of promoting more market rate or luxury housing to &quot;balance out&quot; the diversity of our housing stock.</p>
+        <p>But, when they&#39;re combined with stories and testimony from real-life experiences, data and statistics can be powerful tools to fight displacement—working together to become more powerful tools than either could be alone. This activity focuses on how to practice combining stories and data to make arguments against displacement. Communities can use this activity to:</p>
         <ul>
-          <li>Identifying the different actors, specific targets for campaigns,</li>
-          <li>Identifying community members roles as actors,</li>
-          <li>Identifying different forms of power and how different actors, things interact,</li>
-          <li>Analyzing “what or who” can weaken or strengthen the power in the community,</li>
-          <li>Identifying opportunities to advocate for change, where to intervene..</li>
+          <li>Pair stories with data points to help make it harder for elected officials and others to dismiss the stories as unbelievable or isolated cases.</li>
+          <li>Ground community stories with the data to also show how they&#39;re part of bigger trends.</li>
         </ul>
-        <p>Communities often use this tool as part of developing a campaign or strategy to fight against a specific problem, though it can be helpful any time the landscape shifts within the community systems(e.g. new actors, decisions, issues change/grow).</p>
+        <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
       </Introduction>
 
       <FacilitationGuide :toolkit="$t('toolkits')[2]">
         <!-- Purpose and Outcome -->
-        <div slot="workshop_purpose">
-          <h4 class="subcategory">Purpose</h4>
-          <ul>
-            <li>To co-create a visual map of the different systems of power and influence in our communities.</li>
-            <li>To discuss how we can use our power maps for action.</li>
-          </ul>
+        <div slot="Workshop_Purpose">
+          To practice using data and storytelling to communicate information and make arguments about communities and neighborhoods.
         </div>
-        <div slot="workshop_outcomes">
-          <h4 class="subcategory">Outcomes</h4>
-          <ol>
-            <li>Assessment of local and regional political and community environments to help identify opportunities to advocate for change.</li>
-            <li>A shared understanding of community stakeholders, power, and money.</li>
-            <li>Useable maps to influence and/or leverage identified power and money in the community for identified organizing strategies and tactics.</li>
-          </ol>
+        <div slot="Workshop_Outcomes">
+          Community members use stories and data to inform and persuade their communities (or elected officials) to take a particular course of action.
         </div>
 
         <!-- Who to Invite -->
-        <template slot="Who_to_Invite">
-          <p>Who you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing a mapping power and money activity in your community.</p>
-          <p>Once this has been identified, then ask, Who can help fulfill this purpose? Who is most relevant for this activity? Who might threaten the purpose? For example:</p>
-          <ul>
-            <li>There is a specific development proposed in the downtown area of your community that will push out renters and a locally owned business. You can target inviting the renters likely to be pushed out, the business owners and consumers who frequent this business. Key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
-            <li>Gentrification and displacement is a growing concern for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can target inviting organizations, community members and youth, local business owners, and government representatives to have a broader conversation and discussion of the issues occurring in the community and region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
-          </ul>
-        </template>
-
-        <!-- Who to Invite -->
-        <template slot="Who_to_Invite">
-          <p>Who you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing a mapping power and money activity in your community.</p>
-          <p>Once this has been identified, then ask, Who can help fulfill this purpose? Who is most relevant for this activity? Who might threaten the purpose? For example:</p>
-          <ul>
-            <li>There is a specific development proposed in the downtown area of your community that will push out renters and a locally owned business. You can target inviting the renters likely to be pushed out, the business owners and consumers who frequent this business. Key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
-            <li>Gentrification and displacement is a growing concern for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can target inviting organizations, community members and youth, local business owners, and government representatives to have a broader conversation and discussion of the issues occurring in the community and region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
-          </ul>
+        <template slot="Whom_to_Invite">
+          <p>Whom specifically to invite depends on the context—the &quot;Convince Me!&quot; activity could be a great way to prepare to testify at an upcoming public hearing or council meeting, or it can be a way to practice making arguments. In either case, it&#39;s helpful if some people in the room have direct experience with political struggle over displacement, so they&#39;ll have a sense of how specific elected officials are likely to respond to different arguments.</p>
+          <p>Think about some of the stakeholders you identified in the Mapping Power &amp; Money activity—they could either be people to invite, or people to practice making arguments to. Ideally, you would want a minimum of 8 participants (3 to be the &quot;actors&quot; and 5+ to be the &quot;convincers&quot;).</p>
         </template>
 
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Identify facilitators roles for the session, including notetakers and timekeeper.</li>
-            <li>Pre-scribe (1) the map “legend”, three things asking participants to show in the power maps for the group exercise, including examples. (2) the questions to address during the show and tell.</li>
-            <li>Examples of power maps drawn by other groups can be useful to demonstrate output for the activity but are not necessary for conducting the activity.</li>
-            <li>Flip chart/Butcher paper for each break out group.</li>
-            <li>Markers (multiple colors) for creating power maps.</li>
-            <li>Color stickies for labeling or showing different types of information on power maps.</li>
-            <li>Photograph participant power maps after the session for recording (with participants permission).</li>
+            <li>Flip-chart paper and markers</li>
+            <li>3 signs to identify &quot;actors,&quot; which can be made out of file folders cut in half with holes punched in 2 of the corners with string ran through them long enough to hang around someone&#39;s neck</li>
+            <li>Printed copies of a neighborhood infosheet (either the sample one provided, on one you create yourself)</li>
+          <li>Masking tape or painter&#39;s tape</li>
+            <li>Identify a note taker, timekeeper, and 2 facilitators for the session. It&#39;s ideal to have 2 facilitators for this workshop so that 1 person can take the &quot;actors&quot; aside to prep them.</li>
+            <li>Create and print a handout listing relevant statistics about displacement in your community (or use the sample one provided in the toolkit).</li>
+            <li>Set up the room with a bit of open space to serve as the &quot;stage&quot; for the &quot;Convince Me!&quot; activity. Using tape, label &quot;start&quot; and &quot;finish&quot; lines along the floor in this space, with about 8 paces between the 2 lines. The photo below illustrates an example of how the activity could be set up: <B>TODO: INSERT PHOTO</B></li>
+            <li><p>Pick a realistic situation where members of your community might be trying to convince an elected official or other stakeholder of something. Some examples:</p>
+              <ul>
+                <li>You&#39;re at a city council meeting trying to argue for an affordable housing bond that will create 1,000 new, subsidized apartments.</li>
+                <li>A developer is asking for a rezoning request to build a new condo development, and you&#39;re trying to convince potential allies that they should be concerned about the potential displacement.</li>
+              </ul>
+            </li>
+            <li><p>Based on the situation you chose, pick 3 specific people who would need to be convinced.</p>
+              <ul>
+                <li>Specific names are better than generic categories, especially for someone everyone knows.</li>
+                <li>Community members will volunteer to pretend to be these people during the activity, so it&#39;s helpful that the people you name won&#39;t be in the room, but whom members of your organization or community members are relatively familiar with.</li>
+                <li>It could also be good to contrast 1 of the 3 names as someone already likely to be sympathetic to your cause, or have 1 of your members volunteer to play themselves, which could help highlight the contrast between arguments convincing to the community vs. convincing to particular stakeholders.</li>
+                <li>Note: If you have a particularly engaged/knowledgeable group and have more time, you could complete this step in the room with the group rather than choosing stakeholders ahead of time.</li>
+              </ul>
+            </li>
+            <li>Write the names of the 3 people you chose on the character signs.</li>
+            <li>For each of the 3 specific people, write out some quick notes on their priorities, their likes/dislikes, and their personality. One of the facilitators will share this info with the &quot;actors&quot; as they prep. This can be pretty informal, or you could choose to write up half-page bios for each character with photos.</li>
           </ul>
         </template>
 
         <!-- Tips -->
         <template slot="Tips">
           <ul>
-            <li>Design for what you want! Customize the facilitation guide to fit your desired purpose, needs, and outcomes for conducting this activity.</li>
-            <li>Identify the collective purpose of mapping power and money in your community. E.g. Is this for a specific campaign, issue, target the community is wanting to influence? The purpose can be established in advance or participants can set as part of the activity.</li>
-            <li>Identify how much time you will need for each discussion and activity. The total suggested time for this activity is 60 minutes. The group work and show and tell is where you will likely allocate most of the time.</li>
-            <li>Identify the anticipated number of breakout groups based on who is participating. If participants are from different communities, consider grouping by communities as well.</li>
-            <li>Schedule time after your activity to debrief with the facilitators on what worked and what you might change if conduct the activity again. Identify any action items for you, your organization or community as an outcome from the activity.</li>
+            <li>It can sometimes be hard to get a group to open up and get into the spirit of the game, so feel free to jump in and model the activity yourself.</li>
+            <li>Determine how much time you have for this session—if closer to an hour, you could take time to define a situation and choose stakeholders as a group. If it&#39;s a shorter session—around a half-hour)—you&#39;ll need to come into the room with your situation all ready to go. If you&#39;ve done the Mapping Power &amp; Money activity, you could use the stakeholders identified in that activity.</li>
           </ul>
         </template>
 
         <!-- Detailed Plan -->
-        <template slot="Introducing_the_Activity">
-          <h4 class="subcategory">Introducing the Activity</h4>
-          <Facilitator>Understanding the power relationships and flows of money and resources that shape the problem we are trying to solve will be crucial to helping us strategize effectively, adapt to new events or changes, and evaluate our progress.</Facilitator>
-          <Facilitator>Power mapping is a common community organizing technique used to visually represent who the important stakeholders relevant to an issue are, what types of power they have, and how they relate to one another when it comes to a specific issue or problem. Like other maps, they are supposed to help those who use them orient themselves in relation to the world around them, and help the user find their way. They can be used for specific actions or campaigns with tight timelines and focused objectives, like planning an event, but they can also be used for bigger ongoing efforts, like building a coalition.</Facilitator>
-          <Facilitator>What sets them apart from most other maps is that they are likely to change - maybe even a lot! - in response to new events or circumstances. In this case, as the situation around displacement changes -- for example, a new development is planned, or a new policy is put into place -- power maps change too, whenever the power dynamics of a situation change significantly.</Facilitator>
+        <template slot="Detailed_Plan">
+          <h4 class="subcategory">Step 1: Welcome — Frame Your Purpose &amp; Agenda (5 min)</h4>
+          <Facilitator><span class="instructions">"Introduce the purpose of this workshop.</span>
+            <p>Today, we&#39;re going to practice using stories and data to convince elected officials or other
+              decision-makers to take action against displacement. We&#39;ll start by reviewing some statistics about
+              this area, and then play a game to practice using statistics to convince people.</p>
+          </Facilitator>
+            <h4 class="subcategory">Step 2: Warm-Up — What Strategies Can We Use to Convince People? (optional: 10 min)</h4>
+            <Facilitator>Think of the last time you tried to convince someone of something, like getting someone to help out with
+              a household chore they didn&#39;t want to do, or in an organizing context, like lobbying an elected
+              official to vote a certain way. What did you do to convince them? How did it go?</Facilitator>
+            <Instructions> Ask participants to share stories as they think of them. After each story, follow up to try
+              to identify what worked as a tactic/strategy, and list them to post at the front of the room. Close out by
+              quickly debriefing the conversation with identified strategies.</Instructions>
+          <h4 class="subcategory">Step 3: &quot;Convince Me!&quot; Activity (30-45 min)</h4>
+              <Facilitator> &quot;Convince Me!&quot; was originally developed by Catherine D&#39;Ignazio and Rahul
+                Bhargava as part of the Data Culture Project (go to <a
+                    href="https://databasic.io/en/culture/convince-me">https://databasic.io/en/culture/convince-me</a>
+                for the original).
+                <ul>
+                  <li>This activity is all about considering data as evidence to convince people—remembering that data
+                    is just one part of what it takes to convince people! It&#39;s most powerful when used in
+                    combination with stories.
+                  </li>
+                  <li>It&#39;s also important to tailor your argument to your audience: What assumptions are they
+                    making? What alternative explanations might have they learned that you need to disprove? In the
+                    context of displacement, &quot;redevelopment is good for the neighborhood&quot; or &quot;this area
+                    was vacant already, so nobody is being displaced&quot; are common examples.
+                  </li>
+                </ul>
+              </Facilitator>
+          <Facilitator><span class="instructions">Hand out infosheet to the group.</span>
+                  <ul>
+                    <li>This infosheet <b>TODO: ADD LINK</b> lists some statistics about the impact of displacement in Everett and Chelsea,
+                      if you want to use this information to try and convince stakeholders. But also feel free to draw
+                      from your own experiences and stories! On the back, there&#39;s a list of resources about
+                      different ways to use data.
+                    </li>
+                    <li>Take 3-5 minutes to review the infosheet by yourself.</li>
+                    <li>Is there anything that&#39;s confusing or you have questions about?</li>
+                  </ul>
+                  <p class="instructions">Take a few minutes to answer quick questions here, but also try to avoid getting into a
+                    big discussion at this point in the session.</p>
+                    <ul>
+                      <li>Imagine you&#39;re trying to convince someone to [the scenario you&#39;ve chosen for this
+                        activity]. How would you do it using the facts on this infosheet coupled with your personal
+                        experience? Take a few minutes to write some sample arguments on your own.
+                      </li>
+                    </ul>
+          </Facilitator>
+                    <Facilitator><span class="instructions">Take about 5 minutes for folks to write down sample arguments on paper.</span>
+                      <ul>
+                        <li><span class="instructions">(Optional - if time remaining)</span> Now, find a partner and practice your arguments on each other.
+                          Take a few turns going back and forth to practice making your arguments to each other.
+                        </li>
+                        <li>To do this activity, we need 3 volunteers to be the &quot;actors&quot;, and play people we
+                          might want to convince.
+                        </li>
+                      </ul>
+                    </Facilitator>
+                      <Instructions>Hold up the signs and ask, &quot;Who wants to be ___?&quot; If the group is shy,
+                        you might need to assign people to roles.
+                        <ul>
+                          <li>As people volunteer, have them come up to the front and put the sign around their neck.
+                          </li>
+                          <li>Once all 3 &quot;actors&quot; have volunteered, ask that group to go off to the side with
+                            1 of the facilitators to prep:
+                            <ul>
+                              <li>Review the situation with them.</li>
+                              <li>Review each of their characters and discuss what might (and might not) convince
+                                them.
+                              </li>
+                              <li>Explain the rules of the game. If your character is convinced, move a pace forward. If
+                                not, stay in place.
+                              </li>
+                              <li>If there&#39;s time, the &quot;actors&quot; could do some quick warm-ups to get in
+                                character.
+                              </li>
+                            </ul>
+                          </li>
+                          <li>While the actors are prepping, take a minute as a group to discuss what folks know about
+                            these 3 characters—what might it take to convince them? Write these ideas on the flip-chart
+                            paper.
+                          </li>
+                          <li>Once the actors return, have them line up at the &quot;start&quot; line.</li>
+                        </ul>
+                      </Instructions>
+          <Facilitator><span class="instructions">Ask the actors to introduce their characters to the audience.</span>
+                          <p>Now, we&#39;re going to try convincing these people that they should fight gentrification
+                            and displacement in Chelsea and Everett. We&#39;re going to take turns making arguments
+                            using the data from the infosheet. If you think your character would be convinced by an
+                            argument, move a pace forward. Otherwise, stay in place.</p>
+                        </Facilitator>
+                          <Instructions>You could find a volunteer from the group or model this yourself. Either way,
+                            go to the &quot;finish&quot; line, face the group of actors, and make a sample argument.
+                            <ul>
+                              <li>As a facilitator, you may want to ask &quot;Are you convinced?&quot; to the actors
+                                at the end to remind them to move a pace forward and/or stay in place.
+                              </li>
+                              <li>Continue getting volunteers from the group to come up and make arguments, until at
+                                least 1 (or all!) of the actors reach(es) the finish line.
+                              </li>
+                            </ul>
+                          </Instructions>
+                            <h4 class="subcategory">Step 4: Debrief (5-10 min)</h4>
+                            <Instructions>Ask different people to explain why they made the arguments they did, and ask
+                              the stakeholders why something convinced them or not.
+                              <p>Highlight similarities in the arguments people made, or arguments that worked for one
+                                audience but not another. Point out strong uses of data in support of arguments to start
+                                a conversation about how to use data in appropriate ways to convince people.</p>
+                              <ul class="facilitator">
+                                <li>Did any of the arguments try to make one of the stakeholders feel guilty?</li>
+                                <li>How did you use data? Did the data show a big change?</li>
+                                <li>Were there any arguments which worked well for one stakeholder, but not for the
+                                  others?
+                                </li>
+                                <li>How did it feel to make an argument that failed? How did it feel to succeed?</li>
+                              </ul>
+                              <p>Write notes for the discussion on flip-chart paper in front of the group.</p>
+                            </Instructions>
         </template>
 
-        <template slot="Group_Big_Picture_Questions">
-          <h4 class="subcategory">Group Big Picture Questions</h4>
-          <Facilitator>Has anyone in the room done power-mapping before?</Facilitator>
-          <ul>
-            <li>
-              <strong class="bold">Follow-up with:</strong> How did it go? What did you do/learn?
-            </li>
-          </ul>
-          <Facilitator>We’re curious to hear from you all why you think mapping power might be useful. Does anyone have any ideas or experiences that speak to why we might want to map the power dynamics of around an issue or campaign?</Facilitator>
-          <ul>
-            <li>
-              <strong class="bold">Follow-up with:</strong> MISSING MISSING MISSING MISSING MISSING MISSING MISSING
-            </li>
-          </ul>
-        </template>
-
-        <template slot="Reviewing_the_Basics">
-          <h4 class="subcategory">Reviewing the Basics</h4>
-          <Facilitator>Let’s recap what we’ve learned so far...</Facilitator>
-          <ul>
-            <li>
-              The
-              <strong class="bold">role</strong> of power mapping is to help you orient your group in relation to the other stakeholders involved in the issue you are taking you on, and to help you strategize about how to both build power and change the power relationships between other stakeholders.
-            </li>
-            <li>
-              The
-              <strong class="bold">goal</strong> of a power map is to clearly represent the power relationships between the stakeholders involved in the issue you are taking on.
-            </li>
-
-            <li>
-              The
-              <strong class="bold">core elements</strong> of a useful power map include:
-              <ul>
-                <li>
-                  All of the relevant stakeholders (individuals, groups, institutions, etc.)
-                  <br>For example: the mayor, tenants, city planners, allied community groups
-                </li>
-                <li>
-                  The types of power that stakeholders have (individually or together)
-                  <br>For example: political power, people power, financial resources, land ownership.
-                </li>
-                <li>
-                  The relationships between stakeholders
-                  <br>Who is allied with who? Who is opposed to who? Who has power over who?”
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-          <Facilitator>Let’s review a couple of examples to help you become more familiar</Facilitator>
-
-          <ul>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-          </ul>
-
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-
-          <ul>
-            <li>They show who the key “actors” or stakeholders are,</li>
-            <li>They show how the actors are related to one another,</li>
-            <li>They show how power is embedded in these relationships.</li>
-          </ul>
-        </template>
-
-        <template slot="Producing_Power_Maps_in_Groups">
-          <h4 class="subcategory">Producing Power Maps in Groups</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
-        </template>
-        <template slot="Show_and_Tell">
-          <h4 class="subcategory">Show and Tell</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
-        </template>
-        <template slot="Discussion_and_Planning">
-          <h4 class="subcategory">Discussion and Planning</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
-        </template>
       </FacilitationGuide>
 
       <TakingAction :toolkit="$t('toolkits')[2]">
-        <p>At the close of the activity, consider any asks of the group to support community mobilizing efforts and actions in and outside the space created today.</p>
         <ul>
-          <li>Take your power map home and see how others in your circle might add to your map!</li>
-          <li>Try leading your own mapping activity in the community.</li>
-          <li>Ask if there are other spaces or people to engage in a mapping power and money activity.</li>
-          <li>Use the maps to inform the development of strategies and tactics for their community.</li>
+        <li>What are upcoming public meetings or hearings where you could practice your skills making arguments against displacement?</li>
+        <li>Could you schedule 1-on-1 meetings with stakeholders to share stories and data?</li>
         </ul>
       </TakingAction>
 

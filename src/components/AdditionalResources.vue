@@ -3,8 +3,7 @@
     <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }">Additional Resources & Tools</h2>
     <ul>
       <li v-for="(resource, index) in toolkit.resources" :key="index">
-        {{resource.text}}
-        <a :href="resource.link" target="_blank">{{resource.name}}</a>
+        <a :href="resource.link" target="_blank">{{resource.name}}</a> {{resource.text}}
       </li>
     </ul>
   </section>
