@@ -11,12 +11,12 @@
     "purpose": "Purpose",
     "outcomes": "Outcomes",
     "whomToInvite": "Whom to Invite",
-    "materialsPrep": "Materials and Preparation",
+    "materialsPrep": "Materials & Prep",
     "tips": "Tips",
     "detailedPlan": "Detailed Plan",
-    "additionalResources": "Additional Resources and Tools",
+    "additionalResources": "Additional Resources & Tools",
     "introduction": "Introduction",
-    "takingAction": "Taking Action",
+    "takingAction": "Taking Action!",
     "workshop": "Workshop",
     "instructions": "INSTRUCTIONS",
     "facilitator": "FACILITATOR",
@@ -43,8 +43,8 @@
   "edit": "edit",
   "print": "print",
   "overviewToolkit": {
-    "name": "Overview",
-    "question": "Why an anti-displacement toolkit for Greater Boston?",
+    "name": " Toolkit Overview",
+    "question": "Why an Anti-Displacement Toolkit for Greater Boston?",
     "link": "Overview",
     "color": "#cc0000",
     "resources": [
@@ -56,7 +56,7 @@
       ]
   },
   "toolkits": [{
-      "name": "Mapping Power and Money",
+      "name": "Mapping Power & Money",
       "question": "Who has the power and money to make the changes we need in our communities?",
       "num": "1",
       "color": "#D82C88",
@@ -76,8 +76,9 @@
           "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf"
         },
         {
-          "name": "Beautiful Rising: Power Mapping Tool",
-          "link": "https://beautifulrising.org/tool/power-mapping"
+          "name": "Beautiful Rising:",
+          "link": "https://beautifulrising.org/tool/power-mapping",
+          "text": "Power Mapping Tool"
         },
         {
           "name": "Strategic Concepts in Organizing & Policy Education Power Mapping Slides",

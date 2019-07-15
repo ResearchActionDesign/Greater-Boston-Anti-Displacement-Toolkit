@@ -17,10 +17,8 @@
       <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
         <div slot="Workshop_Purpose">
-          <ul>
-            <li>To explore the connections between migration and displacement for residents.</li>
-            <li>To share our stories about coming to—and fighting to stay in—our communities, and reflect on the successes of organizing against displacement.</li>
-          </ul>
+          <p>To explore the connections between migration and displacement for residents.</p>
+            <p>To share our stories about coming to—and fighting to stay in—our communities, and reflect on the successes of organizing against displacement.</p>
         </div>
         <div slot="Workshop_Outcomes">
           <ol>
@@ -80,7 +78,7 @@
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 2: Individual Stories (10 min: 2 min for explanation, 8 min for individual work)</h4>
           <p>The goal of this section is to begin with individual work. This portion of the activity can happen in a quiet area, or soft and culturally appropriate music can be played in the background. Each participant should come away from this segment more connected to elements of their individual migration story. The background setting should be optimal for individual reflecting, allowing participants to go deep or highlight high-level elements of their personal migration story.</p>
-          <Instructions>[Reference this <a href="https://docs.google.com/document/d/1JBcZiMITRek4kKXNz07UZT2Pq5Gw_B7MeIAOiHSYzm4/edit">handout</a> in advance] <b>TODO: LINK</b> All participants should have a sheet of paper divided into 3 sections:
+          <Instructions>All participants should have a copy of the story sharing worksheet TODO: LINK, which is a sheet of paper divided into 3 sections:
           <ol class="facilitator">
             <li>Who are my people?</li>
             <li>How did I get here, and what were the major turning points and struggles along the way?</li>
@@ -88,7 +86,7 @@
           </ol>
           Explain the worksheet and each question as you pass out the handout. Explain that participants will be asked to share what they are comfortable sharing with a small group of 3-4 people in the next stage.
           <p>Ask everyone to take 8 minutes to fill out the worksheet on their own.</p>
-          <p><strong>Note:</strong> Facilitator(s) may advise participants to spread out in the space. Consider making the location comfortable enough for participants to sit on the ground, at a table, or in a comfortable chair or couch.</p>
+          <p><strong class="note">NOTE:</strong> Facilitator(s) may advise participants to spread out in the space. Consider making the location comfortable enough for participants to sit on the ground, at a table, or in a comfortable chair or couch.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 3: Small Group Discussions (35 min) </h4>
@@ -109,14 +107,13 @@
             <li>On each of your roots, write an answer to the prompt &quot;we came from ____&quot;</li>
             <li>On each of your branches, write an answer to the prompt &quot;we struggled with ____ to get here&quot;</li>
           </ul>
-          <p class="instructions">Now move on to the fruit. (5 min)</p>
+          <p>Now move on to the fruit. (5 min)</p>
           <ul>
             <li>How do you envision the future of your communities? As you think of possibilities for your communities in the future, write each of them on a piece of fruit and mount that on the tree.</li>
           </ul>
           <p class="instructions">At close of the activity, invite the groups to plant the trees along the river.</p>
           </Facilitator>
-          <Facilitator>What story do we make together in the room?
-            <p>We invite each of you to bring your trees, your collective stories, to the front of the room and tape them along the river. Once that&#39;s done, take some time for a break, get some snacks, and also witness the stories of other groups. We&#39;ll reconvene in 10 minutes. At that point, we&#39;ll also give each of you a chance to share your tree with the rest of the group.</p></Facilitator>
+          <Facilitator>What story do we make together in the room? We invite each of you to bring your trees, your collective stories, to the front of the room and tape them along the river. Once that&#39;s done, take some time for a break, get some snacks, and also witness the stories of other groups. We&#39;ll reconvene in 10 minutes. At that point, we&#39;ll also give each of you a chance to share your tree with the rest of the group.</Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 4: Sharing Back (20 min)</h4>
           <Instructions>The goal of this section is to move from personal narratives to shared connections in each small group, through to shared experiences for the full group. At the end of reporting out, participants should be aware of parallels in experiences and reflect on lessons learned and stories shared by participants.

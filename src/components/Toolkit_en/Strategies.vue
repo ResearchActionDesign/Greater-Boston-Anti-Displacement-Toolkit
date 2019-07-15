@@ -16,10 +16,8 @@
       <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
         <div slot="Workshop_Purpose">
-          <ul>
-            <li>To propose model strategies and tactics that promote inclusive community engagement and stop harmful practices and policies that displace communities.</li>
-            <li>To engage communities in a creative brainstorm that allows them to explore multi-disciplinary, cultural organizing strategies for addressing displacement.</li>
-          </ul>
+          <p>To propose model strategies and tactics that promote inclusive community engagement and stop harmful practices and policies that displace communities.</p>
+            <p>To engage communities in a creative brainstorm that allows them to explore multi-disciplinary, cultural organizing strategies for addressing displacement.</p>
         </div>
         <div slot="Workshop_Outcomes">
           <ol>
@@ -45,7 +43,7 @@
           <ul>
             <li>Identify 2 facilitators and assign roles for the session, including 1 note taker and 1 timekeeper. If 2 facilitators, the 2 can rotate roles—e.g., 1 person facilitates and the other takes notes and keeps time.</li>
             <li>Flip-chart paper</li>
-            <li>Print copies of the <a href="/handouts/Design-Sprint.pdf" target="_blank">Design Sprint activity sheet</a></li>
+            <li>Print copies of the <a href="/handouts/Design-Sprint.pdf" target="_blank">Design Sprint activity sheet</a>.</li>
             <li>Art Supplies - markers, colored pencils, crayons, etc.</li>
             <li>Sticky notes</li>
             <li>Packs of colorful dots that contain at least 3 different colors</li>
@@ -94,27 +92,27 @@
           <h4 class="subcategory">Step 3: Design Sprint: Sketching Out Organizing Strategies (15 min)</h4>
               <Instructions>Design Sprint is a way to facilitate an &quot;ideas lab.&quot; This activity sheet provides a framework for participants to quickly sketch creative ideas for addressing displacement. Give participants 2 minutes to gather art supplies, 3 minutes to think of ideas, and then cue music that will play for 8 minutes while participants illustrate sample actions in the Design Sprint template (8 boxes—1 minute per sketch box). Participants will know the time is up when the music is turned off or the volume is lowered.
                 <p>Find more information on facilitating the <a href="https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/">Design Sprint</a> activity.</p>
-                <p><strong>Note</strong> : This facilitation technique is referred to elsewhere as Crazy 8s, but we&#39;re choosing to rename it to &#39;Design Sprint&#39; in this toolkit out of respect for folks with mental illness who prefer not to use the word crazy in this sort of context.</p>
+                <p><strong class="note">NOTE:</strong> This facilitation technique is referred to elsewhere as Crazy 8s, but we&#39;re choosing to rename it to &#39;Design Sprint&#39; in this toolkit out of respect for folks with mental illness who prefer not to use the word crazy in this sort of context.</p>
               </Instructions>
                 <Facilitator>We&#39;re here today to think through tools that we may utilize in order to have conversations with community stakeholders about displacement.
                   <p>In a moment, we&#39;re going to hand out a sheet of paper listing 8 mini squares. This activity is called Design Sprint and can be used with groups to help them generate ideas.</p>
                   <p>Take a few minutes to think of some successful and unsuccessful ideas in organizing.</p>
                   <p>Once you have your sheet, write about or sketch out 8 ideas that you&#39;ve used or witnessed being used as organizing tools.</p>
                   <p>We&#39;re going to set the timer and when we say, &quot;Go,&quot; sketch 1 idea per box until we stay, &quot;Stop.&quot;</p>
-                  <p>If it is helpful, share examples of multi-media or cultural organizing strategies and tactics to prompt the activity, such as:</p>
-                  <ul>
-                    <li>Community murals (Chelsea&#39;s 2018 mural process)</li>
-                    <li>Community tours/photo walks</li>
-                    <li>Community archiving project (audiovisual collection of community histories, documentation of community histories)</li>
-<li>Filmmaking, organizing community dialogues around displacement, mobilizing and firing up folks
-</li><li>Digital organizing (social media)
+                  <p class="instructions">If it is helpful, share examples of multi-media or cultural organizing strategies and tactics to prompt the activity, such as:</p>
+                  <ul class="instructions">
+                    <li>Community murals (Chelsea&#39;s 2018 mural process) <b>TODO: ADD LINK</b></li>
+                    <li>Community tours/photo walks <b>TODO: ADD LINK</b></li>
+                    <li>Community archiving project (audiovisual collection of community histories, documentation of community histories) <b>TODO: ADD LINK</b></li>
+<li>Filmmaking, organizing community dialogues around displacement, mobilizing and firing up folks <b>TODO: ADD LINK</b>
+</li><li>Digital organizing (social media) <b>TODO: ADD LINK</b>
 </li><li><a href="https://www.wbur.org/artery/2018/11/07/east-boston-gentrification-zumix-stories">Storytelling</a>
                   </li><li><a href="https://creativesantafe.org/events/affordable-housing/">Disruptive-futures dialogue</a></li>
                   </ul>
                 </Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 4: Share Back (13 min)</h4>
-                    <Facilitator> Once the allotted time has lapsed, ask volunteers to share ideas illustrated in the sketches and describe them, if necessary. Facilitators will write down ideas on flip-chart paper to get as many ideas written down for the large group to review.
+                    <Facilitator class="instructions"> Once the allotted time has lapsed, ask volunteers to share ideas illustrated in the sketches and describe them, if necessary. Facilitators will write down ideas on flip-chart paper to get as many ideas written down for the large group to review.
                       <p class="instructions">After a full list is created, ask participants to use the color-coded dots to identify the top 3 ideas that resonate with them for the group to use as tools for community actions.</p>
                       <ul>
                         <li>What are some of the top ideas?</li>

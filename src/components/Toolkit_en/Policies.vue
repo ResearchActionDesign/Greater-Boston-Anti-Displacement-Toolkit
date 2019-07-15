@@ -75,7 +75,7 @@
         <template slot="Detailed_Plan">
           <h4 class="subcategory">Part 1: Idea Generation (15 min)</h4>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
-          <h5>Step 1: Introduction (5 min)</h5>
+          <h5>Step 1: Introducing the Activity (5 min)</h5>
           <Facilitator>In Part 1 of this exercise, we would like to hear about what policies and strategies you have used or have witnessed being used in other communities. This is your vision of ideas for what policies and strategies you think can help protect where we live. There are no right or wrong answers in this exercise.
           <p>Remember: no one knows everything and together we know a lot! Our goal is to get as many ideas on the table to share with one another.</p>
           <p>In Part 2 of this exercise, we&#39;ll select a few ideas to dig deeper into evaluating what we already know and need to know to consider adopting for our community.</p>
@@ -105,8 +105,8 @@
           <h4 class="subcategory">Part 2: Evaluating Policies &amp; Strategies (25-30 min)</h4>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Step 1: Introduction (5 min)</h5>
-            <Facilitator>For Part 2, we&#39;d like to learn how you think the policies and strategies identified in Part 1 could be used in our communities.
-              <p class="instructions">For this exercise, participants will work in small groups. Divide into groups by counting off based on the anticipated number of break-out groups and participants. For example, if you have 20 participants and want groups of 4 people, have participants count off with 1, 2, 3, 4, which will give you 5 groups of 4.</p>
+            <Facilitator>For Part 2, we&#39;d like to learn how you think the policies and strategies identified in Part 1 could be used in our communities. For this exercise, participants will work in small groups. Divide into groups by counting off based on the anticipated number of break-out groups and participants.
+              <p class="instructions"><strong class="note">NOTE: </strong>For example, if you have 20 participants and want groups of 4 people, have participants count off with 1, 2, 3, 4, which will give you 5 groups of 4.</p>
           <ul>
             <li>Each group will choose 1 policy or strategy from the list generated in Part 1 of this exercise to focus on. You can choose from the ideas shared in the &quot;share-back&quot; to the larger group, or choose another idea within your group that you&#39;re interested in exploring.</li>
             <li>It&#39;s okay if groups choose the same policies and strategies to focus on.</li>

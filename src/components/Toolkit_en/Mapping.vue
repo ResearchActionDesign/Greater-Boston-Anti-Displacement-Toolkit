@@ -19,10 +19,8 @@
       <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
         <div slot="Workshop_Purpose">
-          <ul>
-            <li>To co-create a visual map of different systems of power and influence in our communities.</li>
-            <li>To discuss how we can use our power maps for action.</li>
-          </ul>
+          <p>To co-create a visual map of different systems of power and influence in our communities.</p>
+          <p>To discuss how we can use our power maps for action.</p>
         </div>
         <div slot="Workshop_Outcomes">
           <ol>
@@ -34,7 +32,7 @@
 
         <!-- Who to Invite -->
         <template slot="Whom_to_Invite">
-          <p>Those you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing an activity mapping power and money in your community. Ideally, there would be a minimum of 8 participants to break out into smaller groups for the mapping activity.</p>
+          <p>Those you invite (or exclude) will largely depend on the purpose (<em class="italic">Why do it?</em>) and outcomes (<em class="italic">What do you want to know/have at the end?</em>) of organizing an activity mapping power and money in your community. Ideally, there would be a minimum of 8 participants to break out into smaller groups for the mapping activity.</p>
           <p>Once this has been identified, then ask:</p>
           <ul>
             <li>Who can help fulfill this purpose?</li>
@@ -60,7 +58,7 @@
             </ul>
             <table>
               <caption>Examples of Flip Charts to Prep</caption>
-              <thead><tr><th>Map Legend</th><th>Show & Tell</th><th>Mapping Techniques<p>Discussion & Planning</p></th></tr></thead>
+              <thead><tr><th>Map Legend</th><th>Show & Tell</th><th>Mapping Techniques Discussion & Planning</th></tr></thead>
               <tbody>
               <tr><td>
                 <p><b>Actors/Stakeholders</b>: individuals, institutions, groups (e.g., mayor, tenants, church, community groups, city council).</p>
@@ -140,7 +138,7 @@
           </Facilitator>
           <Facilitator>Let’s review a couple of examples to help you become more familiar:
 
-          <ul>
+          <ul class="instructions">
             <li><b>Example #1:</b> This community map focusing on displacement in Chelsea identifies the different systems, how they relate, and the types of power they hold.<img src="../../assets/workshop_images/mapping/Example_1.png" alt=""></li>
             <li><b>Example #2:</b> This community map focusing on displacement issues lists and connects the different actors, roles, relationships, and types of power they each hold in the community.<img src="../../assets/workshop_images/mapping/Example_2.png" alt=""></li>
             <li><b>Example #3:</b> This community map illustrates the different actors involved in passing an ordinance for a food policy council in Everett. It shows how actors, their influence, and their connections to one another can ultimately work to reach City Council (the “target”).<img src="../../assets/workshop_images/mapping/Example_3.png" alt=""></li>
@@ -196,15 +194,30 @@
             <ul><li><span class="instructions">Follow-up each comment with:</span> How do you think that will make the map more useful for our purposes?</li></ul>
           </Facilitator>
           <Instructions>During this discussion, you or the note-taker will record comments on flip charts—1 for each core element (Actors/Stakeholders, Relationships, Types of Power) divided into 2 sections (1. What worked well? 2. What do we still need to figure out?). During the discussion, attempt to synthesize any duplicate/overlapping suggestions, and gain consensus about which ideas/suggestions to incorporate into the final power map.</Instructions>
-          <Instructions>Depending on the size of your group and the number of power maps created, you and the group may decide to further refine the structure and format of your power maps before discussing the content. For example, the group may decide to take elements from several of the maps presented to create a single, shared power map. In this case, it might make sense to facilitate a follow-up activity focusing on designing a shared power map, and then diving into the content questions so that everyone is working from the same map. Alternatively, you could focus on the content questions of one or two maps depending on the group’s priorities.</Instructions>
+          <Instructions>Depending on the size of your group and the number of power maps created, you and the group may decide to further refine the structure and format of your power maps before discussing the content. For example, the group may decide to take elements from several of the maps presented to create a single, shared power map. In this case, it might make sense to facilitate a follow-up activity focusing on designing a shared power map, and then diving into the content questions so that everyone is working from the same map. Alternatively, you could focus on the content questions of one or two maps depending on the group’s priorities.
+            <p>If you plan to have a discussion about content during this activity, the following questions can guide you. The goal is to ensure that all of the relevant information for your context and problem is accounted for.</p>
+          </Instructions>
           <Facilitator>Now let’s pivot from the structure and format to think more about the content. Here, we want to reflect on specific stakeholders, types of power, and relationships, and understand if there are any gaps in our understanding that we need to address and how to make these maps actionable.
-            <ul>
+            <ul class="instructions">
               <li>First, review the stakeholders that have been listed. Is there any individual, group or organization that is missing representation? If so, is there consensus on including them, or do we need more information?</li>
               <li>Second, think about the types of power that have been suggested. Does anyone notice ways we can more accurately label the different types of power? Are there any types of power that you think affect the issue of displacement but have not yet been accounted for?</li>
               <li>Finally, consider the relationships between stakeholders. Have all of the important connections been noted? Are there any gaps in our understanding, and if so, how can we fill them? Do we need more information?</li>
             </ul>
           </Facilitator>
-          <Instructions>Record comments on sticky notes to position on the most relevant parts of the map. For example, if the group identifies an action for a specific actor, then you would place that action next to the actor on the map.</Instructions>
+          <Instructions>Based on the time available and the composition and goals of the group, you may also decide to focus instead on engaging the group in a discussion on how to use the power maps for action. Whether or not this is appropriate at this stage will depend on how much you plan to revise and synthesize the maps after the activity. If you plan to have this discussion during the activity, the following questions may guide you.</Instructions>
+          <Facilitator>Ask the group these questions to discuss how the group can use the power maps for action.
+            <ul class="instructions">
+              <li>How can we use these maps for our decision-making? What decisions do we need to make?</li>
+              <li>Where and how can we take action?</li>
+              <li>What else do we need to know, research to make this actionable?</li>
+              <li>Are there specific campaigns, efforts to prioritize?</li>
+              <li>Are there specific targets to prioritize?</li>
+              <li>How do we want to synthesize the maps produced here?</li>
+              <li>How do we want to adapt the maps as circumstances, events change?</li>
+            </ul>
+          </Facilitator>
+
+            <Instructions>Record comments on sticky notes to position on the most relevant parts of the map. For example, if the group identifies an action for a specific actor, then you would place that action next to the actor on the map.</Instructions>
 
         </template>
       </FacilitationGuide>

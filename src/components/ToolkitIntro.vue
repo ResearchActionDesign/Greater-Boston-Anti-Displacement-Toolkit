@@ -20,3 +20,9 @@ export default {
   props: ["toolkit"]
 };
 </script>
+
+<style scoped>
+  h2 {
+    text-transform: uppercase;
+  }
+</style>

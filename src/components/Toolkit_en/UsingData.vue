@@ -44,7 +44,7 @@
                 <li>A developer is asking for a rezoning request to build a new condo development, and you&#39;re trying to convince potential allies that they should be concerned about the potential displacement.</li>
               </ul>
             </li>
-            <li><p>Based on the situation you chose, pick 3 specific people who would need to be convinced.</p>
+            <li>Based on the situation you chose, pick 3 specific people who would need to be convinced.
               <ul>
                 <li>Specific names are better than generic categories, especially for someone everyone knows.</li>
                 <li>Community members will volunteer to pretend to be these people during the activity, so it&#39;s helpful that the people you name won&#39;t be in the room, but whom members of your organization or community members are relatively familiar with.</li>
@@ -69,7 +69,7 @@
         <template slot="Detailed_Plan">
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 1: Welcome — Frame Your Purpose &amp; Agenda (5 min)</h4>
-          <Facilitator><span class="instructions">"Introduce the purpose of this workshop.</span>
+          <Facilitator><span class="instructions">Introduce the purpose of this workshop.</span>
             <p>Today, we&#39;re going to practice using stories and data to convince elected officials or other
               decision-makers to take action against displacement. We&#39;ll start by reviewing some statistics about
               this area, and then play a game to practice using statistics to convince people.</p>
@@ -121,11 +121,9 @@
           </Facilitator>
                     <Facilitator><span class="instructions">Take about 5 minutes for folks to write down sample arguments on paper.</span>
                       <ul>
-                        <li><span class="instructions">(Optional - if time remaining)</span> Now, find a partner and practice your arguments on each other.
-                          Take a few turns going back and forth to practice making your arguments to each other.
+                        <li><span class="instructions">(Optional - if time remaining)</span> Now, find a partner and practice your arguments on each other. Take a few turns going back and forth to practice making your arguments to each other.
                         </li>
-                        <li>To do this activity, we need 3 volunteers to be the &quot;actors&quot;, and play people we
-                          might want to convince.
+                        <li>To do this activity, we need 3 volunteers to be the &quot;actors&quot;, and play people we might want to convince.
                         </li>
                       </ul>
                     </Facilitator>

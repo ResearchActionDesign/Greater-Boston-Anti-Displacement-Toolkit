@@ -12,7 +12,7 @@
         <p>Keeping in mind that statistics and data are just one part of the overall picture, this section of the toolkit will help get you started in reviewing the kinds of statistics and data available about your community. You&#39;ll identify topics to research, choose an area of analysis, and search for data. There&#39;s much more to this topic than we can cover in this section of the toolkit, so be sure to review other excellent guides on this topic, which are listed in the <router-link :to="{ name: 'Resources', params: { lang: this.$i18n.locale }}">Resources</router-link> section.</p>
       </Introduction>
 
-      <p><strong>Note</strong>: Unlike most of the rest of the toolkit, this section is written as a how-to guide rather than a facilitation plan. This section of the toolkit could be done as an activity, but you could also use this section to gather data on your own without having a separate activity.</p>
+      <p><b class="note">NOTE:</b> Unlike most of the rest of the toolkit, this section is written as a how-to guide rather than a facilitation plan. This section of the toolkit could be done as an activity, but you could also use this section to gather data on your own without having a separate activity.</p>
       <FacilitationGuide :toolkit="toolkit">
         <template #Title>How-To Guide</template>
         <!-- Purpose and Outcome -->
@@ -40,6 +40,7 @@
 
         <!-- Detailed Plan -->
         <template slot="Detailed_Plan">
+          <FacilitatorImage :toolkit="toolkit" number="1"></FacilitatorImage>
           <p>In this section, we&#39;ll follow 4 steps to gather data about your community:</p>
           <ol>
             <li>Identify topics and choose questions.</li>
@@ -50,9 +51,9 @@
           <p>You could do each of these steps in a small group or a larger activity. We&#39;ve included some notes about how you might facilitate each section, but because this section of the toolkit is written as more of a how-to, we haven&#39;t written out a detailed facilitation plan.</p>
 
           <h4 class="subcategory">Step 1: Identify Topics &amp; Choose Questions</h4>
-          <Instructions>Before you get started researching publicly available data, think about what you might be seeking. If you can start with a list of questions, it will be much easier later to sift through all the different data sources and find the specific pieces of information which will be most helpful to your organizing. This would be a great time to use some of the information gathered and ideas generated during the Mapping Power &amp; Money workshop, if you&#39;ve done that one first.
+          <p>Before you get started researching publicly available data, think about what you might be seeking. If you can start with a list of questions, it will be much easier later to sift through all the different data sources and find the specific pieces of information which will be most helpful to your organizing. This would be a great time to use some of the information gathered and ideas generated during the Mapping Power &amp; Money workshop, if you&#39;ve done that one first.</p>
           <p>If you&#39;re doing this part of the toolkit as a workshop, this section would work well as a mix of small groups, or pairs with a large group discussion. You could facilitate this section by asking people to pair off, think about experiences they&#39;ve had or issues they&#39;re concerned about, share back to the large group, cluster and prioritize issues together, and then split back up in issue groups to define specific questions.</p>
-          <p>1. Start by answering 2 questions:        </p>
+          <p>1. Start by answering 2 questions:</p>
           <ul>
             <li><em>What are some issues your community is facing around displacement?</em></li>
             <li><em>What are some things people in your organization have experienced?</em></li>
@@ -69,10 +70,10 @@
             <li><em>How does having to change schools due to eviction impact a student?</em></li>
             <li><em>How much does it cost the city to evict someone? Is that more expensive than paying for legal representation to stop the eviction?</em></li>
           </ul>
-          <p>Note: This list of questions will be your starting point for gathering data, but if you have allies in your area with data expertise, reach out to ask for data help—data scientists will really appreciate that you&#39;ve taken the time to define a specific set of questions first!</p>
-          </Instructions>
+          <p><b class="note">NOTE:</b> This list of questions will be your starting point for gathering data, but if you have allies in your area with data expertise, reach out to ask for data help—data scientists will really appreciate that you&#39;ve taken the time to define a specific set of questions first!</p>
+          <FacilitatorImage :toolkit="toolkit" number="1"></FacilitatorImage>
           <h4 class="subcategory">Step 2: Define the Area of Analysis</h4>
-          <Instructions>Now your topics and questions are defined! But before you can start researching data, you&#39;ll need to take a minute to think about areas of analysis—what <strong>places</strong> and <strong>times</strong> are you interested in learning about? The answer to this question can change, and it might be different for different topics. But having a rough idea beforehand will help narrow down your search for information.</p>
+          <p>Now your topics and questions are defined! But before you can start researching data, you&#39;ll need to take a minute to think about areas of analysis—what <strong>places</strong> and <strong>times</strong> are you interested in learning about? The answer to this question can change, and it might be different for different topics. But having a rough idea beforehand will help narrow down your search for information.</p>
             <p>Your organization is likely working either at the neighborhood level or the city level. If you&#39;re working at the city level, you might be interested in data for the city as a whole (e.g., <em>What is the total number of people evicted in my city?</em>), or you might be interested in comparing different areas of the city (e.g., <em>Which part of the city had the most evictions?</em>). If you&#39;re just now reviewing data, we&#39;d recommend picking a single area of analysis as a starting point, whether that&#39;s your city as a whole or a particular neighborhood. Keep in mind that the smaller or more specific your geographic area of analysis is, the less likely that detailed data will be available for every topic on your list.</p>
             <p>Similarly, think about what time periods you&#39;re interested in getting data about. Has your neighborhood gone through major changes in the past few years, or has it been relatively stable for a long time? If things have changed recently, make sure to research data gathered before and after things changed, so you can track the impact of those changes—but you&#39;ll want to avoid datasets which are averaged over a time period during which those changes happened. If the neighborhood has been pretty stable for a while, you&#39;ll have more flexibility in researching data sources.</p>
             <p>If you&#39;re doing this part of the toolkit as a workshop, it&#39;d be best to facilitate this section by looking at a large, physical map together. You could then map out where each person lives and draw the neighborhoods you&#39;re interested in on the map before identifying census geographies. If you or someone else in your organization is an AAA member, that organization will mail you free, printed maps of your city on request, which are large enough to hang on the wall and great for workshops like this.</p>
@@ -124,10 +125,9 @@
             <ol start="2">
               <li>If you&#39;re just interested in data at the city level or above, you can stop here! But, if you&#39;re searching for neighborhood-level data, you&#39;ll need to research which census tracts and block groups make up your neighborhood. The Census American FactFinder tool is one way to find this information. Visit <a href="https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t">American FactFinder</a>, click on the &quot;Geographies&quot; tab on the left-hand side, and then click &quot;Map.&quot; You can search for an address or zoom in to find your neighborhood, then select &quot;Census Tract&quot; from the &quot;Select Geographies&quot; window on the right-hand side.</li>
             </ol>
-          </Instructions>
-
+          <FacilitatorImage :toolkit="toolkit" number="1"></FacilitatorImage>
           <h4 class="subcategory">Step 3: Dig Through Publicly Available Data</h4>
-          <Instructions>Now that you&#39;ve identified topics, chosen questions, and defined your area of analysis, you&#39;re in a good place to navigate the massive amount of publicly available data. We&#39;ve listed below some places to start.
+          <p>Now that you&#39;ve identified topics, chosen questions, and defined your area of analysis, you&#39;re in a good place to navigate the massive amount of publicly available data. We&#39;ve listed below some places to start.</p>
           <p>If you&#39;re doing this part of the toolkit as a workshop, this section could work well as a data &quot;scavenger hunt&quot; in which people in small groups navigate different data sources and keep track of which relevant pieces of data they can find. You&#39;d want to make sure each group had access to a laptop, a list of links to relevant data sources, and maybe a worksheet to note their findings and the source, geographic area, and time period for each piece of data. It&#39;d also be a good idea to ask groups to pay attention to how the different websites make them feel and how easy they are to use, both as a way to start a bigger discussion about who has and controls access to data, but also to remind workshop participants that if something they&#39;re encountering is confusing or hard to understand, that&#39;s not their fault, but likely because it&#39;s not presented in an accessible way.</p>
           <p><strong>Tips</strong></p>
           <ul>
@@ -147,14 +147,14 @@
             <li>Princeton University Eviction Lab (<a href="https://evictionlab.org/">https://evictionlab.org/</a>) is an interactive mapping tool which allows you to pull up eviction rates for anywhere in the US. Please note that the data on this site was purchased from national commercial aggregators, and is not necessarily accurate for all states. A number of housing activists have expressed their frustration with Eviction Lab&#39;s extractive relationship to local organizations and the ways in which their leadership conducts business. The Anti-Eviction Mapping Project has written a pointed and thoughtful critique of this particular tool if you want to better understand the complexities around using data sources in general (<a href="https://shelterforce.org/2018/08/22/eviction-lab-misses-the-mark/">https://shelterforce.org/2018/08/22/eviction-lab-misses-the-mark/</a>).</li>
             <li>500 Cities (<a href="https://www.cdc.gov/500Cities/">https://www.cdc.gov/500Cities/</a>) is a project from the CDC that lets you view survey-based health outcomes for the 500 largest cities in the United States. However, if you have access to specific data around health outcomes (e.g., from your local Community Health Assessment), it is likely to be more accurate than 500 Cities&#39; data.</li>
           </ul>
-          </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="1"></FacilitatorImage>
           <h4 class="subcategory">Step 4: Vet the Data Against Your Experience</h4>
-          <Instructions>Now that you&#39;ve gathered data, reflect on what you&#39;ve found:
+          <p>Now that you&#39;ve gathered data, reflect on what you&#39;ve found:
             <ul>
               <li><em>Are there stories from your own experience that amplify, connect with, or contradict the data you&#39;ve found?</em></li>
               <li><em>Does the data suggest new avenues of organizing, or other communities you might want to reach out to?</em></li>
               <li><em>Was the data presented in a way that felt clear and understandable to you?</em></li>
-            </ul>
+            </ul></p>
             <p>Sometimes, the data you find won&#39;t match your own knowledge and experience, which can happen for many reasons:</p>
             <ul>
               <li>Data is being presented as a median or average, which hides the experiences of people who are either below or above that average. For example, the median annual family income in Everett in 2017 was $61,190, but in reality, nearly one-third (27%) of families in Everett make less than $35,000 per year. Sometimes you can dig deeper into a particular data source to get beyond the average, but sometimes that data is not available.</li>
@@ -162,7 +162,6 @@
               <li>The dataset you&#39;re reviewing just didn&#39;t ask the right questions, or is designed to obscure important facts. For example, the US Census unemployment rate is sometimes artificially low because it only counts people who are actively looking for work but don&#39;t have a job—not folks who have given up on finding work entirely.</li>
             </ul>
             <p>If you find yourself in any of the above situations, you might need to consider conducting your own survey to get more accurate data (some links about how to conduct a survey can be found in the links available in the <router-link :to="{ name: 'Resources', params: { lang: this.$i18n.locale }}">Resources</router-link> section).</p>
-          </Instructions>
         </template>
       </FacilitationGuide>
       <AdditionalResources :toolkit="toolkit"></AdditionalResources>
@@ -177,13 +176,16 @@
   import FacilitationGuide from "./../../components/FacilitationGuide";
   import Instructions from "./../../components/Instructions";
   import AdditionalResources from "./../../components/AdditionalResources";
+  import FacilitatorImage from '../FacilitatorImage';
 
   export default {
     name: "workshops",
     components: {
+      FacilitatorImage,
       ToolkitIntro,
       Introduction,
       FacilitationGuide,
+      FacilitatorImage,
       Instructions,
       AdditionalResources
     },
