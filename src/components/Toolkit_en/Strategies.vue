@@ -1,9 +1,9 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="$t('toolkits')[4]"></ToolkitIntro>
+    <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="$t('toolkits')[4]">
+      <Introduction :toolkit="toolkit">
         <p>Community organizing strategies and tactics can take all kinds of formations, from the more traditional door knocking or setting up information tables at events to organizing community photo tours. This activity draws on community assets and identifies local, cultural organizing strategies and tactics to prevent displacement. Creative and artistic strategies and tactics can be used to:</p>
         <ul>
           <li>bring together art and community organizing</li>
@@ -13,7 +13,7 @@
         <p>It is an opportunity to engage local artists and culture bearers to explore more creative and artistic modalities and engage community leaders centering unconventional ways of advancing community dialogue and action. Although grounded in creative practices, this activity requires the same commitment to rigor, research, and attention to detail as more traditional policy or data-driven activity sessions.</p>
         <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
       </Introduction>
-      <FacilitationGuide :toolkit="$t('toolkits')[4]">
+      <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
         <div slot="Workshop_Purpose">
           <ul>
@@ -67,11 +67,13 @@
 
         <!-- Detailed Plan -->
         <template slot="Detailed_Plan">
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 1: Setting Up &amp; Introductions (10 min)</h4>
           <Instructions>The purpose of this exercise is to identify all of the ways the group has used its agency to organize and advocate for change in their community. The next activity allows participants to create a shared definition and understanding of the term &quot;community organizing&quot; and generate a list of past and present community-organizing activities they are/have been engaged in.
           <p>Begin the session in a circle. Facilitators should begin with an opening greeting and set the tone for the day&#39;s session. If the workshop is part of a series, take a moment to remind the group of the previous sessions and content covered and then forecast what comes next in the series. Transition into the session with introductions through the proposed icebreaker activity or an exercise of your choice. The ultimate goal of this session is to generate tactics and tools that mix arts and community organizing.</p>
           <p>Ask participants to introduce themselves: name, and one thing they love about their community.</p>
           </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 2: Community Organizing Web (7 min)</h4>
           <Facilitator><span class="instructions">Ask participants to share their thoughts and ideas in response to the following questions</span>
             <ul>
@@ -88,7 +90,8 @@
             </ul>
             <p class="instructions">Follow up by reviewing the observing together the groups reflections and whether the current list includes traditional or cultural organizing strategies and tactics.</p>
           </Facilitator>
-            <h4 class="subcategory">Step 3: Design Sprint: Sketching Out Organizing Strategies (15 min)</h4>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
+          <h4 class="subcategory">Step 3: Design Sprint: Sketching Out Organizing Strategies (15 min)</h4>
               <Instructions>Design Sprint is a way to facilitate an &quot;ideas lab.&quot; This activity sheet provides a framework for participants to quickly sketch creative ideas for addressing displacement. Give participants 2 minutes to gather art supplies, 3 minutes to think of ideas, and then cue music that will play for 8 minutes while participants illustrate sample actions in the Design Sprint template (8 boxes—1 minute per sketch box). Participants will know the time is up when the music is turned off or the volume is lowered.
                 <p>Find more information on facilitating the <a href="https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/">Design Sprint</a> activity.</p>
                 <p><strong>Note</strong> : This facilitation technique is referred to elsewhere as Crazy 8s, but we&#39;re choosing to rename it to &#39;Design Sprint&#39; in this toolkit out of respect for folks with mental illness who prefer not to use the word crazy in this sort of context.</p>
@@ -109,6 +112,7 @@
                   </li><li><a href="https://creativesantafe.org/events/affordable-housing/">Disruptive-futures dialogue</a></li>
                   </ul>
                 </Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 4: Share Back (13 min)</h4>
                     <Facilitator> Once the allotted time has lapsed, ask volunteers to share ideas illustrated in the sketches and describe them, if necessary. Facilitators will write down ideas on flip-chart paper to get as many ideas written down for the large group to review.
                       <p class="instructions">After a full list is created, ask participants to use the color-coded dots to identify the top 3 ideas that resonate with them for the group to use as tools for community actions.</p>
@@ -118,32 +122,33 @@
                         <li>How could we infuse multimedia tools into traditional organizing practices?</li>
                       </ul>
                     </Facilitator>
-                      <h4 class="subcategory">Step 5: Closing (5-7 min)</h4>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
+          <h4 class="subcategory">Step 5: Closing (5-7 min)</h4>
                         <Instructions> Close the workshop by celebrating the creativity demonstrated by all participants. Review the top 3 choices identified by the group and determine possible next steps for implementing the proposed ideas, such as selecting the next meeting date to explore options with a small subcommittee, and plan dates for potential implementation.
                           <p>Gather in a circle to close out the session as it began. Ask participants to share &quot;glows&quot; (positive outcomes) and &quot;grows&quot; (challenges or things to do differently next time) experienced in the workshop. Participants can close out the session by doing a movement that the group repeats after sharing the glow and grow. Repeat this process for each member of the circle and end with the facilitator&#39;s thanks for participation.</p>
                         </Instructions>
         </template>
       </FacilitationGuide>
 
-      <TakingAction :toolkit="$t('toolkits')[4]">
+      <TakingAction :toolkit="toolkit">
         <ul>
           <li>Identify 2-3 projects that the group will take on.</li>
           <li>Develop a timeline for taking action on 1 cultural strategy identified during the workshop.</li>
         </ul>
       </TakingAction>
 
-      <AdditionalResources :toolkit="$t('toolkits')[4]"></AdditionalResources>
+      <AdditionalResources :toolkit="toolkit"></AdditionalResources>
     </div>
   </main>
 </template>
 
 
 <script>
-import { mapState } from "vuex";
 import ToolkitIntro from "../ToolkitIntro";
 import Introduction from "./../../components/Introduction";
 import FacilitationGuide from "./../../components/FacilitationGuide";
 import Facilitator from "./../../components/Facilitator";
+import FacilitatorImage from "./../../components/FacilitatorImage";
 import Instructions from "./../../components/Instructions";
 import TakingAction from "./../../components/TakingAction";
 import AdditionalResources from "./../../components/AdditionalResources";
@@ -155,12 +160,11 @@ export default {
     Introduction,
     FacilitationGuide,
     Facilitator,
+    FacilitatorImage,
     Instructions,
     TakingAction,
     AdditionalResources
   },
-  computed: {
-    ...mapState(["toolkits"])
-  }
+  props: ["toolkit"],
 };
 </script>

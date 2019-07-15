@@ -19,7 +19,9 @@
     "takingAction": "Taking Action",
     "workshop": "Workshop",
     "instructions": "INSTRUCTIONS",
-    "facilitator": "FACILITATOR"
+    "facilitator": "FACILITATOR",
+    "filterByWorkshop": "Filter by Workshop:",
+    "clearFilter": "Clear filter"
   },
 
   "overviewView": {
@@ -131,7 +133,7 @@
       "question": "How can we use data from Chelsea and Everett to strengthen our voice?",
       "num": "3",
       "color": "#3554d1",
-      "link": "UseData",
+      "link": "UsingData",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
       "resources": [{

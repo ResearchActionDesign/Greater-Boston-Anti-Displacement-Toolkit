@@ -38,12 +38,7 @@
         <h3 :style="{ borderBottom: '1px solid ' + toolkit.color }">{{ $t('strings.detailedPlan') }}</h3>
         <slot name="Detailed_Plan"></slot>
     </section>
-
-
-
   </section>
-
-
 </template>
 
 <script>

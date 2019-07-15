@@ -1,9 +1,9 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="$t('toolkits')[1]"></ToolkitIntro>
+    <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="$t('toolkits')[1]">
+      <Introduction :toolkit="toolkit">
         <p>In combination with organizing and storytelling, data is a powerful tool for organizing against displacement. You can use data both internally—to track and better understand changes happening in your neighborhood, and externally—to communicate with other neighborhoods, policymakers, and advocates for change.</p>
         <p>When communities begin organizing against displacement, city officials and developers often use numbers as weapons to invalidate the lived experiences of community members. For example, city officials will point to increases in the median income in an area to argue that gentrification has benefited the community, and try to shut down testimony from underserved residents who feel otherwise. Or they&#39;ll cite academic studies to support their claims and argue that community members don&#39;t have the &quot;expertise&quot; to truly &quot;understand&quot; the data.</p>
         <p>In entering this section of the toolkit, be aware of how statistics have historically been weaponized, particularly against Black and brown people, and remember that quantitative and qualitative data are just one part of the full picture of what&#39;s happening in your community.</p>
@@ -13,7 +13,7 @@
       </Introduction>
 
       <p><strong>Note</strong>: Unlike most of the rest of the toolkit, this section is written as a how-to guide rather than a facilitation plan. This section of the toolkit could be done as an activity, but you could also use this section to gather data on your own without having a separate activity.</p>
-      <FacilitationGuide :toolkit="$t('toolkits')[1]">
+      <FacilitationGuide :toolkit="toolkit">
         <template #Title>How-To Guide</template>
         <!-- Purpose and Outcome -->
         <template #Workshop_Purpose>
@@ -165,14 +165,13 @@
           </Instructions>
         </template>
       </FacilitationGuide>
-      <AdditionalResources :toolkit="$t('toolkits')[1]"></AdditionalResources>
+      <AdditionalResources :toolkit="toolkit"></AdditionalResources>
     </div>
   </main>
 </template>
 
 
 <script>
-  import { mapState } from "vuex";
   import ToolkitIntro from "../ToolkitIntro";
   import Introduction from "./../../components/Introduction";
   import FacilitationGuide from "./../../components/FacilitationGuide";
@@ -188,8 +187,6 @@
       Instructions,
       AdditionalResources
     },
-    computed: {
-      ...mapState(["toolkits"])
-    }
+    props: ["toolkit"],
   };
 </script>

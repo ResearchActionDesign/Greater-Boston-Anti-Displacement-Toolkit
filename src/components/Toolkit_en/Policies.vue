@@ -1,9 +1,9 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="$t('toolkits')[3]"></ToolkitIntro>
+    <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="$t('toolkits')[3]">
+      <Introduction :toolkit="toolkit">
         <p>Communities across the country are experiencing threats to their homes and neighborhoods. There are many policy and strategy models communities can adopt to protect where they live. This workshop section is intended for engaging and developing community-driven ideas and solutions.</p>
         <p>Communities can use this activity to:</p>
         <ul>
@@ -16,7 +16,7 @@
         <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted as needed to fit your community needs.</p>
       </Introduction>
 
-      <FacilitationGuide :toolkit="$t('toolkits')[3]">
+      <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
         <div slot="Workshop_Purpose">
           <ul>
@@ -74,11 +74,13 @@
         <!-- Detailed Plan -->
         <template slot="Detailed_Plan">
           <h4 class="subcategory">Part 1: Idea Generation (15 min)</h4>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h5>Step 1: Introduction (5 min)</h5>
           <Facilitator>In Part 1 of this exercise, we would like to hear about what policies and strategies you have used or have witnessed being used in other communities. This is your vision of ideas for what policies and strategies you think can help protect where we live. There are no right or wrong answers in this exercise.
           <p>Remember: no one knows everything and together we know a lot! Our goal is to get as many ideas on the table to share with one another.</p>
           <p>In Part 2 of this exercise, we&#39;ll select a few ideas to dig deeper into evaluating what we already know and need to know to consider adopting for our community.</p>
           </Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Step 2: On Your Own (5 min)</h5>
         <Instructions>Pass out Part 1 of the <a href="/handouts/Identifying-and-Evaluating-Policies_Blank-Worksheets.pdf" target="_blank">worksheet</a> to participants.
         <p>Ask participants to take approximately 5 minutes to jot down on their own: (1) <em>What is the policy or strategy?</em> and (2) <em>brief description of how they have used or witnessed it being used?</em></p>
@@ -93,6 +95,7 @@
             <p>Ask participants if they have any questions about the exercise before starting the clock.</p>
           <p>If it is helpful, you can share <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">examples for Part 1</a>. Start the time and provide participants with a 2- and 1-minute reminder of time left to work on their own.</p>
         </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h5>Step 3: Sharing Back (5 min)</h5>
             <Instructions>Ask participants to share (popcorn style) their ideas and briefly describe how they did/can help in our communities.
             <p>Share the ideas noted on flip-chart/butcher paper for participants to review as a group.</p>
@@ -100,6 +103,7 @@
             <p>Once the group has shared and generated a list of ideas to consider, move to Part 2 of the exercise to dive deeper into a few of the ideas listed.</p>
             </Instructions>
           <h4 class="subcategory">Part 2: Evaluating Policies &amp; Strategies (25-30 min)</h4>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Step 1: Introduction (5 min)</h5>
             <Facilitator>For Part 2, we&#39;d like to learn how you think the policies and strategies identified in Part 1 could be used in our communities.
               <p class="instructions">For this exercise, participants will work in small groups. Divide into groups by counting off based on the anticipated number of break-out groups and participants. For example, if you have 20 participants and want groups of 4 people, have participants count off with 1, 2, 3, 4, which will give you 5 groups of 4.</p>
@@ -116,6 +120,7 @@
             <li>At the end, groups will be asked to share back. This series of questions can help communities explore the information available and needed to decide what actions to take.</li>
           </ul>
             </Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h5>Step 2: Deeper Dive Within Groups (10 min)</h5>
           <Instructions>Pass out Part 2 of the worksheet to participants.
             <p>Ask participants to pair up in groups of 2-3.</p>
@@ -125,6 +130,7 @@
             <p>If it is helpful, the facilitator can share <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">examples for Part 2</a>.</p>
             <p>Start the time and provide participants with a 5-, 2-, and 1-minute reminder of time left to work in their groups.</p>
           </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Step 3: Share Back (10-15 min)</h5>
           <Instructions>Ask each group to share the policy or strategy they focused on, and for each of the 4 questions, 1 highlight they discussed and documented (e.g., How they think it could be adopted, a specific action steps, etc.).
             <p>Share the discussion noted by groups on flip-chart/butcher paper for participants to review as a group.</p>
@@ -141,7 +147,7 @@
         </template>
       </FacilitationGuide>
 
-      <TakingAction :toolkit="$t('toolkits')[3]">
+      <TakingAction :toolkit="toolkit">
         <p>At the close of this activity, consider any asks of the group to support community mobilizing efforts and actions in and outside the space created today.</p>
         <ul>
           <li>Use the policies and strategies discussed to influence decision makers and educate other community members about problems and potential solutions.</li>
@@ -150,18 +156,18 @@
         </ul>
       </TakingAction>
 
-      <AdditionalResources :toolkit="$t('toolkits')[3]"></AdditionalResources>
+      <AdditionalResources :toolkit="toolkit"></AdditionalResources>
     </div>
   </main>
 </template>
 
 
 <script>
-import { mapState } from "vuex";
 import ToolkitIntro from "../ToolkitIntro";
 import Introduction from "./../../components/Introduction";
 import FacilitationGuide from "./../../components/FacilitationGuide";
 import Facilitator from "./../../components/Facilitator";
+import FacilitatorImage from "./../../components/FacilitatorImage";
 import Instructions from "./../../components/Instructions";
 import TakingAction from "./../../components/TakingAction";
 import AdditionalResources from "./../../components/AdditionalResources";
@@ -173,12 +179,11 @@ export default {
     Introduction,
     FacilitationGuide,
     Facilitator,
+    FacilitatorImage,
     Instructions,
     TakingAction,
     AdditionalResources
   },
-  computed: {
-    ...mapState(["toolkits"])
-  }
+  props: ["toolkit"],
 };
 </script>

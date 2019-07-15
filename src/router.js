@@ -30,8 +30,8 @@ export default new Router({
     },
     {
       path: '/Toolkit/Using_data_&_storytelling_to_make_arguments',
-      name: 'UseData',
-      component: () => import( /* webpackChunkName: "UseData" */ './views/Toolkit/UseData.vue')
+      name: 'UsingData',
+      component: () => import( /* webpackChunkName: "UseData" */ './views/Toolkit/UsingData.vue')
     },
     {
       path: '/Toolkit/Identifying_&_evaluating_policies',

@@ -1,9 +1,9 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="$t('toolkits')[0]"></ToolkitIntro>
+    <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="$t('toolkits')[0]">
+      <Introduction :toolkit="toolkit">
         <p>Many have experienced the negative impacts of exclusionary political and corporate decisions that have led to displacement. Understanding the systems of power in which these decisions are being made and how you as a community member can influence the process is critical to advocate for change.</p>
         <p>Mapping power and money is a useful activity for engaging communities to think about relationships affecting the issues they grapple with, which inform organizing strategies and tactics. This activity helps identify and assess the local and regional political and community environment related to a specific issue by:</p>
         <ul>
@@ -16,7 +16,7 @@
         <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
       </Introduction>
 
-      <FacilitationGuide :toolkit="$t('toolkits')[0]">
+      <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
         <div slot="Workshop_Purpose">
           <ul>
@@ -102,13 +102,14 @@
 
         <!-- Detailed Plan -->
         <template slot="Detailed_Plan">
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 1: Introducing the Activity (5 min)</h4>
           <Facilitator>Understanding power relationships and the flow of resources that shape the problem we are trying to solve will be crucial in helping us strategize effectively, adapt to new events or changes, and evaluate our progress.
             <p>Power-mapping is a common community-organizing technique used to visually represent relevant stakeholders relative to an issue, the types of power they have, and how they relate to one another regarding a specific issue or problem. Like other maps, power maps help users orient themselves in relation to the world around them. These maps can be used for specific actions or campaigns with tight timelines and focused objectives—like planning an action or event—but can also be used for bigger, ongoing efforts, like coalition-building.</p>
             <p>Unlike most other maps, they are likely to change—sometimes dramatically in response to new events or circumstances. When the power dynamics of a situation around displacement changes—for example, a new development is planned, or a new policy is put into place—power maps change, too.</p>
             <p>Before we go into more detail, let’s take a minute to draw from the experiences of the group.</p>
           </Facilitator>
-
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 2: Group Big-Picture Questions (5 min)</h4>
           <Facilitator>We’re curious to know from you all how or why you think mapping power might be useful. Does anyone have any ideas or experiences that speak to why we might want to map the power dynamics around an issue or campaign?
           <p class="instructions">Follow-up with:</p>
@@ -119,6 +120,7 @@
           </Facilitator>
           <Instructions>Recognize (verbal or written) experiences shared by the group. This information can be used to build or reinforce reviewing the basics of mapping power and money in the next step.</Instructions>
 
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 3: Reviewing the Basics (5 min)</h4>
           <Facilitator>Let’s recap what we’ve learned so far:
             <ul class="instructions">
@@ -151,6 +153,7 @@
             <li>They show how power is embedded within these relationships.</li>
           </ul>
           </Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 4: Group Work — Produce Power Maps: “Displacement in My Community” (15 min)</h4>
           <Facilitator>We’re going to dive right into creating our own power map for resisting displacement. While there are lots of power-mapping formulas out there, <b>our priority is to start with what we know</b>, allowing our analysis to guide map formation, rather than imposing a predetermined format without knowing in advance if it’s right for us. That means that today, we’re producing our first draft(s), and will conclude this exercise by agreeing on a plan to synthesize and refine the final product (which will keep changing). This means we can focus on being analytical and creative without worrying about how every detail is going to be fine-tuned.</Facilitator>
           <Instructions>The power map should be focused on the group’s objective. The power map can be focused on a broad issue, such as resisting displacement, but it can also be focused on a specific effort or event, like a teach-in or an election.
@@ -169,6 +172,7 @@
                 <ul><li>Share this hint: <em class="italic">It might be helpful to start with sticky notes so you can move things around!</em></li></ul></li>
             </ul>
           </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 5: Show & Tell (10 min)</h4>
           <Instructions>Ask each group to take turns sharing their power and money map with the larger group. When they do so, they should answer the 3 questions from the flip chart:
             <ol class="italic">
@@ -205,7 +209,7 @@
         </template>
       </FacilitationGuide>
 
-      <TakingAction :toolkit="$t('toolkits')[0]">
+      <TakingAction :toolkit="toolkit">
         <p>At the close of the activity, consider asking the group to support community mobilizing efforts and actions in and outside the space created today.
         </p>
         <ul>
@@ -216,18 +220,18 @@
         </ul>
       </TakingAction>
 
-      <AdditionalResources :toolkit="$t('toolkits')[0]"></AdditionalResources>
+      <AdditionalResources :toolkit="toolkit"></AdditionalResources>
     </div>
   </main>
 </template>
 
 
 <script>
-import { mapState } from "vuex";
 import ToolkitIntro from "../ToolkitIntro";
 import Introduction from "./../../components/Introduction";
 import FacilitationGuide from "./../../components/FacilitationGuide";
 import Facilitator from "./../../components/Facilitator";
+import FacilitatorImage from './../../components/FacilitatorImage';
 import Instructions from "./../../components/Instructions";
 import TakingAction from "./../../components/TakingAction";
 import AdditionalResources from "./../../components/AdditionalResources";
@@ -239,12 +243,13 @@ export default {
     Introduction,
     FacilitationGuide,
     Facilitator,
+    FacilitatorImage,
     Instructions,
     TakingAction,
     AdditionalResources
   },
-  computed: {
-    ...mapState(["toolkits"])
-  }
+  props: [
+    "toolkit",
+  ],
 };
 </script>

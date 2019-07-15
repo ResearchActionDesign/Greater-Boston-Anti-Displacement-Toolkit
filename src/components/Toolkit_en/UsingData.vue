@@ -1,9 +1,9 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="$t('toolkits')[2]"></ToolkitIntro>
+    <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="$t('toolkits')[2]">
+      <Introduction :toolkit="toolkit">
         <p>Statistics—like rent increases, number of families paying more than one-third of their income for housing, or the number of evictions per year—can oftentimes take on a life of their own, and can get twisted in support of developers and gentrifiers instead of community. In Chelsea, we&#39;ve seen this happen when city officials use a percentage of affordable housing units as a way of promoting more market rate or luxury housing to &quot;balance out&quot; the diversity of our housing stock.</p>
         <p>But, when they&#39;re combined with stories and testimony from real-life experiences, data and statistics can be powerful tools to fight displacement—working together to become more powerful tools than either could be alone. This activity focuses on how to practice combining stories and data to make arguments against displacement. Communities can use this activity to:</p>
         <ul>
@@ -13,7 +13,7 @@
         <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
       </Introduction>
 
-      <FacilitationGuide :toolkit="$t('toolkits')[2]">
+      <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
         <div slot="Workshop_Purpose">
           To practice using data and storytelling to communicate information and make arguments about communities and neighborhoods.
@@ -67,19 +67,22 @@
 
         <!-- Detailed Plan -->
         <template slot="Detailed_Plan">
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 1: Welcome — Frame Your Purpose &amp; Agenda (5 min)</h4>
           <Facilitator><span class="instructions">"Introduce the purpose of this workshop.</span>
             <p>Today, we&#39;re going to practice using stories and data to convince elected officials or other
               decision-makers to take action against displacement. We&#39;ll start by reviewing some statistics about
               this area, and then play a game to practice using statistics to convince people.</p>
           </Facilitator>
-            <h4 class="subcategory">Step 2: Warm-Up — What Strategies Can We Use to Convince People? (optional: 10 min)</h4>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
+          <h4 class="subcategory">Step 2: Warm-Up — What Strategies Can We Use to Convince People? (optional: 10 min)</h4>
             <Facilitator>Think of the last time you tried to convince someone of something, like getting someone to help out with
               a household chore they didn&#39;t want to do, or in an organizing context, like lobbying an elected
               official to vote a certain way. What did you do to convince them? How did it go?</Facilitator>
             <Instructions> Ask participants to share stories as they think of them. After each story, follow up to try
               to identify what worked as a tactic/strategy, and list them to post at the front of the room. Close out by
               quickly debriefing the conversation with identified strategies.</Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 3: &quot;Convince Me!&quot; Activity (30-45 min)</h4>
               <Facilitator> &quot;Convince Me!&quot; was originally developed by Catherine D&#39;Ignazio and Rahul
                 Bhargava as part of the Data Culture Project (go to <a
@@ -170,7 +173,8 @@
                               </li>
                             </ul>
                           </Instructions>
-                            <h4 class="subcategory">Step 4: Debrief (5-10 min)</h4>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
+          <h4 class="subcategory">Step 4: Debrief (5-10 min)</h4>
                             <Instructions>Ask different people to explain why they made the arguments they did, and ask
                               the stakeholders why something convinced them or not.
                               <p>Highlight similarities in the arguments people made, or arguments that worked for one
@@ -190,25 +194,25 @@
 
       </FacilitationGuide>
 
-      <TakingAction :toolkit="$t('toolkits')[2]">
+      <TakingAction :toolkit="toolkit">
         <ul>
         <li>What are upcoming public meetings or hearings where you could practice your skills making arguments against displacement?</li>
         <li>Could you schedule 1-on-1 meetings with stakeholders to share stories and data?</li>
         </ul>
       </TakingAction>
 
-      <AdditionalResources :toolkit="$t('toolkits')[2]"></AdditionalResources>
+      <AdditionalResources :toolkit="toolkit"></AdditionalResources>
     </div>
   </main>
 </template>
 
 
 <script>
-import { mapState } from "vuex";
 import ToolkitIntro from "../ToolkitIntro";
 import Introduction from "./../../components/Introduction";
 import FacilitationGuide from "./../../components/FacilitationGuide";
 import Facilitator from "./../../components/Facilitator";
+import FacilitatorImage from "./../../components/FacilitatorImage";
 import Instructions from "./../../components/Instructions";
 import TakingAction from "./../../components/TakingAction";
 import AdditionalResources from "./../../components/AdditionalResources";
@@ -220,12 +224,11 @@ export default {
     Introduction,
     FacilitationGuide,
     Facilitator,
+    FacilitatorImage,
     Instructions,
     TakingAction,
     AdditionalResources
   },
-  computed: {
-    ...mapState(["toolkits"])
-  }
+  props: ["toolkit"],
 };
 </script>

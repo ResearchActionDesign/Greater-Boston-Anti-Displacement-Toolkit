@@ -1,9 +1,9 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="$t('toolkits')[5]"></ToolkitIntro>
+    <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="$t('toolkits')[5]">
+      <Introduction :toolkit="toolkit">
         <p>Acknowledging ancestral roots and connecting individual backgrounds to the story of migration and the current places/spaces we reside in presently is a powerful way to connect one&#39;s individual story to that of the built community. Sharing our stories can bring communities closer together and help make connections between migration and displacement. Communities can use this activity to:</p>
         <ul>
           <li>acknowledge tribal and Indigenous land loss</li>
@@ -14,7 +14,7 @@
         <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
       </Introduction>
 
-      <FacilitationGuide :toolkit="$t('toolkits')[5]">
+      <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
         <div slot="Workshop_Purpose">
           <ul>
@@ -70,12 +70,14 @@
 
         <!-- Detailed Plan -->
         <template slot="Detailed_Plan">
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 1: Grounding (10 min)</h4>
           <Instructions>Before the activities begin, gather the group in a large circle to ground and &quot;set the intention.&quot; Begin by acknowledging the Indigenous land we&#39;re on. Ground the conversation in the importance of creating a safe and brave space, which starts with the acknowledgement of tribal and Indigenous land loss and the importance of naming and reclaiming spaces of those originally displaced.
           <p>Facilitators may then consider opening with a simple breathing or meditation exercise. For example, creating the sound of rain as a group (participants rub their hands together, then snap their fingers, followed by patting their laps) or asking participants to close their eyes and call out the name of an ancestor or loved one they want to bring into the room with them followed by taking 3 deep inhales and exhales as a group.</p>
           <p>This helps set the tone and allows participants to enter a mental and heart space that moves them toward recalling memories from their personal migration story into the next activity. Close this section by instructing the group to open their eyes and make eye contact with a person in the circle (alternatively, place their palms not-quite-together to make energetic contact), then thanking everyone for their participation and openness to create a safe and brave space for the time together.</p>
           <p>Participants may opt out of the group opening by honoring their individual practices of preparing to be present in a group activity.</p>
           </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 2: Individual Stories (10 min: 2 min for explanation, 8 min for individual work)</h4>
           <p>The goal of this section is to begin with individual work. This portion of the activity can happen in a quiet area, or soft and culturally appropriate music can be played in the background. Each participant should come away from this segment more connected to elements of their individual migration story. The background setting should be optimal for individual reflecting, allowing participants to go deep or highlight high-level elements of their personal migration story.</p>
           <Instructions>[Reference this <a href="https://docs.google.com/document/d/1JBcZiMITRek4kKXNz07UZT2Pq5Gw_B7MeIAOiHSYzm4/edit">handout</a> in advance] <b>TODO: LINK</b> All participants should have a sheet of paper divided into 3 sections:
@@ -88,6 +90,7 @@
           <p>Ask everyone to take 8 minutes to fill out the worksheet on their own.</p>
           <p><strong>Note:</strong> Facilitator(s) may advise participants to spread out in the space. Consider making the location comfortable enough for participants to sit on the ground, at a table, or in a comfortable chair or couch.</p>
           </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 3: Small Group Discussions (35 min) </h4>
           <Instructions>This discussion builds on the previous individual work. The goal of this segment allows participants to connect with 1 or 2 other members of the group to identify similarities in their personal narratives, to know that they are not alone, and share part of their journey to the community experiencing or combatting displacement.
             <p>Divide people into groups and hand out supplies.</p>
@@ -114,6 +117,7 @@
           </Facilitator>
           <Facilitator>What story do we make together in the room?
             <p>We invite each of you to bring your trees, your collective stories, to the front of the room and tape them along the river. Once that&#39;s done, take some time for a break, get some snacks, and also witness the stories of other groups. We&#39;ll reconvene in 10 minutes. At that point, we&#39;ll also give each of you a chance to share your tree with the rest of the group.</p></Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 4: Sharing Back (20 min)</h4>
           <Instructions>The goal of this section is to move from personal narratives to shared connections in each small group, through to shared experiences for the full group. At the end of reporting out, participants should be aware of parallels in experiences and reflect on lessons learned and stories shared by participants.
           <p>Welcome group back from break.</p>
@@ -132,7 +136,7 @@
         </template>
       </FacilitationGuide>
 
-      <TakingAction :toolkit="$t('toolkits')[5]">
+      <TakingAction :toolkit="toolkit">
         <p>At the close of this activity, ask the group to consider other populations and partners that should participate in a story sharing exercise.</p>
         <ul>
           <li>Identify other potential participants (e.g., youth) who should experience the story-share activity. Are there opportunities for an intergenerational conversation?</li>
@@ -141,18 +145,18 @@
         </ul>
       </TakingAction>
 
-      <AdditionalResources :toolkit="$t('toolkits')[5]"></AdditionalResources>
+      <AdditionalResources :toolkit="toolkit"></AdditionalResources>
     </div>
   </main>
 </template>
 
 
 <script>
-import { mapState } from "vuex";
 import ToolkitIntro from "../ToolkitIntro";
 import Introduction from "./../../components/Introduction";
 import FacilitationGuide from "./../../components/FacilitationGuide";
 import Facilitator from "./../../components/Facilitator";
+import FacilitatorImage from "./../../components/FacilitatorImage";
 import Instructions from "./../../components/Instructions";
 import TakingAction from "./../../components/TakingAction";
 import AdditionalResources from "./../../components/AdditionalResources";
@@ -164,12 +168,11 @@ export default {
     Introduction,
     FacilitationGuide,
     Facilitator,
+    FacilitatorImage,
     Instructions,
     TakingAction,
     AdditionalResources
   },
-  computed: {
-    ...mapState(["toolkits"])
-  }
+  props: ["toolkit"],
 };
 </script>
