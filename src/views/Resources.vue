@@ -48,6 +48,9 @@ export default {
       return this.$t('toolkits');
     }
   },
+  mounted() {
+    document.dispatchEvent(new Event("x-app-rendered"));
+  },
   methods: {
     selectWorkshop(workshop) {
       if (this.selectedWorkshop !== workshop) {

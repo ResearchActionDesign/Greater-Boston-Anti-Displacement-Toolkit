@@ -15,6 +15,9 @@ export default {
   components: {
     StrategiesEng,
     StrategiesEs
+  },
+  mounted() {
+    document.dispatchEvent(new Event("x-app-rendered"));
   }
 };
 </script>

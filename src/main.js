@@ -38,59 +38,52 @@ router.beforeEach((to, from, next) => {
   }
 
   let title = i18n.t('header');
+  let description = i18n.t('description');
   if (to.name !== 'Overview') {
     if (to.name in i18n.t('toolkits')) {
-      title += `: ${i18n.t('toolkits')[to.name].name}`
+      title += `: ${i18n.t('toolkits')[to.name].name}`;
+      description = i18n.t('toolkits')[to.name].question;
+      // TODO: Dynamically set image too?
     } else if (to.name in i18n.t('strings.pageTitles')) {
       title += `: ${i18n.t('strings.pageTitles')[to.name]}`
     }
     document.title = title;
   }
 
-  // Set metadata. For now just use a single description for all pages except tracts.
-
+  // Dynamically set metadata.
   // Find old metatags.
   const metaTags = Array.from(document.querySelectorAll('[data-vue-router-controlled]'));
-  //
-  // let description = i18n.t('strings.pageMetaDescriptions.home');
-  // if (to.name === 'infosheet' && store.getters.dataLoaded) {
-  //   // Use dynamic tract diabetes data in meta if possible.
-  //   // @TODO: Replace this with better text.
-  //   description = store.getters.currentTractTitle;
-  // }
-  //
-  // const metaTagDefinitions = {
-  //   description: {
-  //     content:
-  //     description,
-  //   },
-  //   ogTitle: {
-  //     content:
-  //     title,
-  //   },
-  //   ogUrl: {
-  //     content:
-  //       siteConfig.baseUrl + to.fullPath,
-  //   },
-  //   ogDescription: {
-  //     content:
-  //     description,
-  //   },
-  //   ogType: {
-  //     content: to.name === 'infosheet' ? 'article' : 'website',
-  //   },
-  // };
-  //
-  // metaTags.map((tag) => {
-  //   const tagDef = metaTagDefinitions[tag.getAttribute('data-vue-router-controlled')];
-  //   if (!tagDef) { return; }
-  //   Object.keys(tagDef).forEach((key) => { tag.setAttribute(key, tagDef[key]); });
-  // });
+
+  const metaTagDefinitions = {
+    description: {
+      content:
+      description,
+    },
+    ogTitle: {
+      content:
+      title,
+    },
+    ogUrl: {
+      content:
+        'https://www.greaterbostontoolkit.org' + to.fullPath,
+    },
+    ogDescription: {
+      content:
+      description,
+    },
+  };
+
+  metaTags.map((tag) => {
+    const tagDef = metaTagDefinitions[tag.getAttribute('data-vue-router-controlled')];
+    if (!tagDef) { return; }
+    Object.keys(tagDef).forEach((key) => { tag.setAttribute(key, tagDef[key]); });
+  });
 });
 
 new Vue({
   router,
   scss,
   i18n,
-  render: h => h(App)
+  render: h => h(App),
+  mounted: () => document.dispatchEvent(new Event("x-app-rendered")),
 }).$mount('#app');

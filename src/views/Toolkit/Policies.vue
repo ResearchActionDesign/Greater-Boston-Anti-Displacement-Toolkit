@@ -15,6 +15,9 @@ export default {
   components: {
     PoliciesEng,
     PoliciesEs
+  },
+  mounted() {
+    document.dispatchEvent(new Event("x-app-rendered"));
   }
 };
 </script>

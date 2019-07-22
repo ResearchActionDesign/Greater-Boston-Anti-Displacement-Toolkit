@@ -25,5 +25,6 @@ p {
     margin: 0.25em;
     width: 24px;
     height: 24px;
+    display: inline;
 }
 </style>

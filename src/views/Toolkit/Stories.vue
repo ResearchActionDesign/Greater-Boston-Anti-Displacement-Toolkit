@@ -15,6 +15,9 @@ export default {
   components: {
     StoriesEng,
     StoriesEs
+  },
+  mounted() {
+    document.dispatchEvent(new Event("x-app-rendered"));
   }
 };
 </script>
