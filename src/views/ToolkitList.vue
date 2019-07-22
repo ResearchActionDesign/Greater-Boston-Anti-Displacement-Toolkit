@@ -1,6 +1,6 @@
 <template>
   <div class="toolkits">
-    <ToolkitTiles :workshops="$t('toolkits')"></ToolkitTiles>
+    <ToolkitTiles :workshops="Object.values($t('toolkits'))"></ToolkitTiles>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
 <div>
-<FindDataEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits')[1]"></FindDataEng>
+<FindDataEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits.FindingData')"></FindDataEng>
 <FindDataEs v-else></FindDataEs>
 </div>
 </template>

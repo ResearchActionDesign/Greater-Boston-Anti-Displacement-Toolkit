@@ -21,13 +21,14 @@
     "instructions": "INSTRUCTIONS",
     "facilitator": "FACILITATOR",
     "filterByWorkshop": "Filter by Workshop:",
-    "clearFilter": "Clear filter"
+    "clearFilter": "Clear filter",
+    "pageTitles": {
+      "Film": "Film",
+      "Toolkits": "Toolkits",
+      "Resources": "Resources"
+    }
   },
-
-  "overviewView": {
-    "title": "WHY A DISPLACEMENT TOOLKIT FOR GREATER BOSTON?",
-    "summary": "Our communities (Chelsea and Everett, MA) are facing a lot of pressure from developers, which has resulted in land being lost, housing prices and rent increasing, forcing residents and small businesses to be pushed out, or displaced. Displacement has many negative effects on individuals, families and communities. See here for a short video on some of these, including impacts on health, educational outcomes, and community power. We wanted to create a guide for community members to work together to protect & preserve their communities."
-  },
+  "description": "This multi-media organizing toolkit is a collection of activities, how-to guides, facilitation plans, and resources that organizers and residents can use to fight displacement in their communities.",
 
   "facilitator": "FACILITATOR",
   "instructions": "INSTRUCTIONS",
@@ -55,7 +56,8 @@
       }
       ]
   },
-  "toolkits": [{
+  "toolkits": {
+    "Mapping": {
       "name": "Mapping Power & Money",
       "question": "Who has the power and money to make the changes we need in our communities?",
       "num": "1",
@@ -63,7 +65,8 @@
       "link": "Mapping",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
-      "resources": [{
+      "resources": [
+        {
           "name": "Organizing for Power, Organizing for Change Tools for Campaign Planning",
           "link": "https://organizingforpower.org/tools/"
         },
@@ -85,15 +88,16 @@
         }
       ]
     },
-    {
+    "FindingData": {
       "name": "Finding data about your community",
       "question": "How can we dig deeper into the issues facing our communities?",
       "num": "2",
       "color": "#743589",
-      "link": "FindData",
+      "link": "FindingData",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
-      "resources": [{
+      "resources": [
+        {
           "name": "Urban Institute Guide to Measuring Neighborhood Change to Understand and Prevent Displacement",
           "link": "https://www.urban.org/research/publication/guide-measuring-neighborhood-change-understand-and-prevent-displacement"
         },
@@ -128,7 +132,7 @@
         }
       ]
     },
-    {
+    "UsingData": {
       "name": "Using data & storytelling to make arguments",
       "question": "How can we use data from Chelsea and Everett to strengthen our voice?",
       "num": "3",
@@ -136,7 +140,8 @@
       "link": "UsingData",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
-      "resources": [{
+      "resources": [
+        {
           "name": "Convince Me!",
           "link": "https://databasic.io/en/culture/convince-me",
           "text": "activity with videos to introduce the activity in English, Portuguese, and Spanish"
@@ -171,7 +176,7 @@
         }
       ]
     },
-    {
+    "Policies": {
       "name": "Identifying & evaluating policies",
       "question": "How do we protect where we live?",
       "num": "4",
@@ -179,7 +184,8 @@
       "link": "Policies",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
-      "resources": [{
+      "resources": [
+        {
           "name": "All-In Cities Policy Toolkit",
           "link": "https://allincities.org/toolkit"
         },
@@ -206,7 +212,7 @@
         }
       ]
     },
-    {
+    "Strategies": {
       "name": "Identifying community strategies & tactics",
       "question": "How can we prepare to act effectively?",
       "num": "5",
@@ -214,7 +220,8 @@
       "link": "Strategies",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
-      "resources": [{
+      "resources": [
+        {
           "name": "I Am Not My Pixels: Crazy 8s",
           "link": "https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/",
           "text": "website outlining a participatory process for using the Design Sprint activity as an organizing tool"
@@ -235,18 +242,18 @@
           "text": "is a theatrical tool addressing social justice issues"
         },
         {
-          "name":"Listening to the City Toolkit",
+          "name": "Listening to the City Toolkit",
           "link": "https://www.colab.mit.edu/resources-1/2018/4/2/listening-to-the-city-handbook",
           "text": "highlights community research and action through sound and story"
         },
         {
-          "name":"Jolt's Quinceañera at the Capitol",
+          "name": "Jolt's Quinceañera at the Capitol",
           "link": "https://www.jolttx.org/en/quinceanera-at-the-capitol/",
           "text": "uses cultural norms as a tool to increase civic participation"
         }
       ]
     },
-    {
+    "Stories": {
       "name": "Sharing our stories",
       "question": "What is displacement and how is it impacting Greater Boston?",
       "num": "6",
@@ -254,12 +261,13 @@
       "link": "Stories",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
-      "resources": [{
+      "resources": [
+        {
           "name": "Working Narratives: How to facilitate a Story Circle",
           "link": "https://workingnarratives.org/article/story-circles/",
           "text": "story circles are used in many traditions. Working narratives is an organization that facilitates story circles, a practice deeply rooted in the US South"
         }
       ]
     }
-  ]
+  }
 }

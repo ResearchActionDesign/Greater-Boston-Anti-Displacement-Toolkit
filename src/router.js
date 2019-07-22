@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Overview from './views/Overview.vue'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [{
-      path: '/:locale/',
+      path: '/:locale',
       alias: '/:locale/overview',
       name: 'Overview',
       component: () => import( /* webpackChunkName: "Overview" */ './views/Overview.vue'),
@@ -25,7 +24,7 @@ export default new Router({
     },
     {
       path: '/:locale/toolkit/finding-data',
-      name: 'FindData',
+      name: 'FindingData',
       component: () => import( /* webpackChunkName: "FindData" */ './views/Toolkit/FindData.vue')
     },
     {
@@ -60,7 +59,7 @@ export default new Router({
     },
     {
       path: '*',
-      redirect: '/'
+      redirect: '/en'
     }
   ],
   scrollBehavior() {

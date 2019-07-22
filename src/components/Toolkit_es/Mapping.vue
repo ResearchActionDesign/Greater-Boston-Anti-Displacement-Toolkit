@@ -1,9 +1,9 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="$t('toolkits')[0]"></ToolkitIntro>
+    <ToolkitIntro :toolkit="$t('toolkits.mapping')"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="$t('toolkits')[0]">
+      <Introduction :toolkit="$t('toolkits.mapping')">
         <p>EN ESPANOL In our communities, many have experienced the negative impacts of exclusionary political and corporate decisions that have led to displacement. Understanding the systems of who or where these decisions are being made and how as a community member you can influence is critical to advocate for change. [add data point]</p>
         <p>Mapping power and money is a useful tool for engaging communities in thinking about the current community systems and informing organizing strategies and tactics. This tool can help groups identify and assess the local, regional political and community environment by:</p>
         <ul>
@@ -16,7 +16,7 @@
         <p>Communities often use this tool as part of developing a campaign or strategy to fight against a specific problem, though it can be helpful any time the landscape shifts within the community systems(e.g. new actors, decisions, issues change/grow).</p>
       </Introduction>
 
-      <FacilitationGuide :toolkit="$t('toolkits')[0]">
+      <FacilitationGuide :toolkit="$t('toolkits.mapping')">
         <!-- Purpose and Outcome -->
         <div slot="workshop_purpose">
           <h4 class="subcategory">Purpose</h4>
@@ -169,7 +169,7 @@
         </template>
       </FacilitationGuide>
 
-      <TakingAction :toolkit="$t('toolkits')[0]">
+      <TakingAction :toolkit="$t('toolkits.mapping')">
         <p>At the close of the activity, consider any asks of the group to support community mobilizing efforts and actions in and outside the space created today.</p>
         <ul>
           <li>Take your power map home and see how others in your circle might add to your map!</li>
@@ -179,7 +179,7 @@
         </ul>
       </TakingAction>
 
-      <AdditionalResources :toolkit="$t('toolkits')[0]"></AdditionalResources>
+      <AdditionalResources :toolkit="$t('toolkits.mapping')"></AdditionalResources>
     </div>
   </main>
 </template>

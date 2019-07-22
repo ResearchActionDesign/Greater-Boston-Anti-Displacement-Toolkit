@@ -31,27 +31,26 @@ router.beforeEach((to, from, next) => {
     i18n.locale = language;
   }
   if (to.params.locale !== language) {
-    to.params.locale = language;
-    next(to);
+    next({ params: { locale: language }});
   }
-  next();
+  else {
+    next();
+  }
 
-  // let title = '';
-  // if (to.name.indexOf('home') === 0) {
-  //   title = i18n.t(`strings.pageTitles.home`);
-  // }
-  // else {
-  //   title = i18n.t(`strings.pageTitles.${to.name}`, to.params);
-  // }
-  // if (title.indexOf('strings') === 0) {
-  //   title = i18n.t('strings.pageTitles.home');
-  // }
-  // document.title = title;
+  let title = i18n.t('header');
+  if (to.name !== 'Overview') {
+    if (to.name in i18n.t('toolkits')) {
+      title += `: ${i18n.t('toolkits')[to.name].name}`
+    } else if (to.name in i18n.t('strings.pageTitles')) {
+      title += `: ${i18n.t('strings.pageTitles')[to.name]}`
+    }
+    document.title = title;
+  }
 
   // Set metadata. For now just use a single description for all pages except tracts.
 
   // Find old metatags.
-  // const metaTags = Array.from(document.querySelectorAll('[data-vue-router-controlled]'));
+  const metaTags = Array.from(document.querySelectorAll('[data-vue-router-controlled]'));
   //
   // let description = i18n.t('strings.pageMetaDescriptions.home');
   // if (to.name === 'infosheet' && store.getters.dataLoaded) {

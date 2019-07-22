@@ -1,7 +1,7 @@
 <template>
   <div>
-    <PoliciesEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits')[3]"></PoliciesEng>
-    <PoliciesEs v-else :toolkit="$t('toolkits')[3]"></PoliciesEs>
+    <PoliciesEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits.Policies')"></PoliciesEng>
+    <PoliciesEs v-else></PoliciesEs>
   </div>
 </template>
 

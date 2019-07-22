@@ -1,7 +1,7 @@
 <template>
   <div>
-    <UseDataEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits')[2]"></UseDataEng>
-    <UseDataEs v-else :toolkit="$t('toolkits')[2]"></UseDataEs>
+    <UseDataEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits.UsingData')"></UseDataEng>
+    <UseDataEs v-else></UseDataEs>
   </div>
 </template>
 
