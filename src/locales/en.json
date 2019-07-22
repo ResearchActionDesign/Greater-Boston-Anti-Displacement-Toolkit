@@ -76,9 +76,8 @@
           "link": "http://greenlining.org/wp-content/uploads/2013/02/PowerMapping.pdf"
         },
         {
-          "name": "Beautiful Rising:",
-          "link": "https://beautifulrising.org/tool/power-mapping",
-          "text": "Power Mapping Tool"
+          "name": "Beautiful Rising: Power Mapping Tool",
+          "link": "https://beautifulrising.org/tool/power-mapping"
         },
         {
           "name": "Strategic Concepts in Organizing & Policy Education Power Mapping Slides",
@@ -138,12 +137,12 @@
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
       "resources": [{
-          "name": "Original version of the Convince Me! activity",
+          "name": "Convince Me!",
           "link": "https://databasic.io/en/culture/convince-me",
-          "text": "with videos to introduce the activity in English, Portuguese, and Spanish"
+          "text": "activity with videos to introduce the activity in English, Portuguese, and Spanish"
         },
         {
-          "name": "How to create data murals",
+          "name": "How to Create Data Murals",
           "link": "https://datatherapy.org/data-mural-gallery/"
         },
         {
@@ -167,7 +166,7 @@
           "text": "is one framework for thinking about how to tell your personal story in a way that moves others into action"
         },
         {
-          "name": "Public Narrative worksheet",
+          "name": "Public Narrative Worksheet",
           "link": "https://web.archive.org/web/20150510144352/http://www.wholecommunities.org/pdf/Public%20Story%20Worksheet07Ganz.pdf"
         }
       ]
@@ -187,12 +186,11 @@
         {
           "name": "Dealing with Gentrification Toolkit",
           "link": "http://dealingwithgentrification.org/toolkit/",
-          "text": "Northeast Action Training"
+          "text": "from Northeast Action Training"
         },
         {
-          "name": "Just Cause Eviction Ordinances,",
-          "link": "http://www.justcauseboston.org/what_jim_brooks_act",
-          "text": "The Jim Brooks Community Stabilization Act"
+          "name": "Just Cause Eviction Ordinances, the Jim Brooks Community Stabilization Act",
+          "link": "http://www.justcauseboston.org/what_jim_brooks_act"
         },
         {
           "name": "Our Homes, Our Future: How Rent Control Can Build Stable, Healthy Communities",
@@ -219,32 +217,32 @@
       "resources": [{
           "name": "I Am Not My Pixels: Crazy 8s",
           "link": "https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/",
-          "text": "Website outlining a participatory process for using the Design Sprint activity as an organizing tool."
+          "text": "website outlining a participatory process for using the Design Sprint activity as an organizing tool"
         },
         {
           "name": "AgitArte Art Toolkit",
           "link": "https://www.facebook.com/agitarteculturalworks/",
-          "text": "An extensive arts toolkit that provides step by step instructions on creating artistic posters as tools for social change."
+          "text": "an extensive arts toolkit that provides step by step instructions on creating artistic posters as tools for social change"
         },
         {
           "name": "Bread and Puppet Theater",
           "link": "https://www.wbur.org/artery/2016/02/16/bread-puppet-oscar-lopez-rivera",
-          "text": "uses life-sized puppets as a tool for advancing campaigns."
+          "text": "uses life-sized puppets as a tool for advancing campaigns"
         },
         {
           "name": "Theater of the Oppressed NYC",
           "link": "https://www.tonyc.nyc/",
-          "text": "is a theatrical tool addressing social justice issues."
+          "text": "is a theatrical tool addressing social justice issues"
         },
         {
           "name":"Listening to the City Toolkit",
           "link": "https://www.colab.mit.edu/resources-1/2018/4/2/listening-to-the-city-handbook",
-          "text": "highlights community research and action through sound and story."
+          "text": "highlights community research and action through sound and story"
         },
         {
           "name":"Jolt's Quinceañera at the Capitol",
           "link": "https://www.jolttx.org/en/quinceanera-at-the-capitol/",
-          "text": "uses cultural norms as a tool to increase civic participation."
+          "text": "uses cultural norms as a tool to increase civic participation"
         }
       ]
     },
@@ -259,7 +257,7 @@
       "resources": [{
           "name": "Working Narratives: How to facilitate a Story Circle",
           "link": "https://workingnarratives.org/article/story-circles/",
-          "text": "Story circles are used in many traditions. Working narratives is an organization that facilitates story circles, a practice deeply rooted in the US South."
+          "text": "story circles are used in many traditions. Working narratives is an organization that facilitates story circles, a practice deeply rooted in the US South"
         }
       ]
     }

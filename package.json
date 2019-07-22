@@ -14,8 +14,7 @@
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-i18n": "^8.0.0",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vue-router": "^3.0.3"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
@@ -26,7 +25,6 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "favicons-webpack-plugin": "0.0.9",
     "imagemin-webpack-plugin": "^2.4.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",

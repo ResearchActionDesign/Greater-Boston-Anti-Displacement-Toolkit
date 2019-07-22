@@ -6,15 +6,20 @@
         <div
             v-for="workshop of workshops"
             :key="workshop.link"
-            :class="['sort__list__item', workshop.link===selectedWorkshop ? 'active': '']"
+            :style="{'--workshop-color': workshop.color }"
+            :class="['sort__list__item', workshop.link===selectedWorkshop ? 'active': '', workshop.link===hoverWorkshop ? 'hover': '', ]"
+            @mouseover="hoverWorkshop = workshop.link"
+            @mouseout="hoverWorkshop = null"
             @click="selectWorkshop(workshop.link)"
         >
-          {{ workshop.link }}
+          {{ workshop.name }}
         </div>
       </div>
-      <a v-for="r of resources.filter(r => (this.selectedWorkshop === null || r.toolkit === this.selectedWorkshop))" class="resource" :key="r.name" :href="r.link">
+      <a v-for="r of resources.filter(r => (this.selectedWorkshop === null || r.toolkit === this.selectedWorkshop))" class="resource" :key="r.name" :href="r.link"
+         @mouseover="hoverLink = r.name"
+         @mouseout="hoverLink = null">
         <div class="resource__bullet" :style="{borderColor: r.color}"></div>
-        <div class="resource__item"><b>{{r.name}}</b><br/>{{r.text}}</div>
+        <div class="resource__item"><span class="resource__item__name" :style="hoverLink === r.name ? { color: r.color } : {}">{{r.name}}</span><br/>{{r.text}}</div>
       </a>
     </main>
   </div>
@@ -24,7 +29,7 @@
 export default {
   name: "Resources",
   data: function() {
-    return { selectedWorkshop: null };
+    return { selectedWorkshop: null, hoverWorkshop: null, hoverLink: null };
   },
   computed: {
     resources: function() {
@@ -62,9 +67,11 @@ export default {
     text-align: center;
     margin-bottom: 2em;
     cursor: pointer;
+    line-height: 1.5;
   }
-  .sort_list .active {
+  .sort_list .active, .sort_list .hover {
     font-weight: bold;
+    color: var(--workshop-color);
   }
 
   .filter__text {
@@ -84,12 +91,14 @@ export default {
     margin-left: 25px;
   }
 
+  .resource__item__name {
+    font-weight: bold;
+  }
+
   a.resource {
     display: block;
     text-decoration: none;
     color: inherit;
     margin-bottom: 2em;
   }
-
-
 </style>

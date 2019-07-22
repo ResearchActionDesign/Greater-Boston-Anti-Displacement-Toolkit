@@ -1,5 +1,5 @@
 <template>
-    <main class="workshop">
+    <main class="workshop workshop__Overview">
     <ToolkitIntro :toolkit="$t('overviewToolkit')"></ToolkitIntro>
       <div class="workshop_content">
       <h2>Purpose, Values & Goals</h2>
@@ -69,19 +69,12 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
-
-import AdditionalResources from '../AdditionalResources';
 import ToolkitIntro from '../ToolkitIntro';
 
 export default {
   name: "Overview",
   components: {
-    AdditionalResources,
     ToolkitIntro,
-  },
-  computed: {
-    ...mapState(["overviewToolkit", "overviewLogo", "toolkits"])
   }
 };
 </script>
@@ -94,6 +87,7 @@ export default {
   .partnerLogos img {
     margin: 0.5em auto;
   }
+
   h2 { border-bottom: 2px solid #cc0000; }
 
 </style>

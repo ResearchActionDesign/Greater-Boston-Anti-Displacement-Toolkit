@@ -186,7 +186,6 @@
 
 
 <script>
-import { mapState } from "vuex";
 import ToolkitIntro from "../ToolkitIntro";
 import Introduction from "./../../components/Introduction";
 import FacilitationGuide from "./../../components/FacilitationGuide";
@@ -206,8 +205,5 @@ export default {
     TakingAction,
     AdditionalResources
   },
-  computed: {
-    ...mapState(["toolkits"])
-  }
 };
 </script>

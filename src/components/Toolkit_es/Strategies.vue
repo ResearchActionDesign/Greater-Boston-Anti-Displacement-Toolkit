@@ -1,213 +1,168 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="toolkits[0]"></ToolkitIntro>
+    <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="toolkits[0]">
-        <p>In our communities, many have experienced the negative impacts of exclusionary political and corporate decisions that have led to displacement. Understanding the systems of who or where these decisions are being made and how as a community member you can influence is critical to advocate for change. [add data point]</p>
-        <p>Mapping power and money is a useful tool for engaging communities in thinking about the current community systems and informing organizing strategies and tactics. This tool can help groups identify and assess the local, regional political and community environment by:</p>
+      <Introduction :toolkit="toolkit">
+        <p>Community organizing strategies and tactics can take all kinds of formations, from the more traditional door knocking or setting up information tables at events to organizing community photo tours. This activity draws on community assets and identifies local, cultural organizing strategies and tactics to prevent displacement. Creative and artistic strategies and tactics can be used to:</p>
         <ul>
-          <li>Identifying the different actors, specific targets for campaigns,</li>
-          <li>Identifying community members roles as actors,</li>
-          <li>Identifying different forms of power and how different actors, things interact,</li>
-          <li>Analyzing “what or who” can weaken or strengthen the power in the community,</li>
-          <li>Identifying opportunities to advocate for change, where to intervene..</li>
+          <li>bring together art and community organizing</li>
+          <li>mobilize and tell the story of displacement, and</li>
+          <li>help shift dialogues and policy.</li>
         </ul>
-        <p>Communities often use this tool as part of developing a campaign or strategy to fight against a specific problem, though it can be helpful any time the landscape shifts within the community systems(e.g. new actors, decisions, issues change/grow).</p>
+        <p>It is an opportunity to engage local artists and culture bearers to explore more creative and artistic modalities and engage community leaders centering unconventional ways of advancing community dialogue and action. Although grounded in creative practices, this activity requires the same commitment to rigor, research, and attention to detail as more traditional policy or data-driven activity sessions.</p>
+        <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
       </Introduction>
-
-      <FacilitationGuide :toolkit="toolkits[0]">
+      <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
-        <div slot="workshop_purpose">
-          <h4 class="subcategory">Purpose</h4>
-          <ul>
-            <li>To co-create a visual map of the different systems of power and influence in our communities.</li>
-            <li>To discuss how we can use our power maps for action.</li>
-          </ul>
+        <div slot="Workshop_Purpose">
+          <p>To propose model strategies and tactics that promote inclusive community engagement and stop harmful practices and policies that displace communities.</p>
+          <p>To engage communities in a creative brainstorm that allows them to explore multi-disciplinary, cultural organizing strategies for addressing displacement.</p>
         </div>
-        <div slot="workshop_outcomes">
-          <h4 class="subcategory">Outcomes</h4>
+        <div slot="Workshop_Outcomes">
           <ol>
-            <li>Assessment of local and regional political and community environments to help identify opportunities to advocate for change.</li>
-            <li>A shared understanding of community stakeholders, power, and money.</li>
-            <li>Useable maps to influence and/or leverage identified power and money in the community for identified organizing strategies and tactics.</li>
+            <li>A shared understanding and illustration of how displacement has impacted our communities.</li>
+            <li>Stakeholders create community-driven strategies and actions for making displacement visible across the city.</li>
+            <li>Participants will discuss cultural and artistic strategies that have been successful and unsuccessful in previous campaigns.</li>
           </ol>
         </div>
 
         <!-- Who to Invite -->
-        <template slot="Who_to_Invite">
-          <p>Who you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing a mapping power and money activity in your community.</p>
-          <p>Once this has been identified, then ask, Who can help fulfill this purpose? Who is most relevant for this activity? Who might threaten the purpose? For example:</p>
+        <template slot="Whom_to_Invite">
+          <p>Consider including local artists and culture workers at the top of this session, so that they can contribute to the full design of identifying community strategies and tactics. This might include:</p>
           <ul>
-            <li>There is a specific development proposed in the downtown area of your community that will push out renters and a locally owned business. You can target inviting the renters likely to be pushed out, the business owners and consumers who frequent this business. Key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
-            <li>Gentrification and displacement is a growing concern for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can target inviting organizations, community members and youth, local business owners, and government representatives to have a broader conversation and discussion of the issues occurring in the community and region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
-          </ul>
-        </template>
-
-        <!-- Who to Invite -->
-        <template slot="Who_to_Invite">
-          <p>Who you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing a mapping power and money activity in your community.</p>
-          <p>Once this has been identified, then ask, Who can help fulfill this purpose? Who is most relevant for this activity? Who might threaten the purpose? For example:</p>
-          <ul>
-            <li>There is a specific development proposed in the downtown area of your community that will push out renters and a locally owned business. You can target inviting the renters likely to be pushed out, the business owners and consumers who frequent this business. Key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
-            <li>Gentrification and displacement is a growing concern for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can target inviting organizations, community members and youth, local business owners, and government representatives to have a broader conversation and discussion of the issues occurring in the community and region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
+            <li>Community members, community organizers, locally engaged politicians, and small businesses.</li>
+            <li>Artists of all disciplines, including (but not limited to) visual and graffiti artists, dancers, singers, DJs, puppeteers, etc.</li>
+            <li>Journalists and storytellers may provide insights on actions that can be used for high visibility and impact.</li>
+            <li>Ideally, there would be a minimum of 6 participants to have a diverse representation of ideas to share and discuss.</li>
           </ul>
         </template>
 
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Identify facilitators roles for the session, including notetakers and timekeeper.</li>
-            <li>Pre-scribe (1) the map “legend”, three things asking participants to show in the power maps for the group exercise, including examples. (2) the questions to address during the show and tell.</li>
-            <li>Examples of power maps drawn by other groups can be useful to demonstrate output for the activity but are not necessary for conducting the activity.</li>
-            <li>Flip chart/Butcher paper for each break out group.</li>
-            <li>Markers (multiple colors) for creating power maps.</li>
-            <li>Color stickies for labeling or showing different types of information on power maps.</li>
-            <li>Photograph participant power maps after the session for recording (with participants permission).</li>
+            <li>Identify 2 facilitators and assign roles for the session, including 1 note taker and 1 timekeeper. If 2 facilitators, the 2 can rotate roles—e.g., 1 person facilitates and the other takes notes and keeps time.</li>
+            <li>Flip-chart paper</li>
+            <li>Print copies of the <a href="/handouts/Design-Sprint.pdf" target="_blank">Design Sprint activity sheet</a>.</li>
+            <li>Art Supplies - markers, colored pencils, crayons, etc.</li>
+            <li>Sticky notes</li>
+            <li>Packs of colorful dots that contain at least 3 different colors</li>
+            <li>Masking tape or painter&#39;s tape</li>
           </ul>
         </template>
 
         <!-- Tips -->
         <template slot="Tips">
           <ul>
-            <li>Design for what you want! Customize the facilitation guide to fit your desired purpose, needs, and outcomes for conducting this activity.</li>
-            <li>Identify the collective purpose of mapping power and money in your community. E.g. Is this for a specific campaign, issue, target the community is wanting to influence? The purpose can be established in advance or participants can set as part of the activity.</li>
-            <li>Identify how much time you will need for each discussion and activity. The total suggested time for this activity is 60 minutes. The group work and show and tell is where you will likely allocate most of the time.</li>
-            <li>Identify the anticipated number of breakout groups based on who is participating. If participants are from different communities, consider grouping by communities as well.</li>
-            <li>Schedule time after your activity to debrief with the facilitators on what worked and what you might change if conduct the activity again. Identify any action items for you, your organization or community as an outcome from the activity.</li>
+            <li>Play music during the Design Sprint activity.</li>
+            <li>Emphasis should be placed on a shared sense of community ownership, agency, and belonging.</li>
+            <li>Invite participating artists to move beyond their core discipline and embrace a full range of creative tools when exploring actions that highlight the plight of displacement.</li>
+            <li>All participants are creators! Each participant has a unique perspective, cultural experience, and vision for representation of social issues. Strive to reduce barriers to participation by honoring and validating each suggestion.</li>
+            <li>Consider translation needs and language accessibility of the intended audience.</li>
+            <li>Have fun!</li>
           </ul>
         </template>
 
         <!-- Detailed Plan -->
-        <template slot="Introducing_the_Activity">
-          <h4 class="subcategory">Introducing the Activity</h4>
-          <Facilitator>Understanding the power relationships and flows of money and resources that shape the problem we are trying to solve will be crucial to helping us strategize effectively, adapt to new events or changes, and evaluate our progress.</Facilitator>
-          <Facilitator>Power mapping is a common community organizing technique used to visually represent who the important stakeholders relevant to an issue are, what types of power they have, and how they relate to one another when it comes to a specific issue or problem. Like other maps, they are supposed to help those who use them orient themselves in relation to the world around them, and help the user find their way. They can be used for specific actions or campaigns with tight timelines and focused objectives, like planning an event, but they can also be used for bigger ongoing efforts, like building a coalition.</Facilitator>
-          <Facilitator>What sets them apart from most other maps is that they are likely to change - maybe even a lot! - in response to new events or circumstances. In this case, as the situation around displacement changes -- for example, a new development is planned, or a new policy is put into place -- power maps change too, whenever the power dynamics of a situation change significantly.</Facilitator>
-        </template>
-
-        <template slot="Group_Big_Picture_Questions">
-          <h4 class="subcategory">Group Big Picture Questions</h4>
-          <Facilitator>Has anyone in the room done power-mapping before?</Facilitator>
-          <ul>
-            <li>
-              <strong class="bold">Follow-up with:</strong> How did it go? What did you do/learn?
-            </li>
-          </ul>
-          <Facilitator>We’re curious to hear from you all why you think mapping power might be useful. Does anyone have any ideas or experiences that speak to why we might want to map the power dynamics of around an issue or campaign?</Facilitator>
-          <ul>
-            <li>
-              <strong class="bold">Follow-up with:</strong> MISSING MISSING MISSING MISSING MISSING MISSING MISSING
-            </li>
-          </ul>
-        </template>
-
-        <template slot="Reviewing_the_Basics">
-          <h4 class="subcategory">Reviewing the Basics</h4>
-          <Facilitator>Let’s recap what we’ve learned so far...</Facilitator>
-          <ul>
-            <li>
-              The
-              <strong class="bold">role</strong> of power mapping is to help you orient your group in relation to the other stakeholders involved in the issue you are taking you on, and to help you strategize about how to both build power and change the power relationships between other stakeholders.
-            </li>
-            <li>
-              The
-              <strong class="bold">goal</strong> of a power map is to clearly represent the power relationships between the stakeholders involved in the issue you are taking on.
-            </li>
-
-            <li>
-              The
-              <strong class="bold">core elements</strong> of a useful power map include:
-              <ul>
-                <li>
-                  All of the relevant stakeholders (individuals, groups, institutions, etc.)
-                  <br>For example: the mayor, tenants, city planners, allied community groups
-                </li>
-                <li>
-                  The types of power that stakeholders have (individually or together)
-                  <br>For example: political power, people power, financial resources, land ownership.
-                </li>
-                <li>
-                  The relationships between stakeholders
-                  <br>Who is allied with who? Who is opposed to who? Who has power over who?”
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-          <Facilitator>Let’s review a couple of examples to help you become more familiar</Facilitator>
-
-          <ul>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-          </ul>
-
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-
-          <ul>
-            <li>They show who the key “actors” or stakeholders are,</li>
-            <li>They show how the actors are related to one another,</li>
-            <li>They show how power is embedded in these relationships.</li>
-          </ul>
-        </template>
-
-        <template slot="Producing_Power_Maps_in_Groups">
-          <h4 class="subcategory">Producing Power Maps in Groups</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
-        </template>
-        <template slot="Show_and_Tell">
-          <h4 class="subcategory">Show and Tell</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
-        </template>
-        <template slot="Discussion_and_Planning">
-          <h4 class="subcategory">Discussion and Planning</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
+        <template slot="Detailed_Plan">
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
+          <h4 class="subcategory">Step 1: Setting Up &amp; Introductions (10 min)</h4>
+          <Instructions>The purpose of this exercise is to identify all of the ways the group has used its agency to organize and advocate for change in their community. The next activity allows participants to create a shared definition and understanding of the term &quot;community organizing&quot; and generate a list of past and present community-organizing activities they are/have been engaged in.
+            <p>Begin the session in a circle. Facilitators should begin with an opening greeting and set the tone for the day&#39;s session. If the workshop is part of a series, take a moment to remind the group of the previous sessions and content covered and then forecast what comes next in the series. Transition into the session with introductions through the proposed icebreaker activity or an exercise of your choice. The ultimate goal of this session is to generate tactics and tools that mix arts and community organizing.</p>
+            <p>Ask participants to introduce themselves: name, and one thing they love about their community.</p>
+          </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
+          <h4 class="subcategory">Step 2: Community Organizing Web (7 min)</h4>
+          <Facilitator><span class="instructions">Ask participants to share their thoughts and ideas in response to the following questions</span>
+            <ul>
+              <li>What comes to mind with the term &quot;community organizing&quot;?</li>
+              <li>In what ways do you currently organize members of your community? (Story circles, door knocking, community murals, etc.)</li>
+            </ul>
+            <p class="instructions">Jot all suggestions down on a sheet of flip-chart paper. Notice whether examples that come up in the exercise include acts of artistic expression. Some examples may include: door knocking and community canvassing, marching and protesting, and petitioning.</p>
+          </Facilitator>
+          <Facilitator><span class="instructions">Ask participants to review the list in silence for 2 minutes, then ask them the following questions:</span>
+            <ul>
+              <li>When you think about the organizing tools you currently use, are they effective?</li>
+              <li>What&#39;s been working well?</li>
+              <li>What are some things you would change?</li>
+            </ul>
+            <p class="instructions">Follow up by reviewing the observing together the groups reflections and whether the current list includes traditional or cultural organizing strategies and tactics.</p>
+          </Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
+          <h4 class="subcategory">Step 3: Design Sprint: Sketching Out Organizing Strategies (15 min)</h4>
+          <Instructions>Design Sprint is a way to facilitate an &quot;ideas lab.&quot; This activity sheet provides a framework for participants to quickly sketch creative ideas for addressing displacement. Give participants 2 minutes to gather art supplies, 3 minutes to think of ideas, and then cue music that will play for 8 minutes while participants illustrate sample actions in the Design Sprint template (8 boxes—1 minute per sketch box). Participants will know the time is up when the music is turned off or the volume is lowered.
+            <p>Find more information on facilitating the <a href="https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/">Design Sprint</a> activity.</p>
+            <p><strong class="note">NOTE:</strong> This facilitation technique is referred to elsewhere as Crazy 8s, but we&#39;re choosing to rename it to &#39;Design Sprint&#39; in this toolkit out of respect for folks with mental illness who prefer not to use the word crazy in this sort of context.</p>
+          </Instructions>
+          <Facilitator>We&#39;re here today to think through tools that we may utilize in order to have conversations with community stakeholders about displacement.
+            <p>In a moment, we&#39;re going to hand out a sheet of paper listing 8 mini squares. This activity is called Design Sprint and can be used with groups to help them generate ideas.</p>
+            <p>Take a few minutes to think of some successful and unsuccessful ideas in organizing.</p>
+            <p>Once you have your sheet, write about or sketch out 8 ideas that you&#39;ve used or witnessed being used as organizing tools.</p>
+            <p>We&#39;re going to set the timer and when we say, &quot;Go,&quot; sketch 1 idea per box until we stay, &quot;Stop.&quot;</p>
+            <p class="instructions">If it is helpful, share examples of multi-media or cultural organizing strategies and tactics to prompt the activity, such as:</p>
+            <ul class="instructions">
+              <li>Community murals (Chelsea&#39;s 2018 mural process) <b>TODO: ADD LINK</b></li>
+              <li>Community tours/photo walks <b>TODO: ADD LINK</b></li>
+              <li>Community archiving project (audiovisual collection of community histories, documentation of community histories) <b>TODO: ADD LINK</b></li>
+              <li>Filmmaking, organizing community dialogues around displacement, mobilizing and firing up folks <b>TODO: ADD LINK</b>
+              </li><li>Digital organizing (social media) <b>TODO: ADD LINK</b>
+            </li><li><a href="https://www.wbur.org/artery/2018/11/07/east-boston-gentrification-zumix-stories">Storytelling</a>
+            </li><li><a href="https://creativesantafe.org/events/affordable-housing/">Disruptive-futures dialogue</a></li>
+            </ul>
+          </Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
+          <h4 class="subcategory">Step 4: Share Back (13 min)</h4>
+          <Facilitator class="instructions"> Once the allotted time has lapsed, ask volunteers to share ideas illustrated in the sketches and describe them, if necessary. Facilitators will write down ideas on flip-chart paper to get as many ideas written down for the large group to review.
+            <p class="instructions">After a full list is created, ask participants to use the color-coded dots to identify the top 3 ideas that resonate with them for the group to use as tools for community actions.</p>
+            <ul>
+              <li>What are some of the top ideas?</li>
+              <li>Questions posed to the listening group: What do we like? What&#39;s missing?</li>
+              <li>How could we infuse multimedia tools into traditional organizing practices?</li>
+            </ul>
+          </Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
+          <h4 class="subcategory">Step 5: Closing (5-7 min)</h4>
+          <Instructions> Close the workshop by celebrating the creativity demonstrated by all participants. Review the top 3 choices identified by the group and determine possible next steps for implementing the proposed ideas, such as selecting the next meeting date to explore options with a small subcommittee, and plan dates for potential implementation.
+            <p>Gather in a circle to close out the session as it began. Ask participants to share &quot;glows&quot; (positive outcomes) and &quot;grows&quot; (challenges or things to do differently next time) experienced in the workshop. Participants can close out the session by doing a movement that the group repeats after sharing the glow and grow. Repeat this process for each member of the circle and end with the facilitator&#39;s thanks for participation.</p>
+          </Instructions>
         </template>
       </FacilitationGuide>
 
-      <TakingAction :toolkit="toolkits[0]">
-        <p>At the close of the activity, consider any asks of the group to support community mobilizing efforts and actions in and outside the space created today.</p>
+      <TakingAction :toolkit="toolkit">
         <ul>
-          <li>Take your power map home and see how others in your circle might add to your map!</li>
-          <li>Try leading your own mapping activity in the community.</li>
-          <li>Ask if there are other spaces or people to engage in a mapping power and money activity.</li>
-          <li>Use the maps to inform the development of strategies and tactics for their community.</li>
+          <li>Identify 2-3 projects that the group will take on.</li>
+          <li>Develop a timeline for taking action on 1 cultural strategy identified during the workshop.</li>
         </ul>
       </TakingAction>
 
-      <AdditionalResources :toolkit="toolkits[0]"></AdditionalResources>
+      <AdditionalResources :toolkit="toolkit"></AdditionalResources>
     </div>
   </main>
 </template>
 
 
 <script>
-import { mapState } from "vuex";
-import ToolkitIntro from "../ToolkitIntro";
-import Introduction from "./../../components/Introduction";
-import FacilitationGuide from "./../../components/FacilitationGuide";
-import Facilitator from "./../../components/Facilitator";
-import Instructions from "./../../components/Instructions";
-import TakingAction from "./../../components/TakingAction";
-import AdditionalResources from "./../../components/AdditionalResources";
+  import ToolkitIntro from "../ToolkitIntro";
+  import Introduction from "./../../components/Introduction";
+  import FacilitationGuide from "./../../components/FacilitationGuide";
+  import Facilitator from "./../../components/Facilitator";
+  import FacilitatorImage from "./../../components/FacilitatorImage";
+  import Instructions from "./../../components/Instructions";
+  import TakingAction from "./../../components/TakingAction";
+  import AdditionalResources from "./../../components/AdditionalResources";
 
-export default {
-  name: "workshops",
-  components: {
-    ToolkitIntro,
-    Introduction,
-    FacilitationGuide,
-    Facilitator,
-    Instructions,
-    TakingAction,
-    AdditionalResources
-  },
-  computed: {
-    ...mapState(["toolkits"])
-  }
-};
+  export default {
+    name: "workshops",
+    components: {
+      ToolkitIntro,
+      Introduction,
+      FacilitationGuide,
+      Facilitator,
+      FacilitatorImage,
+      Instructions,
+      TakingAction,
+      AdditionalResources
+    },
+    props: ["toolkit"],
+  };
 </script>

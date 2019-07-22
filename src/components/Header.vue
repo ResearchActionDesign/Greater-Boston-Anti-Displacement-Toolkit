@@ -1,13 +1,13 @@
 <template>
 <div class="header">
-  <button @click="changeLanguage" class="langChanger" :aria-label="translateTo">
-    <img src="./../assets/web.svg" :alt="translateTo">
-    <p class="langLabel">{{this.$i18n.locale}}</p>
+  <button @click="changeLanguage" class="langChanger" :aria-label="$t('translateTo')">
+    <img src="./../assets/web.svg" :alt="$t('translateTo')">
+    <p class="langLabel">{{$i18n.locale}}</p>
   </button>
 
   <header>
     <router-link to="/" class="routerLink">
-      <h1>{{ $t('header') }}</h1>
+      <p class="title">{{ $t('header') }}</p>
     </router-link>
   </header>
 </div>
@@ -15,12 +15,7 @@
 </template>
 
 <script>
-import {mapState} from 'vuex'
-
 export default {
-  computed: {
-    ...mapState(['translateTo'])
-  },
   methods: {
     changeLanguage(){
       if(this.$i18n.locale == 'en'){
@@ -35,7 +30,9 @@ export default {
 </script>
 
 <style scoped>
-  h1 {
+  .title {
     text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
   }
 </style>

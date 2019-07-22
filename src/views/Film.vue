@@ -7,16 +7,7 @@
 </template>
 
 <script>
-import ToolkitTile from "../components/ToolkitTiles";
-import { mapState } from "vuex";
-
 export default {
   name: "Film",
-  components: {
-    ToolkitTile
-  },
-  computed: {
-    ...mapState(["overviewToolkit"])
-  }
 };
 </script>

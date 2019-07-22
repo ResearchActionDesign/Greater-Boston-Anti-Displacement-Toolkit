@@ -1,5 +1,7 @@
 body {
-  margin: 0
+  margin: 0;
+  font-size: 12pt;
+  transition: 0.2s;
 }
 
 a {
@@ -8,6 +10,25 @@ a {
 
 a:visited {
   color: #222222;
+}
+
+// Header styles
+h1 {
+  text-transform: uppercase;
+  font-size: 36pt;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 18pt;
+}
+
+.subtitle {
+  font-size: 22pt;
 }
 
 .langChanger {
@@ -155,8 +176,9 @@ table {
 }
 
 .workshopLogo_large {
-  margin: auto;
-  max-height: 50vh;
+  width: 100%;
+  margin: 1em;
+  margin-top: 0;
 }
 
 
@@ -168,11 +190,11 @@ table {
 
 .toolkitTile {
   border: 1px solid black;
-  margin: 1em auto;
+  margin: 1em;
   padding: .5em;
   width: 70vw;
   max-width: 300px;
-  height: 475px;
+  height: 90%;
   -webkit-box-shadow: 8px 8px 26px -24px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 8px 8px 26px -24px rgba(0, 0, 0, 0.75);
   box-shadow: 8px 8px 26px -24px rgba(0, 0, 0, 0.75);
@@ -183,6 +205,24 @@ table {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.tileIcons {
+  grid-column-gap: 2em;
+  margin-top: -11px;
+}
+.tileIcons a {
+  padding: 5px;
+}
+.tileIcons svg path {
+  fill: black;
+}
+.icon {
+  transition: 0.2s;
+}
+.icon:hover {
+  fill: var(--workshop-color);
 }
 
 // Workshops
