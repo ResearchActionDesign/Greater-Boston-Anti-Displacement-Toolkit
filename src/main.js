@@ -30,12 +30,6 @@ router.beforeEach((to, from, next) => {
   } else {
     i18n.locale = language;
   }
-  if (to.params.locale !== language) {
-    next({ params: { locale: language }});
-  }
-  else {
-    next();
-  }
 
   let title = i18n.t('header');
   let description = i18n.t('description');
@@ -78,6 +72,14 @@ router.beforeEach((to, from, next) => {
     if (!tagDef) { return; }
     Object.keys(tagDef).forEach((key) => { tag.setAttribute(key, tagDef[key]); });
   });
+
+
+  if (to.params.locale !== language) {
+    next({ params: { locale: language }});
+  }
+  else {
+    next();
+  }
 });
 
 new Vue({
