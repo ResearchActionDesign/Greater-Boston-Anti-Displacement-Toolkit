@@ -1,18 +1,37 @@
 {
-  "header": "spanish",
+  "header": "Manual Anti-desplazamiento para el Área Metropolitana de Boston",
 
-  "overview": "spanish",
-  "toolkit": "spanish",
-  "film": "spanish",
-  "resources": "spanish",
-
-  "overviewView": {
-    "title": "spanish",
-    "summary": "spanish"
+  "overview": "Reseña",
+  "toolkit": "Manual",
+  "film": "Pelicula",
+  "resources": "Recursos",
+  "strings": {
+    "facilitationGuide": "Guía de Facilitación",
+    "purposeOutcomes": "Purpose & Outcomes",
+    "purpose": "Objetivo",
+    "outcomes": "Resultados",
+    "whomToInvite": "A Quién Invitar",
+    "materialsPrep": "Materiales y Preparación",
+    "tips": "Consejos",
+    "detailedPlan": "Plan Detallado",
+    "additionalResources": "Recursos y Herramientas Adicionales",
+    "introduction": "Introducción",
+    "takingAction": "¡A la Acción!",
+    "workshop": "Guía",
+    "instructions": "INSTRUCCIONES",
+    "facilitator": "FACILITADOR/A/E",
+    "filterByWorkshop": "Filter by Workshop:",
+    "clearFilter": "Clear filter",
+    "pageTitles": {
+      "Film": "Pelicula",
+      "Toolkits": "Manual",
+      "Resources": "Recursos"
+    }
   },
+  "description": "This multi-media organizing toolkit is a collection of activities, how-to guides, facilitation plans, and resources that organizers and residents can use to fight displacement in their communities.",
 
-  "facilitator": "spanish",
-  "instructions": "spanish",
+  "facilitator": "Facilitador/a/e",
+  "instructions": "Instrucciones",
 
   "partnersDisclaimer": {
     "SurdnaFoundation": "spanish",
@@ -25,11 +44,24 @@
   "translateTo": "Traducir a ingles",
   "edit": "edit",
   "print": "print",
+  "overviewToolkit": {
+    "name": "Reseña del Manual",
+    "question": "¿Por qué se necesita un manual anti-desplazamiento para el Área Metropolitana de Boston?",
+    "link": "Overview",
+    "color": "#cc0000",
+    "resources": [
+      {
+        "name": "Pushed Out",
+        "link": "https://www.urbandisplacement.org/pushedout",
+        "text": "producido por Urban Displacement Project"
+      }
+    ]
+  },
 
   "toolkits": {
-    "mapping": {
-      "name": "Mapping Power & Money",
-      "question": "Who has the power and money to make the changes we need in our communities?",
+    "Mapping": {
+      "name": "Mapeo de Poder y Dinero",
+      "question": "¿Quién tiene el poder y el dinero para hacer los cambios que necesitamos en nuestras comunidades?",
       "num": "1",
       "color": "#D82C88",
       "link": "Mapping",

@@ -1,7 +1,7 @@
 <template>
   <div>
     <MappingEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits.Mapping')"></MappingEng>
-    <MappingEs v-else></MappingEs>
+    <MappingEs v-else :toolkit="$t('toolkits.Mapping')"></MappingEs>
   </div>
 </template>
 

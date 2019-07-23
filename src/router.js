@@ -8,7 +8,6 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [{
       path: '/:locale',
-      alias: '/:locale/overview',
       name: 'Overview',
       component: () => import( /* webpackChunkName: "Overview" */ './views/Overview.vue'),
     },
@@ -56,6 +55,13 @@ export default new Router({
       path: '/:locale/resources',
       name: 'Resources',
       component: () => import( /* webpackChunkName: "Resources" */ './views/Resources.vue')
+    },
+    {
+      path: '/',
+      beforeEnter(to, from, next) {
+        const browserLanguage = navigator.language.toLowerCase().substr(0, 2);
+        next({ name: 'Overview', params: { locale: browserLanguage }});
+      },
     },
     {
       path: '*',

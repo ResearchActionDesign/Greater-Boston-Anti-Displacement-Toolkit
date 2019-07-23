@@ -21,8 +21,10 @@ Vue.directive('grid', {
 router.beforeEach((to, from, next) => {
   // Language handling.
   let language = to.params.locale;
-  if (!from || !from.params.locale) {
-    language = navigator.language.toLowerCase().substr(0, 2);
+
+  const browserLanguage = navigator.language.toLowerCase().substr(0, 2);
+  if (browserLanguage === 'es' && (!from || !from.params.locale)) {
+    language = browserLanguage;
   }
 
   if (!language) {
@@ -75,7 +77,7 @@ router.beforeEach((to, from, next) => {
 
 
   if (to.params.locale !== language) {
-    next({ params: { locale: language }});
+    next({ name: to.name, params: { locale: language }});
   }
   else {
     next();
