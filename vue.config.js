@@ -1,6 +1,7 @@
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
 
 module.exports = {
+  indexPath: 'index.html',
   pluginOptions: {
     i18n: {
       locale: 'English',
