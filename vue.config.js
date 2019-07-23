@@ -30,6 +30,6 @@ module.exports = {
     },
   },
   configureWebpack: {
-    plugins: [].concat(process.env.NODE_ENV === 'production' ? [new ImageminPlugin(),] : [])
+    plugins: [].concat(process.env.NODE_ENV === 'production' ? [new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),] : [])
   }
 };
