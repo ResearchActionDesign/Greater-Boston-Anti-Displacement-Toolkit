@@ -5,7 +5,7 @@
   </button>
 
   <header>
-    <router-link to="/" class="routerLink">
+    <router-link :to="{ name: 'Overview', params: { locale: $i18n.locale }}" class="routerLink">
       <p class="title">{{ $t('header') }}</p>
     </router-link>
   </header>
