@@ -179,7 +179,7 @@
         }
       ]
     },
-    "policies": {
+    "Policies": {
       "name": "Identificando e Evaluando Políticas",
       "question": "¿Cómo protegemos donde vivimos?",
       "num": "4",
@@ -220,7 +220,7 @@
         }
       ]
     },
-    "strategies": {
+    "Strategies": {
       "name": "Identificar Estrategias Comunitarias y Tácticas",
       "question": "¿Cómo nos preparamos para ser efectivos?",
       "num": "5",
@@ -261,7 +261,7 @@
         }
       ]
     },
-    "stories": {
+    "Stories": {
       "name": "Compartiendo Nuestras Historias",
       "question": "¿Qué es el desplazamiento y cómo está afectando el Área Metropolitana de Boston?",
       "num": "6",
