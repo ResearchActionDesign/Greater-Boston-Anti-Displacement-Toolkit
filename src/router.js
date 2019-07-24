@@ -58,6 +58,7 @@ export default new Router({
     },
     {
       path: '/',
+      name: 'Home',
       component: () => import( /* webpackChunkName: "Overview" */ './views/Overview.vue'),
       beforeEnter(to, from, next) {
         const browserLanguage = navigator.language.toLowerCase().substr(0, 2);

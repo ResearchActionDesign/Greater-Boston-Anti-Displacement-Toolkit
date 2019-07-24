@@ -1,14 +1,14 @@
 <template>
   <div>
     <UseDataEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits.UsingData')"></UseDataEng>
-    <UseDataEs v-else></UseDataEs>
+    <UseDataEs v-else :toolkit="$t('toolkits.UsingData')"></UseDataEs>
   </div>
 </template>
 
 
 <script>
 import UseDataEng from "../../components/Toolkit_en/UsingData";
-import UseDataEs from "./../../components/Toolkit_es/UseData";
+import UseDataEs from "./../../components/Toolkit_es/UsingData";
 
 export default {
   name: "workshops",

@@ -17,11 +17,14 @@
 export default {
   methods: {
     changeLanguage() {
-      if (this.$i18n.locale === 'en') {
-        this.$router.push({ params: { locale: 'es' }});
+      if (this.$route.name === 'Home' && this.$i18n.locale === 'en') {
+        this.$router.push({ name: 'Overview', params: { locale: 'es' }});
       }
-      else{
-        this.$router.push({ params: { locale: 'en' }});
+      if (this.$i18n.locale === 'en') {
+        this.$router.push({ name: this.$route.name, params: { locale: 'es' }});
+      }
+      else {
+        this.$router.push({ name: this.$route.name, params: { locale: 'en' }});
       }
     }
   }
@@ -37,5 +40,8 @@ export default {
 
   .langChanger {
     cursor: pointer;
+    min-height: 60px;
+    min-width: 120px;
+    font-size: 14px;
   }
 </style>

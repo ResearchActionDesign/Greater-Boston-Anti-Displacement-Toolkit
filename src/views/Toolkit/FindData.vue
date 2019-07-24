@@ -1,7 +1,7 @@
 <template>
 <div>
 <FindDataEng v-if="this.$i18n.locale == 'en'" :toolkit="$t('toolkits.FindingData')"></FindDataEng>
-<FindDataEs v-else></FindDataEs>
+<FindDataEs v-else :toolkit="$t('toolkits.FindingData')"></FindDataEs>
 </div>
 </template>
 
