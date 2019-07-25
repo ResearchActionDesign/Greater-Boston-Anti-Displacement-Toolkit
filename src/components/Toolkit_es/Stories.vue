@@ -1,209 +1,176 @@
 <template>
   <main class="workshop">
-    <ToolkitIntro :toolkit="$t('toolkits.stories')"></ToolkitIntro>
+    <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
 
     <div class="workshop_content">
-      <Introduction :toolkit="$t('toolkits.stories')">
-        <p>In our communities, many have experienced the negative impacts of exclusionary political and corporate decisions that have led to displacement. Understanding the systems of who or where these decisions are being made and how as a community member you can influence is critical to advocate for change. [add data point]</p>
-        <p>Mapping power and money is a useful tool for engaging communities in thinking about the current community systems and informing organizing strategies and tactics. This tool can help groups identify and assess the local, regional political and community environment by:</p>
+      <Introduction :toolkit="toolkit">
+        <p>El reconocer las raíces ancestrales al igual que conectar nuestras propias historias con la historia de la migración y los lugares/espacios donde residimos hoy, es una forma potente para conectar la historia individual con la de la comunidad. Compartir nuestras historias puede unir a las comunidades y ayudar a conectar la migración y el desplazamiento. Las comunidades pueden utilizar esta actividad para:</p>
         <ul>
-          <li>Identifying the different actors, specific targets for campaigns,</li>
-          <li>Identifying community members roles as actors,</li>
-          <li>Identifying different forms of power and how different actors, things interact,</li>
-          <li>Analyzing “what or who” can weaken or strengthen the power in the community,</li>
-          <li>Identifying opportunities to advocate for change, where to intervene..</li>
+          <li>Reconocer la perdida de tierra por las/los indígenas y las tribus.</li>
+          <li>Elevar la importancia de nombrar y reclamar los espacios de aquellas/os originalmente desplazados, y</li>
+          <li>Visualizar las historias de migración y desplazamiento de la comunidad.</li>
         </ul>
-        <p>Communities often use this tool as part of developing a campaign or strategy to fight against a specific problem, though it can be helpful any time the landscape shifts within the community systems(e.g. new actors, decisions, issues change/grow).</p>
+        <p>Al contar nuestras historias, podemos individual y colectivamente interrumpir el desplazamiento en nuestras comunidades.</p>
+        <p>La guía de facilitación siguiente describe cómo utilizar esta actividad, y está diseñada para ser adaptada a las necesidades de su comunidad.</p>
       </Introduction>
 
-      <FacilitationGuide :toolkit="$t('toolkits.stories')">
+      <FacilitationGuide :toolkit="toolkit">
         <!-- Purpose and Outcome -->
-        <div slot="workshop_purpose">
-          <h4 class="subcategory">Purpose</h4>
-          <ul>
-            <li>To co-create a visual map of the different systems of power and influence in our communities.</li>
-            <li>To discuss how we can use our power maps for action.</li>
-          </ul>
+        <div slot="Workshop_Purpose">
+          <p>Explorar las conexiones entre la migración y el desplazamiento de los residentes.</p>
+          <p>Compartir nuestras historias de cómo llegamos - y luchamos por quedarnos en – nuestras comunidades, y reflexionar sobre el éxito de organizarnos en contra del desplazamiento.</p>
         </div>
-        <div slot="workshop_outcomes">
-          <h4 class="subcategory">Outcomes</h4>
+        <div slot="Workshop_Outcomes">
           <ol>
-            <li>Assessment of local and regional political and community environments to help identify opportunities to advocate for change.</li>
-            <li>A shared understanding of community stakeholders, power, and money.</li>
-            <li>Useable maps to influence and/or leverage identified power and money in the community for identified organizing strategies and tactics.</li>
+            <li>Entendimiento y ejemplo común sobre cómo el desplazamiento ha impactado nuestras comunidades.</li>
+            <li>Historias compartidas sobre la conexión entre migración, gentrificación y desplazamiento.</li>
+            <li>Una narrativa común que impulse la acción a nivel local y construya relaciones más profundas con otras comunidades que enfrentan retos similares.</li>
           </ol>
         </div>
 
         <!-- Who to Invite -->
-        <template slot="Who_to_Invite">
-          <p>Who you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing a mapping power and money activity in your community.</p>
-          <p>Once this has been identified, then ask, Who can help fulfill this purpose? Who is most relevant for this activity? Who might threaten the purpose? For example:</p>
+        <template slot="Whom_to_Invite">
           <ul>
-            <li>There is a specific development proposed in the downtown area of your community that will push out renters and a locally owned business. You can target inviting the renters likely to be pushed out, the business owners and consumers who frequent this business. Key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
-            <li>Gentrification and displacement is a growing concern for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can target inviting organizations, community members and youth, local business owners, and government representatives to have a broader conversation and discussion of the issues occurring in the community and region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
-          </ul>
-        </template>
-
-        <!-- Who to Invite -->
-        <template slot="Who_to_Invite">
-          <p>Who you invite (or exclude) will largely depend on the purpose (Why do it?) and outcomes (What do you want to know/have at the end?) of organizing a mapping power and money activity in your community.</p>
-          <p>Once this has been identified, then ask, Who can help fulfill this purpose? Who is most relevant for this activity? Who might threaten the purpose? For example:</p>
-          <ul>
-            <li>There is a specific development proposed in the downtown area of your community that will push out renters and a locally owned business. You can target inviting the renters likely to be pushed out, the business owners and consumers who frequent this business. Key organizations or organizers in the area fighting this development. Who else might be directly impacted by this development?</li>
-            <li>Gentrification and displacement is a growing concern for your community and the surrounding area. You want to draw attention to and identify opportunities to address the problem. You can target inviting organizations, community members and youth, local business owners, and government representatives to have a broader conversation and discussion of the issues occurring in the community and region. Mapping power and money can help kick-start a conversation for taking collective action.</li>
+            <li>Miembros/es de la comunidad que han experimentado desplazamiento o temor de ser desplazados en una comunidad específica. El taller se desarrolla en 3 secciones de trabajo concretas (reflexión individual, compartir en pareja o grupos de tres, y conversación en plenario).</li>
+            <li>Los/las/les facilitadores deben de analizar a través de quién es mejor invitar para este tipo de debate, el tamaño ideal del grupo, etc. Estos factores pueden depender de cuánta confianza exista entre los posibles participantes, la variedad de experiencias en la sesión, etc. De 6-10 participantes es quizás un buen número meta para la mayoría de los grupos.</li>
           </ul>
         </template>
 
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Identify facilitators roles for the session, including notetakers and timekeeper.</li>
-            <li>Pre-scribe (1) the map “legend”, three things asking participants to show in the power maps for the group exercise, including examples. (2) the questions to address during the show and tell.</li>
-            <li>Examples of power maps drawn by other groups can be useful to demonstrate output for the activity but are not necessary for conducting the activity.</li>
-            <li>Flip chart/Butcher paper for each break out group.</li>
-            <li>Markers (multiple colors) for creating power maps.</li>
-            <li>Color stickies for labeling or showing different types of information on power maps.</li>
-            <li>Photograph participant power maps after the session for recording (with participants permission).</li>
+            <li>Identificar 2-3 facilitadores y asignar roles para la sesión, incluyendo un narrador y una persona encargada de llevar el tiempo. Para cada paso, un/una/une facilitador/a/e puede explicar la actividad mientras las/los otros distribuyen los materiales. Para el Paso 3, un/una/une facilitador/a/e debe de tomar notas mientras el otro hace la facilitación de las presentaciones de grupo.</li>
+            <li>Para preparase para esta actividad, las/los/les facilitadores deben de investigar e identificar el nombre o los nombres de las comunidades indígenas que ocuparon/ocupan la tierra donde la sesión se está realizando.</li>
+            <li>Marcador gigante</li>
+            <li>Rotafolio</li>
+            <li>Suficientes lapiceros, lápices y marcadores</li>
+            <li>Cinta de Pintor o Cinta Adhesiva de Protección (masking tape)</li>
+            <li>Pañuelitos</li>
+            <li>Copias impresas de las hojas de trabajo <b>TODO: ADD LINK</b></li>
+            <li>Plantilla de un árbol (imprimir, recortar, y pegar) <b>TODO: ADD LINK</b></li>
+            <li>&quot;Fruta&quot; impresa y cortada o figuras cortadas de cartulina <b>TODO: ADD LINK</b></li>
+            <li>Contar cuántos grupos pequeños habrán. Para cada grupo, trazar un árbol en una hoja de rotafolio.</li>
+            <li>Crear un &quot;río&quot; hecho de cartulina azul en una de las paredes, o dibujar uno utilizando varias hojas de rotafolio. Durante las presentaciones, los arboles serán colocados a lo largo del río.</li>
+            <li>Hacer un plan como facilitador/a/e de cómo apoyar a los/las/les participantes si las actividades provocan emociones fuertes, que saque a la luz traumas, o tristezas, y, ver cómo concluir la actividad.
+            </li>
+            <li>Identificar una &quot;zona de descanso&quot; en otra sala o separado del espacio donde está ocurriendo el taller principal donde las personas puedan ir si necesitan sobrellevar momentos emocionales difíciles.
+            </li>
           </ul>
         </template>
 
         <!-- Tips -->
         <template slot="Tips">
           <ul>
-            <li>Design for what you want! Customize the facilitation guide to fit your desired purpose, needs, and outcomes for conducting this activity.</li>
-            <li>Identify the collective purpose of mapping power and money in your community. E.g. Is this for a specific campaign, issue, target the community is wanting to influence? The purpose can be established in advance or participants can set as part of the activity.</li>
-            <li>Identify how much time you will need for each discussion and activity. The total suggested time for this activity is 60 minutes. The group work and show and tell is where you will likely allocate most of the time.</li>
-            <li>Identify the anticipated number of breakout groups based on who is participating. If participants are from different communities, consider grouping by communities as well.</li>
-            <li>Schedule time after your activity to debrief with the facilitators on what worked and what you might change if conduct the activity again. Identify any action items for you, your organization or community as an outcome from the activity.</li>
+            <li>Esta actividad requiere de suficiente tiempo de preparación. Alocar al menos 2 horas con amistades para pintar las hojas de trabajo, crear las plantillas de árboles, delinear los árboles, cortarlos, cortar las frutas, crear el río, y tener listos todos los materiales.</li>
+            <li>Cada grupo debe colocarse alrededor de un árbol – ideal sería tener varias mesas redondas, 1 para cada grupo.</li>
+            <li>Música de fondo puede crear un ambiente agradable, y también ayudar a indicar cuando cada una de las actividades ha llegado a su fin.</li>
+            <li>La actividad debe ser planificada con suficiente tiempo para manejar cualquier trauma emocional o alegría que surja durante la sesión. Las/los/les facilitadores deben de pensar cuidadosamente el proceso de cierre adecuado para concluir la sesión de manera sana.</li>
           </ul>
         </template>
 
         <!-- Detailed Plan -->
-        <template slot="Introducing_the_Activity">
-          <h4 class="subcategory">Introducing the Activity</h4>
-          <Facilitator>Understanding the power relationships and flows of money and resources that shape the problem we are trying to solve will be crucial to helping us strategize effectively, adapt to new events or changes, and evaluate our progress.</Facilitator>
-          <Facilitator>Power mapping is a common community organizing technique used to visually represent who the important stakeholders relevant to an issue are, what types of power they have, and how they relate to one another when it comes to a specific issue or problem. Like other maps, they are supposed to help those who use them orient themselves in relation to the world around them, and help the user find their way. They can be used for specific actions or campaigns with tight timelines and focused objectives, like planning an event, but they can also be used for bigger ongoing efforts, like building a coalition.</Facilitator>
-          <Facilitator>What sets them apart from most other maps is that they are likely to change - maybe even a lot! - in response to new events or circumstances. In this case, as the situation around displacement changes -- for example, a new development is planned, or a new policy is put into place -- power maps change too, whenever the power dynamics of a situation change significantly.</Facilitator>
-        </template>
-
-        <template slot="Group_Big_Picture_Questions">
-          <h4 class="subcategory">Group Big Picture Questions</h4>
-          <Facilitator>Has anyone in the room done power-mapping before?</Facilitator>
-          <ul>
-            <li>
-              <strong class="bold">Follow-up with:</strong> How did it go? What did you do/learn?
-            </li>
-          </ul>
-          <Facilitator>We’re curious to hear from you all why you think mapping power might be useful. Does anyone have any ideas or experiences that speak to why we might want to map the power dynamics of around an issue or campaign?</Facilitator>
-          <ul>
-            <li>
-              <strong class="bold">Follow-up with:</strong> MISSING MISSING MISSING MISSING MISSING MISSING MISSING
-            </li>
-          </ul>
-        </template>
-
-        <template slot="Reviewing_the_Basics">
-          <h4 class="subcategory">Reviewing the Basics</h4>
-          <Facilitator>Let’s recap what we’ve learned so far...</Facilitator>
-          <ul>
-            <li>
-              The
-              <strong class="bold">role</strong> of power mapping is to help you orient your group in relation to the other stakeholders involved in the issue you are taking you on, and to help you strategize about how to both build power and change the power relationships between other stakeholders.
-            </li>
-            <li>
-              The
-              <strong class="bold">goal</strong> of a power map is to clearly represent the power relationships between the stakeholders involved in the issue you are taking on.
-            </li>
-
-            <li>
-              The
-              <strong class="bold">core elements</strong> of a useful power map include:
-              <ul>
-                <li>
-                  All of the relevant stakeholders (individuals, groups, institutions, etc.)
-                  <br>For example: the mayor, tenants, city planners, allied community groups
-                </li>
-                <li>
-                  The types of power that stakeholders have (individually or together)
-                  <br>For example: political power, people power, financial resources, land ownership.
-                </li>
-                <li>
-                  The relationships between stakeholders
-                  <br>Who is allied with who? Who is opposed to who? Who has power over who?”
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-          <Facilitator>Let’s review a couple of examples to help you become more familiar</Facilitator>
-
-          <ul>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-            <li>Examples Examples Examples Examples Examples Examples Examples</li>
-          </ul>
-
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-
-          <ul>
-            <li>They show who the key “actors” or stakeholders are,</li>
-            <li>They show how the actors are related to one another,</li>
-            <li>They show how power is embedded in these relationships.</li>
-          </ul>
-        </template>
-
-        <template slot="Producing_Power_Maps_in_Groups">
-          <h4 class="subcategory">Producing Power Maps in Groups</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
-        </template>
-        <template slot="Show_and_Tell">
-          <h4 class="subcategory">Show and Tell</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
-        </template>
-        <template slot="Discussion_and_Planning">
-          <h4 class="subcategory">Discussion and Planning</h4>
-          <Facilitator>As you can see, power maps can take many different forms, and what they look like will likely evolve as you refine your analysis of the situation, and as new events or changes occur. It’s a very flexible tool. At the same time, all of the examples have the same core elements previously mentioned:</Facilitator>
-          <Instructions>Adapt as circumstances or events change.</Instructions>
+        <template slot="Detailed_Plan">
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
+          <h4 class="subcategory">Paso 1: Conexión con la tierra (10 min)</h4>
+          <Instructions>Antes de iniciar las actividades, reúna al grupo en un círculo amplio para prepararse y conectarse, y &quot;establecer la intención del día&quot;. Empezar por reconocer la tierra indígena que ocupamos. Conectar la conversación a la importancia de crear un espacio seguro y valiente, que empieza con el reconocimiento de la pérdida de las tierras indígenas y la importancia de nombrar y retomar los espacios de quienes fueron inicialmente desplazados.
+            <p>Las/los/les facilitadores pueden después considerar abrir con un simple ejercicio de respiración o meditación. Por ejemplo, crear, de forma grupal, el sonido de la lluvia (las/los participantes frotan sus manos, después chasquean los dedos, y palmean sus piernas) o piden a los participantes que cierren sus ojos y nombren uno de sus ancestros o seres queridos que deseen les acompañe en esta actividad. Posteriormente inhalar y exhalar profundo 3 veces todos/as/e juntos/as/e.</p>
+            <p>Esto ayuda a dar la pauta y permitir que las/los participantes entren en un espacio mental y emocional que les lleve a evocar recuerdos de su historia migratoria personal en la siguiente actividad. Cerrar esta sección pidiendo al grupo que abran sus ojos y que miren a los ojos de una persona en el círculo (o se puede pedir que coloquen las palmas de sus manos casi tocándose para crear un contacto energético), posteriormente, agradecer a todas y todos por su participación y apertura a crear un espacio seguro y valiente para este tiempo juntos.</p>
+            <p>Las/los participantes pueden decidir no tomar parte de la actividad de apertura y honrar sus prácticas individuales de preparación para hacer presencia en la actividad grupal.</p>
+          </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
+          <h4 class="subcategory">Paso 2: Historia Individuales (10 min: 2 min de explicación, 8 min de trabajo individual)</h4>
+          <p>El objetivo de esta sección es iniciar con el trabajo individual. Esta porción de la actividad puede efectuarse en un área en silencio, o con música de fondo suave y apropiada culturalmente. Después de este segmento cada participante debe sentirse más conectado con los elementos de su propia historia migratoria. El entorno de fondo debe ser óptimo para la reflexión individual, permitiendo a los/las/les participantes profundizar o resaltar elementos fundamentales de la historia migratoria personal.</p>
+          <Instructions>Todos/as/es los/las/les participantes deben de tener una copia de la hoja de trabajo <b>TODO: LINK</b>, la que es una hoja de papel dividida en 3 secciones:
+            <ol class="facilitator">
+              <li>¿Quién es mi gente?</li>
+              <li>¿Cómo llegue aquí, y cuáles fueron los principales momentos decisivos y las luchas en el camino?</li>
+              <li>¿Qué he aprendido en este caminar?</li>
+            </ol>
+            <p>Explicar la hoja de trabajo y cada pregunta al distribuirla. Explicar que a las/los participantes en la siguiente fase se les pedirá que compartan sus respuestas, si se sienten cómodos, en grupos pequeños de 3-4 personas.</p>
+            <p>Pedirles a todos/as/es que tomen 8 minutos para llenar individualmente la hoja de trabajo.</p>
+            <p><strong class="note">NOTA:</strong> Los/las/les facilitadores pueden sugerir que las/los participantes se dispersen en la sala. Tratar de hacer la sala lo más cómoda posible para que cada participante pueda sentarse en el suelo, en una mesa, o en una silla o sillón.</p>
+          </Instructions>
+          <FacilitatorImage :toolkit="toolkit" number="1"/>
+          <h4 class="subcategory">Paso 3: Conversaciones en Grupos Pequeños (35 min)</h4>
+          <Instructions>Este intercambio de ideas se basa en el trabajo individual anterior. La meta de este segmento es permitir que las/ los participantes se junten con 1 o 2 otros miembros del grupo e identifiquen similitudes en sus historias personales, y que se den cuenta que no están solos/as/es y que compartan parte de su caminar en la experiencia comunitaria o al combatir el desplazamiento.
+            <p>ormar grupos y dar materiales.</p>
+          </Instructions>
+          <Facilitator>Ahora nos gustaría que formaran pequeños grupos y compartan sus historias. Esperamos que esta sea una forma de conocerse, pero también de aprender las cosas en común de su experiencia al llegar a esta área. Una vez que hayan formado los grupos, permitan que cada uno comparta algo de lo que escribieron. Les recordaremos cuando es el turno de la siguiente persona.
+            <p>Al ir compartiendo sus historias, piensen qué cosas y temas en común están surgiendo – utilizarán estas ideas y temas para crear un árbol conjunto que represente la historia del grupo.</p>
+            <p>Mientras ustedes conversan, pasaremos materiales de arte para la siguiente parte de la tarde.</p>
+          </Facilitator>
+          <Instructions>Pedirle a las/los participantes que cuenten para formar grupos de 3-4 personas. A medida que cada persona comparte su historia, favor pedirles también que compartan su pronombre de género también.</p>
+            <p>Después de 4 minutos, ver cómo van (ahora es el turno de la siguiente persona si aún no han cambiado) y después de 8 minutos, cambiar otra vez, etc.</p>
+            <p>Mientras los grupos están en el intercambio, pasar los materiales. Cada grupo recibe raíces y ramas para cada miembro/e, así como un baúl y unas frutas. Los grupos también reciben una hoja grande de papel, pega, cinta adhesiva y marcadores.</p>
+          </Instructions>
+          <Facilitator>Como grupo, llenen las raíces y ramas de su árbol. <span class="instructions">(10 min)</span>
+            <ul>
+              <li>Ahora es hora de completar su historia colectiva. Deben de tener algunos materiales de arte y algunas raíces, ramas y frutas. Como grupo van a utilizar estos materiales para armar una historia colectiva.</li>
+              <li>En cada una de sus raíces, escriban una respuesta a la indicación &quot;venimos de ___&quot;</li>
+              <li>En cada una de sus ramas, escriban una respuesta a la indicación &quot;luchamos contra ____ para llegar aquí&quot;</li>
+            </ul>
+            <p>Ahora pasen a la fruta. <span class="instructions">(5 min)</span></p>
+            <ul>
+              <li>¿Cómo se imaginan el futuro de sus comunidades? Al pensar en las posibilidades para sus comunidades en el futuro, escriban cada una de esas posibilidades en una fruta y cuélguenla en el árbol.</li>
+            </ul>
+            <p class="instructions">Al finalizar la actividad, inviten a que los grupos siembren sus árboles a lo largo de río.</p>
+          </Facilitator>
+          <Facilitator>¿Qué historia creamos en conjunto? Les invitamos a que cada grupo traiga su árbol, sus historias colectivas, al frente y las peguen a lo largo del río. Una vez que lo hagan, tomen un receso, coman algo, y también sean testigos de las historias de los otros grupos. Nos reuniremos de nuevo en 10 minutos. En ese momento también le daremos a cada una(o) una oportunidad para compartir su árbol con el resto del grupo.</Facilitator>
+          <FacilitatorImage :toolkit="toolkit" number="2"/>
+          <h4 class="subcategory">Paso 4: Compartir en plenario (20 min)</h4>
+          <Instructions>La meta de esta sección es pasar de las narrativas personales a las conexiones en grupos pequeños, hasta llegar a las experiencias compartidas entre todo el grupo. Al final de compartir, las/los participantes deben estar conscientes de las paralelas en las experiencias y reflexionar sobre las lecciones aprendidas e historias comunes.
+            <p>Bienvenidos de regreso del receso</p>
+            <p>Pedir a cada grupo que pase uno por uno a su árbol y compartan qué aprendieron con esta actividad. Ejemplos de preguntas guías:</p>
+            <ul class="facilitator">
+              <li>¿Qué sobresale para ustedes de su historia común?</li>
+              <li>¿Qué cosa se les hizo difícil en su grupo?</li>
+              <li>¿Qué cosas notaron tenían en común?</li>
+              <li>¿Cuál fue un momento de creatividad? ¿Cuándo aprendieron algo nuevo?</li>
+              <li>¿Por qué escogieron esas raíces/ramas?</li>
+              <li>¿Cuáles son sus visiones del futuro?</li>
+            </ul>
+            <p>A medida que mencionan cosas en común, luchas, y momentos de creatividad, escribirlos en el río con marcadores de manera creativa.</p>
+            <p>Si hay tiempo, abrir el espacio para una discusión en plenario sobre las mismas preguntas guía al leer los temas escritos en el río.</p>
+          </Instructions>
         </template>
       </FacilitationGuide>
 
-      <TakingAction :toolkit="$t('toolkits.stories')">
-        <p>At the close of the activity, consider any asks of the group to support community mobilizing efforts and actions in and outside the space created today.</p>
+      <TakingAction :toolkit="toolkit">
+        <p>At the close of this activity, ask the group to consider other populations and partners that should participate in a story sharing exercise.</p>
         <ul>
-          <li>Take your power map home and see how others in your circle might add to your map!</li>
-          <li>Try leading your own mapping activity in the community.</li>
-          <li>Ask if there are other spaces or people to engage in a mapping power and money activity.</li>
-          <li>Use the maps to inform the development of strategies and tactics for their community.</li>
+          <li>Identificar otros posibles participantes (ej. Jóvenes) que deberían de tener la experiencia de la actividad de compartir historias. ¿Hay oportunidades para una conversación inter-generacional?</li>
+          <li>Inscribir a nuevos/as/es participantes a campañas o al boletín informativo de la organización para mantener la participación activa.</li>
+          <li>Crear una representación visual de las áreas de dónde vienen las/los participantes y de dónde residen hoy en Massachusetts. Se puede utilizar un mapa del mundo con chinches e hilo de tejer colorido para rastrear la historia migratoria del grupo.</li>
         </ul>
       </TakingAction>
-
-      <AdditionalResources :toolkit="$t('toolkits.stories')"></AdditionalResources>
+      <AdditionalResources :toolkit="toolkit"></AdditionalResources>
     </div>
   </main>
 </template>
 
 
 <script>
-import ToolkitIntro from "../ToolkitIntro";
-import Introduction from "./../../components/Introduction";
-import FacilitationGuide from "./../../components/FacilitationGuide";
-import Facilitator from "./../../components/Facilitator";
-import Instructions from "./../../components/Instructions";
-import TakingAction from "./../../components/TakingAction";
-import AdditionalResources from "./../../components/AdditionalResources";
+  import ToolkitIntro from "../ToolkitIntro";
+  import Introduction from "./../../components/Introduction";
+  import FacilitationGuide from "./../../components/FacilitationGuide";
+  import Facilitator from "./../../components/Facilitator";
+  import FacilitatorImage from "./../../components/FacilitatorImage";
+  import Instructions from "./../../components/Instructions";
+  import TakingAction from "./../../components/TakingAction";
+  import AdditionalResources from "./../../components/AdditionalResources";
 
-export default {
-  name: "workshops",
-  components: {
-    ToolkitIntro,
-    Introduction,
-    FacilitationGuide,
-    Facilitator,
-    Instructions,
-    TakingAction,
-    AdditionalResources
-  },
-};
+  export default {
+    name: "workshops",
+    components: {
+      ToolkitIntro,
+      Introduction,
+      FacilitationGuide,
+      Facilitator,
+      FacilitatorImage,
+      Instructions,
+      TakingAction,
+      AdditionalResources
+    },
+    props: ["toolkit"],
+  };
 </script>

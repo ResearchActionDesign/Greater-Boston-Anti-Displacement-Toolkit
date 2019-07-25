@@ -11,7 +11,7 @@
         <h2 :style="{ color: workshop.color, textTransform: 'uppercase', lineHeight: '1'}">{{workshop.name}}</h2>
         <p class="toolkitTile__tagline">{{workshop.question}}</p>
         <img :src="require(`@/assets/${workshop.link}.png`)" class="workshopLogo" alt />
-        <p :style="{ color: workshop.color }" class="bold">Workshop {{workshop.num}}</p>
+        <p :style="{ color: workshop.color }" class="bold">{{$t('strings.workshop')}} {{workshop.num}}</p>
         
         <!-- Print and Edit -->
         <div v-grid="'1fr 1fr'" class="tileIcons">
