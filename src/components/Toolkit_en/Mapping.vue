@@ -139,9 +139,9 @@
           <Facilitator>Let’s review a couple of examples to help you become more familiar:
 
           <ul class="instructions">
-            <li><b>Example #1:</b> This community map focusing on displacement in Chelsea identifies the different systems, how they relate, and the types of power they hold.<img src="../../assets/workshop_images/mapping/Example_1.png" alt=""></li>
-            <li><b>Example #2:</b> This community map focusing on displacement issues lists and connects the different actors, roles, relationships, and types of power they each hold in the community.<img src="../../assets/workshop_images/mapping/Example_2.png" alt=""></li>
-            <li><b>Example #3:</b> This community map illustrates the different actors involved in passing an ordinance for a food policy council in Everett. It shows how actors, their influence, and their connections to one another can ultimately work to reach City Council (the “target”).<img src="../../assets/workshop_images/mapping/Example_3.png" alt=""></li>
+            <li><b>Example #1:</b> This community map focusing on displacement in Chelsea identifies the different systems, how they relate, and the types of power they hold.<img src="../../assets/workshop_images/mapping/Example_1.png" :alt="$t('altText.mappingExample1')"></li>
+            <li><b>Example #2:</b> This community map focusing on displacement issues lists and connects the different actors, roles, relationships, and types of power they each hold in the community.<img src="../../assets/workshop_images/mapping/Example_2.png"  :alt="$t('altText.mappingExample2')"></li>
+            <li><b>Example #3:</b> This community map illustrates the different actors involved in passing an ordinance for a food policy council in Everett. It shows how actors, their influence, and their connections to one another can ultimately work to reach City Council (the “target”).<img src="../../assets/workshop_images/mapping/Example_3.png" :alt="$t('altText.mappingExample3')"></li>
           </ul>
           </Facilitator>
           <Facilitator>As a very flexible tool, power maps can take many different forms, and how they take shape will likely evolve as you refine your analysis of the situation and as new events or changes occur. At the same time, all of the examples have the same core elements previously mentioned:

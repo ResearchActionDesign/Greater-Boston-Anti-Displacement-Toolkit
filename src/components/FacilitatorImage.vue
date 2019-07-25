@@ -1,5 +1,5 @@
 <template>
-  <img :src="require(`./../assets/facilitator_drawings/${toolkit.link}_${number}.png`)" class="facilitatorImage">
+  <img :src="require(`./../assets/facilitator_drawings/${toolkit.link}_${number}.png`)" class="facilitatorImage" :alt="$t('altText.facilitator')">
 </template>
 
 <script>

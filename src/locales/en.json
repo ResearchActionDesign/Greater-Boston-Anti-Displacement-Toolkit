@@ -7,7 +7,6 @@
   "resources": "Resources",
   "strings": {
     "facilitationGuide": "Facilitation Guide",
-    "purposeOutcomes": "Purpose & Outcomes",
     "purpose": "Purpose",
     "outcomes": "Outcomes",
     "whomToInvite": "Whom to Invite",
@@ -27,6 +26,13 @@
       "Toolkits": "Toolkits",
       "Resources": "Resources"
     }
+  },
+  "altText": {
+    "facilitator": "Drawing of a facilitator",
+    "mappingExample1": "Diagram drawn on flip chart paper with blue labels for different actors (Churches, Developers, Residents, Real estate agents, City, Banks, State, CBOs and Businesses). Green labels next to each actor indicate whether they have economic, political, or social power, and black arrows between the actors indicate power relationships.",
+    "mappingExample2": "Diagram drawn on flip chart paper with separate lists of actors (GreenRoots, City Hall, schools, investors, etc.), relationships (elections, laws, city development), and forms of power (economic power, organizing power, political power, etc.). Green and red arrows connect actors with the kinds of power they have.",
+    "mappingExample3": "Diagram drawn on big paper showing different entities in the food system and their relationships with each other.",
+    "usingDataRoomSetup": "Photograph showing people in a large room engaging in the Convince Me! workshop. The room has two lines of blue tape set up on the floor, and a group of participants stands behind one line facing another participant who stands at the second line and is talking to them."
   },
   "description": "This multi-media organizing toolkit is a collection of activities, how-to guides, facilitation plans, and resources that organizers and residents can use to fight displacement in their communities.",
 
@@ -50,6 +56,7 @@
     "edit": "",
     "print": "/workshop-pdfs/en/Overview.pdf",
     "color": "#cc0000",
+    "altText": "Line drawing showing a the landscape in East Boston, with the Chelsea river and downtown Boston in the background. In the foreground, a circle of people stand in a city park, near picnic tables with food.",
     "resources": [
       {
         "name": "Pushed Out",
@@ -67,6 +74,7 @@
       "link": "Mapping",
       "edit": "https://www.google.com/",
       "print": "/workshop-pdfs/en/Mapping.pdf",
+      "altText": "Line drawing with 5 different vignettes (a church, the Everett Casino, houses, government buildings, and a construction crane). People representing neighborhood residents and construction workers stand in front of each vignette. A dotted line connects the people to each other, representing connections of power.",
       "resources": [
         {
           "name": "Organizing for Power, Organizing for Change Tools for Campaign Planning",
@@ -96,6 +104,7 @@
       "num": "2",
       "color": "#743589",
       "link": "FindingData",
+      "altText": "Line drawing showing two people standing in front of a wall, each holding magnifying glasses. Maps and charts are displayed on the wall, and the two people are examining them with their magnifying glasses.",
       "edit": "https://www.google.com/",
       "print": "/workshop-pdfs/en/FindingData.pdf",
       "resources": [
@@ -140,6 +149,7 @@
       "num": "3",
       "color": "#3554d1",
       "link": "UsingData",
+      "altText": "Line drawing showing the landscape of East Boston, with central Boston in the background across the Chelsea River. Buildings in the landscape are made up of colored blocks representing stories and data, and city residents are shown carrying and assembling the blocks to form a tower. At the top of the tower a resident organizer is standing and having a conversation with a figure representing a developer, who is standing in a hot air balloon with a giant dollar sign on it.",
       "edit": "https://www.google.com/",
       "print": "/workshop-pdfs/en/UsingData.pdf",
       "resources": [
@@ -184,6 +194,7 @@
       "num": "4",
       "color": "#5da352",
       "link": "Policies",
+      "altText": "Black and white drawing showing an overhead view of a round table. Sitting around the table are a group of neighborhood residents, having a conversation. Snacks are also sitting on the table. Next to the table, a child is playing on the floor with another person.",
       "edit": "https://www.google.com/",
       "print": "/workshop-pdfs/en/Policies.pdf",
       "resources": [
@@ -222,6 +233,7 @@
       "link": "Strategies",
       "edit": "https://www.google.com/",
       "print": "/workshop-pdfs/en/Strategies.pdf",
+      "altText": "Black and white drawing showing a nearly-completed Design Sprint worksheet. The worksheet has 8 squares, and different drawings representing kinds of community strategies are in each square (a film camera, a guitar, someone playing soccer, a party, a community garden, a community workshop, and a meal). Hands are shown working on completing the drawing together.",
       "resources": [
         {
           "name": "Design Sprint Activity Sheet",
@@ -265,6 +277,7 @@
       "num": "6",
       "color": "#259be4",
       "link": "Stories",
+      "altText": "Black and white drawing showing a diverse group of community residents sitting in a circle having a conversation. Conversation bubbles are coming out from each person, and above the group the conversation bubbles are interminging to form trees in a forest.",
       "edit": "https://www.google.com/",
       "print": "/workshop-pdfs/en/Stories.pdf",
       "resources": [
