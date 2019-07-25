@@ -46,9 +46,9 @@
             <li>Suficientes lapiceros, lápices y marcadores</li>
             <li>Cinta de Pintor o Cinta Adhesiva de Protección (masking tape)</li>
             <li>Pañuelitos</li>
-            <li>Copias impresas de las hojas de trabajo <b>TODO: ADD LINK</b></li>
-            <li>Plantilla de un árbol (imprimir, recortar, y pegar) <b>TODO: ADD LINK</b></li>
-            <li>&quot;Fruta&quot; impresa y cortada o figuras cortadas de cartulina <b>TODO: ADD LINK</b></li>
+            <li>Copias impresas de <a href="/handouts/Stories-Worksheet.pdf">las hojas de trabajo</a></li>
+            <li><a href="/handouts/Stories-Tree-Stencil.pdf" target="_blank">Plantilla de un árbol (imprimir, recortar, y pegar)</a>, o <a href="/handouts/Stories-Tree-24x24.pdf" target="_blank">dibujo de un árbol</a></li>
+            <li><a href="/handouts/Stories-Fruit.pdf" target="_blank">&quot;Fruta&quot; impresa y cortada</a> o figuras cortadas de cartulina</li>
             <li>Contar cuántos grupos pequeños habrán. Para cada grupo, trazar un árbol en una hoja de rotafolio.</li>
             <li>Crear un &quot;río&quot; hecho de cartulina azul en una de las paredes, o dibujar uno utilizando varias hojas de rotafolio. Durante las presentaciones, los arboles serán colocados a lo largo del río.</li>
             <li>Hacer un plan como facilitador/a/e de cómo apoyar a los/las/les participantes si las actividades provocan emociones fuertes, que saque a la luz traumas, o tristezas, y, ver cómo concluir la actividad.
@@ -80,7 +80,7 @@
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Paso 2: Historia Individuales (10 min: 2 min de explicación, 8 min de trabajo individual)</h4>
           <p>El objetivo de esta sección es iniciar con el trabajo individual. Esta porción de la actividad puede efectuarse en un área en silencio, o con música de fondo suave y apropiada culturalmente. Después de este segmento cada participante debe sentirse más conectado con los elementos de su propia historia migratoria. El entorno de fondo debe ser óptimo para la reflexión individual, permitiendo a los/las/les participantes profundizar o resaltar elementos fundamentales de la historia migratoria personal.</p>
-          <Instructions>Todos/as/es los/las/les participantes deben de tener una copia de la hoja de trabajo <b>TODO: LINK</b>, la que es una hoja de papel dividida en 3 secciones:
+          <Instructions>Todos/as/es los/las/les participantes deben de tener una copia de <a href="/handouts/Stories-Fruit.pdf" target="_blank">la hoja de trabajo</a>, la que es una hoja de papel dividida en 3 secciones:
             <ol class="facilitator">
               <li>¿Quién es mi gente?</li>
               <li>¿Cómo llegue aquí, y cuáles fueron los principales momentos decisivos y las luchas en el camino?</li>

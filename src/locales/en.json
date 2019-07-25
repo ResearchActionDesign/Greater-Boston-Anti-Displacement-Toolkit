@@ -47,6 +47,8 @@
     "name": " Toolkit Overview",
     "question": "Why an Anti-Displacement Toolkit for Greater Boston?",
     "link": "Overview",
+    "edit": "",
+    "print": "/workshop-pdfs/en/Overview.pdf",
     "color": "#cc0000",
     "resources": [
       {
@@ -64,7 +66,7 @@
       "color": "#D82C88",
       "link": "Mapping",
       "edit": "https://www.google.com/",
-      "print": "https://www.google.com/",
+      "print": "/workshop-pdfs/en/Mapping.pdf",
       "resources": [
         {
           "name": "Organizing for Power, Organizing for Change Tools for Campaign Planning",
@@ -95,7 +97,7 @@
       "color": "#743589",
       "link": "FindingData",
       "edit": "https://www.google.com/",
-      "print": "https://www.google.com/",
+      "print": "/workshop-pdfs/en/FindingData.pdf",
       "resources": [
         {
           "name": "Urban Institute Guide to Measuring Neighborhood Change to Understand and Prevent Displacement",
@@ -139,7 +141,7 @@
       "color": "#3554d1",
       "link": "UsingData",
       "edit": "https://www.google.com/",
-      "print": "https://www.google.com/",
+      "print": "/workshop-pdfs/en/UsingData.pdf",
       "resources": [
         {
           "name": "Convince Me!",
@@ -183,7 +185,7 @@
       "color": "#5da352",
       "link": "Policies",
       "edit": "https://www.google.com/",
-      "print": "https://www.google.com/",
+      "print": "/workshop-pdfs/en/Policies.pdf",
       "resources": [
         {
           "name": "All-In Cities Policy Toolkit",
@@ -219,8 +221,12 @@
       "color": "#ed701d",
       "link": "Strategies",
       "edit": "https://www.google.com/",
-      "print": "https://www.google.com/",
+      "print": "/workshop-pdfs/en/Strategies.pdf",
       "resources": [
+        {
+          "name": "Design Sprint Activity Sheet",
+          "link": "/handouts/Design-Sprint.pdf"
+        },
         {
           "name": "I Am Not My Pixels: Crazy 8s",
           "link": "https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/",
@@ -260,12 +266,28 @@
       "color": "#259be4",
       "link": "Stories",
       "edit": "https://www.google.com/",
-      "print": "https://www.google.com/",
+      "print": "/workshop-pdfs/en/Stories.pdf",
       "resources": [
         {
           "name": "Working Narratives: How to facilitate a Story Circle",
           "link": "https://workingnarratives.org/article/story-circles/",
           "text": "story circles are used in many traditions. Working narratives is an organization that facilitates story circles, a practice deeply rooted in the US South"
+        },
+        {
+          "name": "Story Sharing: Worksheet",
+          "link": "/handouts/Stories-Worksheet.pdf"
+        },
+        {
+          "name": "Story Sharing: Tree Image (24x24 size)",
+          "link": "/handouts/Stories-Tree-24x24.pdf"
+        },
+        {
+          "name": "Story Sharing: Tree Image (stencil)",
+          "link": "/handouts/Stories-Tree-Stencil4.pdf"
+        },
+        {
+          "name": "Story Sharing: Fruit images to cut-out",
+          "link": "/handouts/Stories-Fruit.pdf"
         }
       ]
     }

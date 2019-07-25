@@ -101,11 +101,11 @@
                   <p>We&#39;re going to set the timer and when we say, &quot;Go,&quot; sketch 1 idea per box until we stay, &quot;Stop.&quot;</p>
                   <p class="instructions">If it is helpful, share examples of multi-media or cultural organizing strategies and tactics to prompt the activity, such as:</p>
                   <ul class="instructions">
-                    <li>Community murals (Chelsea&#39;s 2018 mural process) <b>TODO: ADD LINK</b></li>
-                    <li>Community tours/photo walks <b>TODO: ADD LINK</b></li>
-                    <li>Community archiving project (audiovisual collection of community histories, documentation of community histories) <b>TODO: ADD LINK</b></li>
-<li>Filmmaking, organizing community dialogues around displacement, mobilizing and firing up folks <b>TODO: ADD LINK</b>
-</li><li>Digital organizing (social media) <b>TODO: ADD LINK</b>
+                    <li>Community murals (Chelsea&#39;s 2018 mural process)</li>
+                    <li>Community tours/photo walks</li>
+                    <li>Community archiving project (audiovisual collection of community histories, documentation of community histories)</li>
+<li>Filmmaking, organizing community dialogues around displacement, mobilizing and firing up folks
+</li><li>Digital organizing (social media)
 </li><li><a href="https://www.wbur.org/artery/2018/11/07/east-boston-gentrification-zumix-stories">Storytelling</a>
                   </li><li><a href="https://creativesantafe.org/events/affordable-housing/">Disruptive-futures dialogue</a></li>
                   </ul>

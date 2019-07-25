@@ -230,6 +230,10 @@
       "print": "https://www.google.com/",
       "resources": [
         {
+          "name": "Hoja de la Actividad &quot;Carrera de Diseño&quot; / Design Sprint",
+          "link": "/handouts/Design-Sprint.pdf"
+        },
+        {
           "name": "I Am Not My Pixels: Crazy 8s",
           "link": "https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/",
           "text": "página web que describe un proceso participativo para utilizar la actividad Carrera de Diseño/Design Sprint como herramienta organizativa"
@@ -274,6 +278,22 @@
           "name": "Working Narratives: How to facilitate a Story Circle",
           "link": "https://workingnarratives.org/article/story-circles/",
           "text": "Círculos Narrativos se utilizan en muchas tradiciones. Working Narratives es una organización que facilita círculos narrativos, una práctica con raíces en el Sur de los Estados Unidos"
+        },
+        {
+          "name": "Compartiendo Nuestras Historias: Hoja de Trabajo",
+          "link": "/handouts/Stories-Worksheet.pdf"
+        },
+        {
+          "name": "Compartiendo Nuestras Historias: Arból (tamaño 24x24)",
+          "link": "/handouts/Stories-Tree-24x24.pdf"
+        },
+        {
+          "name": "Compartiendo Nuestras Historias: Arból (plantilla)",
+          "link": "/handouts/Stories-Tree-Stencil4.pdf"
+        },
+        {
+          "name": "Compartiendo Nuestras Historias: Fruta para cortar",
+          "link": "/handouts/Stories-Fruit.pdf"
         }
       ]
     }
