@@ -37,7 +37,7 @@
           <li>Masking tape or painter&#39;s tape</li>
             <li>Identify a note taker, timekeeper, and 2 facilitators for the session. It&#39;s ideal to have 2 facilitators for this workshop so that 1 person can take the &quot;actors&quot; aside to prep them.</li>
             <li>Create and print a handout listing relevant statistics about displacement in your community (or use the sample one provided in the toolkit).</li>
-            <li>Set up the room with a bit of open space to serve as the &quot;stage&quot; for the &quot;Convince Me!&quot; activity. Using tape, label &quot;start&quot; and &quot;finish&quot; lines along the floor in this space, with about 8 paces between the 2 lines. The photo below illustrates an example of how the activity could be set up:<img src="../../assets/workshop_images/using_data/RoomSetup.png" :alt="$t('altText.usingDataRoomSetup')"></li>
+            <li>Set up the room with a bit of open space to serve as the &quot;stage&quot; for the &quot;Convince Me!&quot; activity. Using tape, label &quot;start&quot; and &quot;finish&quot; lines along the floor in this space, with about 8 paces between the 2 lines. The photo below illustrates an example of how the activity could be set up:<img src="../../assets/workshop_images/using_data/RoomSetup.jpg" :alt="$t('altText.usingDataRoomSetup')"></li>
             <li><p>Pick a realistic situation where members of your community might be trying to convince an elected official or other stakeholder of something. Some examples:</p>
               <ul>
                 <li>You&#39;re at a city council meeting trying to argue for an affordable housing bond that will create 1,000 new, subsidized apartments.</li>

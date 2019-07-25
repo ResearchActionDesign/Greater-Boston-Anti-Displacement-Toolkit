@@ -10,7 +10,7 @@
       <div class="toolkitTile" :style="{ borderLeft: '12px solid ' + workshop.color, '--workshop-color': workshop.color }" v-if="workshop.link">
         <h2 :style="{ color: workshop.color, textTransform: 'uppercase', lineHeight: '1'}">{{workshop.name}}</h2>
         <p class="toolkitTile__tagline">{{workshop.question}}</p>
-        <img :src="require(`@/assets/${workshop.link}.png`)" class="workshopLogo" alt />
+        <img :src="require(`@/assets/${workshop.link}-small.png`)" class="workshopLogo" alt />
         <p :style="{ color: workshop.color }" class="bold">{{$t('strings.workshop')}} {{workshop.num}}</p>
         
         <!-- Print and Edit -->
