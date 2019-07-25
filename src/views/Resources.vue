@@ -15,7 +15,7 @@
           {{ workshop.name }}
         </div>
       </div>
-      <a v-for="r of resources.filter(r => (this.selectedWorkshop === null || r.toolkit === this.selectedWorkshop))" class="resource" :key="r.name" :href="r.link"
+      <a v-for="r of resources.filter(r => (this.selectedWorkshop === null || r.toolkit === this.selectedWorkshop))" class="resource" :key="r.name" :href="r.link" target="_blank"
          @mouseover="hoverLink = r.name"
          @mouseout="hoverLink = null">
         <div class="resource__bullet" :style="{borderColor: r.color}"></div>
