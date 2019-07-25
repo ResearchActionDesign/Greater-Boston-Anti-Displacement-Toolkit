@@ -1,5 +1,3 @@
-const ImageminPlugin = require('imagemin-webpack-plugin').default;
-
 module.exports = {
   indexPath: 'index.html',
   pluginOptions: {
@@ -30,7 +28,4 @@ module.exports = {
       onlyProduction: true,
     },
   },
-  configureWebpack: {
-    plugins: [].concat(process.env.NODE_ENV === 'production' ? [new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i }),] : [])
-  }
 };
