@@ -3,7 +3,7 @@
         <div v-grid="'1fr 1fr 1fr 1fr 1fr'" class="partnerLogos">
             <a href="https://www.challiance.org/"><img src="./../assets/partnerLogos/CHA_logo.png" alt="Cambridge Health Alliance Logo"></a>
             <a href="https://www.challiance.org/community/everett-health-partnership"><img src="./../assets/partnerLogos/echp-logo-no-sac-copy2.png" alt="Everett Community Health Partnership Logo"></a>
-            <a href="https://www.greenrootschelsea.org/"><img src="./../assets/partnerLogos/GreenRootsLogo_flat.jpg" alt="Green Roots Logo"></a>
+            <a href="https://www.greenrootschelsea.org/"><img src="./../assets/partnerLogos/GreenRootsLogo_flat.png" alt="Green Roots Logo"></a>
             <a href="https://rad.cat/"><img src="./../assets/partnerLogos/RAD_logo3_large---transparency.png" alt="Research Action Design Logo"></a>
             <a href="https://www.colab.mit.edu/"><img src="./../assets/partnerLogos/colab-logo.png" alt="MIT Community Innovators Lab Logo"></a>
         </div>

@@ -34,7 +34,7 @@
           </td>
         </tr>
         <tr>
-          <td class="partnerLogos"><img src="../../assets/partnerLogos/GreenRootsLogo_flat.jpg" alt="Green Roots Logo">
+          <td class="partnerLogos"><img src="../../assets/partnerLogos/GreenRootsLogo_flat.png" alt="Green Roots Logo">
           </td>
           <td>
             <p><a href="https://www.greenrootschelsea.org/" class="org__name">GreenRoots</a>, es una organización comunitaria, dirigida por habitantes, que se dedica a mejorar el medio ambiente urbano y la salud pública en Chelsea y las comunidades circundantes. GreenRoots lleva a cabo su labor con un profundo involucramiento y empoderamiento de la comunidad, el liderazgo juvenil, y la implementación de proyectos innovadores y campañas. GreenRoots colabora en investigación comunitaria con Healthy Neighborhoods Study, un estudio de investigación y acción participativa liderado por Mariana Arcaya y CoLab.</p>

@@ -32,7 +32,7 @@
       </td>
           </tr>
           <tr>
-            <td class="partnerLogos">            <img src="../../assets/partnerLogos/GreenRootsLogo_flat.jpg" alt="Green Roots Logo">
+            <td class="partnerLogos">            <img src="../../assets/partnerLogos/GreenRootsLogo_flat.png" alt="Green Roots Logo">
             </td>
             <td>
         <p><a href="https://www.greenrootschelsea.org/" class="org__name">GreenRoots</a>, a resident-led, community-based organization, is dedicated to improving and enhancing urban environment and public health in Chelsea and surrounding communities. GreenRoots carries out its work with deep community engagement and empowerment, youth leadership, and implementation of innovative projects and campaigns. GreenRoots is a community research partner with Healthy Neighborhoods Study, a participatory action research study led by Mariana Arcaya and CoLab.
