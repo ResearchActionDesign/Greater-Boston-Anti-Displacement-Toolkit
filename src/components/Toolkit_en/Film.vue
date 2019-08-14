@@ -80,15 +80,31 @@
             <li>Be prepared for different emotional responses and perspectives. Use the goals of the screening and Community Agreements (or other tools used to create a safe space) to make room for differences and the re-grounding of conversations as needed.</li>
           </ul>
           <h3>Community Agreements</h3>
-            <dl>
-              <dt>ONE DIVA, ONE MIC / UNA DIVA, UN MICRÓFONO</dt><dd>Please, only 1 person speak at a time. (For those who need more time to process their words, or are less comfortable requesting airtime in a conversation, it could be useful to ask people to leave the space in between speakers.)</dd>
-              <dt>NO ONE KNOWS EVERYTHING; TOGETHER WE KNOW A LOT / NADIE SABE TODO; JUNTOS SABEMOS MUCHO</dt><dd>This means we all get to practice being humble, because we have something to learn from everyone in the room. It also means we all have a responsibility to share what we know, including our questions, so that others may learn from us.</dd>
-              <dt>MOVE UP, MOVE UP / MOVÁMONOS ROLES</dt><dd>If you&#39;re someone who tends to speak less, please move up into a role of speaking more. If you tend to speak a lot, please move up into a role of listening more. This is a twist on the more commonly known &quot;step up, step back.&quot; The &quot;up/up&quot; confirms that in both experiences, growth is happening. (You don&#39;t go &quot;back&quot; by learning to be a better listener.) Saying &quot;move&quot; instead of &quot;step&quot; recognizes that not everyone can step.</dd>
-              <dt>WE CAN&#39;T BE ARTICULATE ALL THE TIME / NO LOGRAMOS ARTICULAR TODO EL TIEMPO</dt><dd>Often, people feel hesitant to participate in a workshop or meeting for fear of &quot;messing up&quot; or stumbling over their words. We want everyone to feel comfortable participating, even if you can&#39;t be as articulate as you&#39;d like.</dd>
-              <dt>BE AWARE OF TIME / SER CONSCIENTES DEL TIEMPO</dt><dd>This is helpful for your facilitator, and helps respect everyone&#39;s time and commitment. Please come back on time from breaks, and refrain from speaking in long monologues.</dd>
-              <dt>BE CURIOUS / SER CURIOSOS</dt><dd>We make better decisions when we approach our problems and challenges with questions (&quot;What if we... ?&quot;) and curiosity. Allow space for play, curiosity, and creative thinking.</dd>
-              <dt>ANYTHING TO ADD? / ALGO MÁS?</dt>
-            </dl>
+          <table class="community-agreements">
+            <tbody>
+            <tr>
+              <td>ONE DIVA, ONE MIC / UNA DIVA, UN MICRÓFONO</td><td>Please, only 1 person speak at a time. (For those who need more time to process their words, or are less comfortable requesting airtime in a conversation, it could be useful to ask people to leave the space in between speakers.)</td>
+            </tr>
+            <tr>
+              <td>NO ONE KNOWS EVERYTHING; TOGETHER WE KNOW A LOT / NADIE SABE TODO; JUNTOS SABEMOS MUCHO</td><td>This means we all get to practice being humble, because we have something to learn from everyone in the room. It also means we all have a responsibility to share what we know, including our questions, so that others may learn from us.</td>
+            </tr>
+            <tr>
+              <td>MOVE UP, MOVE UP / MOVÁMONOS ROLES</td><td>If you&#39;re someone who tends to speak less, please move up into a role of speaking more. If you tend to speak a lot, please move up into a role of listening more. This is a twist on the more commonly known &quot;step up, step back.&quot; The &quot;up/up&quot; confirms that in both experiences, growth is happening. (You don&#39;t go &quot;back&quot; by learning to be a better listener.) Saying &quot;move&quot; instead of &quot;step&quot; recognizes that not everyone can step.</td>
+            </tr>
+            <tr>
+              <td>WE CAN&#39;T BE ARTICULATE ALL THE TIME / NO LOGRAMOS ARTICULAR TODO EL TIEMPO</td><td>Often, people feel hesitant to participate in a workshop or meeting for fear of &quot;messing up&quot; or stumbling over their words. We want everyone to feel comfortable participating, even if you can&#39;t be as articulate as you&#39;d like.</td>
+            </tr>
+            <tr>
+              <td>BE AWARE OF TIME / SER CONSCIENTES DEL TIEMPO</td><td>This is helpful for your facilitator, and helps respect everyone&#39;s time and commitment. Please come back on time from breaks, and refrain from speaking in long monologues.</td>
+            </tr>
+            <tr>
+              <td>BE CURIOUS / SER CURIOSOS</td><td>We make better decisions when we approach our problems and challenges with questions (&quot;What if we... ?&quot;) and curiosity. Allow space for play, curiosity, and creative thinking.</td>
+            </tr>
+            <tr>
+              <td>ANYTHING TO ADD? / ALGO MÁS?</td><td></td>
+            </tr>
+            </tbody>
+          </table>
           <p><strong>NOTE:</strong> A few community agreements that participants often bring up that we don&#39;t tend to use or bring with us include: &quot;assume best intentions&quot; and &quot;default to trust.&quot; We don&#39;t use these agreements because when someone is unable to do this (say they&#39;re feeling untrusting of someone, or unsafe), having a community agreement telling to do so isn&#39;t going to change anything. Put short, these agreements aren&#39;t always possible, especially when we take into consideration that people have been harmed by sexism, racism, homophobia, transphobia, and classism. Instead, we offer, &quot;we can&#39;t be articulate all the time,&quot; &quot;be generous with each other,&quot; and &quot;this is a space for learning,&quot; which capture the spirit of building up the necessary tools to take care of and protect themselves/ourselves.</p>
         </template>
         <template slot="Detailed_Plan">
@@ -211,7 +227,6 @@
   </main>
 </template>
 
-
 <script>
   import Introduction from "./../../components/Introduction";
   import FacilitationGuide from "./../../components/FacilitationGuide";
@@ -237,3 +252,9 @@
     },
   };
 </script>
+
+<style scoped>
+  .community-agreements td:first-of-type {
+    font-weight: bold;
+  }
+</style>
