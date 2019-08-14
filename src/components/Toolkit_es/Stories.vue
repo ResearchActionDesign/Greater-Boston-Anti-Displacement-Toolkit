@@ -99,7 +99,7 @@
             <p>Al ir compartiendo sus historias, piensen qué cosas y temas en común están surgiendo – utilizarán estas ideas y temas para crear un árbol conjunto que represente la historia del grupo.</p>
             <p>Mientras ustedes conversan, pasaremos materiales de arte para la siguiente parte de la tarde.</p>
           </Facilitator>
-          <Instructions>Pedirle a las/los participantes que cuenten para formar grupos de 3-4 personas. A medida que cada persona comparte su historia, favor pedirles también que compartan su pronombre de género también.</p>
+          <Instructions>Pedirle a las/los participantes que cuenten para formar grupos de 3-4 personas. A medida que cada persona comparte su historia, favor pedirles también que compartan su pronombre de género también.
             <p>Después de 4 minutos, ver cómo van (ahora es el turno de la siguiente persona si aún no han cambiado) y después de 8 minutos, cambiar otra vez, etc.</p>
             <p>Mientras los grupos están en el intercambio, pasar los materiales. Cada grupo recibe raíces y ramas para cada miembro/e, así como un baúl y unas frutas. Los grupos también reciben una hoja grande de papel, pega, cinta adhesiva y marcadores.</p>
           </Instructions>

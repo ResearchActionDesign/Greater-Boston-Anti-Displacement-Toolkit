@@ -33,7 +33,7 @@ export default {
   },
   computed: {
     resources: function() {
-      return Object.values(this.$t('toolkits')).flatMap(t => t.resources.map(r => ({toolkit: t.link, color: t.color, ...r}))).sort(
+      return Object.values(this.workshops).flatMap(t => t.resources.map(r => ({toolkit: t.link, color: t.color, ...r}))).sort(
           (a, b) => {
             if (a.name < b.name) {
               return -1;
@@ -45,7 +45,7 @@ export default {
       );
     },
     workshops: function() {
-      return this.$t('toolkits');
+      return { ...this.$t('toolkits'), Film: this.$t('filmToolkit') };
     }
   },
   mounted() {

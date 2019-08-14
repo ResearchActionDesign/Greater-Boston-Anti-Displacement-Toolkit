@@ -55,6 +55,17 @@
       }
     ]
   },
+  "filmToolkit": {
+    "name": "TRANSLATE Film Discussion & Action Guide",
+    "question": "TRANSLATE How do we use film to spark conversations about anti-displacement in our communities?",
+    "link": "Film",
+    "edit": "",
+    "print": "/workshop-pdfs/en/Film.pdf",
+    "color": "#cc0000",
+    "altText": "",
+    "resources": [
+    ]
+  },
 
   "toolkits": {
     "Mapping": {

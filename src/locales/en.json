@@ -65,6 +65,42 @@
       }
       ]
   },
+  "filmToolkit": {
+    "name": "Film Discussion & Action Guide",
+    "question": "How do we use film to spark conversations about anti-displacement in our communities?",
+    "link": "Film",
+    "edit": "",
+    "print": "/workshop-pdfs/en/Film.pdf",
+    "color": "#cc0000",
+    "altText": "",
+    "resources": [
+      {
+        "name": "Discussion and Action Guide of The Whole Gritty City,",
+        "link": "https://www.dropbox.com/s/1s22gmlz2spfmgq/WGC_Discussion%20Guide%20%281%29.pdf?dl=0",
+        "text": "a documentary that offers a unique portrayal of New Orleans through the lens of marching band culture."
+      },
+      {
+        "name": "Care",
+        "link": "http://caredocumentary.com/",
+        "text": "delves deep into the world of home elder care between paid caregivers and their elderly clients"
+      },
+      {
+        "name": "Working Films Community Screening Guide,",
+        "link": "https://www.includingsamuel.com/sites/www.includingsamuel.com/files/including_samuel_-_community_screening_guide.pdf",
+        "text": "a handout offering general guidelines to organizations who do not typically host film screenings."
+      },
+      {
+        "name": "The Area,",
+        "link": "https://theareafilm.com/",
+        "text": "a five-year odyssey of a South Side Chicago neighborhood, where a multibillion dollar freight company is displacing more than 400 Black families."
+      },
+      {
+        "name": "Priced Out, The Documentary",
+        "link": "https://www.pricedoutmovie.com/",
+        "text": "documents 15 years of gentrification in Portland, Oregon."
+      }
+    ]
+  },
   "toolkits": {
     "Mapping": {
       "name": "Mapping Power & Money",
