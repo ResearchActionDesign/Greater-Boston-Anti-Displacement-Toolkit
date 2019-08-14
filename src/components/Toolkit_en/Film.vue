@@ -62,7 +62,8 @@
           <li>Identify key questions you plan to ask the audience based on who is attending, size and diversity of the group, and desired outcomes for the conversation.</li>
           <li>Consider printing out and distributing questions for the audience to reference during the discussion.</li>
           <li>Make sure you have (and test how to set up) all A/V equipment (e.g., projector, laptop, screen).</li>
-          <li>The film is available at <a href="https://greaterbostontoolkit.org/film">https://greaterbostontoolkit.org/film</a> TODO: VIMEO LINK. Each partner organization also has a copy of the film available for use.</li>
+          <li>The film is available at <a href="https://greaterbostontoolkit.org/film">https://greaterbostontoolkit.org/film</a><!--      TODO change to vimeo link-->
+            Each partner organization also has a copy of the film available for use.</li>
           <li>If conducting the optional activity, you will need materials (paper, colored markers/pens, sticky notes) for participants to create their own future timelines.</li>
           </ul>
         </template>

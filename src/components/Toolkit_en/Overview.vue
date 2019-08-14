@@ -41,7 +41,7 @@
             </td></tr>
         </table>
         <p>We thank all community partners and members for their participation and thoughtful feedback at the toolkit co-design session.</p>
-        <p>We thank Lisa Owens and Andres del Castillo with <a href="https://www.clvu.org">City Life/Vida Urbana</a> for their participation and contributions to the initial concept and co-design of this toolkit. The film, [ADD NAME WHEN CONFIRMED] for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustín Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo.</p>
+        <p>We thank Lisa Owens and Andres del Castillo with <a href="https://www.clvu.org">City Life/Vida Urbana</a> for their participation and contributions to the initial concept and co-design of this toolkit.</p>
       <h3>COORDINATING ORGANIZATIONS</h3>
   <table><tr><td class="partnerLogos"><img src="../../assets/partnerLogos/RAD_logo3_large---transparency.png" alt="Research Action Design Logo">
   </td>
@@ -57,7 +57,8 @@
         <p class="italic">Allegra Williams, Andrew Binet, Augustín Cepeda, Natalia Coachman, Taina McField, Taylor Cain.</p>
       </td></tr>
   </table>
-      <p>We also thank <a href="https://www.queerblackediting.com/">Queer Black Editing</a> for copyediting the toolkit, and Xenia Barahona for its translation. This project would not have been possible without the generous support of The Surdna Foundation.</p>
+      <p>The film, [ADD NAME WHEN CONFIRMED] for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustín Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo. We also thank <a href="https://www.queerblackediting.com/">Queer Black Editing</a> for copyediting the toolkit, and Xenia Barahona for its translation.</p>
+        <p>This project would not have been possible without the generous support of The Surdna Foundation.</p>
       <p>All materials developed for the toolkit are licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, which means they may be adapted to fit your community needs; however, you must give appropriate credit, indicate if changes were made, and distribute your contributions under the same license as the original. Please review the guidelines linked above.</p>
       <h3>METHODOLOGY</h3>
       <p>This toolkit is a co-design project. In the first year of its development, community partner organizations identified, shared, and prioritized the problems, audiences, and potential tools needed to help influence change in their communities. In April 2018, the partners agreed upon a shared problem statement for the project: “We want people to be able to stay in their communities safely, affordably, and healthily. We want people to have a voice in shaping place. This is not currently happening in the communities of Chelsea, Everett, and East Boston.”</p>
