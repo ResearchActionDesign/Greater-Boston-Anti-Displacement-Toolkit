@@ -21,7 +21,17 @@ module.exports = {
         '/en/toolkit/strategies',
         '/en/toolkit/stories',
         '/en/film',
-        '/en/resources'
+        '/en/resources',
+        // Spanish routes
+        '/es/manual',
+        '/es/manual/mapeo',
+        '/es/manual/búsqueda-de-datos',
+        '/es/manual/so-de-estadísticas',
+        '/es/manual/políticas',
+        '/es/manual/estrategias',
+        '/es/manual/historias',
+        '/es/pelicula',
+        '/es/recursos'
       ],
       useRenderEvent: true,
       headless: true,

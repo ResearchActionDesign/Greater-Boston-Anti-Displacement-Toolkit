@@ -19,32 +19,40 @@
     "workshop": "Guía",
     "instructions": "INSTRUCCIONES",
     "facilitator": "FACILITADOR/A/E",
-    "filterByWorkshop": "Filter by Workshop:",
-    "clearFilter": "Clear filter",
+    "filterByWorkshop": "Clasificar por Guía:",
+    "clearFilter": "Eliminar filtros",
     "pageTitles": {
       "Film": "Pelicula",
       "Toolkits": "Manual",
       "Resources": "Recursos"
     }
   },
-  "description": "This multi-media organizing toolkit is a collection of activities, how-to guides, facilitation plans, and resources that organizers and residents can use to fight displacement in their communities.",
+  "altText": {
+    "facilitator": "Dibujo de un/a/e facilitador/e",
+    "mappingExample1": "Un diagrama en rotafolio con etiquetas azules para los/las/les diferentes actores (Iglesias, Inmobiliarios, Residentes, Agentes de Bienes Raíces, Municipalidad, Bancos, Estados, Organizaciones de Base y Negocios). Las etiquetas verdes contiguo a cada actor/e indica si tienen poder social, económico o político; y las flechas negras entre los/las/les actores indican las relaciones de poder.",
+    "mappingExample2": "Un diagrama en rotafolio con una lista separada con actores (GreenRoots/RaícesVerdes, Alcaldía, Escuelas, Inversionistas, etc.), relaciones (elecciones, leyes, desarrollo municipal), y formas de poder (económico, organizativo, político, etc.). Las flechas rojas y verdes conectan a los/las/les actores con los tipos de poder que tienen.",
+    "mappingExample3": "Un diagrama en papelógrafo que muestra las diferentes entidades en el sistema de salud y las relaciones entre sí.",
+    "usingDataRoomSetup": "Una fotografía que muestra personas en un grupo grande durante el taller “¡Convénceme!” La sala tiene dos líneas de cinta azul en el piso, y un grupo de los/las/les participantes está detrás de una línea, frente a otro/a/e participantes que está detrás de la segunda línea y está hablando con él/ella/elle."
+  },
+  "description": "Este manual para la organización de uso multimedios es una colección de actividades, guías prácticas, planes de facilitación, y recursos que los/las/les organizadores y habitantes pueden utilizar para luchar contra el desplazamiento en sus comunidades.",
 
   "facilitator": "Facilitador/a/e",
   "instructions": "Instrucciones",
 
   "partnersDisclaimer": {
-    "SurdnaFoundation": "spanish",
-    "Surdnacontent": "spanish",
-    "CreativeCommonsAttribution": "spanish",
+    "SurdnaFoundation": "Este Proyecto fue financiado por la Fundación Surdna, ",
+    "Surdnacontent": "y fue una colaboración entre GreenRoots, Everett Community Health Partnership/Coalición de Salud Comunitaria de Everett (ECHP por sus siglas en inglés), Research Action Design (RAD por sus siglas en inglés), y CoLab de MIT.",
+    "CreativeCommonsAttribution": "Atribución a Creative Commons: ",
     "AttributionContent": "Todos los materiales desarrollados para el manual están registrados bajo la licencia Creative Commons Attribution-ShareAlike 4.0 Internacional, lo que significa que pueden ser adaptados para satisfacer las necesidades de tu comunidad; sin embargo, debes dar el crédito apropiado, indicar si se han realizado cambios, y distribuir tus contribuciones bajo la misma licencia que el original. Revisar las normas vinculadas anteriormente."
   },
 
-  "translateTo": "Traducir a ingles",
-  "edit": "edit",
-  "print": "print",
+  "translateTo": "Translate to English",
+  "edit": "editar",
+  "print": "imprimir",
   "overviewToolkit": {
     "name": "Reseña del Manual",
     "question": "¿Por qué se necesita un manual anti-desplazamiento para el Área Metropolitana de Boston?",
+    "altText": "Dibujo lineal que muestra una panorámica de East Boston, con el Río Chelsea y el centro de Boston en el fondo. En primer plano, un círculo de personas de pie en un parque de la ciudad, cerca de mesas campestres.",
     "link": "Overview",
     "color": "#cc0000",
     "resources": [
@@ -76,6 +84,7 @@
       "link": "Mapping",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
+      "altText": "Un dibujo lineal con 5 viñetas diferentes (una iglesia, el Casino de Everett, casas, los edificios gubernamentales, y una grúa. Gente que representa a habitantes y trabajadores de la construcción están de pie enfrente de cada viñeta. Una línea punteada conecta a las personas entre sí, y representa las conexiones de poder.",
       "resources": [
         {
           "name": "Organizing for Power, Organizing for Change Tools for Campaign Planning",
@@ -100,13 +109,14 @@
       ]
     },
     "FindingData": {
-      "name": "Buscar Datos Sobre Tu Comunidad",
+      "name": "Búsqueda de Datos Sobre Tu Comunidad",
       "question": "¿Cómo podemos profundizar en los problemas que enfrentan nuestras comunidades?",
       "num": "2",
       "color": "#743589",
       "link": "FindingData",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
+      "altText": "Un dibujo lineal que muestra dos personas enfrente de una pared, cada una con una lupa en la mano. Los mapas y tablas se exhiben en la pared, y las dos personas están examinándolos con sus lupas.",
       "resources": [
         {
           "name": "Urban Institute Guide to Measuring Neighborhood Change to Understand and Prevent Displacement",
@@ -144,13 +154,14 @@
       ]
     },
     "UsingData": {
-      "name": "El Uso de Estadísticas y Narraciones Para Argumentar ",
+      "name": "Uso de Estadísticas y Narraciones Para Argumentar",
       "question": "¿Cómo podemos usar datos de Chelsea y Everett para fortalecer nuestras voces?",
       "num": "3",
       "color": "#3554d1",
       "link": "UsingData",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
+      "altText": "Un dibujo lineal que muestra la vista panorámica de East Boston, con el centro de Boston en el fondo al otro lado del Río Chelsea. Los edificios en el paisaje están hechos de bloques de colores que representan historias y datos, y los /las/les habitantes de la ciudad se muestran cargando y ensamblando los bloques para formar una torre. En la cima de la torre un/una/une organizador/a/e comunitario/a/e está de pie en conversación con una figura que representa el/la/le inversor inmobiliario, quien está en un globo de aire caliente con un signo de dólar gigante ",
       "resources": [
         {
           "name": "Versión original de \"Convencerme!\"",
@@ -190,13 +201,14 @@
       ]
     },
     "Policies": {
-      "name": "Identificando e Evaluando Políticas",
+      "name": "Identificación y Evaluación de Políticas y Estrategias ",
       "question": "¿Cómo protegemos donde vivimos?",
       "num": "4",
       "color": "#5da352",
       "link": "Policies",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
+      "altText": "Un dibujo en blanco y negro que muestra una vista desde arriba de una mesa redonda. Alrededor de la mesa está sentado un grupo de habitantes del vecindario, conversando. Sobre la mesa hay también bocaditos, a la orilla de la mesa, un/una/une niño/a/e está jugando en el piso con otra persona.",
       "resources": [
         {
           "name": "All-In Cities Policy Toolkit",
@@ -231,13 +243,14 @@
       ]
     },
     "Strategies": {
-      "name": "Identificar Estrategias Comunitarias y Tácticas",
+      "name": "Identificación de Estrategias Comunitarias y Tácticas",
       "question": "¿Cómo nos preparamos para ser efectivos?",
       "num": "5",
       "color": "#ed701d",
       "link": "Strategies",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
+      "altText": "Un dibujo en blanco y negro que muestra una hoja de trabajo sobre Carrera de Diseño casi completa. La hoja de trabajo tiene 8 cuadros, y diferentes dibujos representan los tipos de estrategias comunitarias están colocados en cada uno de los cuadros (una cámara de cine, un jardín comunitario, un taller comunitario, y una comida). Se muestran manos trabajando juntas para terminar el dibujo.",
       "resources": [
         {
           "name": "Hoja de la Actividad &quot;Carrera de Diseño&quot; / Design Sprint",
@@ -276,13 +289,14 @@
       ]
     },
     "Stories": {
-      "name": "Compartiendo Nuestras Historias",
+      "name": "Compartir Nuestras Historias",
       "question": "¿Qué es el desplazamiento y cómo está afectando el Área Metropolitana de Boston?",
       "num": "6",
       "color": "#259be4",
       "link": "Stories",
       "edit": "https://www.google.com/",
       "print": "https://www.google.com/",
+      "altText": "Un dibujo en blanco y negro que muestra un grupo diverso de habitantes de la comunidad sentados en un círculo conversando. Cada persona libera una burbuja que encierra la conversación y sobre el grupo las burbujas se mezclan y forman árboles en un bosque.",
       "resources": [
         {
           "name": "Working Narratives: How to facilitate a Story Circle",

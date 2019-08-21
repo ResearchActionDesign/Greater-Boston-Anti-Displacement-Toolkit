@@ -75,9 +75,16 @@ router.beforeEach((to, from, next) => {
     Object.keys(tagDef).forEach((key) => { tag.setAttribute(key, tagDef[key]); });
   });
 
+  let newName = to.name;
+  if (newName.endsWith('-es') && language === 'en') {
+    newName = newName.slice(-3);
+  }
+  else if (!(newName.endsWith('-es')) && language === 'es' && newName !== 'Home') {
+    newName = newName + '-es';
+  }
 
-  if (to.params.locale !== language) {
-    next({ name: to.name, params: { locale: language }});
+  if (to.params.locale !== language || newName !== to.name) {
+    next({ name: newName, params: { locale: language }});
   }
   else {
     next();

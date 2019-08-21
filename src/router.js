@@ -11,6 +11,7 @@ export default new Router({
       name: 'Overview',
       component: () => import( /* webpackChunkName: "Overview" */ './views/Overview.vue'),
     },
+    // English-language routes.
     {
       path: '/:locale/toolkit',
       name: 'Toolkit',
@@ -54,6 +55,53 @@ export default new Router({
     {
       path: '/:locale/resources',
       name: 'Resources',
+      component: () => import( /* webpackChunkName: "Resources" */ './views/Resources.vue')
+    },
+
+    // Spanish-language routes
+    {
+      path: '/:locale/manual',
+      name: 'Toolkit-es',
+      component: () => import( /* webpackChunkName: "Toolkits" */ './views/ToolkitList.vue'),
+    },
+    {
+      path: '/:locale/manual/mapeo',
+      name: 'Mapping-es',
+      component: () => import( /* webpackChunkName: "Mapping" */ './views/Toolkit/Mapping.vue')
+    },
+    {
+      path: '/:locale/manual/búsqueda-de-datos',
+      name: 'FindingData-es',
+      component: () => import( /* webpackChunkName: "FindData" */ './views/Toolkit/FindData.vue')
+    },
+    {
+      path: '/:locale/manual/uso-de-estadísticas',
+      name: 'UsingData-es',
+      component: () => import( /* webpackChunkName: "UseData" */ './views/Toolkit/UsingData.vue')
+    },
+    {
+      path: '/:locale/manual/políticas',
+      name: 'Policies-es',
+      component: () => import( /* webpackChunkName: "Policies" */ './views/Toolkit/Policies.vue')
+    },
+    {
+      path: '/:locale/manual/estrategias',
+      name: 'Strategies-es',
+      component: () => import( /* webpackChunkName: "Strategies" */ './views/Toolkit/Strategies.vue')
+    },
+    {
+      path: '/:locale/manual/historias',
+      name: 'Stories-es',
+      component: () => import( /* webpackChunkName: "Stories" */ './views/Toolkit/Stories.vue')
+    },
+    {
+      path: '/:locale/pelicula',
+      name: 'Film-es',
+      component: () => import( /* webpackChunkName: "Film" */ './views/Film.vue')
+    },
+    {
+      path: '/:locale/recursos',
+      name: 'Resources-es',
       component: () => import( /* webpackChunkName: "Resources" */ './views/Resources.vue')
     },
     {

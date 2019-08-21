@@ -1,6 +1,7 @@
 <template>
   <div class="resources">
     <main>
+      <p v-if="$i18n.locale === 'es'"><em>Nota: la mayoría de los recursos solo están disponibles en inglés.</em></p>
       <div class="sort_list">
         <div class="filter__text" @click="selectedWorkshop && selectWorkshop(null)">{{ selectedWorkshop === null ? $t('strings.filterByWorkshop') : $t('strings.clearFilter') }}</div>
         <div
@@ -14,8 +15,7 @@
         >
           {{ workshop.name }}
         </div>
-      </div>
-      <a v-for="r of resources.filter(r => (this.selectedWorkshop === null || r.toolkit === this.selectedWorkshop))" class="resource" :key="r.name" :href="r.link" target="_blank"
+      </div><a v-for="r of resources.filter(r => (this.selectedWorkshop === null || r.toolkit === this.selectedWorkshop))" class="resource" :key="r.name" :href="r.link" target="_blank"
          @mouseover="hoverLink = r.name"
          @mouseout="hoverLink = null">
         <div class="resource__bullet" :style="{borderColor: r.color}"></div>
