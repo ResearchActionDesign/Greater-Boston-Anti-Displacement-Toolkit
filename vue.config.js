@@ -31,7 +31,7 @@ module.exports = {
         '/es/manual/estrategias',
         '/es/manual/historias',
         '/es/pelicula',
-        '/es/recursos'
+        '/es/recursos',
       ],
       useRenderEvent: true,
       headless: true,

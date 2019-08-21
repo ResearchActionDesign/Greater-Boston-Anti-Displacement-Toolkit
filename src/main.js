@@ -77,9 +77,9 @@ router.beforeEach((to, from, next) => {
 
   let newName = to.name;
   if (newName.endsWith('-es') && language === 'en') {
-    newName = newName.slice(-3);
+    newName = newName.slice(0, -3);
   }
-  else if (!(newName.endsWith('-es')) && language === 'es' && newName !== 'Home') {
+  else if (!(newName.endsWith('-es')) && language === 'es' && newName !== 'Overview' && newName !== 'Home') {
     newName = newName + '-es';
   }
 
