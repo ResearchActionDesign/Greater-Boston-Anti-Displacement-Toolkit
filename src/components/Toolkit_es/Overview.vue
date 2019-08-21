@@ -5,7 +5,7 @@
       <h2>Objetivo</h2>
       <p>Este manual de uso multimedios para la organización comunitaria conlleva un conjunto de actividades, guías prácticas, planes de facilitación, y recursos que los organizadores y habitantes pueden utilizar para luchar contra el desplazamiento en sus comunidades.</p>
       <p>Chelsea y Everett, Massachusetts, están enfrentando la presión de inversores inmobiliarios, lo cual ha resultado en el acaparamiento de tierras por inversionistas, un alza en los precios de la vivienda, y el desplazamiento forzado (o expulsión) de los habitantes y las pequeñas empresas. En el estudio Healthy Neighborhoods Study (HNS)/ Vecindarios Saludables – el cual tiene como meta comprender la relación entre la urbanización, la salud y las condiciones vecinales en nueve comunidades de Massachusetts – se documentó los resultados de investigación entre los años 2016-2019 e indica que el 40% de los/las/ encuestados/as/e de Chelsea y el 31% de Everett esperan mudarse en los próximos cinco años. De esta misma investigación, el 72% de los/las/les encuestados/as/e de Chelsea y el 75% de Everett indicaron que están orgullosos de vivir en su comunidad. Sin embargo, el impacto del desplazamiento les afectará negativamente al igual que a otros individuos, familias y comunidades. Para obtener más información acerca del desplazamiento, incluyendo sus efectos sobre la salud, los resultados educativos, y el poder de la comunidad, vaya a la sección de Recursos para ver <a href="https://www.urbandisplacement.org/pushedout">Pushed Out/Expulsados</a>, un video corto producido por el Urban Displacement Project/Proyecto sobre Desplazamiento Urbano.</p>
-      <p>Nosotros/as/e tenemos el poder para asegurar que nuestras comunidades sigan siendo opciones viables en las cuales los/las/le habitantes puedan vivir y prosperar. Es importante y oportuno que la comunidad local aborde el desplazamiento a medida que enfrentamos urbanizaciones a gran escala e iniciativas de planificación como el East Boston Master Plan/Plan Maestro para el Este de Boston, Chelsea Creek Municipal Harbor Plan/el Plan del Puerto Municipal de Chelsea Creek o Encore Casino/el Casino Encore en Everett.</p>
+      <p>Nosotros/as/e tenemos el poder para asegurar que nuestras comunidades sigan siendo opciones viables en las cuales los/las/le habitantes puedan vivir y prosperar. Es importante y oportuno que la comunidad local aborde el desplazamiento a medida que enfrentamos urbanizaciones a gran escala e iniciativas de planificación como el East Boston Master Plan/Plan East Boston, Chelsea Creek Municipal Harbor Plan/el Plan del Puerto Municipal del Río Chelsea o Encore Casino/el Casino Encore en Everett.</p>
       <p>Queríamos crear una guía para que los/las/les miembros de la comunidad trabajen juntos/as/e para proteger y preservar sus comunidades. Nuestro objetivo es que tú, el usuario, construyas poder a través del análisis colectivo (a partir de tu propio conocimiento), elabores objetivos y acciones conjuntas y desarrolles principios de referencia para el desarrollo equitativo.</p>
 
       <h3>Valores y Objetivos de Este Manual</h3>
@@ -42,7 +42,7 @@
           </td></tr>
       </table>
       <p>Agradecemos a todes los/las/les socios y miembros/es de la comunidad por su participación y sus detallados comentarios en la sesión de diseño conjunto del manual. </p>
-      <p>Agradecemos a Lisa Owens y Andrés del Castillo quienes trabajan para <a href="https://www.clvu.org">City Life/Vida Urbana</a> por su participación y sus aportes al concepto inicial y el diseño conjunto de este manual. La película, [AGREGAR NOMBRE CUANDO SEA CONFIRMADO] para el manual fue producida y dirigida por Puck Lo. Las ilustraciones fueron creadas por Agustín Cepeda y Natalia Coachman. El soporte y desarrollo del diseño Web fue realizado por Maria Lamardo.</p>
+      <p>Agradecemos a Lisa Owens y Andrés del Castillo quienes trabajan para <a href="https://www.clvu.org">City Life/Vida Urbana</a> por su participación y sus aportes al concepto inicial y el diseño conjunto de este manual.</p>
       <h3>ORGANIZACIONES COORDINADORAS</h3>
       <table><tr><td class="partnerLogos"><img src="../../assets/partnerLogos/RAD_logo3_large---transparency.png" alt="Research Action Design Logo">
       </td>
@@ -58,24 +58,29 @@
             <p class="italic">Allegra Williams, Andrew Binet, Augustín Cepeda, Natalia Coachman, Taina McField, Taylor Cain.</p>
           </td></tr>
       </table>
-      <p>También agradecemos a <a href="https://www.queerblackediting.com/">Queer Black Editing</a> por las correcciones al manual, y Xenia Barahona por su traducción. Este proyecto no habría sido posible sin el generoso apoyo de Surdna Foundation.
+      <p>La película, <b>Desplazada</b> para el manual fue producida y dirigida por Puck Lo. Las ilustraciones fueron creadas por Agustín Cepeda y Natalia Coachman. También agradecemos a <a href="https://www.queerblackediting.com/">Queer Black Editing</a> por las correcciones al manual, y Xenia Barahona por su traducción, y Maria Lamardo por el soporte y desarollo del diseño Web.</p>
+      <p>Este proyecto no habría sido posible sin el generoso apoyo de Surdna Foundation.</p>
       <p>Todos los materiales desarrollados para el manual están registrados bajo la <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">licencia Creative Commons Attribution-ShareAlike 4.0 Internacional</a>, lo que significa que pueden ser adaptados para satisfacer las necesidades de tu comunidad; sin embargo, debes dar el crédito apropiado, indicar si se han realizado cambios, y distribuir tus contribuciones bajo la misma licencia que el original. Revisar las normas vinculadas anteriormente.</p>
       <h3>METODOLOGÍA</h3>
-      <p>Este manual es un proyecto de diseño conjunto. En el primer año de su desarrollo, las organizaciones comunitarias socias identificaron, compartieron y priorizaron los problemas, las audiencias, y posibles instrumentos necesarios para ayudar a influenciar el cambio en sus comunidades. En abril de 2018, las organizaciones socias acordaron una declaración conjunta del problema para el proyecto: "Queremos que las personas puedan permanecer en sus comunidades de forma segura, saludable y con vivienda asequible. Queremos que la gente tenga voz en la configuración de sus comunidades. Esto no está ocurriendo actualmente en las comunidades de Chelsea, Everett e East Boston".</p>
+      <p>Este manual es un proyecto de diseño conjunto. En el primer año de su desarrollo, las organizaciones comunitarias socias identificaron, compartieron y priorizaron los problemas, las audiencias, y posibles instrumentos necesarios para ayudar a influenciar el cambio en sus comunidades. En abril de 2018, las organizaciones socias acordaron una declaración conjunta del problema para el proyecto: "Queremos que las personas puedan permanecer en sus comunidades de forma segura, saludable y con vivienda asequible. Queremos que la gente tenga voz en la configuración de sus comunidades. Esto no está ocurriendo actualmente en las comunidades de Chelsea, Everett ni East Boston".</p>
       <p>Con base en la declaración del problema, las organizaciones socias de la comunidad acordaron elaborar un manual de uso multimedios para organizar. El proceso de diseño conjunto incluyó la revisión de manuales y recursos existentes, desarrollar el esquema y los componentes del manual; la co-creación de la historia y el guion de la película; y la elaboración, recopilación y revisión del contenido para cada uno de los componentes. En marzo de 2019, se llevó a cabo una sesión de diseño conjunto para involucrar a las organizaciones comunitarias socias, sus miembros/es y redes en el diseño y en la prueba del manual. La sesión de dos días de co-diseño y evaluación consistió en la realización de dos laboratorios de ideas para configurar y generar contenido, tres laboratorios de pruebas para refinar la selección de los componentes del manual, y una presentación de la película a un pequeño grupo y una revisión final de la película editada. Los comentarios y las evaluaciones de la sesión de diseño conjunto fueron utilizados para refinar y finalizar el manual de uso multimedios para la organización comunitaria para luchar contra el desplazamiento.</p>
 
       <h3>COMMUNITY AGREEMENTS</h3>
       <p>TODO: FILL IN ONCE COPY-EDITED & CREDIT AORTA</p>
+
+      <AdditionalResources :toolkit="$t('overviewToolkit')"></AdditionalResources>
     </div>
   </main>
 </template>
 
 <script>
   import ToolkitIntro from '../ToolkitIntro';
+  import AdditionalResources from '../AdditionalResources';
 
   export default {
     name: "Overview",
     components: {
+      AdditionalResources,
       ToolkitIntro,
     }
   };

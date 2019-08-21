@@ -7,8 +7,8 @@
         <p>Muchos han sufrido los efectos negativos de decisiones corporativas y políticas excluyentes que los han conducido al desplazamiento. Para promover el cambio es fundamental comprender los sistemas de poder en que estas decisiones se llevan a cabo y como tú como miembro/e de la comunidad puedes influenciar el proceso.</p>
         <p>El mapeo de poder y dinero es una actividad útil para involucrar a las comunidades en pensar acerca de las relaciones que impactan los problemas que enfrentan, de los cuales se derivan las estrategias organizativas y tácticas. Esta actividad ayuda a identificar y evaluar el ambiente político local, regional y comunitario en relación a un problema específico a través de:</p>
         <ul>
-          <li>La identificación de los diferentes actores y objetivos específicos para las campañas,</li>
-          <li>La identificación de las funciones de los/las/les miembros de la comunidad como actores,</li>
+          <li>La identificación de los/las/les diferentes actores y objetivos específicos para las campañas,</li>
+          <li>La identificación de las funciones de los/las/les miembros/es de la comunidad como actores,</li>
           <li>La identificación de las diferentes formas de poder y cómo los diferentes actores y sistemas interactúan y se relacionan,</li>
           <li>El análisis &quot;qué o quién&quot; puede debilitar o fortalecer el poder de la comunidad, y</li>
           <li>La identificación de oportunidades para promover el cambio, donde intervenir.</li>
@@ -25,7 +25,7 @@
         <div slot="Workshop_Outcomes">
           <ol>
             <li>Evaluación del ambiente político local, regional, y comunitario para ayudar a identificar oportunidades para promover el cambio.</li>
-            <li>Entendimiento muto de los/las7les actores claves, del poder y del dinero en la comunidad.</li>
+            <li>Entendimiento muto de los/las/les actores claves, del poder y del dinero en la comunidad.</li>
             <li>Mapas prácticos para influir y/o potenciar el poder y el dinero identificado en la comunidad para estrategias organizativas y tácticas definidas.</li>
           </ol>
         </div>
@@ -33,7 +33,7 @@
         <!-- Who to Invite -->
         <template slot="Whom_to_Invite">
           <p>Las personas que inviten (o excluyan) dependerá en gran medida del objetivo (<em>¿Por qué hacerlo?</em>) y los resultados (<em>¿Qué quieres saber/tener al final?</em>) al organizar una actividad de mapeo de poder y dinero en la comunidad. Lo ideal es tener un mínimo de 8 participantes para dividirlos en grupos más pequeños para la actividad de mapeo.</p>
-          <p>Una vez que esto ha sido identificado, entonces pregunta:</p>
+          <p>Una vez que esto ha sido identificado, entonces preguntarse:</p>
           <ul>
             <li>¿Quién puede ayudar a cumplir este objetivo?</li>
             <li>¿Quién es la persona más relevante para esta actividad?</li>
@@ -41,7 +41,7 @@
           </ul>
           <p>Por ejemplo:</p>
           <ul>
-            <li>Un proyecto de desarrollo urbanístico que ha sido propuesto para la zona céntrica de la comunidad expulsará a inquilinos y a un negocio de propietarios locales. Puedes identificar/invitar a los inquilinos que probablemente serán expulsados, a los dueños del negocio y a los consumidores que frecuentan este negocio. Podrías también invitar a organizaciones claves u organizadores en el área que están luchando contra esta urbanización. ¿Quién más podría ser directamente afectado por esta urbanización?</li>
+            <li>Un proyecto de desarrollo urbanístico que ha sido propuesto para la zona céntrica de la comunidad expulsará a inquilinos y a un negocio de propietarios locales. Puedes identificar/invitar a los/las/les inquilinos/es que probablemente serán expulsados, a los dueños del negocio y a los/las/les consumidores que frecuentan este negocio. Podrías también invitar a organizaciones claves u organizadores en el área que están luchando contra esta urbanización. ¿Quién más podría ser directamente afectado por esta urbanización?</li>
             <li>La gentrificación y el desplazamiento son motivos de creciente preocupación para la comunidad y el área circundante. Tu deseas llamar la atención hacia esto e identificar oportunidades para solucionar el problema. Puedes invitar a las organizaciones locales, los/las/les miembros de la comunidad de todas las edades, empresarios locales y representantes del gobierno para tener un debate más amplio sobre los problemas que están sucediendo en la región. El mapeo de poder y dinero puede ayudar a iniciar una conversación para tomar acción colectiva.</li>
           </ul>
         </template>
@@ -101,7 +101,7 @@
         <template slot="Detailed_Plan">
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Paso 1: Introducción de la actividad (5 min)</h4>
-          <Facilitator>Comprender las relaciones de poder y el flujo de recursos que configuran el problema que estamos intentando resolver será crucial para ayudarnos a elaborar estrategia de manera eficaz, adaptarnos a los nuevos acontecimientos o cambios, y evaluar nuestro progreso.
+          <Facilitator>Comprender las relaciones de poder y el flujo de recursos que configuran el problema que estamos intentando resolver será crucial para ayudarnos a elaborar estrategias de manera eficaz, adaptarnos a los nuevos acontecimientos o cambios, y evaluar nuestro progreso.
             <p>El mapeo-de-poder es una técnica común para organizar comunidades y que es utilizada para representar visualmente a los actores clave respecto de un asunto, los tipos de poder que tienen, y cómo se relacionan entre sí acerca de un problema o asunto específico. Al igual que otros mapas, los mapas de poder ayudan a los usuarios a orientarse en relación con el mundo que les rodea. Estos mapas pueden ser usados para acciones o campañas específicas con cronogramas estrictos y objetivos precisos - como la planificación de una acción o evento - pero también pueden ser utilizados para esfuerzos en curso más complejos, como la creación de coaliciones.</p>
             <p>A diferencia de la mayoría de los mapas, los mapas de poder es probable que cambien - a veces dramáticamente__en respuesta a los nuevos acontecimientos o circunstancias. Cuando hay cambios en la dinámica de poder en torno a una situación de desplazamiento - por ejemplo, se planifica una nueva urbanización o se implementa una nueva política - los mapas de poder también cambian.</p>
             <p>Antes de entrar en más detalles, tomemos un minuto para aprender de las experiencias del grupo.</p>
@@ -121,11 +121,11 @@
           <h4 class="subcategory">Paso 3: Revisar los Conceptos Básicos (5 min)</h4>
           <Facilitator>Resumamos lo que hemos aprendido hasta ahora:
             <ul class="instructions">
-                <li>La <strong>función</strong> del mapa de poder es ayudarte a orientar a tu grupo para que reconozcan los/las/les actores clave involucradas en el asunto que quieres cambiar, y ayudarte a elaborar estrategias sobre la forma de construir poder y cambiar las relaciones de poder entre otros actores claves.</li>
-                <li>El <strong>objetivo</strong> de un mapa de poder es representar claramente las relaciones de poder entre los actores clave involucrados en el asunto que deseas abordar.</li>
+                <li>La <strong>función</strong> del mapa de poder es ayudarte a orientar a tu grupo para que reconozcan los/las/les actores clave involucrados en el asunto que quieres cambiar, y ayudarte a elaborar estrategias sobre la forma de construir poder y cambiar las relaciones de poder entre otros actores claves.</li>
+                <li>El <strong>objetivo</strong> de un mapa de poder es representar claramente las relaciones de poder entre los/las/les actores clave involucrados en el asunto que deseas abordar.</li>
                 <li>Los <strong>elementos básicos</strong> de un mapa de poder útil incluyen:<ul>
-                  <li>Los actores clave y relevantes (individuos, grupos, instituciones, etc.).<ul>
-                    <li>Por ejemplo: el alcalde, los inquilinos, los planificadores de la ciudad, grupos comunitarios aliados</li>
+                  <li>Los/las/les actores clave y relevantes (individuos, grupos, instituciones, etc.).<ul>
+                    <li>Por ejemplo: el/la alcaldesa, los/las/les inquilinos/es, los/las/les planificadores de la ciudad, grupos comunitarios aliados</li>
                   </ul>
                   </li>
                   <li>Los tipos de poder que todos/as/e los/las/les actores clave tengan (individual o colectivamente)<ul>
@@ -144,7 +144,7 @@
 
             <ul class="instructions">
               <li><b>Ejemplo #1:</b> Este mapa de la comunidad enfocado en el desplazamiento en Chelsea identifica los diferentes sistemas, cómo se relacionan, y los tipos de poder que mantienen. <img src="../../assets/workshop_images/mapping/Example_1.jpg" :alt="$t('altText.mappingExample1')"></li>
-              <li><b>Ejemplo #2:</b> Este mapa de la comunidad enfocado en los asuntos relacionados al desplazamiento muestra y conecta los diferentes actores, funciones, relaciones y tipos de poder que poseen cada uno de ellos en la comunidad. <img src="../../assets/workshop_images/mapping/Example_2.jpg" :alt="$t('altText.mappingExample2')"></li>
+              <li><b>Ejemplo #2:</b> Este mapa de la comunidad enfocado en los asuntos relacionados al desplazamiento muestra y conecta los/las/les diferentes actores, funciones, relaciones y tipos de poder que poseen cada uno de ellos/ellas/elles en la comunidad. <img src="../../assets/workshop_images/mapping/Example_2.jpg" :alt="$t('altText.mappingExample2')"></li>
               <li><b>Ejemplo #3:</b>Este mapa de la comunidad ilustra los diferentes actores involucrados en aprobar una ordenanza para un consejo de política alimentaria en Everett. Muestra cómo los/las/les actores, su influencia y las conexiones del uno con el otro, pueden, en última instancia, funcionar para influir en el Consejo Municipal (el &quot;objetivo&quot;). <img src="../../assets/workshop_images/mapping/Example_3.jpg" :alt="$t('altText.mappingExample3')"></li>
             </ul>
           </Facilitator>
@@ -177,7 +177,7 @@
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Paso 5: Mostrar y Contar (10 min)</h4>
-          <Instructions>Pide a cada grupo que se turnen para compartir su mapa de poder y dinero con el grupo más grande. Cuando lo hagan, deben responder las 3 preguntas del rotafolios:
+          <Instructions>Pide a cada grupo que se turnen para compartir su mapa de poder y dinero con el grupo más grande. Cuando lo hagan, deben responder las 3 preguntas del rotafolio:
             <ol class="italic">
               <li>¿Por qué elegiste esta forma de presentar el poder y el dinero?</li>
                 <li>¿Cómo se puede desarrollar más o profundizar en esto?</li>
@@ -186,17 +186,16 @@
           </Instructions>
           <h4 class="subcategory">Paso 6: Discusión y Planificación (15-20 min)</h4>
           <Facilitator>Ahora que hemos escuchado a todos los grupos, es hora de reflexionar sobre las diferentes técnicas de mapeo de poder que han surgido de su trabajo. Ahora, nuestro objetivo es averiguar cómo finalizar nuestro mapa de poder compartido para que pueda ser útil y al servicio de nuestros objetivos más importantes.
-            <p>Debido a que los mapas de poder están pensados para ser revisados y adaptados al cambiar las circunstancias, comencemos a pensar sobre la estructura y la forma del mapa, en lugar del contenido específico (por ejemplo, cuáles actores están incluidos).</p>
+            <p>Debido a que los mapas de poder están ideados para ser revisados y adaptados al cambiar las circunstancias, comencemos a pensar sobre la estructura y la forma del mapa, en lugar del contenido específico (por ejemplo, cuáles actores están incluidos).</p>
             <p><span class="instructions">Abrir el debate preguntando al grupo: </span> ¿Qué has hecho y visto a otros grupos hacer hoy?</p>
             <p>¿Qué <strong>estrategias o técnicas que representan a las/los/les actores claves / relaciones entre las/los/les actores claves / tipos de poder</strong> en los mapas de poder en la sala piensas que debemos adoptar para nuestra versión conjunta?</p>
             <ul>
               <li><span class="instructions">Una forma alternativa para preguntar esto: </span> ¿Qué hicieron otros grupos que te ayudó a visualizar a <strong>las/los/les actores claves / las relaciones entre las/los/les actores claves / tipos de poder</strong> en una nueva forma o en una forma más clara?</li>
               <li><span class="instructions">Dar seguimiento a cada comentario con:</span> ¿Cómo crees que podemos hacer el mapa más útil para nuestros propósitos?</li>
-            </ul>
-            <p>¿Qué es lo que nosotros como grupo necesitamos todavía entender para representar a <strong>las/los/les actores claves / tipos de poder / relaciones?</strong></p>
-            <ul><li><span class="instructions">Dar seguimiento a cada comentario con: </span> ¿Cómo crees que podemos hacer el mapa más útil para nuestros propósitos?</li></ul>
-            <p>¿Qué <b>otra información</b> hemos descubierto? ¿Existen formas específicas de investigación que necesitamos aplicar para tener suficiente información para un mapa de poder efectivo y factible?</p>
-            <ul><li><span class="instructions">Dar seguimiento a cada comentario con: </span> ¿Cómo crees que podemos hacer el mapa más útil para nuestros propósitos?</li></ul>
+            <li>¿Qué es lo que nosotros como grupo necesitamos todavía entender para representar a <strong>las/los/les actores claves / tipos de poder / relaciones?</strong></li>
+            <li><span class="instructions">Dar seguimiento a cada comentario con: </span> ¿Cómo crees que podemos hacer el mapa más útil para nuestros propósitos?</li>
+            <li>¿Qué <b>otra información</b> hemos descubierto? ¿Existen formas específicas de investigación que necesitamos aplicar para tener suficiente información para un mapa de poder efectivo y factible?</li>
+            <li><span class="instructions">Dar seguimiento a cada comentario con: </span> ¿Cómo crees que podemos hacer el mapa más útil para nuestros propósitos?</li></ul>
           </Facilitator>
           <Instructions>Durante esta discusión, tú o el/la/elle encargado/a/e de tomar notas anotarán los comentarios en rotafolios - 1 para cada elemento básico (Actores, Relaciones, Tipos de Poder) dividido en 2 secciones (1. ¿Qué ha funcionado bien? 2. ¿Qué es lo que todavía tenemos que entender?). Durante la discusión, intenta sintetizar cualquier sugerencia duplicada o coincidente, y obtener el consenso acerca de cuáles ideas/sugerencias incorporar en el mapa de poder final.</Instructions>
           <Instructions>Dependiendo del tamaño del grupo y la cantidad de mapas de poder creados, tú y el grupo podrán decidir si es necesario perfeccionar la estructura y el formato de los mapas de poder antes de discutir el contenido. Por ejemplo, el grupo puede decidir tomar elementos de varios de los mapas presentados para crear un mapa de poder conjunto, único. En este caso, podría tener sentido facilitar una actividad de seguimiento centrada en diseñar un mapa de poder conjunto, y luego abordar de lleno las preguntas de contenido para que todos trabajen desde el mismo mapa. Alternativamente, podrías centrarte en las preguntas de contenido de uno o dos mapas en función de las prioridades del grupo.
@@ -230,7 +229,7 @@
       <TakingAction :toolkit="toolkit">
         <p>Al cierre de la actividad, considera pedir al grupo apoyar los esfuerzos de movilización de la comunidad y las acciones dentro y fuera del espacio creado hoy.</p>
         <ul>
-          <li>¡Lleva tu mapa de poder a tu casa y comprueba si otros en tu círculo podrían tener algo más que añadir! Si facilitas una actividad de seguimiento para diseñar un mapa único, esto podría ser una excelente tarea en casa para los participantes, para que participen más voces y regresen a una actividad futura.</li>
+          <li>¡Lleva tu mapa de poder a tu casa y comprueba si otros en tu círculo podrían tener algo más que añadir! Si facilitas una actividad de seguimiento para diseñar un mapa único, esto podría ser una excelente tarea en casa para los/las/les participantes, para que participen más voces y regresen a una actividad futura.</li>
           <li>Intenta liderar tu propia actividad de mapeo en la comunidad.</li>
           <li>Pregunta si hay otros espacios o personas para involucrarles en una actividad de mapeo de poder y dinero.</li>
           <li>Utiliza los mapas para informar sobre el desarrollo de estrategias y tácticas para tu comunidad.</li>

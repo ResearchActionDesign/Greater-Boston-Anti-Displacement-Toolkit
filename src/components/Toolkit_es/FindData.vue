@@ -8,7 +8,7 @@
         <p>Cuando las comunidades empiezan a organizarse contra el desplazamiento, los/las/les funcionarios/e de la ciudad y los/las/elle inversionistas inmobiliarios suelen utilizar las estadísticas como armas para invalidar las experiencias vividas por los/las/les miembros de la comunidad. Por ejemplo, los/las/les funcionarios/e de la ciudad mencionarán los aumentos del ingreso medio en un área para argumentar que la gentrificación ha beneficiado a la comunidad, y tratar de bloquear el testimonio de habitantes marginados quienes sienten lo contrario. Quizá citarán estudios académicos para respaldar sus afirmaciones y argumentarán que los/las/les miembros de la comunidad no tienen la &quot;el dominio&quot; para &quot;entender&quot; realmente las estadísticas.</p>
         <p>Al utilizar esta sección del manual, ten en cuenta como las estadísticas han sido utilizadas históricamente como armas, especialmente contra la gente negra y morena, y recuerda que los datos cuantitativos y cualitativos son sólo una parte de todo lo que está ocurriendo en tu comunidad.</p>
         <p>Analizar las estadísticas de tu comunidad puede ser una valiosa oportunidad para comparar y contrastar con lo que los/las/les miembros de la comunidad, dentro y fuera de la organización, están experimentando, y contextualizar tales experiencias junto con las de otras comunidades.</p>
-        <p>Por ejemplo, si muchos de los/las/les miembros de tu organización han enfrentado notificaciones de desalojo, el revisar las tasas de desalojo de tu comunidad y compararlos con zonas cercanas puede ayudarte a entender si lo que está sucediendo es un aumento en los desalojos a nivel de vecindario, un problema en toda la ciudad, o parte de una tendencia nacional más extensa. Pero hay también mucho que los datos cuantitativos no te dirán - como <em>por qué</em> las personas están siendo desalojadas, cuántas personas están siendo desplazadas por los desalojos informales, como se siente el impacto emocional del desplazamiento, o qué estrategias tienen éxito en mantener a las personas en sus hogares.</p>
+        <p>Por ejemplo, si muchos de los/las/les miembros de tu organización han enfrentado notificaciones de desalojo, el revisar las tasas de desalojo de tu comunidad y compararlos con zonas cercanas puede ayudarte a entender si lo que está sucediendo es un aumento en los desalojos a nivel de vecindario, un problema en toda la ciudad, o parte de una tendencia nacional más extensa. Pero hay también mucho que los datos cuantitativos no te dirán - como <em>por qué</em> las personas están siendo desalojadas, cuántas personas están siendo desplazadas por los desalojos informales, cómo se siente el impacto emocional del desplazamiento, o qué estrategias tienen éxito en mantener a las personas en sus hogares.</p>
         <p>Teniendo en cuenta que las estadísticas y los datos son sólo una parte de la imagen global, esta sección del manual te ayudará a iniciar con la revisión de los tipos de datos y estadísticas disponibles acerca de tu comunidad. Podrás identificar los temas de investigación, elegir un área de análisis y buscar datos. Este tema es mucho más amplio de lo que se puede cubrir en esta sección del manual, así que asegúrate de revisar otras excelentes guías sobre este tema, que se enumeran en la <router-link :to="{ name: 'Resources', params: { lang: this.$i18n.locale }}">sección de Recursos</router-link>.</p>
       </Introduction>
 
@@ -30,7 +30,7 @@
         <!-- Tips -->
         <template slot="Tips">
           <ul>
-            <li>Trabajar con números y datos puede traer bastantes ansiedades e inseguridades para algunas personas, y puede también empeorar la dinámica del racismo y el sexismo dentro de una organización.</li>
+            <li>Trabajar con números y datos puede traer bastante ansiedad e inseguridades para algunas personas, y puede también empeorar la dinámica del racismo y el sexismo dentro de una organización.</li>
             <li>Si estás facilitando este manual como una actividad, debes estar alerta si determinadas personas en la habitación empiezan a utilizar sus conocimientos o dominio de los números para dominar la conversación con sus propias opiniones.</li>
             <li>Si estás facilitando este manual como una actividad, dar tiempo y espacio para que la gente pueda compartir sentimientos, y con frecuencia estar atentos para asegurarse de que todos los presentes en la sala participan activamente en la conversación.</li>
           </ul>
@@ -58,7 +58,7 @@
             </li>
             <li>Si hay bastantes respuestas diferentes, podrías agruparlas en áreas temáticas similares, tales como <em>los desalojos</em>, la <em>policía, las escuelas,</em> etc.
             </li>
-            <li>Para cada problema identificado, trata de pensar en preguntas que te ayuden a <strong>comprender</strong> mejor ese problema, <strong>convencer a</strong> otros de que se trata de un problema con el que vale la pena involucrarse, o <strong>evaluar</strong> el impacto de la organización que has estado haciendo.
+            <li>Para cada problema identificado, trata de pensar en preguntas que te ayuden a <strong>comprender</strong> mejor ese problema, <strong>convencer a</strong> otros de que se trata de un problema con el que vale la pena involucrarse, o <strong>evaluar</strong> tu propio impacto como organizador/a/e.
             </li>
           </ol>
           <p>Por ejemplo, si se centran en <em>los desalojos</em>, algunos ejemplos de preguntas podrían ser:</p>
@@ -70,12 +70,12 @@
             <li><em>¿Cómo afecta a un estudiante tener que cambiar de escuela debido a un desalojo?</em></li>
             <li><em>¿Cuánto le cuesta a la ciudad desalojar a alguien? ¿Es más caro que pagar la representación legal para impedir el desalojo?</em></li>
           </ul>
-          <p>Nota: Esta lista de preguntas será tu punto de partida para recopilar datos, pero si tienes aliados en tu área con experiencia en manejo de datos, búscalos y pídeles ayuda con los datos - ¡Los científicos de datos apreciarán realmente que te hayas tomado el tiempo para definir un conjunto de preguntas específicas primero!</p>
+          <p>Nota: Esta lista de preguntas será tu punto de partida para recopilar datos, pero si tienes aliados/es en tu área con experiencia en manejo de datos, búscalos y pídeles ayuda con los datos - ¡Los/las/les científicos de datos apreciarán realmente que te hayas tomado el tiempo para definir un conjunto de preguntas específicas primero!</p>
           <FacilitatorImage :toolkit="toolkit" number="1"></FacilitatorImage>
           <h4 class="subcategory">Paso 2: Definir el Área de Análisis</h4>
           <p>¡Ahora tus temas y preguntas están definidos! Pero antes de poder comenzar a investigar datos, necesitarás tomar un minuto para pensar en las áreas de análisis - ¿Estás interesado en aprender sobre cuáles <strong>lugares</strong> y <strong>tiempos</strong>? La respuesta a esta pregunta puede cambiar, y puede ser diferente para diferentes temas. Pero tener una idea aproximada de antemano ayudará a delimitar tu búsqueda de información.</p>
           <p>Es probable que tu organización trabaje a nivel del vecindario o de la ciudad. Si trabajas a nivel de la ciudad, podrías estar interesado en los datos de la ciudad como un todo (por ejemplo, <em>¿cuál es la cantidad total de personas desalojadas en mi ciudad?</em>), o podrías estar interesado en comparar las diferentes zonas de la ciudad (por ejemplo, ¿<em>En qué parte de la ciudad se dieron la mayoría de los desalojos?</em>). Si ahora sólo estás revisando datos, recomendamos elegir un área única de análisis como punto de partida, ya sea tu ciudad como un todo o un vecindario en particular. Ten en cuenta que entre más pequeño o más específica sea tu área geográfica de análisis, es menos probable que se dispondrá de datos detallados para cada tema en tu lista.</p>
-          <p>Del mismo modo, piensa en qué períodos de tiempo estás interesado en obtener datos. ¿Ha experimentado tu vecindario grandes cambios en los últimos años, o ha sido relativamente estable durante un largo tiempo? Si las cosas han cambiado recientemente, asegúrate de investigar datos recopilados antes y después de que las cosas cambiaron, de manera que puedas hacer un seguimiento del impacto de esos cambios - pero es mejor evitar conjuntos de datos promediados a lo largo de un período de tiempo durante el cual sucedieron los cambios. Si la vecindad ha sido bastante estable por un tiempo, tendrás más flexibilidad en la investigación de las fuentes de datos.</p>
+          <p>Del mismo modo, piensa en qué períodos de tiempo estás interesado en obtener datos. ¿Ha experimentado tu vecindario grandes cambios en los últimos años, o ha estado relativamente estable durante un largo tiempo? Si las cosas han cambiado recientemente, asegúrate de investigar datos recopilados antes y después de que las cosas cambiaron, de manera que puedas hacer un seguimiento del impacto de esos cambios - pero es mejor evitar conjuntos de datos promediados a lo largo de un período de tiempo durante el cual sucedieron los cambios. Si la vecindad ha sido bastante estable por un tiempo, tendrás más flexibilidad en la investigación de las fuentes de datos.</p>
           <p>Si estás haciendo esta parte del manual como un taller, sería mejor, para facilitar esta sección, observar juntos/as/e un mapa grande en físico. Podrías entonces ubicar en el mapa donde vive cada persona y señalar en el mapa los vecindarios que les interesa antes de identificar zonas geográficas censales. Si tú o alguien más en tu organización es miembro/e de la AAA, esta organización enviará gratuitamente mapas impresos de la ciudad que soliciten, y son lo suficientemente grandes como para colgar en la pared, excelentes para talleres como éste.</p>
           <ol>
             <li>Pregúntate: ¿Sobre qué áreas geográficas y período de tiempo me interesa aprender más? Puedes tener diferentes respuestas para cada tema de tu lista.</li>
@@ -91,23 +91,23 @@
             </thead>
             <tbody>
             <tr>
-              <td>Cuadra censal</td>
+              <td>Bloque Censal (Census Block)</td>
               <td>Usualmente del tamaño de una cuadra en la ciudad (será diferente en las zonas rurales)</td>
               <td>Cantidad total de habitantes y el desglose por raza, etnia, edad y sexo; cantidad de casas o apartamentos y cantidad de inquilinos vs. propietarios.</td>
             </tr>
             <tr>
-              <td>Radio Censal</td>
+              <td>Grupo de Bloques (Census Block Group)</td>
               <td>Varias cuadras combinadas. Usualmente entre 600 y 3,000 personas.</td>
               <td><em>Todo lo anterior, además de</em> información sobre los niveles de ingresos, los alquileres pagados, acceso al transporte, los niveles de educación.</td>
             </tr>
             <tr>
-              <td>Zona Censal</td>
-              <td>Varios radios censales, que contienen entre 1,200 y 8,000 personas. Los límites de la zona censal suelen seguir características tales como las principales carreteras, ríos o fronteras municipales.</td>
+              <td>Sector Censal (Census Tract)</td>
+              <td>Varios grupos de bloques censales, que contienen entre 1,200 y 8,000 personas. Los límites del sector censal suelen seguir características tales como las principales carreteras, ríos o fronteras municipales.</td>
               <td><em>Todo lo anterior, además</em> de datos más precisos sobre el ingreso, el porcentaje del ingreso que la gente paga en alquiler o hipoteca, información sobre en qué industrias están empleadas las personas, y el tiempo que toma trasladarse al trabajo. Con frecuencia, las estadísticas de la ciudad sobre desalojos, detenciones o nuevos permisos para vivienda también están disponibles a este nivel.</td>
             </tr>
             <tr>
-              <td>Código postal</td>
-              <td>Los códigos postales no son técnicamente un área geográfica, pero algunas fuentes de datos reportan información por código postal de todos modos. Los códigos postales son usualmente más grandes que las zonas censales, pero más pequeños que los municipios.</td>
+              <td>Código postal (ZIP code)</td>
+              <td>Los códigos postales no son técnicamente un área geográfica, pero algunas fuentes de datos reportan información por código postal de todos modos. Los códigos postales son usualmente más grandes que los sectores censales, pero más pequeños que las municipalidades .</td>
               <td>Los datos censales usualmente no están disponibles en este nivel, pero otros conjuntos de datos nacionales sobre la salud y los desalojos se reportan por código postal.</td>
             </tr>
             <tr>
@@ -117,13 +117,13 @@
             </tr>
             <tr>
               <td>Condado</td>
-              <td>Un condado actual (en algunos estados, como Virginia, un condado o una ciudad incorporada).</td>
-              <td><em>Todo lo anterior</em>, así comopatrones de migración de condado a condado (de dónde se muda la gente a tu comunidad). A veces más acceso a otros conjuntos de datos nacionales sobre temas como la salud, vigilancia policía y la justicia penal.</td>
+              <td>Un condado (en algunos estados, como Virginia, un condado o una ciudad incorporada).</td>
+              <td><em>Todo lo anterior</em>, así comopatrones de migración de condado a condado (de dónde se muda la gente a tu comunidad). A veces más acceso a otros conjuntos de datos nacionales sobre temas como la salud, vigilancia policíal y la justicia penal.</td>
             </tr>
             </tbody>
           </table>
           <ol start="2">
-            <li>Si estás interesado en los datos a nivel de la ciudad o a un nivel superior, ¡puedes parar aquí! Pero, si estás buscando datos a nivel de vecindario, necesitarás hacer una investigación sobre cuáles zonas y radios censales conforman tu vecindario. La herramienta por su nombre en inglés, Census American FactFinder, es una manera de encontrar esta información. Visita <a href="https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t">American FactFinder (en inglés)</a>, haz clic en la pestaña &quot;Geographies&quot; en el lado izquierdo y a continuación, haz clic en &quot;Map&quot;. Puedes buscar una dirección o ampliarlo para encontrar tu vecindario y a continuación, selecciona &quot;Census Tract&quot; de la ventana &quot;Select Geographies&quot; en el lado derecho.</li>
+            <li>Si estás interesado en los datos a nivel de la ciudad o a un nivel superior, ¡puedes parar aquí! Pero, si estás buscando datos a nivel de vecindario, necesitarás hacer una investigación sobre cuáles sectores y grupos de bloques censales conforman tu vecindario. La herramienta por su nombre en inglés, Census American FactFinder, es una manera de encontrar esta información. Visita <a href="https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t">American FactFinder (en inglés)</a>, haz clic en la pestaña &quot;Geographies&quot; en el lado izquierdo y a continuación, haz clic en &quot;Map&quot;. Puedes buscar una dirección o ampliarlo para encontrar tu vecindario y a continuación, selecciona &quot;Census Tract&quot; de la ventana &quot;Select Geographies&quot; en el lado derecho.</li>
           </ol>
           <FacilitatorImage :toolkit="toolkit" number="1"></FacilitatorImage>
           <h4 class="subcategory">Paso 3: Revisar y extraer información de datos públicos</h4>
@@ -161,7 +161,7 @@
           <ul>
             <li>Los datos se presentan como mediana o promedio, lo cual oculta las experiencias de personas que están por debajo o por encima del promedio. Por ejemplo, el ingreso promedio anual de una familia en Everett en 2017 fue de $61,190, pero en realidad, casi un tercio (27%) de las familias en Everett ganan menos de $35,000 al año. A veces se puede profundizar en una fuente de datos determinado e ir más allá del promedio, pero a veces no se dispone de esta información.</li>
             <li>El conjunto de datos al cual tienes acceso describe una zona geográfica que es demasiado grande para capturar la dinámica en tu área particular. Esto es un problema más a menudo en ciudades medianas y pequeñas, donde a veces un vecindario históricamente Latino/a/e o de raza negra o de clase trabajadora es tan pequeño que es agrupado en las estadísticas de áreas cercanas de blancos o ricos.</li>
-            <li>En el conjunto de datos que estás revisando no se hicieron las preguntas adecuadas, o está diseñado para ocultar hechos importantes. Por ejemplo, la tasa de desempleo en el Censo de EE.UU. es a veces artificialmente baja debido a que sólo toma en cuenta a las personas que no tienen un trabajo pero que están activamente buscando trabajo, no personas que han renunciado a buscar trabajo por completo.</li>
+            <li>En el conjunto de datos que estás revisando no se hicieron las preguntas adecuadas, o está diseñado para ocultar hechos importantes. Por ejemplo, la tasa de desempleo en el Censo de EE.UU. es a veces artificialmente baja debido a que sólo toma en cuenta a las personas que no tienen un trabajo pero que están activamente buscando trabajo, y no a personas que han renunciado a buscar trabajo por completo.</li>
           </ul>
           <p>Si te encuentras en cualquiera de las situaciones anteriores, es posible que necesites considerar la posibilidad de llevar a cabo tu propia encuesta para obtener datos más exactos (algunos enlaces acerca de cómo llevar a cabo una encuesta se pueden encontrar en los enlaces disponibles en la <em>sección de Recursos</em>).</p>
         </template>
