@@ -12,7 +12,7 @@
         <li>Recopilar el conocimiento de la comunidad sobre cómo se pueden adoptar diferentes modelos de políticas y estrategias,</li>
         <li>Identificar necesidades y vacíos en la información necesaria para avanzar con una política o estrategia específica.</li>
         </ul>
-        <p>Las políticas y estrategias identificadas pueden utilizarse para influir en los tomadores de decisiones y educar a otros miembros de la comunidad sobre problemas y posibles soluciones. Esta actividad informa la planificación para organizar, desarrollar y promover una política o estrategia específica para adoptar en su comunidad.</p>
+        <p>Las políticas y estrategias identificadas pueden utilizarse para influir en los/las/les tomadores de decisiones y educar a otros miembros de la comunidad sobre problemas y posibles soluciones. Esta actividad informa la planificación para organizar, desarrollar y promover una política o estrategia específica para adoptar en su comunidad.</p>
         <p>La siguiente guía de facilitación describe cómo llevar a cabo esta actividad, y está diseñada para adaptarse según las necesidades de su comunidad.</p>
       </Introduction>
 
@@ -34,18 +34,18 @@
 
         <!-- Who to Invite -->
         <template slot="Whom_to_Invite">
-          <p>A quienes invites (o excluyas) dependerá en gran medida del propósito (¿Por qué hacerlo?) y los resultados (¿Qué deseas saber / obtener al final?) de organizar esta actividad en tu comunidad. Lo ideal sería que hubiese un mínimo de 6 participantes que representen una amplia gama de experiencias para compartir y discutir diferentes políticas y estrategias que conocen o que han visto que otros usan para proteger sus hogares.</p>
+          <p>A quienes invites (o excluyas) dependerá en gran medida del propósito (¿Por qué hacerlo?) y los resultados de organizar esta actividad en tu comunidad (¿Qué deseas saber / obtener al final?). Lo ideal sería que hubiese un mínimo de 6 participantes que representen una amplia gama de experiencias para compartir y discutir diferentes políticas y estrategias que conocen o que han visto que otros usan para proteger sus hogares.</p>
           <p>Una vez que esto haya sido identificado, entonces pregunta:</p>
           <ul><em>
           <li>¿Quién puede ayudar a cumplir este propósito?</li>
-          <li>¿Quién es el más relevante para esta actividad?</li>
+          <li>¿Quién es el/la/elle más relevante para esta actividad?</li>
           <li>¿Quién podría representar una amenaza para lograr el propósito?</li>
           </em>
           </ul>
           <p>Por ejemplo:</p>
           <ul>
-          <li>Se ha propuesto un nuevo complejo de uso mixto (vivir, trabajar, recreativo) que se extenderá a lo largo de dos cuadras en el centro en la comunidad, lo que potencialmente podría brindar nuevas oportunidades de empleo, vivienda y servicios. La comunidad se está organizando actualmente para proteger a los habitantes y negocios existentes y garantizar que el complejo sea beneficioso para los habitantes y negocios existentes. Puedes invitar a habitantes de la comunidad y dueños de negocios ubicados en el área que se está desarrollando o cerca de la misma, organizaciones u organizadores claves en el área que están luchando en contra de este complejo y cualquier otra persona que pueda verse directamente afectada por este proyecto de desarrollo.</li>
-          <li>La gentrificación y el desplazamiento son preocupaciones crecientes para tu comunidad y alrededores. Más y más habitantes están siendo expulsados ​​de sus hogares debido al aumento de los costos de las viviendas. Puedes trabajar con la comunidad para identificar y explorar soluciones para abordar el problema invitando a defensores de viviendas, defensores ambientales, miembros de la comunidad en la actualidad y en el pasado, o representantes de instituciones, por ejemplo, de escuelas locales u organizaciones de atención médica. Una representación amplia de participantes puede ayudar a iniciar una conversación sobre posibles políticas y estrategias que la comunidad puede adoptar y promover para combatir el desplazamiento.</li>
+          <li>Se ha propuesto un nuevo complejo de uso mixto (vivir, trabajar, jugar) que se extenderá a lo largo de dos cuadras en el centro en la comunidad, lo que potencialmente podría brindar nuevas oportunidades de empleo, vivienda y servicios. La comunidad se está organizando actualmente para proteger a los/las/les habitantes y negocios existentes y garantizar que el complejo sea beneficioso para los/las/les habitantes y negocios existentes. Puedes invitar a habitantes de la comunidad y dueños de negocios ubicados en el área que se está desarrollando o cerca de la misma, organizaciones u organizadores claves en el área que están luchando en contra de este complejo y cualquier otra persona que pueda verse directamente afectada por este proyecto de desarrollo.</li>
+          <li>La gentrificación y el desplazamiento son preocupaciones crecientes para tu comunidad y los alrededores. Más y más habitantes están siendo expulsados ​​de sus hogares debido al aumento en el costo de la vivienda. Puedes trabajar con la comunidad para identificar y explorar soluciones para abordar el problema invitando a defensores de viviendas, defensores ambientales, miembros de la comunidad en la actualidad y en el pasado, o representantes de instituciones, por ejemplo, de escuelas locales u organizaciones de atención médica. Una representación amplia de participantes puede ayudar a iniciar una conversación sobre posibles políticas y estrategias que la comunidad puede adoptar y promover para combatir el desplazamiento.</li>
           </ul>
         </template>
 
@@ -66,7 +66,7 @@
           <ul>
             <li>¡Diseña lo que quieras! Personaliza la guía de facilitación para que se ajuste a tus propósito, necesidades y resultados deseados.</li>
             <li>Determina el propósito grupal de esta actividad y considera adoptarla y promoverla en tu comunidad (por ejemplo, <em>¿Es esto para una campaña, un problema o un objetivo específico sobre el cual la comunidad desea influir?</em>).</li>
-            <li>Identifica cuánto tiempo necesitarás para cada discusión y actividad (tiempo sugerido: 60 minutos). El ejercicio de Generación de ideas (Parte 1) va un poco más rápido: 5 minutos por tu cuenta y 10-15 minutos para compartir con otros. Probablemente pasarás más tiempo (alrededor de 30 minutos) haciendo el trabajo de grupo de Evaluación de Políticas y Estrategias (Parte 2) y los momentos para compartir.</li>
+            <li>Identifica cuánto tiempo necesitarás para cada discusión y actividad (tiempo sugerido: 60 minutos). El ejercicio de Generación de ideas (Parte 1) va un poco más rápido: 5 minutos por tu cuenta y 10-15 minutos para compartir con otros/as/es. Probablemente pasarás más tiempo (alrededor de 30 minutos) haciendo el trabajo de grupo de Evaluación de Políticas y Estrategias (Parte 2) y los momentos para compartir.</li>
             <li>Con base en quiénes participan identifica el número de grupos de trabajo.</li>
             <li>Programa un tiempo después de la actividad para evaluar con los/las/les facilitadores sobre lo que funcionó y lo que podría cambiar si se vuelve a realizar la actividad. Identifica las acciones para ti, tu organización o comunidad.</li>
           </ul>
@@ -84,23 +84,23 @@
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Paso 2: Trabajo Individual (5 min)</h5>
           <Instructions>Distribuir la Parte 1 de la <a href="/handouts/Identifying-and-Evaluating-Policies_Blank-Worksheets.pdf" target="_blank">hoja de trabajo <b>TODO: LINK in SPANISH</b></a> a los participantes.
-            <p>Pedir a los participantes que tomen aproximadamente 5 minutos para anotar solos: (1) <em>¿Cuál es la política o estrategia?</em> y (2) <em>una breve descripción de cómo han usado o presenciado cómo se usa?</em>.</p>
+            <p>Pedir a los participantes que tomen aproximadamente 5 minutos para anotar solos: (1) <em>¿Cuál es la política o estrategia?</em> y (2) <em>una breve descripción de cómo la han usado o visto cómo se usa?</em>.</p>
             <p>Si es útil, puedes pensar en compartir una de las siguientes indicaciones:</p>
             <ul class="facilitator">
             <li>Piensen en las políticas y estrategias como una visión o plan de acción para lograr un objetivo específico. Este plan establece las pautas de cómo se logra hacer algo o no. Las políticas y estrategias guían la toma de decisiones dentro de diferentes sistemas e instituciones, por ejemplo, gobierno a nivel de la ciudad / estado, corporaciones, escuelas, etc.).</li>
             <li>Piensen en sus propias historias y experiencias en la lucha contra el desplazamiento utilizando sus propios ejemplos de movimiento y migración. Esto podría ser dónde viven ahora o han vivido anteriormente.</li>
             <li>Piensen en una ocasión en la que hayan presenciado cómo una comunidad protege con éxito sus hogares ¿Cómo hicieron esto?</li>
-              <li>Compartir tarjetas de ejemplo encontradas (<b>TODO LINK</b>) de otros métodos que las comunidades hayan considerado y adoptado con éxito.</li>
+              <li>Compartir tarjetas de ejemplo encontradas (AQUI <b>TODO LINK</b>) de otros métodos que las comunidades hayan considerado y adoptado con éxito.</li>
             </ul>
             <p>Compartir que el objetivo de este ejercicio es obtener el mayor número de ideas posibles en un corto tiempo, simplemente anota los pensamientos e ideas a medida que vayan fluyendo.</p>
             <p>Indagar si los participantes tienen alguna pregunta sobre el ejercicio antes de comenzar el reloj.</p>
-            <p>Si es útil, puedes compartir ejemplos para la Parte 1, que se encuentran <b>TODO LINK</b>. Comienza el tiempo y recuérdales a los participantes que les restan 2 minutos para trabajar solos y luego hacer otro recordatorio cuando les resta un minuto.</p>
+            <p>Si es útil, puedes compartir ejemplos para la Parte 1, que se encuentran AQUI <b>TODO LINK</b>. Comienza el tiempo y recuérdales a los participantes que les restan 2 minutos para trabajar solos y luego hacer otro recordatorio cuando les resta un minuto.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h5>Paso 3: Compartir en Plenario (5 min)</h5>
           <Instructions>Pedir a los participantes que mencionen sus ideas a como las vayan pensando y describan brevemente cómo ayudaron / pueden ayudar en nuestras comunidades.
             <p>Compartir las ideas anotadas en el rotafolio / papelelógrafo para que los participantes las revisen en grupo.</p>
-            <p>Si les gustaría ampliar la lista, el/la/elle facilitador/a/e puede compartir ejemplos de la Parte 1, encontrados (HERE<b> TODO LINK</b>) sobre otras políticas y estrategias que las comunidades han considerado y adoptado para ponderar y examinar en la Parte 2 del ejercicio.</p>
+            <p>Si les gustaría ampliar la lista, el/la/elle facilitador/a/e puede compartir ejemplos de la Parte 1, encontrados (AQUI <b>TODO LINK</b>) sobre otras políticas y estrategias que las comunidades han considerado y adoptado para ponderar y examinar en la Parte 2 del ejercicio.</p>
             <p>Una vez el grupo haya compartido y generado una lista de ideas para considerar, pase a la Parte 2 del ejercicio para profundizar en algunas de las ideas enumeradas.</p>
           </Instructions>
           <h4 class="subcategory">Parte 2: Evaluación de políticas y estrategias (25-30 min)</h4>
@@ -112,10 +112,6 @@
             <ul>
               <li>Cada grupo elegirá 1 política o estrategia de la lista generada en la Parte 1 de este ejercicio para enfocarse. Pueden elegir de las ideas compartidas en el &quot;compartir&quot; con el plenario, o elegir otra idea dentro de su grupo que les interese explorar.</li>
               <li>Está bien si los grupos eligen enfocarse en las mismas políticas y estrategias.</li>
-
-
-
-
               <li>Una vez el grupo haya elegido su política o estrategia, cada grupo examinará 4 preguntas / áreas:<ol>
                 <li>¿Cómo adaptarnos?</li>
                 <li>¿Qué se necesita para promover estas políticas / estrategias?</li>
@@ -133,7 +129,7 @@
             <p>Revisar con los participantes los pasos de la hoja de trabajo: (1) Identificar la política o estrategia en que se centrarán y escríbanla en la parte superior de la tabla de la hoja de trabajo, luego (2) Piensen en conjunto las respuestas a las 4 preguntas de la hoja de trabajo.</p>
             <p>Recordar a los participantes que el objetivo es evaluar lo que ya sabemos y lo que necesitamos saber sobre nuestra comunidad.</p>
             <p>Preguntar a los participantes si tienen alguna pregunta sobre el ejercicio antes de comenzar el reloj.</p>
-            <p>Si es útil, el/la/elle facilitador/a/e puede compartir ejemplos para la Parte 2, que se encuentran  <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">examples for Part 2</a>.</p>
+            <p>Si es útil, el/la/elle facilitador/a/e puede compartir ejemplos para la Parte 2, que se encuentran <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">AQUI</a> <b>TODO: UPDATE TO SPANISH LINK</b>.</p>
             <p>Iniciar el reloj y proporcionar a los participantes un recordatorio de 5, 2 y 1 minuto del tiempo restante para trabajar en sus grupos.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>

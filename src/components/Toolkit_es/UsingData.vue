@@ -24,19 +24,18 @@
 
         <!-- Who to Invite -->
         <template slot="Whom_to_Invite">
-          <p>A quién invitar específicamente depende del contexto: la actividad &quot;¡Convénceme!&quot; Podría ser una excelente manera de prepararse para testificar en una próxima audiencia pública o reunión del consejo, o puede ser una forma de practicar la formulación de argumentos. En cualquier caso, es útil si algunas personas en el salón tienen experiencia directa en la lucha política acerca del desplazamiento, así tendrán una idea de cómo específicos funcionarios/e electos podrían responder a diferentes argumentos.</p>
-          <p>Piense en algunas de las/los/les actores claves que identificó en la actividad Mapeando el Poder &amp; Dinero. Pueden ser personas a las que hay que invitar o personas a quienes se le dirigirán los argumentos. Idealmente, usted querrá un mínimo de 8 participantes (3 para ser los &quot;actores&quot; y 5+ serán quienes &quot;buscarán convencer&quot;</p>
+          <p>A quién invitar específicamente depende del contexto: la actividad &quot;¡Convénceme!&quot; Podría ser una excelente manera de prepararse para testificar en una próxima audiencia pública o reunión del consejo, o puede ser una forma de practicar la formulación de argumentos. En cualquier caso, es útil si algunas personas en el salón tienen experiencia directa en la lucha política en contra del desplazamiento, así tendrán una idea de cómo específicos funcionarios/e electos podrían responder a diferentes argumentos.</p>
+          <p>Piense en algunas de las/los/les actores claves que identificó en la actividad Mapeo del Poder y Dinero. Pueden ser personas a las que hay que invitar o personas a quienes se le dirigirán los argumentos. Idealmente, usted querrá un mínimo de 8 participantes (3 para ser los &quot;actores&quot; y 5+ serán quienes &quot;buscarán convencer&quot;</p>
         </template>
 
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Rotafolios, papelógrafo y marcadores.</li>
-            <li>3 señales para identificar a los &quot;actores&quot;, que se pueden hacer a partir de carpetas de archivos cortadas por la mitad con agujeros perforados en 2 de las esquinas con una cuerda lo suficientemente larga como para colgar del cuello de alguien</li>
-            <li>Copias impresas de una hoja informativa sobre el vecindario (ya sea la muestra que se proporciona o una que usted mismo cree)</li>
-            <li>Cinta adhesiva o cinta para pintar.</li>
             <li>Identifique un/a/e encargado/a/e de tomar notas, moderador/a/e de tiempo y 2 facilitadores para la sesión. Es ideal tener 2 facilitadores para este taller para que 1 persona pueda preparar a los &quot;actores&quot;.</li>
-            <li>Cree e imprima un folleto con las estadísticas relevantes sobre el desplazamiento en su comunidad (o use el ejemplo que se proporciona en el manual).</li>
+            <li>3 señales para identificar a los &quot;actores&quot;, que se pueden hacer a partir de carpetas de archivos cortadas por la mitad con agujeros perforados en 2 de las esquinas con una cuerda lo suficientemente larga como para colgar del cuello de alguien</li>
+            <li>Rotafolios, papelógrafo y marcadores.</li>
+            <li>Cinta adhesiva o cinta para pintar.</li>
+            <li>Copias impresas de una hoja informativa sobre el vecindario (ya sea la muestra que se proporciona TODO: ADD LINK o una que usted mismo cree)</li>
             <li>Prepare la habitación dejando un poco de espacio abierto para que sirva de &quot;escenario&quot; para la actividad &quot;¡Convénceme!&quot;. Con cinta, marque las líneas de &quot;inicio&quot; y &quot;finalización&quot; a lo largo del piso en este espacio, con aproximadamente 8 pasos entre las 2 líneas. La foto de abajo ilustra un ejemplo de cómo se podría configurar la actividad: <img src="../../assets/workshop_images/using_data/RoomSetup.jpg" :alt="$t('altText.usingDataRoomSetup')"></li>
             <li>Elegir una situación de la vida real en la que los/las/les miembros de su comunidad estén intentando convencer a un funcionario/e electo u otro actor/e clave de algo. Algunos ejemplos:</li>
             <ul>
@@ -47,8 +46,8 @@
           <ul>
             <li>En función de la situación que elija, seleccione 3 personas específicas que necesitarían ser convencidas.</li>
             <ul>
-              <li>Los nombres específicos son mejores que las categorías genéricas, especialmente si es alguien que todos conocen.</li>
-              <li>Los/las/les miembros de la comunidad se ofrecerán como voluntarios para simular ser estas personas durante la actividad, por lo que es útil que las personas que nombre no estén en la sala, pero que sean miembros de su organización o miembros de la comunidad con los cuales los miembros están relativamente familiarizados.</li>
+              <li>Los nombres específicos son mejores que las categorías genéricas, especialmente si es alguien que todos/as/es conocen.</li>
+              <li>Los/las/les miembros de la comunidad se ofrecerán como voluntarios para simular ser estas personas durante la actividad, por lo que es útil que las personas que nombre no estén en la sala, pero que sean miembros de su organización o miembros/as/es de la comunidad con los cuales los miembros/as/es están relativamente familiarizados.</li>
               <li>También podría ser bueno contrastar y que 1 de los 3 nombres sea alguien que probablemente simpatice con su causa, o hacer que uno de sus miembros se ofrezca voluntariamente para jugar el papel de sí mismo, lo que podría ayudar a resaltar el contraste entre los argumentos que convencen a la comunidad y los que convencen a ciertos actores claves.</li>
             </ul>
             <p>Nota: Si tiene un grupo especialmente comprometido / informado y tiene más tiempo, puede completar este paso en la sala con el grupo en lugar de elegir a los actores claves ​​antes.</p>
@@ -61,7 +60,7 @@
         <template slot="Tips">
           <ul>
             <li>A veces puede ser difícil lograr que un grupo se abra y se involucre en el propósito del juego, así que puedes modelar la actividad tú mismo.</li>
-            <li>Determina cuánto tiempo tienes para esta sesión, si es alrededor de una hora, puedes tomarte un tiempo para definir una situación y elegir a los actores claves como grupo. Si es una sesión más corta (alrededor de media hora), deberás entrar al salón con su situación lista para comenzar. Si ha realizado la actividad <router-link :to="{ name: 'Mapping', params: {locale: $i18n.locale}}">Mapeando el Poder y Dinero</router-link>, podría utilizar a los actores identificados en esa actividad.</li>
+            <li>Determina cuánto tiempo tienes para esta sesión, si es alrededor de una hora, puedes tomarte un tiempo para definir una situación y elegir a los/las/les actores claves como grupo. Si es una sesión más corta (alrededor de media hora), deberás entrar al salón con su situación lista para comenzar. Si ha realizado la actividad <router-link :to="{ name: 'Mapping', params: {locale: $i18n.locale}}">Mapeo del Poder y Dinero</router-link>, podría utilizar a los/las/les actores identificados en esa actividad.</li>
           </ul>
         </template>
 
@@ -74,7 +73,7 @@
           </Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Paso 2: Calentamiento: ¿Qué estrategias podemos usar para convencer a las personas? (opcional: 10 min)</h4>
-          <Facilitator>Piensa en la última vez que intentaste convencer a alguien de algo, como pedirle a alguien que te ayude con una tarea doméstica que no querías hacer, o en un contexto de organización, como presionar a un/una funcionario/e electo para que vote de cierta manera. ¿Qué hiciste para convencerlos? ¿Cómo te fue?</Facilitator>
+          <Facilitator>Piensa en la última vez que intentaste convencer a alguien de algo, por ejemplo pedirle a alguien que te ayude con una tarea doméstica que no querías hacer, o en un contexto de organización, presionar a un/una funcionario/e electo para que vote de cierta manera. ¿Qué hiciste para convencerlos? ¿Cómo te fue?</Facilitator>
           <Instructions>Pedir a los participantes que compartan historias mientras se les van ocurriendo. Después de cada historia, dar seguimiento para tratar de identificar lo que funcionó como táctica / estrategia y enumérelas para anotar en la parte delantera de la sala. Finalice dando a conocer rápidamente las estrategias identificadas durante lo conversado.</Instructions>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Paso 3: Actividad &quot;¡Convénceme!&quot; (30-45 min)</h4>
@@ -105,7 +104,7 @@
           <Instructions>Sostener los letreros y preguntar: &quot;¿Quién quiere ser ___?&quot; Si el grupo es tímido, es posible que tengas que asignar los personajes.
             <ul>
               <li>En la medida que las personas se ofrezcan voluntariamente, pídeles que vengan al frente y pongan el letrero alrededor de su cuello.</li>
-              <li>Una vez que los 3 &quot;actores&quot; se hayan ofrecido como voluntarios, pedir a ese grupo que se vaya a un lado con 1 de los/las/les facilitadores para prepararse:
+              <li>Una vez que los/las/les 3 &quot;actores&quot; se hayan ofrecido como voluntarios, pedir a ese grupo que se vaya a un lado con 1 de los/las/les facilitadores para prepararse:
                 <ul>
                   <li>Repasar la situación con ellos.</li>
                   <li>Repasar cada uno de sus personajes y discutir lo que podría (y no podría) convencerlos.</li>
@@ -113,11 +112,11 @@
                   <li>Si hay tiempo, los &quot;actores&quot; podrían hacer algunos calentamientos rápidos para entrar en el personaje.</li>
                 </ul>
               </li>
-              <li>Mientras los actores se preparan, tomar un minuto como grupo para hablar sobre lo que la gente sabe acerca de estos 3 personajes. ¿Qué tomaría convencerles? Escriban estas ideas en el papelógrafo.</li>
-              <li>Una vez que los actores regresan, haga que se alineen en la línea de &quot;inicio&quot;.</li>
+              <li>Mientras los/las/les actores se preparan, tomar un minuto como grupo para hablar sobre lo que la gente sabe acerca de estos 3 personajes. ¿Qué tomaría convencerles? Escriban estas ideas en el papelógrafo.</li>
+              <li>Una vez que los/las/les actores regresan, haga que se alineen en la línea de &quot;inicio&quot;.</li>
             </ul>
           </Instructions>
-          <Facilitator><span class="instructions">Pedir a los actores que presenten sus personajes a la audiencia.</span>
+          <Facilitator><span class="instructions">Pedir a los/las/les actores que presenten sus personajes a la audiencia.</span>
             <p>Ahora, intentaremos convencer a estas personas de que deben luchar contra la gentrificación y el desplazamiento en Chelsea y Everett. Vamos a turnarnos presentando argumentos utilizando los datos de la hoja informativa. Si crees que tu personaje se convencería por uno de los argumentos presentados, avanza un paso. De lo contrario, mantente en tu lugar.</p>
           </Facilitator>
           <Instructions>Podrías encontrar un voluntario del grupo o modelarlo tú mismo. De cualquier manera, vaya a la línea del &quot;final&quot;, enfrente del grupo de actores y presente un ejemplo de argumento.
