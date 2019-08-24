@@ -23,12 +23,13 @@
     </section>
     <div class="workshop_content">
       <Introduction :toolkit="toolkit">
+        <span slot="title">Discussion & Action Guide</span>
         <p>Media and art are great organizing tools for understanding and fighting displacement in our communities. Film can be used in organizing to tell a story and call attention to a problem, expand and shift dialogues by unpacking and examining different narratives and experiences, mobilize communities for action, and influence policy change.</p>
-        <p><strong>Desplazada</strong> is set along the lower Mystic River watershed, which connects the communities of Chelsea, Everett, and East Boston to the generations-old cycles of dispossession, industrial pollution, displacement, and economic injusticein the region.</p>
+        <p><strong>Desplazada</strong> is set along the lower Mystic River watershed, which connects the communities of Chelsea, Everett, and East Boston to the generations-old cycles of dispossession, industrial pollution, displacement, and economic injustice in the region.</p>
         <p>In Everett, residents have not been able to access the waterfront for many years, due to a long history of industrialization and contamination. Until recently, many Everett residents were not even aware of the river. Built on a former Monsanto site, Encore Boston Harbor Casino opened in June 2019. During the planning stage, the site was marketed to residents as a solution to finally cleaning up the contaminated land, allowing access to the river, and bringing much-needed jobs to the area.</p>
         <p>Chelsea is surrounded by three waterways: the Island End River, Chelsea Creek, and Mill Creek; meanwhile, many in Chelsea still don&#39;t know that the area is surrounded by water, or considered a &quot;waterfront community.&quot; Similarly, Chelsea&#39;s waterfront has been inaccessible to most for generations—including Chelsea Creek, which has been designated as a DPA (Designated Port Area), prioritizing industrial usage for water-dependent industries.</p>
         <p>While Chelsea provides regional and national industrial benefits—including storage for jet fuel, home heating fuel, and road salt used in hundreds of communities across the region—its residents have also sacrificed their public health and access to such valuable resources. After decades of working to improve  quality of life in the community and making the city a healthier and cleaner place to live, many of Chelsea&#39;s most vulnerable residents are being displaced.</p>
-        <p><em>Desplazada</em> depicts our history and current-day causes of displacement occurring in these communities (and beyond) along this same waterfront. The film was created as an organizing tool to raise the level of empathy and consciousness of displacement that then leads to community action. This film and action guide can be used to:</p>
+        <p><strong>Desplazada</strong> depicts our history and current-day causes of displacement occurring in these communities (and beyond) along this same waterfront. The film was created as an organizing tool to raise the level of empathy and consciousness of displacement that then leads to community action. This film and action guide can be used to:</p>
         <ul>
           <li>Create opportunities for critical dialogue about displacement and its community impact.</li>
           <li>Examine environmental and housing injustices.</li>
@@ -57,7 +58,7 @@
         </template>
         <template slot="Materials_and_Preparation">
           <ul>
-          <li>Identify 1-2 facilitators and assign roles for the discussions, including 1 note taker and 1 timekeeper. If 2 facilitators are present, each one support the other and the audience if the discussion becomes emotional.</li>
+          <li>Identify 1-2 facilitators and assign roles for the discussions, including 1 note taker and 1 timekeeper. If 2 facilitators are present, each one could support the other and the audience if the discussion becomes emotional.</li>
           <li>Print out the brief introduction of the film to share with participants at the start of the screening.</li>
           <li>Identify key questions you plan to ask the audience based on who is attending, size and diversity of the group, and desired outcomes for the conversation.</li>
           <li>Consider printing out and distributing questions for the audience to reference during the discussion.</li>
@@ -83,37 +84,37 @@
           <table class="community-agreements">
             <tbody>
             <tr>
-              <td>ONE DIVA, ONE MIC / UNA DIVA, UN MICRÓFONO</td><td>Please, only 1 person speak at a time. (For those who need more time to process their words, or are less comfortable requesting airtime in a conversation, it could be useful to ask people to leave the space in between speakers.)</td>
+              <td>ONE DIVA, ONE MIC<br><br>UNA DIVA, UN MICRÓFONO</td><td>Please, only 1 person speak at a time. (For those who need more time to process their words, or are less comfortable requesting airtime in a conversation, it could be useful to ask people to leave the space in between speakers.)</td>
             </tr>
             <tr>
-              <td>NO ONE KNOWS EVERYTHING; TOGETHER WE KNOW A LOT / NADIE SABE TODO; JUNTOS SABEMOS MUCHO</td><td>This means we all get to practice being humble, because we have something to learn from everyone in the room. It also means we all have a responsibility to share what we know, including our questions, so that others may learn from us.</td>
+              <td>NO ONE KNOWS EVERYTHING; TOGETHER WE KNOW A LOT<br><br>NADIE SABE TODO; JUNTOS SABEMOS MUCHO</td><td>This means we all get to practice being humble, because we have something to learn from everyone in the room. It also means we all have a responsibility to share what we know, including our questions, so that others may learn from us.</td>
             </tr>
             <tr>
-              <td>MOVE UP, MOVE UP / MOVÁMONOS ROLES</td><td>If you&#39;re someone who tends to speak less, please move up into a role of speaking more. If you tend to speak a lot, please move up into a role of listening more. This is a twist on the more commonly known &quot;step up, step back.&quot; The &quot;up/up&quot; confirms that in both experiences, growth is happening. (You don&#39;t go &quot;back&quot; by learning to be a better listener.) Saying &quot;move&quot; instead of &quot;step&quot; recognizes that not everyone can step.</td>
+              <td>MOVE UP, MOVE UP<br><br>MOVÁMONOS ROLES</td><td>If you&#39;re someone who tends to speak less, please move up into a role of speaking more. If you tend to speak a lot, please move up into a role of listening more. This is a twist on the more commonly known &quot;step up, step back.&quot; The &quot;up/up&quot; confirms that in both experiences, growth is happening. (You don&#39;t go &quot;back&quot; by learning to be a better listener.) Saying &quot;move&quot; instead of &quot;step&quot; recognizes that not everyone can step.</td>
             </tr>
             <tr>
-              <td>WE CAN&#39;T BE ARTICULATE ALL THE TIME / NO LOGRAMOS ARTICULAR TODO EL TIEMPO</td><td>Often, people feel hesitant to participate in a workshop or meeting for fear of &quot;messing up&quot; or stumbling over their words. We want everyone to feel comfortable participating, even if you can&#39;t be as articulate as you&#39;d like.</td>
+              <td>WE CAN&#39;T BE ARTICULATE ALL THE TIME<br><br>NO LOGRAMOS ARTICULAR TODO EL TIEMPO</td><td>Often, people feel hesitant to participate in a workshop or meeting for fear of &quot;messing up&quot; or stumbling over their words. We want everyone to feel comfortable participating, even if you can&#39;t be as articulate as you&#39;d like.</td>
             </tr>
             <tr>
-              <td>BE AWARE OF TIME / SER CONSCIENTES DEL TIEMPO</td><td>This is helpful for your facilitator, and helps respect everyone&#39;s time and commitment. Please come back on time from breaks, and refrain from speaking in long monologues.</td>
+              <td>BE AWARE OF TIME<br><br>SER CONSCIENTES DEL TIEMPO</td><td>This is helpful for your facilitator, and helps respect everyone&#39;s time and commitment. Please come back on time from breaks, and refrain from speaking in long monologues.</td>
             </tr>
             <tr>
-              <td>BE CURIOUS / SER CURIOSOS</td><td>We make better decisions when we approach our problems and challenges with questions (&quot;What if we... ?&quot;) and curiosity. Allow space for play, curiosity, and creative thinking.</td>
+              <td>BE CURIOUS<br><br>SER CURIOSOS</td><td>We make better decisions when we approach our problems and challenges with questions (&quot;What if we... ?&quot;) and curiosity. Allow space for play, curiosity, and creative thinking.</td>
             </tr>
             <tr>
-              <td>ANYTHING TO ADD? / ALGO MÁS?</td><td></td>
+              <td>ANYTHING TO ADD?<br><br>ALGO MÁS?</td><td></td>
             </tr>
             </tbody>
           </table>
-          <p><strong>NOTE:</strong> A few community agreements that participants often bring up that we don&#39;t tend to use or bring with us include: &quot;assume best intentions&quot; and &quot;default to trust.&quot; We don&#39;t use these agreements because when someone is unable to do this (say they&#39;re feeling untrusting of someone, or unsafe), having a community agreement telling to do so isn&#39;t going to change anything. Put short, these agreements aren&#39;t always possible, especially when we take into consideration that people have been harmed by sexism, racism, homophobia, transphobia, and classism. Instead, we offer, &quot;we can&#39;t be articulate all the time,&quot; &quot;be generous with each other,&quot; and &quot;this is a space for learning,&quot; which capture the spirit of building up the necessary tools to take care of and protect themselves/ourselves.</p>
+          <p><strong>NOTE:</strong> A few community agreements that participants often bring up that we don&#39;t tend to use or bring with us include: &quot;assume best intentions&quot; and &quot;default to trust.&quot; We don&#39;t use these agreements because when someone is unable to do this (say they&#39;re feeling untrusting of someone, or unsafe), having a community agreement telling us to do so isn&#39;t going to change anything. Put short, these agreements aren&#39;t always possible, especially when we take into consideration that people have been harmed by sexism, racism, homophobia, transphobia, and classism. Instead, we offer, &quot;we can&#39;t be articulate all the time,&quot; &quot;be generous with each other,&quot; and &quot;this is a space for learning,&quot; which capture the spirit of building up the necessary tools to take care of and protect themselves/ourselves.</p>
         </template>
         <template slot="Detailed_Plan">
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <Instructions>The background and context for the film is provided to help the facilitator guide a discussion about the film. Use all or pieces of this information to create an invitation for the screening, introduce the film at an event, or to support open discussion.
-            <p><strong>Background and Context:</strong> The relationship between environmental degradation, selective &quot;green&quot; rehabilitation, extractive development, gentrification, and cycles of displacement is not often explicitly named. Movements that fail to account for these interlinked, dynamic, and historic forces may be tempted to legitimize unjust land-use policies that trade a healthy, livable environments for short-term affordable housing. In our scarcity economy, we learn to fight over scraps. We witness this play out when we hyper-localize our concerns, caring more about  improving our own community than considering the runoff effects of our decisions on neighboring communities—this kind of thinking is historically rooted in a pervasive culture of settler-colonial resource extraction and land theft in the US that determines individual life chances and policy decisions.</p>
-            <p>On the flip side, many successful, collective efforts at community restoration of poisoned and abandoned landscapes have been co-opted by capitalism. Today, environmental remediation booms as a commercial enterprise, facilitating the growth of for-profit, &quot;green-lining&quot; industries and subsequent waves of white resettlement. It is clear that ecological clean-up, post-industrial, green spaces, and the very idea of enjoying these spaces are now available only to those who can literally afford that privilege. While the specifics of the aesthetics and terminology might be new, this classed and racialized double-standard is not.</p>
+            <p><strong>Background and Context:</strong> The relationship between environmental degradation, selective &quot;green&quot; rehabilitation, extractive development, gentrification, and cycles of displacement is not often explicitly named. Movements that fail to account for these interlinked, dynamic, and historic forces may be tempted to legitimize unjust land-use policies that trade healthy, livable environments for short-term affordable housing. In our scarcity economy, we learn to fight over scraps. We witness this play out when we hyper-localize our concerns, caring more about  improving our own community than considering the runoff effects of our decisions on neighboring communities—this kind of thinking is historically rooted in a pervasive culture of settler-colonial resource extraction and land theft in the US that determines individual life chances and policy decisions.</p>
+            <p>On the flip side, many successful, collective efforts at community restoration of poisoned and abandoned landscapes have been co-opted by capitalism. Today, environmental remediation booms as a commercial enterprise, facilitating the growth of for-profit, &quot;green-lining&quot; industries and subsequent waves of white resettlement. It is clear that ecological clean-up; post-industrial, green spaces; and the very idea of enjoying these spaces are now available only to those who can literally afford that privilege. While the specifics of the aesthetics and terminology might be new, this classed and racialized double standard is not.</p>
             <p>What kind of world do we deserve? How does our relationship to the earth and its elements define our experience of self, community, identity, and history? What does home mean? Our lives are contoured by migration and transience, inheritance, connection, and adaptation. Our different histories and possible futures vie for resolution on this stolen land.</p>
-            <p><em>Desplazada</em> asks these questions.</p>
+            <p><strong>Desplazada</strong> asks these questions.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <Instructions>The discussion questions outlined below are organized by key themes presented in the film. Start by asking the general opening discussion questions to begin the conversation before diving into any specific themes. Pick and choose which specific, thematic questions to ask depending on the conversation, audience, and goals for the viewing and discussion. The activity following the discussion questions is optional.
@@ -167,12 +168,17 @@
                   <li><em>Feel free to draw inspiration from the past, but don&#39;t let history limit your creativity and imagination.</em></li>
                 </ul>
               </li>
+            </ul>
+            <ul>
               <li>After 10 minutes, ask participants to share back their future timelines with the larger group.</li>
-              <li>Once all of the groups have shared, reflect with participants on the futures they each imagined in the activity by asking:</li>
+            </ul>
+            <ul>
+              <li>Once all of the groups have shared, reflect with participants on the futures they each imagined in the activity by asking:
               <ol>
               <li><em>What inspired or excited you?</em></li>
               <li><em>What steps could we take or explore further?</em></li>
               </ol>
+              </li>
             </ul>
           </Instructions>
         </template>
@@ -217,7 +223,7 @@
       <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }">Film Acknowledgments &amp; Credits</h2>
       <p>This film is a collaboration funded by The Surdna Foundation, in partnership with the Community Innovators Lab (Co-Lab) at the Department of Urban Studies and Planning at the Massachusetts Institute of Technology, Research Action Design, GreenRoots, and Everett Community Health Partnership.</p>
       <p>Produced and Directed by: Puck Lo</p>
-      <p>Cast (In Order of Appearance): Grace Muwina, Damali Vidot, Mayra Romero, Mayra&#39;s son Bryant Romero, kids in playground Jeffry Ramos, Tiffany Enriquez and Ericksson Enriquez</p>
+      <p>Cast (In Order of Appearance): Grace Muwina, Damali Vidot, Mayra Romero, Mayra&#39;s son Bryant Romero, kids in playground, Jeffry Ramos, Tiffany Enriquez, Ericksson Enriquez</p>
       <p>Director of Photography: Puck Lo</p>
       <p>Drone Videographer: Dane Christensen</p>
       <p>Editor(s): Puck Lo</p>
@@ -256,5 +262,8 @@
 <style scoped>
   .community-agreements td:first-of-type {
     font-weight: bold;
+    padding: 0.5em 1em;
+    text-align: center;
+    min-width: 40%;
   }
 </style>

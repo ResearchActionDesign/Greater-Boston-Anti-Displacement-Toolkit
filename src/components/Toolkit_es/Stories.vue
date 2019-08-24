@@ -47,7 +47,7 @@
             <li>Cinta de Pintor o Cinta Adhesiva de Protección (masking tape)</li>
             <li>Pañuelitos</li>
             <li>Copias impresas de <a href="/handouts/Stories-Worksheet.pdf">las hojas de trabajo</a></li>
-            <li><a href="/handouts/Stories-Tree-Stencil.pdf" target="_blank">Plantilla de un árbol (imprimir, recortar, y pegar)</a>, o <a href="/handouts/Stories-Tree-24x24.pdf" target="_blank">dibujo de un árbol</a></li>
+            <li><a href="/handouts/Stories-Tree-Stencil.pdf" target="_blank">Plantilla de un árbol (imprimir, recortar, y pegar)</a>, o <a href="/handouts/Stories-Tree-24x24.pdf" target="_blank">impresión de un árbol tamaño natural</a></li>
             <li><a href="/handouts/Stories-Fruit.pdf" target="_blank">&quot;Fruta&quot; impresa y cortada</a> o figuras cortadas de cartulina</li>
             <li>Contar cuántos grupos pequeños habrán. Para cada grupo, trazar un árbol en una hoja de rotafolio.</li>
             <li>Crear un &quot;río&quot; hecho de cartulina azul en una de las paredes, o dibujar uno utilizando varias hojas de rotafolio. Durante las presentaciones, los arboles serán colocados a lo largo del río.</li>
@@ -74,13 +74,13 @@
           <h4 class="subcategory">Paso 1: Conexión con la tierra (10 min)</h4>
           <Instructions>Antes de iniciar las actividades, reúna al grupo en un círculo amplio para prepararse y conectarse, y &quot;establecer la intención del día&quot;. Empezar por reconocer la tierra indígena que ocupamos. Conectar la conversación a la importancia de crear un espacio seguro y valiente, que empieza con el reconocimiento de la pérdida de las tierras indígenas y la importancia de nombrar y retomar los espacios de quienes fueron inicialmente desplazados.
             <p>Las/los/les facilitadores pueden después considerar abrir con un simple ejercicio de respiración o meditación. Por ejemplo, crear, de forma grupal, el sonido de la lluvia (las/los participantes frotan sus manos, después chasquean los dedos, y palmean sus piernas) o piden a los participantes que cierren sus ojos y nombren uno de sus ancestros o seres queridos que deseen les acompañe en esta actividad. Posteriormente inhalar y exhalar profundo 3 veces todos/as/e juntos/as/e.</p>
-            <p>Esto ayuda a dar la pauta y permitir que las/los participantes entren en un espacio mental y emocional que les lleve a evocar recuerdos de su historia migratoria personal en la siguiente actividad. Cerrar esta sección pidiendo al grupo que abran sus ojos y que miren a los ojos de una persona en el círculo (o se puede pedir que coloquen las palmas de sus manos casi tocándose para crear un contacto energético), posteriormente, agradecer a todas y todos por su participación y apertura a crear un espacio seguro y valiente para este tiempo juntos.</p>
+            <p>Esto ayuda a dar la pauta y permitir que las/los participantes entren en un espacio mental y emocional que les lleve a evocar recuerdos de su historia migratoria personal en la siguiente actividad. Cerrar esta sección pidiendo al grupo que abran sus ojos y que miren a los ojos de una persona en el círculo (o se puede pedir que coloquen las palmas de sus manos casi tocándose para crear un contacto energético), posteriormente, agradecer a todos/as/es por su participación y apertura a crear un espacio seguro y valiente para este tiempo juntos.</p>
             <p>Las/los participantes pueden decidir no tomar parte de la actividad de apertura y honrar sus prácticas individuales de preparación para hacer presencia en la actividad grupal.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Paso 2: Historia Individuales (10 min: 2 min de explicación, 8 min de trabajo individual)</h4>
-          <p>El objetivo de esta sección es iniciar con el trabajo individual. Esta porción de la actividad puede efectuarse en un área en silencio, o con música de fondo suave y apropiada culturalmente. Después de este segmento cada participante debe sentirse más conectado con los elementos de su propia historia migratoria. El entorno de fondo debe ser óptimo para la reflexión individual, permitiendo a los/las/les participantes profundizar o resaltar elementos fundamentales de la historia migratoria personal.</p>
-          <Instructions>Todos/as/es los/las/les participantes deben de tener una copia de <a href="/handouts/Stories-Fruit.pdf" target="_blank">la hoja de trabajo</a>, la que es una hoja de papel dividida en 3 secciones:
+          <Instructions>El objetivo de esta sección es iniciar con el trabajo individual. Esta porción de la actividad puede efectuarse en un área en silencio, o con música de fondo suave y apropiada culturalmente. Después de este segmento cada participante debe sentirse más conectado con los elementos de su propia historia migratoria. El entorno de fondo debe ser óptimo para la reflexión individual, permitiendo a los/las/les participantes profundizar o resaltar elementos fundamentales de la historia migratoria personal.
+            <p>Todos/as/es los/las/les participantes deben de tener una copia de <a href="/handouts/Stories-Fruit.pdf" target="_blank">la hoja de trabajo</a>, la que es una hoja de papel dividida en 3 secciones:</p>
             <ol class="facilitator">
               <li>¿Quién es mi gente?</li>
               <li>¿Cómo llegue aquí, y cuáles fueron los principales momentos decisivos y las luchas en el camino?</li>
@@ -119,7 +119,7 @@
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Paso 4: Compartir en plenario (20 min)</h4>
           <Instructions>La meta de esta sección es pasar de las narrativas personales a las conexiones en grupos pequeños, hasta llegar a las experiencias compartidas entre todo el grupo. Al final de compartir, las/los participantes deben estar conscientes de las paralelas en las experiencias y reflexionar sobre las lecciones aprendidas e historias comunes.
-            <p>Bienvenidos de regreso del receso</p>
+            <p>Dar la bienvenidas después del receso</p>
             <p>Pedir a cada grupo que pase uno por uno a su árbol y compartan qué aprendieron con esta actividad. Ejemplos de preguntas guías:</p>
             <ul class="facilitator">
               <li>¿Qué sobresale para ustedes de su historia común?</li>
