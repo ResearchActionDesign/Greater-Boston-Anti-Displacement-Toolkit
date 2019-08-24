@@ -258,12 +258,3 @@
     },
   };
 </script>
-
-<style scoped>
-  .community-agreements td:first-of-type {
-    font-weight: bold;
-    padding: 0.5em 1em;
-    text-align: center;
-    min-width: 40%;
-  }
-</style>

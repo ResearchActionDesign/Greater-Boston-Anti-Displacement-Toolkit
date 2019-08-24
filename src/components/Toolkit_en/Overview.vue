@@ -57,14 +57,40 @@
         <p class="italic">Allegra Williams, Andrew Binet, Augustín Cepeda, Natalia Coachman, Taina McField, Taylor Cain.</p>
       </td></tr>
   </table>
-      <p>The film, [ADD NAME WHEN CONFIRMED] for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustín Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo. We also thank <a href="https://www.queerblackediting.com/">Queer Black Editing</a> for copyediting the toolkit, and Xenia Barahona for its translation.</p>
+        <p>The film, <b>Desplazada</b> for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustín Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo. We also thank <a href="https://www.queerblackediting.com/">Queer Black Editing</a> for copyediting the toolkit, and Xenia Barahona for its translation.</p>
         <p>This project would not have been possible without the generous support of The Surdna Foundation.</p>
       <p>All materials developed for the toolkit are licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, which means they may be adapted to fit your community needs; however, you must give appropriate credit, indicate if changes were made, and distribute your contributions under the same license as the original. Please review the guidelines linked above.</p>
       <h3>METHODOLOGY</h3>
       <p>This toolkit is a co-design project. In the first year of its development, community partner organizations identified, shared, and prioritized the problems, audiences, and potential tools needed to help influence change in their communities. In April 2018, the partners agreed upon a shared problem statement for the project: “We want people to be able to stay in their communities safely, affordably, and healthily. We want people to have a voice in shaping place. This is not currently happening in the communities of Chelsea, Everett, and East Boston.”</p>
       <p>Based on the problem statement, the community-partner organizations agreed on developing a multimedia organizing toolkit. The co-design process included reviewing existing toolkits and resources, developing the outline and components of the toolkit; co-creating the story and script for the film; and drafting, gathering, and reviewing content for each of the components. In March 2019, a co-design session was held to engage community-partner organizations and their community members and networks in the design and testing of the toolkit. The two-day co-design session and debrief consisted of conducting two idea labs to shape and generate content, three test labs to refine select components of the toolkit, and a small group screening and final review of the film cut. The feedback and evaluations from the co-design session were used to refine and finalize the multimedia organizing toolkit to fight displacement.</p>
         <h3>COMMUNITY AGREEMENTS</h3>
-        <p>TODO: FILL IN ONCE COPY-EDITED & CREDIT AORTA</p>
+        <p>The modified Community Agreements adopted from <a href="https://aorta.coop" target="_blank">Aorta</a> below were used to create a safe space and grounding throughout the co-design process. Facilitators may find it useful to introduce these at the opening of each workshop.</p>
+        <table class="community-agreements">
+          <tbody>
+          <tr>
+            <td>ONE DIVA, ONE MIC<br><br>UNA DIVA, UN MICRÓFONO</td><td>Please, only 1 person speak at a time. (For those who need more time to process their words, or are less comfortable requesting airtime in a conversation, it could be useful to ask people to leave the space in between speakers.)</td>
+          </tr>
+          <tr>
+            <td>NO ONE KNOWS EVERYTHING; TOGETHER WE KNOW A LOT<br><br>NADIE SABE TODO; JUNTOS SABEMOS MUCHO</td><td>This means we all get to practice being humble, because we have something to learn from everyone in the room. It also means we all have a responsibility to share what we know, including our questions, so that others may learn from us.</td>
+          </tr>
+          <tr>
+            <td>MOVE UP, MOVE UP<br><br>MOVÁMONOS ROLES</td><td>If you&#39;re someone who tends to speak less, please move up into a role of speaking more. If you tend to speak a lot, please move up into a role of listening more. This is a twist on the more commonly known &quot;step up, step back.&quot; The &quot;up/up&quot; confirms that in both experiences, growth is happening. (You don&#39;t go &quot;back&quot; by learning to be a better listener.) Saying &quot;move&quot; instead of &quot;step&quot; recognizes that not everyone can step.</td>
+          </tr>
+          <tr>
+            <td>WE CAN&#39;T BE ARTICULATE ALL THE TIME<br><br>NO LOGRAMOS ARTICULAR TODO EL TIEMPO</td><td>Often, people feel hesitant to participate in a workshop or meeting for fear of &quot;messing up&quot; or stumbling over their words. We want everyone to feel comfortable participating, even if you can&#39;t be as articulate as you&#39;d like.</td>
+          </tr>
+          <tr>
+            <td>BE AWARE OF TIME<br><br>SER CONSCIENTES DEL TIEMPO</td><td>This is helpful for your facilitator, and helps respect everyone&#39;s time and commitment. Please come back on time from breaks, and refrain from speaking in long monologues.</td>
+          </tr>
+          <tr>
+            <td>BE CURIOUS<br><br>SER CURIOSOS</td><td>We make better decisions when we approach our problems and challenges with questions (&quot;What if we... ?&quot;) and curiosity. Allow space for play, curiosity, and creative thinking.</td>
+          </tr>
+          <tr>
+            <td>ANYTHING TO ADD?<br><br>ALGO MÁS?</td><td></td>
+          </tr>
+          </tbody>
+        </table>
+        <p><strong>NOTE:</strong> A few community agreements that participants often bring up that we don&#39;t tend to use or bring with us include: &quot;assume best intentions&quot; and &quot;default to trust.&quot; We don&#39;t use these agreements because when someone is unable to do this (say they&#39;re feeling untrusting of someone, or unsafe), having a community agreement telling us to do so isn&#39;t going to change anything. Put short, these agreements aren&#39;t always possible, especially when we take into consideration that people have been harmed by sexism, racism, homophobia, transphobia, and classism. Instead, we offer, &quot;we can&#39;t be articulate all the time,&quot; &quot;be generous with each other,&quot; and &quot;this is a space for learning,&quot; which capture the spirit of building up the necessary tools to take care of and protect themselves/ourselves.</p>
       </div>
     </main>
 </template>

@@ -46,9 +46,20 @@ router.beforeEach((to, from, next) => {
     document.title = title;
   }
 
+  let newName = to.name;
+  const nameEn = newName.endsWith('-es') ? newName.slice(0,-3) : newName; // Store these separately for hreflang links, below
+  const nameEs = !newName.endsWith('-es') && newName !== 'Overview' && newName !== 'Home' ? newName + '-es' : newName;
+  if (newName.endsWith('-es') && language === 'en') {
+    newName = newName.slice(0, -3);
+  }
+  else if (!(newName.endsWith('-es')) && language === 'es' && newName !== 'Overview' && newName !== 'Home') {
+    newName = newName + '-es';
+  }
+
   // Dynamically set metadata.
   // Find old metatags.
   const metaTags = Array.from(document.querySelectorAll('[data-vue-router-controlled]'));
+  const newUrl = router.resolve({ name: newName, params: { locale: language } }).href;
 
   const metaTagDefinitions = {
     description: {
@@ -61,12 +72,21 @@ router.beforeEach((to, from, next) => {
     },
     ogUrl: {
       content:
-        'https://www.greaterbostontoolkit.org' + to.fullPath,
+        'https://www.greaterbostontoolkit.org' + newUrl,
     },
     ogDescription: {
       content:
       description,
     },
+    linkCanonical: {
+      href: 'https://www.greaterbostontoolkit.org' + newUrl,
+    },
+    linkEn: {
+      href: 'https://www.greaterbostontoolkit.org' + router.resolve({ name: nameEn, params: { locale: 'en' }}).href,
+    },
+    linkEs: {
+      href: 'https://www.greaterbostontoolkit.org' + router.resolve({ name: nameEs, params: { locale: 'es' }}).href,
+    }
   };
 
   metaTags.map((tag) => {
@@ -74,14 +94,6 @@ router.beforeEach((to, from, next) => {
     if (!tagDef) { return; }
     Object.keys(tagDef).forEach((key) => { tag.setAttribute(key, tagDef[key]); });
   });
-
-  let newName = to.name;
-  if (newName.endsWith('-es') && language === 'en') {
-    newName = newName.slice(0, -3);
-  }
-  else if (!(newName.endsWith('-es')) && language === 'es' && newName !== 'Overview' && newName !== 'Home') {
-    newName = newName + '-es';
-  }
 
   if (to.params.locale !== language || newName !== to.name) {
     next({ name: newName, params: { locale: language }});
