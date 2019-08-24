@@ -72,6 +72,31 @@
     "color": "#cc0000",
     "altText": "",
     "resources": [
+      {
+        "name": "Discussion and Action Guide of The Whole Gritty City,",
+        "link": "https://www.dropbox.com/s/1s22gmlz2spfmgq/WGC_Discussion%20Guide%20%281%29.pdf?dl=0",
+        "text": "a documentary that offers a unique portrayal of New Orleans through the lens of marching band culture."
+      },
+      {
+        "name": "Care",
+        "link": "http://caredocumentary.com/",
+        "text": "delves deep into the world of home elder care between paid caregivers and their elderly clients"
+      },
+      {
+        "name": "Working Films Community Screening Guide,",
+        "link": "https://www.includingsamuel.com/sites/www.includingsamuel.com/files/including_samuel_-_community_screening_guide.pdf",
+        "text": "a handout offering general guidelines to organizations who do not typically host film screenings."
+      },
+      {
+        "name": "The Area,",
+        "link": "https://theareafilm.com/",
+        "text": "a five-year odyssey of a South Side Chicago neighborhood, where a multibillion dollar freight company is displacing more than 400 Black families."
+      },
+      {
+        "name": "Priced Out, The Documentary",
+        "link": "https://www.pricedoutmovie.com/",
+        "text": "documents 15 years of gentrification in Portland, Oregon."
+      }
     ]
   },
 
@@ -170,38 +195,36 @@
         },
         {
           "name": "How to Create Data Murals",
-          "link": "https://datatherapy.org/data-mural-gallery/",
-          "text": "Cómo crear murales de datos"
+          "link": "https://datatherapy.org/data-mural-gallery/"
         },
         {
           "name": "Boston Displacement Mapping Project",
           "link": "http://www.bostondisplacement.org/",
-          "text": "El Proyecto de Mapeo de Desplazamientos de Boston combina mapas y narraciones en torno al desplazamiento en Boston"
+          "text": "combines maps and storytelling around displacement in Boston"
         },
         {
           "name": "StoryMap",
           "link": "https://storymap.knightlab.com/",
-          "text": "crea mapas interactivos que combinan historias y datos"
+          "text": "creates interactive maps combining stories and data"
         },
         {
           "name": "Anti-Eviction Mapping Project Handbook",
           "link": "https://static1.squarespace.com/static/52b7d7a6e4b0b3e376ac8ea2/t/5bc76571b208fc10defc815a/1539794295823/AEMP+Handbook.pdf",
-          "text": "el Manual del Proyecto de Mapeo Anti-desalojo enumera instrucciones específicas sobre cómo combinar historias orales y datos para organizar contra el desplazamiento"
+          "text": "lists specific instructions on how to combine oral histories and data in organizing against displacement"
         },
         {
           "name": "Public Narrative / Story of Self",
           "link": "https://workingnarratives.org/article/public-narrative/",
-          "text": "es un marco para pensar cómo contar tu historia personal de una manera que haga que otros se muevan a la acción"
+          "text": "is one framework for thinking about how to tell your personal story in a way that moves others into action"
         },
         {
           "name": "Public Narrative Worksheet",
-          "link": "https://web.archive.org/web/20150510144352/http://www.wholecommunities.org/pdf/Public%20Story%20Worksheet07Ganz.pdf",
-          "text": "hoja de trabajo de \"Public Narrative\""
+          "link": "https://web.archive.org/web/20150510144352/http://www.wholecommunities.org/pdf/Public%20Story%20Worksheet07Ganz.pdf"
         }
       ]
     },
     "Policies": {
-      "name": "Identificación y Evaluación de Políticas y Estrategias ",
+      "name": "Identificación y Evaluación de Políticas y Estrategias",
       "question": "¿Cómo protegemos donde vivimos?",
       "num": "4",
       "color": "#5da352",
@@ -212,33 +235,36 @@
       "resources": [
         {
           "name": "All-In Cities Policy Toolkit",
-          "link": "https://allincities.org/toolkit",
-          "text": "(Manual sobre Políticas de Ciudades Integradas)"
+          "link": "https://allincities.org/toolkit"
         },
         {
           "name": "Dealing with Gentrification Toolkit",
           "link": "http://dealingwithgentrification.org/toolkit/",
-          "text": "(Caja de herramientas para enfrentar la gentrificación)"
+          "text": "from Northeast Action Training"
         },
         {
           "name": "Just Cause Eviction Ordinances, the Jim Brooks Community Stabilization Act",
-          "link": "http://www.justcauseboston.org/what_jim_brooks_act",
-          "text": "(Ordenanzas de Desalojo por Causa Justa, Ley de Estabilización de la Comunidad de Jim Brooks)"
+          "link": "http://www.justcauseboston.org/what_jim_brooks_act"
         },
         {
           "name": "Our Homes, Our Future: How Rent Control Can Build Stable, Healthy Communities",
-          "link": "https://ourhomesourfuture.org/wp-content/uploads/2019/04/OurHomesOurFuture-2pg-Summary.pdf",
-          "text": "texto sobre políticas de control de alquileres"
+          "link": "https://ourhomesourfuture.org/wp-content/uploads/2019/04/OurHomesOurFuture-2pg-Summary.pdf"
         },
         {
           "name": "Somerville Community Preservation Act",
-          "link": "https://www.somervillema.gov/departments/community-preservation-act",
-          "text": "(Ley de Preservación Comunitaria de Somerville)"
+          "link": "https://www.somervillema.gov/departments/community-preservation-act"
         },
         {
           "name": "Greater Boston Community Land Trust",
-          "link": "https://www.facebook.com/CLTNetwork/",
-          "text": "Fideicomiso de Terrenos Comunitarios del Área Metropolitana de Boston"
+          "link": "https://www.facebook.com/CLTNetwork/"
+        },
+        {
+          "name": "Identificación y Evaluación de Políticas y Estrategias: Hoja de Trabajo en Blanco",
+          "link": "/handouts/Identificacion-y-Evaluacion-de-Politicas.pdf"
+        },
+        {
+          "name": "Identificación y Evaluación de Políticas y Estrategias: Hoja de Trabajo con Ejemplos",
+          "link": "/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf"
         }
       ]
     },
@@ -259,32 +285,32 @@
         {
           "name": "I Am Not My Pixels: Crazy 8s",
           "link": "https://www.iamnotmypixels.com/how-to-use-crazy-8s-to-generate-design-ideas/",
-          "text": "página web que describe un proceso participativo para utilizar la actividad Carrera de Diseño/Design Sprint como herramienta organizativa"
+          "text": "website outlining a participatory process for using the Design Sprint activity as an organizing tool"
         },
         {
           "name": "AgitArte Art Toolkit",
           "link": "https://www.facebook.com/agitarteculturalworks/",
-          "text": "un manual de arte extenso que ofrece instrucciones paso a paso para crear pósteres artísticos como herramientas para el cambio social"
+          "text": "an extensive arts toolkit that provides step by step instructions on creating artistic posters as tools for social change"
         },
         {
           "name": "Bread and Puppet Theater",
           "link": "https://www.wbur.org/artery/2016/02/16/bread-puppet-oscar-lopez-rivera",
-          "text": "utiliza marionetas de tamaño real como herramienta para promover campañas"
+          "text": "uses life-sized puppets as a tool for advancing campaigns"
         },
         {
           "name": "Theater of the Oppressed NYC",
           "link": "https://www.tonyc.nyc/",
-          "text": "es una herramienta de teatro que aborda temas de justicia social"
+          "text": "is a theatrical tool addressing social justice issues"
         },
         {
           "name": "Listening to the City Toolkit",
           "link": "https://www.colab.mit.edu/resources-1/2018/4/2/listening-to-the-city-handbook",
-          "text": "resalta la investigación comunitaria y la acción a través de sonidos y la narración"
+          "text": "highlights community research and action through sound and story"
         },
         {
           "name": "Jolt's Quinceañera at the Capitol",
           "link": "https://www.jolttx.org/en/quinceanera-at-the-capitol/",
-          "text": "utiliza normas culturales como herramienta para aumentar la participación cívica"
+          "text": "uses cultural norms as a tool to increase civic participation"
         }
       ]
     },
@@ -295,13 +321,13 @@
       "color": "#259be4",
       "link": "Stories",
       "edit": "https://www.google.com/",
-      "print": "https://www.google.com/",
+      "print": "/workshops/es/Historias.pdf",
       "altText": "Un dibujo en blanco y negro que muestra un grupo diverso de habitantes de la comunidad sentados en un círculo conversando. Cada persona libera una burbuja que encierra la conversación y sobre el grupo las burbujas se mezclan y forman árboles en un bosque.",
       "resources": [
         {
           "name": "Working Narratives: How to facilitate a Story Circle",
           "link": "https://workingnarratives.org/article/story-circles/",
-          "text": "Círculos Narrativos se utilizan en muchas tradiciones. Working Narratives es una organización que facilita círculos narrativos, una práctica con raíces en el Sur de los Estados Unidos"
+          "text": "story circles are used in many traditions. Working narratives is an organization that facilitates story circles, a practice deeply rooted in the US South"
         },
         {
           "name": "Compartiendo Nuestras Historias: Hoja de Trabajo",
