@@ -67,20 +67,16 @@
 
       <h3>COMMUNITY AGREEMENTS</h3>
       <p>TODO: FILL IN ONCE COPY-EDITED & CREDIT AORTA</p>
-
-      <AdditionalResources :toolkit="$t('overviewToolkit')"></AdditionalResources>
     </div>
   </main>
 </template>
 
 <script>
   import ToolkitIntro from '../ToolkitIntro';
-  import AdditionalResources from '../AdditionalResources';
 
   export default {
     name: "Overview",
     components: {
-      AdditionalResources,
       ToolkitIntro,
     }
   };
