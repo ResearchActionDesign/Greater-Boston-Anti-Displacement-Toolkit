@@ -21,6 +21,7 @@
     "facilitator": "FACILITADOR/A/E",
     "filterByWorkshop": "Clasificar por Guía:",
     "clearFilter": "Eliminar filtros",
+    "backToTop": "Volver arriba",
     "pageTitles": {
       "Film": "Pelicula",
       "Toolkits": "Manual",
@@ -50,7 +51,7 @@
   "edit": "editar",
   "print": "imprimir",
   "overviewToolkit": {
-    "name": "Reseña del Manual",
+    "name": "Manual Anti-desplazamiento para el Área Metropolitana de Boston",
     "question": "¿Por qué se necesita un manual anti-desplazamiento para el Área Metropolitana de Boston?",
     "altText": "Dibujo lineal que muestra una panorámica de East Boston, con el Río Chelsea y el centro de Boston en el fondo. En primer plano, un círculo de personas de pie en un parque de la ciudad, cerca de mesas campestres.",
     "link": "Overview",

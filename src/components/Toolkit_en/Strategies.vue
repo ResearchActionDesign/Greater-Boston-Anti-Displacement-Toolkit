@@ -112,8 +112,8 @@
                 </Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 4: Share Back (13 min)</h4>
-                    <Facilitator class="instructions"> Once the allotted time has lapsed, ask volunteers to share ideas illustrated in the sketches and describe them, if necessary. Facilitators will write down ideas on flip-chart paper to get as many ideas written down for the large group to review.
-                      <p class="instructions">After a full list is created, ask participants to use the color-coded dots to identify the top 3 ideas that resonate with them for the group to use as tools for community actions.</p>
+                    <Facilitator><span class="instructions">Once the allotted time has lapsed, ask volunteers to share ideas illustrated in the sketches and describe them, if necessary. Facilitators will write down ideas on flip-chart paper to get as many ideas written down for the large group to review.
+                      <p>After a full list is created, ask participants to use the color-coded dots to identify the top 3 ideas that resonate with them for the group to use as tools for community actions.</p></span>
                       <ul>
                         <li>What are some of the top ideas?</li>
                         <li>Questions posed to the listening group: What do we like? What&#39;s missing?</li>

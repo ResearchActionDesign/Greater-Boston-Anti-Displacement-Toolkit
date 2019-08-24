@@ -4,10 +4,11 @@
     <p class="langLabel">{{$t('translateTo')}}</p>
   </button>
 
-  <header>
+  <header><slot name="title">
     <router-link :to="{ name: 'Overview', params: { locale: $i18n.locale }}" class="routerLink">
       <p class="title">{{ $t('header') }}</p>
     </router-link>
+  </slot>
   </header>
 </div>
 

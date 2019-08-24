@@ -33,8 +33,8 @@
         <template slot="Tips">
           <ul>
             <li>Working with numbers and data can bring out a lot of anxieties and insecurities for some people, and can also worsen the dynamics of racism and sexism within an organization.</li>
-            <li>If you&#39;re facilitating this toolkit as an activity, be on alert if certain people in the room start using their expertise or comfort with numbers to dominate the conversation with their own opinions.</li>
-            <li>If you&#39;re facilitating this toolkit as an activity, make time and space for people to share feelings, and check in often to ensure that everyone in the room is actively engaged in the conversation.</li>
+            <li>If you&#39;re facilitating this workshop as an activity, be on alert if certain people in the room start using their expertise or comfort with numbers to dominate the conversation with their own opinions.</li>
+            <li>If you&#39;re facilitating this workshop as an activity, make time and space for people to share feelings, and check in often to ensure that everyone in the room is actively engaged in the conversation.</li>
           </ul>
         </template>
 
@@ -174,7 +174,6 @@
   import ToolkitIntro from "../ToolkitIntro";
   import Introduction from "./../../components/Introduction";
   import FacilitationGuide from "./../../components/FacilitationGuide";
-  import Instructions from "./../../components/Instructions";
   import AdditionalResources from "./../../components/AdditionalResources";
   import FacilitatorImage from '../FacilitatorImage';
 
@@ -185,8 +184,6 @@
       ToolkitIntro,
       Introduction,
       FacilitationGuide,
-      FacilitatorImage,
-      Instructions,
       AdditionalResources
     },
     props: ["toolkit"],

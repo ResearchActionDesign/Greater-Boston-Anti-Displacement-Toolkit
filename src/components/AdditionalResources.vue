@@ -12,6 +12,6 @@
 
 <script>
 export default {
-  props: ["toolkit"]
+  props: ["toolkit"],
 };
 </script>

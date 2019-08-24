@@ -61,7 +61,7 @@
         <template slot="Tips">
           <ul>
             <li>It can sometimes be hard to get a group to open up and get into the spirit of the game, so feel free to jump in and model the activity yourself.</li>
-            <li>Determine how much time you have for this session—if closer to an hour, you could take time to define a situation and choose stakeholders as a group. If it&#39;s a shorter session—around a half-hour)—you&#39;ll need to come into the room with your situation all ready to go. If you&#39;ve done the Mapping Power &amp; Money activity, you could use the stakeholders identified in that activity.</li>
+            <li>Determine how much time you have for this session—if closer to an hour, you could take time to define a situation and choose stakeholders as a group. If it&#39;s a shorter session—around a half-hour—you&#39;ll need to come into the room with your situation all ready to go. If you&#39;ve done the Mapping Power &amp; Money activity, you could use the stakeholders identified in that activity.</li>
           </ul>
         </template>
 

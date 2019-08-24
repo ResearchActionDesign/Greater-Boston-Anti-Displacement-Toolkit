@@ -21,6 +21,7 @@
     "facilitator": "FACILITATOR",
     "filterByWorkshop": "Filter by Workshop:",
     "clearFilter": "Clear filter",
+    "backToTop": "Back to top",
     "pageTitles": {
       "Film": "Film",
       "Toolkits": "Toolkits",
@@ -50,7 +51,7 @@
   "edit": "edit",
   "print": "print",
   "overviewToolkit": {
-    "name": " Toolkit Overview",
+    "name": "Greater Boston Anti-Displacement Toolkit",
     "question": "Why an Anti-Displacement Toolkit for Greater Boston?",
     "link": "Overview",
     "edit": "",

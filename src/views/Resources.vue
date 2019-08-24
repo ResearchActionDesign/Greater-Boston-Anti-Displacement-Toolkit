@@ -8,7 +8,7 @@
             v-for="workshop of workshops"
             :key="workshop.link"
             :style="{'--workshop-color': workshop.color }"
-            :class="['sort__list__item', workshop.link===selectedWorkshop ? 'active': '', workshop.link===hoverWorkshop ? 'hover': '', ]"
+            :class="['sort_list__item', workshop.link===selectedWorkshop ? 'active': '', workshop.link===hoverWorkshop ? 'hover': '', ]"
             @mouseover="hoverWorkshop = workshop.link"
             @mouseout="hoverWorkshop = null"
             @click="selectWorkshop(workshop.link)"
@@ -71,6 +71,7 @@ export default {
     margin-bottom: 2em;
     cursor: pointer;
     line-height: 1.5;
+    font-size: 13.28pt;
   }
   .sort_list .active, .sort_list .hover {
     font-weight: bold;
@@ -80,6 +81,7 @@ export default {
   .filter__text {
     font-style: italic;
     font-weight: bold;
+    font-size: 16pt;
   }
 
   .resource__bullet {
