@@ -106,7 +106,8 @@ export default new Router({
     },
     {
       path: '/',
-      redirect: { name: 'Overview', params: { locale: 'en' } },
+      component: () => import( /* webpackChunkName: "Overview" */ './views/Overview.vue'),
+      name: 'Home',
       beforeEnter(to, from, next) {
         const browserLanguage = navigator.language.toLowerCase().substr(0, 2);
         if (browserLanguage !== 'en') {
