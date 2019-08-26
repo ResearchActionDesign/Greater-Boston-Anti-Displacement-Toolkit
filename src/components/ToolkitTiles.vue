@@ -14,7 +14,7 @@
         <p :style="{ color: workshop.color }" class="bold">{{$t('strings.workshop')}} {{workshop.num}}</p>
         
         <!-- Print and Edit -->
-        <div v-grid="'1fr 1fr'" class="tileIcons">
+        <div class="tileIcons">
           <a :href="workshop.print" target="_blank" :aria-label="`${$t('print')} ${workshop.name}`" @click.stop style="justify-self: end">
             <svg class="icon" width="24px" height="24px" :alt="`${$t('print')} ${workshop.name}`">
               <use xlink:href="./../assets/printer.svg#printer"></use>

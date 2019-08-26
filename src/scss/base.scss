@@ -4,6 +4,9 @@ body {
   transition: 0.2s;
 }
 
+// Fix for IE11
+main { display: block; }
+
 a {
   color: $proj_pink;
 }
@@ -141,6 +144,9 @@ table {
 
 // Navigation
 .nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   background-color: black;
   margin: 1em auto 2em;
 
@@ -223,6 +229,9 @@ table {
 
 
 .tileIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   grid-column-gap: 2em;
   margin-top: -11px;
 }
@@ -255,7 +264,7 @@ table {
 
 .workshop_content {
   text-align: left;
-  margin: 5em 3em;
+  margin: 5em 1em;
 
   h3,
   .subcategory {

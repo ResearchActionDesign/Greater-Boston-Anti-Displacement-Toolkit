@@ -8,7 +8,7 @@
       <img :src="require(`@/assets/${toolkit.link}.png`)" class="workshopLogo_large" :alt="toolkit.altText" />
 <!--      TODO change to vimeo embed link-->
       <p v-if="toolkit.num" :style="{ color: toolkit.color }" class="bold">{{$t('strings.workshop')}} {{toolkit.num}}</p>
-      <div v-grid="'1fr 1fr'" class="tileIcons">
+      <div class="tileIcons">
         <a :href="toolkit.print" target="_blank" :aria-label="`${$t('print')} ${toolkit.name}`" @click.stop style="justify-self: end">
           <svg class="icon" width="24px" height="24px" :alt="`${$t('print')} ${toolkit.name}`">
             <use xlink:href="./../../assets/printer.svg#printer"></use>

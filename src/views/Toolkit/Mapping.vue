@@ -19,8 +19,5 @@ export default {
     MappingEng,
     MappingEs
   },
-  mounted() {
-    document.dispatchEvent(new Event("x-app-rendered"));
-  }
 };
 </script>

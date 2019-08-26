@@ -1,6 +1,6 @@
 <template>
     <article class="partners">
-        <div v-grid="'1fr 1fr 1fr 1fr 1fr'" class="partnerLogos">
+        <div class="partnerLogos">
             <a href="https://www.challiance.org/"><img src="./../assets/partnerLogos/CHA_logo.png" alt="Cambridge Health Alliance Logo"></a>
             <a href="https://www.challiance.org/community/everett-health-partnership"><img src="./../assets/partnerLogos/echp-logo-no-sac-copy2.png" alt="Everett Community Health Partnership Logo"></a>
             <a href="https://www.greenrootschelsea.org/"><img src="./../assets/partnerLogos/GreenRootsLogo_flat.png" alt="Green Roots Logo"></a>
@@ -26,5 +26,10 @@ p {
     width: 24px;
     height: 24px;
     display: inline;
+}
+div.partnerLogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 </style>

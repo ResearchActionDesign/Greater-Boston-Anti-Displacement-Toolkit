@@ -19,8 +19,5 @@ export default {
     FindDataEng,
     FindDataEs
   },
-  mounted() {
-    document.dispatchEvent(new Event("x-app-rendered"));
-  }
 };
 </script>

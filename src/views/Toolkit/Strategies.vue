@@ -19,8 +19,5 @@ export default {
     StrategiesEng,
     StrategiesEs
   },
-  mounted() {
-    document.dispatchEvent(new Event("x-app-rendered"));
-  }
 };
 </script>

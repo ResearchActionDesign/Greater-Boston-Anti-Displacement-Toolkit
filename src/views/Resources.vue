@@ -48,9 +48,6 @@ export default {
       return { ...this.$t('toolkits'), Film: this.$t('filmToolkit') };
     }
   },
-  mounted() {
-    document.dispatchEvent(new Event("x-app-rendered"));
-  },
   methods: {
     selectWorkshop(workshop) {
       if (this.selectedWorkshop !== workshop) {

@@ -1,3 +1,5 @@
+require('normalize.css');
+
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
@@ -6,14 +8,6 @@ import './registerServiceWorker'
 import i18n from './i18n'
 
 Vue.config.productionTip = false;
-
-Vue.directive('grid', {
-  bind: function (el, binding) {
-    const columns = binding.value;
-    el.style.display = 'grid';
-    el.style.gridTemplateColumns = columns;
-  }
-});
 
 // Router navigation guard:
 // Handles locale switching and redirecting from root URL to language-specific

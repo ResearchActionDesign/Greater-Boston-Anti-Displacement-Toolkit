@@ -3,7 +3,7 @@
     <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }"><slot name="Title">{{ $t('strings.facilitationGuide')}}</slot></h2>
 
     <!-- Introduction -->
-    <section :aria-label="$t('strings.purposeOutcomes')" class="Purpose_and_Outcomes">
+    <section :aria-label="$t('strings.purpose') + '&' + $t('strings.outcomes')" class="Purpose_and_Outcomes">
       <table>
         <thead>
         <tr><th>{{$t('strings.purpose')}}</th><th>{{$t('strings.outcomes')}}</th></tr>

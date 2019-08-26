@@ -19,8 +19,5 @@ export default {
     UseDataEng,
     UseDataEs
   },
-  mounted() {
-    document.dispatchEvent(new Event("x-app-rendered"));
-  }
 };
 </script>
