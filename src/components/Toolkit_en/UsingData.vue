@@ -4,7 +4,7 @@
 
     <div class="workshop_content">
       <Introduction :toolkit="toolkit">
-        <p>Statistics—like rent increases, number of families paying more than one-third of their income for housing, or the number of evictions per year—can oftentimes take on a life of their own, and can get twisted in support of developers and gentrifiers instead of community. In Chelsea, we&#39;ve seen this happen when city officials use a percentage of affordable housing units as a way of promoting more market rate or luxury housing to &quot;balance out&quot; the diversity of our housing stock.</p>
+        <p>Statistics—like rent increases, number of families paying more than one-third of their income for housing, or the number of evictions per year—can oftentimes take on a life of their own, and can get twisted in support of developers and gentrifiers instead of community. In Chelsea, we&#39;ve witnessed this happen when city officials use a percentage of affordable housing units as a way of promoting more market rate or luxury housing to &quot;balance out&quot; the diversity of our housing stock.</p>
         <p>But, when they&#39;re combined with stories and testimony from real-life experiences, data and statistics can be powerful tools to fight displacement—working together to become more powerful tools than either could be alone. This activity focuses on how to practice combining stories and data to make arguments against displacement. Communities can use this activity to:</p>
         <ul>
           <li>Pair stories with data points to help make it harder for elected officials and others to dismiss the stories as unbelievable or isolated cases.</li>
@@ -24,18 +24,18 @@
 
         <!-- Who to Invite -->
         <template slot="Whom_to_Invite">
-          <p>Whom specifically to invite depends on the context—the &quot;Convince Me!&quot; activity could be a great way to prepare to testify at an upcoming public hearing or council meeting, or it can be a way to practice making arguments. In either case, it&#39;s helpful if some people in the room have direct experience with political struggle over displacement, so they&#39;ll have a sense of how specific elected officials are likely to respond to different arguments.</p>
+          <p>Those you specifically invite depends on the context—the &quot;Convince Me!&quot; activity could be a great way to prepare to testify at an upcoming public hearing or council meeting, or it can be a way to practice making arguments. In either case, it&#39;s helpful if some people in the room have direct experience with political struggle over displacement, so they&#39;ll have a sense of how specific elected officials are likely to respond to different arguments.</p>
           <p>Think about some of the stakeholders you identified in the Mapping Power &amp; Money activity—they could either be people to invite, or people to practice making arguments to. Ideally, you would want a minimum of 8 participants (3 to be the &quot;actors&quot; and 5+ to be the &quot;convincers&quot;).</p>
         </template>
 
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Flip-chart paper and markers</li>
-            <li>3 signs to identify &quot;actors,&quot; which can be made out of file folders cut in half with holes punched in 2 of the corners with string ran through them long enough to hang around someone&#39;s neck</li>
-            <li>Printed copies of a neighborhood infosheet (either the sample one provided, on one you create yourself)</li>
-          <li>Masking tape or painter&#39;s tape</li>
             <li>Identify a note taker, timekeeper, and 2 facilitators for the session. It&#39;s ideal to have 2 facilitators for this workshop so that 1 person can take the &quot;actors&quot; aside to prep them.</li>
+            <li>3 signs to identify &quot;actors,&quot; which can be made out of file folders cut in half with holes punched in 2 of the corners with string ran through them long enough to hang around someone&#39;s neck.</li>
+            <li>Flip-chart paper and markers.</li>
+            <li>Masking tape or painter&#39;s tape.</li>
+            <li>Printed copies of a neighborhood infosheet (either the sample one provided <b>TODO - LINK</b>, on one you create yourself).</li>
             <li>Create and print a handout listing relevant statistics about displacement in your community (or use the sample one provided in the toolkit).</li>
             <li>Set up the room with a bit of open space to serve as the &quot;stage&quot; for the &quot;Convince Me!&quot; activity. Using tape, label &quot;start&quot; and &quot;finish&quot; lines along the floor in this space, with about 8 paces between the 2 lines. The photo below illustrates an example of how the activity could be set up:<img src="../../assets/workshop_images/using_data/RoomSetup.jpg" :alt="$t('altText.usingDataRoomSetup')"></li>
             <li><p>Pick a realistic situation where members of your community might be trying to convince an elected official or other stakeholder of something. Some examples:</p>
@@ -52,6 +52,7 @@
                 <li>Note: If you have a particularly engaged/knowledgeable group and have more time, you could complete this step in the room with the group rather than choosing stakeholders ahead of time.</li>
               </ul>
             </li>
+
             <li>Write the names of the 3 people you chose on the character signs.</li>
             <li>For each of the 3 specific people, write out some quick notes on their priorities, their likes/dislikes, and their personality. One of the facilitators will share this info with the &quot;actors&quot; as they prep. This can be pretty informal, or you could choose to write up half-page bios for each character with photos.</li>
           </ul>
@@ -100,15 +101,15 @@
                   </li>
                 </ul>
               </Facilitator>
-          <Facilitator><span class="instructions">Hand out infosheet to the group.</span>
+          <Facilitator><span class="instructions">Hand out infosheet <b>TODO: ADD LINK</b> to the group.</span>
                   <ul>
-                    <li>This infosheet <b>TODO: ADD LINK</b> lists some statistics about the impact of displacement in Everett and Chelsea,
+                    <li>This infosheet lists some statistics about the impact of displacement in Everett and Chelsea,
                       if you want to use this information to try and convince stakeholders. But also feel free to draw
                       from your own experiences and stories! On the back, there&#39;s a list of resources about
                       different ways to use data.
                     </li>
                     <li>Take 3-5 minutes to review the infosheet by yourself.</li>
-                    <li>Is there anything that&#39;s confusing or you have questions about?</li>
+                    <li>Is there anything that&#39;s confusing or that you have questions about?</li>
                   </ul>
                   <p class="instructions">Take a few minutes to answer quick questions here, but also try to avoid getting into a
                     big discussion at this point in the session.</p>
@@ -123,7 +124,7 @@
                       <ul>
                         <li><span class="instructions">(Optional - if time remaining)</span> Now, find a partner and practice your arguments on each other. Take a few turns going back and forth to practice making your arguments to each other.
                         </li>
-                        <li>To do this activity, we need 3 volunteers to be the &quot;actors&quot;, and play people we might want to convince.
+                        <li>To do this activity, we'll need 3 volunteers to be the &quot;actors&quot; and play people we might want to convince.
                         </li>
                       </ul>
                     </Facilitator>

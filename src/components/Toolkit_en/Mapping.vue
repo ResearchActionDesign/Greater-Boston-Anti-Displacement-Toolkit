@@ -33,7 +33,7 @@
         <!-- Who to Invite -->
         <template slot="Whom_to_Invite">
           <p>Those you invite (or exclude) will largely depend on the purpose (<em class="italic">Why do it?</em>) and outcomes (<em class="italic">What do you want to know/have at the end?</em>) of organizing an activity mapping power and money in your community. Ideally, there would be a minimum of 8 participants to break out into smaller groups for the mapping activity.</p>
-          <p>Once this has been identified, then ask:</p>
+          <p>Once this has been identified, then ask yourself:</p>
           <ul>
             <li>Who can help fulfill this purpose?</li>
             <li>Who is most relevant for this activity?</li>
@@ -49,7 +49,7 @@
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Identify 1-2 facilitators and assign roles for the session, including at least 1 note takers and at least 1 timekeeper.</li>
+            <li>Identify 1-2 facilitators and assign roles for the session, including at least 1 note taker and at least 1 timekeeper.</li>
             <li>Write the activity instructions (examples below) on the flip chart for:</li>
             <ul>
               <li>the <b>Map Legend</b> asking participants to show the 3 core elements in the power maps for the group exercise, including examples.</li>
@@ -79,7 +79,7 @@
               </tr>
               </tbody>
             </table>
-            <li>Examples of power maps drawn by other groups can be useful to demonstrate output for the activity but are not necessary for conducting the activity. (Examples in the activity instructions below.)</li>
+            <li>Examples of power maps drawn by other groups can be useful to demonstrate output for the activity but are not necessary for conducting the activity. (Some examples are in the activity instructions below.)</li>
             <li>Blank flip-chart/butcher paper for each break-out group.</li>
             <li>Colored markers for creating power maps.</li>
             <li>Colored sticky notes for indicating varied information on power maps.</li>
@@ -110,7 +110,7 @@
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 2: Group Big-Picture Questions (5 min)</h4>
           <Facilitator>We’re curious to know from you all how or why you think mapping power might be useful. Does anyone have any ideas or experiences that speak to why we might want to map the power dynamics around an issue or campaign?
-          <p class="instructions">Follow-up with:</p>
+          <p class="instructions">Follow up with:</p>
           <ul>
             <li>Has anyone in the room done power-mapping before?</li>
             <li>How did it go? What did you do/learn?</li>
@@ -153,7 +153,7 @@
           </Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 4: Group Work — Produce Power Maps: “Displacement in My Community” (15 min)</h4>
-          <Facilitator>We’re going to dive right into creating our own power map for resisting displacement. While there are lots of power-mapping formulas out there, <b>our priority is to start with what we know</b>, allowing our analysis to guide map formation, rather than imposing a predetermined format without knowing in advance if it’s right for us. That means that today, we’re producing our first draft(s), and will conclude this exercise by agreeing on a plan to synthesize and refine the final product (which will keep changing). This means we can focus on being analytical and creative without worrying about how every detail is going to be fine-tuned.</Facilitator>
+          <Facilitator>We’re going to dive right into creating our own power map for resisting displacement. While there are lots of power-mapping formulas out there, <b>our priority is to start with what we know</b>, allowing our analysis to guide map formation, rather than imposing a predetermined format without knowing in advance if it’s right for us. That means that today, we’re producing our first draft(s), and we will conclude this exercise by agreeing on a plan for how to synthesize and refine what we’ve produced into the final product (which we know will keep changing). This means that we can focus on being analytical and creative without needing to worry about how every detail is going to be fine-tuned.</Facilitator>
           <Instructions>The power map should be focused on the group’s objective. The power map can be focused on a broad issue, such as resisting displacement, but it can also be focused on a specific effort or event, like a teach-in or an election.
             <ul>
               <li>Group participants into clusters of 2-3.</li>
@@ -183,17 +183,17 @@
           <Facilitator>Now that we’ve heard from all the groups, it’s time to reflect on the different power-mapping techniques that have emerged from your work. Now, our goal is to figure out how to finalize our shared power map so that it can be useful and in service of our larger goals.
             <p>Since power maps are meant to be revised and adapted as circumstances change, let’s start by thinking about the structure and form of the map, rather than the specific content (e.g., which actors are included).</p>
           <p><span class="instructions">Open the discussion by asking the group,</span> What have you done and witnessed other groups do today?</p>
-            <p>What <b>strategies or techniques</b> do you envision for <b>representing stakeholders / relationships between stakeholders / types of power</b> in the power maps in the room that you think we should adopt for our shared version?</p>
+            <p>What <b>strategies or techniques</b> do you envision for <b>representing stakeholders / relationships between stakeholders / types of power</b> in the power maps in the room that you think we should adopt for our shared vision?</p>
             <ul>
               <li><span class="instructions">An alternative way to ask this:</span> What did other groups do that helped you see <b>the stakeholders / the relationships between stakeholders / types of power</b> in a new or clearer way?</li>
               <li><span class="instructions">Follow up each comment with:</span> How do you think that will make the map more useful for our purposes?</li>
             </ul>
             <p>What do we as a group still need to figure about out how to represent <b>stakeholders / types of power / relationships</b>?</p>
-            <ul><li><span class="instructions">Follow-up each comment with:</span> How do you think that will make the map more useful for our purposes?</li></ul>
+            <ul><li><span class="instructions">Follow up each comment with:</span> How do you think that will make the map more useful for our purposes?</li></ul>
             <p>What <b>other information</b> have we uncovered? Are there specific forms of research we need to do in order to have enough information for an effective and actionable power map?</p>
-            <ul><li><span class="instructions">Follow-up each comment with:</span> How do you think that will make the map more useful for our purposes?</li></ul>
+            <ul><li><span class="instructions">Follow up each comment with:</span> How do you think that will make the map more useful for our purposes?</li></ul>
           </Facilitator>
-          <Instructions>During this discussion, you or the note-taker will record comments on flip charts—1 for each core element (Actors/Stakeholders, Relationships, Types of Power) divided into 2 sections (1. What worked well? 2. What do we still need to figure out?). During the discussion, attempt to synthesize any duplicate/overlapping suggestions, and gain consensus about which ideas/suggestions to incorporate into the final power map.</Instructions>
+          <Instructions>During this discussion, you or the note taker will record comments on flip charts—1 for each core element (Actors/Stakeholders, Relationships, Types of Power) divided into 2 sections (1. What worked well? 2. What do we still need to figure out?). During the discussion, attempt to synthesize any duplicate/overlapping suggestions, and gain consensus about which ideas/suggestions to incorporate into the final power map.</Instructions>
           <Instructions>Depending on the size of your group and the number of power maps created, you and the group may decide to further refine the structure and format of your power maps before discussing the content. For example, the group may decide to take elements from several of the maps presented to create a single, shared power map. In this case, it might make sense to facilitate a follow-up activity focusing on designing a shared power map, and then diving into the content questions so that everyone is working from the same map. Alternatively, you could focus on the content questions of one or two maps depending on the group’s priorities.
             <p>If you plan to have a discussion about content during this activity, the following questions can guide you. The goal is to ensure that all of the relevant information for your context and problem is accounted for.</p>
           </Instructions>
@@ -205,8 +205,8 @@
             </ul>
           </Facilitator>
           <Instructions>Based on the time available and the composition and goals of the group, you may also decide to focus instead on engaging the group in a discussion on how to use the power maps for action. Whether or not this is appropriate at this stage will depend on how much you plan to revise and synthesize the maps after the activity. If you plan to have this discussion during the activity, the following questions may guide you.</Instructions>
-          <Facilitator>Ask the group these questions to discuss how the group can use the power maps for action.
-            <ul class="instructions">
+          <Facilitator><span class="instructions">Ask the group these questions to discuss how the group can use the power maps for action.</span>
+            <ul>
               <li>How can we use these maps for our decision-making? What decisions do we need to make?</li>
               <li>Where and how can we take action?</li>
               <li>What else do we need to know, research to make this actionable?</li>

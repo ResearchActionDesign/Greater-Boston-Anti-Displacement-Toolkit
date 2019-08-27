@@ -6,11 +6,11 @@
       <Introduction :toolkit="toolkit">
         <p>Community organizing strategies and tactics can take all kinds of formations, from the more traditional door knocking or setting up information tables at events to organizing community photo tours. This activity draws on community assets and identifies local, cultural organizing strategies and tactics to prevent displacement. Creative and artistic strategies and tactics can be used to:</p>
         <ul>
-          <li>bring together art and community organizing</li>
+          <li>bring together art and community organizing,</li>
           <li>mobilize and tell the story of displacement, and</li>
           <li>help shift dialogues and policy.</li>
         </ul>
-        <p>It is an opportunity to engage local artists and culture bearers to explore more creative and artistic modalities and engage community leaders centering unconventional ways of advancing community dialogue and action. Although grounded in creative practices, this activity requires the same commitment to rigor, research, and attention to detail as more traditional policy or data-driven activity sessions.</p>
+        <p>It is an opportunity to engage local artists and culture bearers to explore more creative and artistic modalities, and engage community leaders centering unconventional ways of advancing community dialogue and action. Although grounded in creative practices, this activity requires the same commitment to rigor, research, and attention to detail as more traditional policy or data-driven activity sessions.</p>
         <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
       </Introduction>
       <FacilitationGuide :toolkit="toolkit">
@@ -86,7 +86,7 @@
               <li>What&#39;s been working well?</li>
               <li>What are some things you would change?</li>
             </ul>
-            <p class="instructions">Follow up by reviewing the observing together the groups reflections and whether the current list includes traditional or cultural organizing strategies and tactics.</p>
+            <p class="instructions">Follow up by reviewing together the groups' reflections and observing whether the current list includes traditional or cultural organizing strategies and tactics.</p>
           </Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 3: Design Sprint: Sketching Out Organizing Strategies (15 min)</h4>
@@ -99,15 +99,15 @@
                   <p>Take a few minutes to think of some successful and unsuccessful ideas in organizing.</p>
                   <p>Once you have your sheet, write about or sketch out 8 ideas that you&#39;ve used or witnessed being used as organizing tools.</p>
                   <p>We&#39;re going to set the timer and when we say, &quot;Go,&quot; sketch 1 idea per box until we stay, &quot;Stop.&quot;</p>
-                  <p class="instructions">If it is helpful, share examples of multi-media or cultural organizing strategies and tactics to prompt the activity, such as:</p>
+                  <p class="instructions">If it is helpful, share examples of multimedia or cultural organizing strategies and tactics to prompt the activity, such as:</p>
                   <ul class="instructions">
                     <li>Community murals (Chelsea&#39;s 2018 mural process)</li>
                     <li>Community tours/photo walks</li>
                     <li>Community archiving project (audiovisual collection of community histories, documentation of community histories)</li>
-<li>Filmmaking, organizing community dialogues around displacement, mobilizing and firing up folks
-</li><li>Digital organizing (social media)
-</li><li><a href="https://www.wbur.org/artery/2018/11/07/east-boston-gentrification-zumix-stories">Storytelling</a>
-                  </li><li><a href="https://creativesantafe.org/events/affordable-housing/">Disruptive-futures dialogue</a></li>
+                    <li>Filmmaking, organizing community dialogues around displacement, mobilizing and firing up folks</li>
+                    <li>Digital organizing (social media)</li>
+                    <li><a href="https://www.wbur.org/artery/2018/11/07/east-boston-gentrification-zumix-stories">Storytelling</a></li>
+                    <li><a href="https://creativesantafe.org/events/affordable-housing/">Disruptive futures dialogue</a></li>
                   </ul>
                 </Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>

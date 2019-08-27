@@ -293,12 +293,12 @@
         {
           "name": "AgitArte Art Toolkit",
           "link": "https://www.facebook.com/agitarteculturalworks/",
-          "text": "an extensive arts toolkit that provides step by step instructions on creating artistic posters as tools for social change"
+          "text": "an extensive arts toolkit that provides step-by-step instructions on creating artistic posters as tools for social change"
         },
         {
           "name": "Bread and Puppet Theater",
           "link": "https://www.wbur.org/artery/2016/02/16/bread-puppet-oscar-lopez-rivera",
-          "text": "uses life-sized puppets as a tool for advancing campaigns"
+          "text": "uses life-sized puppets as tools for advancing campaigns"
         },
         {
           "name": "Theater of the Oppressed NYC",
@@ -314,10 +314,6 @@
           "name": "Jolt's Quinceañera at the Capitol",
           "link": "https://www.jolttx.org/en/quinceanera-at-the-capitol/",
           "text": "uses cultural norms as a tool to increase civic participation"
-        },
-        {
-          "name": "Design Sprint Worksheet",
-          "link": "/handouts/Design-Sprint.pdf"
         }
       ]
     },
@@ -332,7 +328,7 @@
       "print": "/workshop-pdfs/en/Stories.pdf",
       "resources": [
         {
-          "name": "Working Narratives: How to facilitate a Story Circle",
+          "name": "Working Narratives' How to Facilitate a Story Circle:",
           "link": "https://workingnarratives.org/article/story-circles/",
           "text": "story circles are used in many traditions. Working narratives is an organization that facilitates story circles, a practice deeply rooted in the US South"
         },
@@ -349,7 +345,7 @@
           "link": "/handouts/Stories-Tree-Stencil4.pdf"
         },
         {
-          "name": "Story Sharing: Fruit images to cut-out",
+          "name": "Story Sharing: Fruit Images (to cut out)",
           "link": "/handouts/Stories-Fruit.pdf"
         }
       ]

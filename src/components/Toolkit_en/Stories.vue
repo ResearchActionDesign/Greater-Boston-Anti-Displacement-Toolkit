@@ -6,9 +6,9 @@
       <Introduction :toolkit="toolkit">
         <p>Acknowledging ancestral roots and connecting individual backgrounds to the story of migration and the current places/spaces we reside in presently is a powerful way to connect one&#39;s individual story to that of the built community. Sharing our stories can bring communities closer together and help make connections between migration and displacement. Communities can use this activity to:</p>
         <ul>
-          <li>acknowledge tribal and Indigenous land loss</li>
+          <li>acknowledge tribal and Indigenous land loss,</li>
           <li>lift up the importance of naming and reclaiming spaces of those originally displaced, and</li>
-          <li>visualize a communities stories of migration and displacement.</li>
+          <li>visualize stories of migration and displacement.</li>
         </ul>
         <p>By telling our stories we can individually and collectively disrupt displacement in our communities.</p>
         <p>The facilitation guide below outlines how to conduct this activity, and is intended to be adapted to fit your community needs.</p>
@@ -32,14 +32,14 @@
         <template slot="Whom_to_Invite">
           <ul>
             <li>Community members who have experienced displacement or fear displacement in a designated community. The workshop unfolds over 3 distinct work sections (individual reflection, pair or triad share-outs, and a large group discussion).</li>
-            <li>Facilitators should think through whom might be best to invite to this type of discussion, ideal size of the group, etc. These factors might depend on how much trust exists between potential participants, the range of experiences in the room, etc. 6-10 participants is probably a good target for most groups.</li>
+            <li>Facilitators should think through those best to invite to this type of discussion, ideal size of the group, etc. These factors might depend on how much trust exists between potential participants, the range of experiences in the room, etc. 6-10 participants is probably a good target for most groups.</li>
           </ul>
         </template>
 
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Identify 2-3 facilitators and assign roles for the session, including 1 note takers and 1 timekeeper. For each step, 1 facilitator can explain the activity while the other passes out materials. For Step 3, 1 facilitator should take notes while the other facilitates the group presentations.</li>
+            <li>Identify 2-3 facilitators and assign roles for the session, including 1 note taker and 1 timekeeper. For each step, 1 facilitator can explain the activity while the other passes out materials. For Step 3, 1 facilitator should take notes while the other facilitates the group presentations.</li>
             <li>To prepare for the activity, facilitators should research and identify the name(s) of the Indigenous communities who occupy/occupied the land on which the session is conducted.</li>
             <li>Jumbo black marker</li>
             <li>Flip-chart paper</li>
@@ -47,12 +47,12 @@
             <li>Masking or painter&#39;s tape</li>
             <li>Facial tissues</li>
             <li>Printed copies of <a href="/handouts/Stories-Worksheet.pdf">worksheets</a></li>
-            <li>Tree <a href="/handouts/Stories-Tree-Stencil.pdf" target="_blank">stencil (print, trim, and tape together)</a> or <a href="/handouts/Stories-Tree-24x24.pdf" target="_blank">full-sized tree print-out</a></li>
+            <li><a href="/handouts/Stories-Tree-Stencil.pdf" target="_blank">Tree stencil (print, trim, and tape together)</a> or <a href="/handouts/Stories-Tree-24x24.pdf" target="_blank">printed large-format tree</a></li>
             <li>Printed and trimmed <a href="/handouts/Stories-Fruit.pdf" target="_blank">&quot;fruit&quot;</a> or cut-out shapes from construction paper</li>
             <li>Count how many small groups you&#39;ll have. For each group, trace a tree onto a piece of flip-chart paper.</li>
             <li>Create a &quot;river&quot; on a wall made of blue poster board, or drawn across several pieces of flip-chart paper. During presentations, the trees will be taped up along the river.</li>
             <li>Make a plan as facilitators for how to support participants if the activities bring up strong emotions, trauma or sadness, and how to close the space.</li>
-            <li>Identify a &#39;landing space&#39; in another room or separate from the main workshop space where folks can retreat to if they need to move through rough emotional waters.</li>
+            <li>Identify a &quot;landing space&quot; in another room or a separate space away from the main workshop where folks can retreat to if they need to move through rough emotional waters.</li>
           </ul>
         </template>
 
@@ -77,7 +77,7 @@
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 2: Individual Stories (10 min: 2 min for explanation, 8 min for individual work)</h4>
-          <p>The goal of this section is to begin with individual work. This portion of the activity can happen in a quiet area, or soft and culturally appropriate music can be played in the background. Each participant should come away from this segment more connected to elements of their individual migration story. The background setting should be optimal for individual reflecting, allowing participants to go deep or highlight high-level elements of their personal migration story.</p>
+          <p>The goal of this section is to begin with individual work. This portion of the activity can happen in a quiet area, or soft and culturally appropriate music can be played in the background. Each participant should come away from this segment more connected to elements of their individual migration story. The background setting should be optimal for individual reflection, allowing participants to go deep or highlight high-level elements of their personal migration story.</p>
           <Instructions>All participants should have a copy of the <a href="/handouts/Stories-Worksheet.pdf" target="_blank">story sharing worksheet</a>, which is a sheet of paper divided into 3 sections:
           <ol class="facilitator">
             <li>Who are my people?</li>
@@ -111,23 +111,23 @@
           <ul>
             <li>How do you envision the future of your communities? As you think of possibilities for your communities in the future, write each of them on a piece of fruit and mount that on the tree.</li>
           </ul>
-          <p class="instructions">At close of the activity, invite the groups to plant the trees along the river.</p>
+          <p class="instructions">At the close of the activity, invite the groups to plant the trees along the river.</p>
           </Facilitator>
           <Facilitator>What story do we make together in the room? We invite each of you to bring your trees, your collective stories, to the front of the room and tape them along the river. Once that&#39;s done, take some time for a break, get some snacks, and also witness the stories of other groups. We&#39;ll reconvene in 10 minutes. At that point, we&#39;ll also give each of you a chance to share your tree with the rest of the group.</Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 4: Sharing Back (20 min)</h4>
-          <Instructions>The goal of this section is to move from personal narratives to shared connections in each small group, through to shared experiences for the full group. At the end of reporting out, participants should be aware of parallels in experiences and reflect on lessons learned and stories shared by participants.
-          <p>Welcome group back from break.</p>
+          <Instructions>The goal of this section is to move from personal narratives to shared connections in each small group, then to shared experiences for the full group. At the end of reporting out, participants should be aware of parallels in experiences and reflect on lessons learned and stories shared by participants.
+          <p>Welcome the group back from break.</p>
           <p>Ask groups to come up one-by-one by their tree and share with the group what they came away with from the activity. Sample guiding questions:</p>
           <ul class="facilitator">
             <li>What stood out to you about your shared story?</li>
             <li>What is one thing that you struggled with in your group?</li>
-            <li>What commonalities did you see?</li>
-            <li>What was a moment of creativity / when did you learn something new?</li>
+            <li>What commonalities did you notice?</li>
+            <li>What was a moment of creativity/when did you learn something new?</li>
             <li>Why did you choose the roots/branches that you did?</li>
             <li>What were your visions for the future?</li>
           </ul>
-          <p>As commonalities, struggles and moments of creativity are mentioned, write them in the river with markers in a creative way.</p>
+          <p>As commonalities, struggles, and moments of creativity are mentioned, write them in the river with markers in a creative way.</p>
           <p>If there&#39;s time, open up a discussion to the large group around the same guiding questions by reading back the themes written into the river.</p>
           </Instructions>
         </template>

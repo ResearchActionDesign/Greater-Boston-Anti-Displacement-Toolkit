@@ -4,7 +4,7 @@
 
     <div class="workshop_content">
       <Introduction :toolkit="toolkit">
-        <p>In combination with organizing and storytelling, data is a powerful tool for organizing against displacement. You can use data both internally—to track and better understand changes happening in your neighborhood, and externally—to communicate with other neighborhoods, policymakers, and advocates for change.</p>
+        <p>In combination with organizing and storytelling, data is a powerful tool for organizing against displacement. You can use data both internally&mdash;to track and better understand changes happening in your neighborhood&mdash;and externally, to communicate with other neighborhoods, policymakers, and advocates for change.</p>
         <p>When communities begin organizing against displacement, city officials and developers often use numbers as weapons to invalidate the lived experiences of community members. For example, city officials will point to increases in the median income in an area to argue that gentrification has benefited the community, and try to shut down testimony from underserved residents who feel otherwise. Or they&#39;ll cite academic studies to support their claims and argue that community members don&#39;t have the &quot;expertise&quot; to truly &quot;understand&quot; the data.</p>
         <p>In entering this section of the toolkit, be aware of how statistics have historically been weaponized, particularly against Black and brown people, and remember that quantitative and qualitative data are just one part of the full picture of what&#39;s happening in your community.</p>
         <p>Reviewing statistics about your community can be a valuable opportunity to compare and contrast what community members inside and outside of your organization are experiencing, and contextualize those experiences alongside those of other communities.</p>
@@ -17,9 +17,7 @@
         <template #Title>How-To Guide</template>
         <!-- Purpose and Outcome -->
         <template #Workshop_Purpose>
-          <ul>
-            <li>To start gathering data about the impact of displacement in your community.</li>
-          </ul>
+          <p>To start gathering data about the impact of displacement in your community.</p>
         </template>
         <template #Workshop_Outcomes>
           <ol>
@@ -33,7 +31,7 @@
         <template slot="Tips">
           <ul>
             <li>Working with numbers and data can bring out a lot of anxieties and insecurities for some people, and can also worsen the dynamics of racism and sexism within an organization.</li>
-            <li>If you&#39;re facilitating this workshop as an activity, be on alert if certain people in the room start using their expertise or comfort with numbers to dominate the conversation with their own opinions.</li>
+            <li>If you&#39;re facilitating this workshop as an activity, be on alert if certain people in the room start using their expertise or comfort with numbers to dominate the conversation.</li>
             <li>If you&#39;re facilitating this workshop as an activity, make time and space for people to share feelings, and check in often to ensure that everyone in the room is actively engaged in the conversation.</li>
           </ul>
         </template>
@@ -78,7 +76,7 @@
             <p>Similarly, think about what time periods you&#39;re interested in getting data about. Has your neighborhood gone through major changes in the past few years, or has it been relatively stable for a long time? If things have changed recently, make sure to research data gathered before and after things changed, so you can track the impact of those changes—but you&#39;ll want to avoid datasets which are averaged over a time period during which those changes happened. If the neighborhood has been pretty stable for a while, you&#39;ll have more flexibility in researching data sources.</p>
             <p>If you&#39;re doing this part of the toolkit as a workshop, it&#39;d be best to facilitate this section by looking at a large, physical map together. You could then map out where each person lives and draw the neighborhoods you&#39;re interested in on the map before identifying census geographies. If you or someone else in your organization is an AAA member, that organization will mail you free, printed maps of your city on request, which are large enough to hang on the wall and great for workshops like this.</p>
             <ol>
-              <li>Ask yourself: What geographic areas and time period am I interested in learning more about? You might have different answers for each topic on your list.</li>
+              <li>Ask yourself: <em>What geographic areas and time periods am I interested in learning more about? You might have different answers for each topic on your list.</em></li>
             </ol>
             <p>Data about communities is usually available at different levels of geography, which are defined by the United States Census Bureau. Unfortunately, census boundaries may not correspond with your understandings of your community, so you&#39;ll need to figure out which census boundaries match best with the areas you&#39;re interested in researching. Also, each level of census geography has different data available. The table below lists some common geographic levels you may encounter when searching for data. Note that some census geographies fit together like nesting dolls (counties are made up of tracts, which are made up of block groups, which are made up of blocks), but geographies like zip codes and cities don&#39;t necessarily fit together in the same way.</p>
             <table>

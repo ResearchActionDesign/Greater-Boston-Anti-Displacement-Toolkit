@@ -51,12 +51,12 @@
         <!-- Materials and Preparation -->
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Identify 1-2 facilitators and assign roles for the session, including 1 note taker and 1 timekeeper. (If 2 facilitators, the 2 can rotate roles—e.g., 1 facilitates and the other takes notes and keeps time.)</li>
+            <li>Identify 1-2 facilitators and assign roles for the session, including 1 note taker and 1 timekeeper. (If 2 facilitators, the 2 can rotate roles—e.g., 1 facilitates and the other takes notes and keeps time).</li>
             <li>Print <a href="/handouts/Identifying-and-Evaluating-Policies_Blank-Worksheets.pdf" target="_blank">blank group dialogue worksheets</a> for each participant.</li>
             <li>Print <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">worksheet examples</a> for each facilitator. <strong>Note:</strong> If helpful, the worksheet examples can be printed and shared with participants.</li>
             <li>Pens and pencils for writing on worksheets.</li>
-            <li>Flip-chart/butcher paper (blank) for capturing share backs and discussions</li>
-            <li>Markers for flip-chart/butcher paper</li>
+            <li>Flip-chart/butcher paper (blank) for capturing share-backs and discussions.</li>
+            <li>Markers for flip-chart/butcher paper.</li>
           </ul>
         </template>
 
@@ -66,7 +66,7 @@
             <li>Design for what you want! Customize the facilitation guide to fit your desired purpose, needs, and outcomes.</li>
             <li>Determine the collective purpose of this activity to consider adopting and advocating in your community (e.g., <em>Is this for a specific campaign, issue, or target the community is wanting to influence?</em>).</li>
             <li>Identify how much time you will need for each discussion and activity (suggested time: 60 minutes). The Idea Generation (Part 1) exercise goes a bit quicker—5 minutes on your own and 10-15 minutes to share back. You will likely spend more time (about 30 minutes) doing the Evaluating Policies and Strategies (Part 2) group work and share-backs.</li>
-            <li>Based on who is participating Identify the anticipated number of break-out groups.</li>
+            <li>Based on who is participating, identify the anticipated number of break-out groups.</li>
             <li>Schedule time after your activity to debrief with the facilitators on what worked and what you might change if conducting the activity again. Identify any action items for you, your organization, or community.</li>
           </ul>
         </template>
@@ -83,7 +83,7 @@
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Step 2: On Your Own (5 min)</h5>
         <Instructions>Pass out Part 1 of the <a href="/handouts/Identifying-and-Evaluating-Policies_Blank-Worksheets.pdf" target="_blank">worksheet</a> to participants.
-        <p>Ask participants to take approximately 5 minutes to jot down on their own: (1) <em>What is the policy or strategy?</em> and (2) <em>brief description of how they have used or witnessed it being used?</em></p>
+        <p>Ask participants to take approximately 5 minutes to jot down on their own: (1) <em>What is the policy or strategy?</em> and (2) <em>Briefly describe how you have how you have used it or witnessed it being used?</em></p>
           <p>If helpful, you might think about sharing one of the following prompts:</p>
           <ul class="facilitator">
               <li>Think of policies and strategies as a vision or plan of action to achieve a specific goal. It sets the guidelines for how something does (or doesn&#39;t) get done. Policies and strategies guide decision-making within different systems and institutions, e.g. city/state government, corporations, schools, etc.).</li>
@@ -132,13 +132,13 @@
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Step 3: Share Back (10-15 min)</h5>
-          <Instructions>Ask each group to share the policy or strategy they focused on, and for each of the 4 questions, 1 highlight they discussed and documented (e.g., How they think it could be adopted, a specific action steps, etc.).
+          <Instructions>Ask each group to share the policy or strategy they focused on, and for each of the 4 questions, 1 highlight they discussed and documented (e.g., How they think it could be adopted, specific action steps, etc.).
             <p>Share the discussion noted by groups on flip-chart/butcher paper for participants to review as a group.</p>
             <p>After each group shares, ask other participants if they have any questions or reflections on what the group shared.</p>
-            <p>Once all of the groups have shared, reflect with participants on the ideas and information shared by asking</p>
+            <p>Once all of the groups have shared, reflect with participants on the ideas and information shared by asking:</p>
               <ol class="facilitator">
-                <li>What stood out to the group as possible policies and strategies for their community?</li>
-                <li>What policies and strategies are they most excited about learning more about, exploring after today?</li>
+                <li>What stood out to you as possible policies and strategies for their community?</li>
+                <li>What policies and strategies are you most excited about learning more about, exploring after today?</li>
                 <li>How do we want to use the ideas and information we generated here today?</li>
               </ol>
             <p>Gather the reflections shared by groups on flip-chart/butcher paper for participants to see as a group.</p>
