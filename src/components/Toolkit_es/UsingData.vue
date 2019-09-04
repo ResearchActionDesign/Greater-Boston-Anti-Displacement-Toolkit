@@ -35,7 +35,7 @@
             <li>3 señales para identificar a los &quot;actores&quot;, que se pueden hacer a partir de carpetas de archivos cortadas por la mitad con agujeros perforados en 2 de las esquinas con una cuerda lo suficientemente larga como para colgar del cuello de alguien</li>
             <li>Rotafolios, papelógrafo y marcadores.</li>
             <li>Cinta adhesiva o cinta para pintar.</li>
-            <li>Copias impresas de una hoja informativa sobre el vecindario (ya sea la muestra que se proporciona TODO: ADD LINK o una que usted mismo cree)</li>
+            <li>Copias impresas de una hoja informativa sobre el vecindario (ya sea <a target="_blank" href="/handouts/Hoja_Informativa_-_Desplazamiento_en_Chelsea_y_Everett.pdf">la muestra que se proporciona</a> o una que usted mismo cree)</li>
             <li>Prepare la habitación dejando un poco de espacio abierto para que sirva de &quot;escenario&quot; para la actividad &quot;¡Convénceme!&quot;. Con cinta, marque las líneas de &quot;inicio&quot; y &quot;finalización&quot; a lo largo del piso en este espacio, con aproximadamente 8 pasos entre las 2 líneas. La foto de abajo ilustra un ejemplo de cómo se podría configurar la actividad: <img src="../../assets/workshop_images/using_data/RoomSetup.jpg" :alt="$t('altText.usingDataRoomSetup')"></li>
             <li>Elegir una situación de la vida real en la que los/las/les miembros de su comunidad estén intentando convencer a un funcionario/e electo u otro actor/e clave de algo. Algunos ejemplos:</li>
             <ul>
@@ -85,7 +85,7 @@
           </Facilitator>
           <Facilitator><span class="instructions">Entregar la hoja informativa al grupo.</span>
             <ul>
-              <li>Esta hoja informativa <b>TODO: ADD LINK</b> enumera algunas estadísticas sobre el impacto del desplazamiento en Everett y Chelsea, por si deseas utilizar esta información para tratar de convencer a los actores claves. ¡Pero también siéntete libre de extraer datos de tus propias experiencias e historias! En la parte posterior, hay una lista de recursos sobre diferentes maneras de usar los datos.</li>
+              <li><a target="_blank" href="/handouts/Hoja_Informativa_-_Desplazamiento_en_Chelsea_y_Everett.pdf">Esta hoja informativa</a> enumera algunas estadísticas sobre el impacto del desplazamiento en Everett y Chelsea, por si deseas utilizar esta información para tratar de convencer a los actores claves. ¡Pero también siéntete libre de extraer datos de tus propias experiencias e historias! En la parte posterior, hay una lista de recursos sobre diferentes maneras de usar los datos.</li>
               <li>Tomen entre 3 y 5 minutos para revisar la hoja informativa.</li>
               <li>¿Hay algo que esté confuso o sobre lo que tienen preguntas?</li>
             </ul>

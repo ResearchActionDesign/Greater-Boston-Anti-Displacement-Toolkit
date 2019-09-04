@@ -109,7 +109,7 @@
       "num": "1",
       "color": "#D82C88",
       "link": "Mapping",
-      "edit": "https://www.google.com/",
+      "edit": "https://docs.google.com/document/d/1Aye_nfqQ_-V6tPIDE0P-hk_pqufxHoep_yJ_JADRGRU",
       "print": "/workshop-pdfs/es/Mapeo.pdf",
       "altText": "Un dibujo lineal con 5 viñetas diferentes (una iglesia, el Casino de Everett, casas, los edificios gubernamentales, y una grúa. Gente que representa a habitantes y trabajadores de la construcción están de pie enfrente de cada viñeta. Una línea punteada conecta a las personas entre sí, y representa las conexiones de poder.",
       "resources": [
@@ -141,7 +141,7 @@
       "num": "2",
       "color": "#743589",
       "link": "FindingData",
-      "edit": "https://www.google.com/",
+      "edit": "https://docs.google.com/document/d/1LcAgXSb-KqusI3iGOI2185GhqQkml0X5N4HB_f2q5ws",
       "print": "/workshop-pdfs/es/Busqueda-de-Datos.pdf",
       "altText": "Un dibujo lineal que muestra dos personas enfrente de una pared, cada una con una lupa en la mano. Los mapas y tablas se exhiben en la pared, y las dos personas están examinándolos con sus lupas.",
       "resources": [
@@ -186,10 +186,14 @@
       "num": "3",
       "color": "#3554d1",
       "link": "UsingData",
-      "edit": "https://www.google.com/",
-      "print": "https://www.google.com/",
+      "edit": "https://docs.google.com/document/d/1BrMeGmdaMAp0WoD3CHP8_I90MT5LNUwNIEgs93VGElc",
+      "print": "/workshop-pdfs/es/Uso-de-Estadisticas.pdf",
       "altText": "Un dibujo lineal que muestra la vista panorámica de East Boston, con el centro de Boston en el fondo al otro lado del Río Chelsea. Los edificios en el paisaje están hechos de bloques de colores que representan historias y datos, y los /las/les habitantes de la ciudad se muestran cargando y ensamblando los bloques para formar una torre. En la cima de la torre un/una/une organizador/a/e comunitario/a/e está de pie en conversación con una figura que representa el/la/le inversor inmobiliario, quien está en un globo de aire caliente con un signo de dólar gigante ",
       "resources": [
+        {
+          "name": "Hoja Informativa: Desplazamiento en Chelsea & Everett",
+          "link": "/handouts/Hoja_Informativa_-_Desplazamiento_en_Chelsea_y_Everett.pdf"
+        },
         {
           "name": "Versión original de \"Convencerme!\"",
           "link": "https://databasic.io/es/culture/convince-me",
@@ -231,7 +235,7 @@
       "num": "4",
       "color": "#5da352",
       "link": "Policies",
-      "edit": "https://www.google.com/",
+      "edit": "https://docs.google.com/document/d/1fyisu1w2fZqamtcHR58d4e7LTPIcok0jV707TZO4R4k",
       "print": "/workshop-pdfs/es/Politicas.pdf",
       "altText": "Un dibujo en blanco y negro que muestra una vista desde arriba de una mesa redonda. Alrededor de la mesa está sentado un grupo de habitantes del vecindario, conversando. Sobre la mesa hay también bocaditos, a la orilla de la mesa, un/una/une niño/a/e está jugando en el piso con otra persona.",
       "resources": [
@@ -276,7 +280,7 @@
       "num": "5",
       "color": "#ed701d",
       "link": "Strategies",
-      "edit": "https://www.google.com/",
+      "edit": "https://docs.google.com/document/d/1mpyzVSA7Td5qyzXJBfaiIHEvGFzuX10LJcHgKNqYCzY",
       "print": "/workshops/Estrategias.pdf",
       "altText": "Un dibujo en blanco y negro que muestra una hoja de trabajo sobre Carrera de Diseño casi completa. La hoja de trabajo tiene 8 cuadros, y diferentes dibujos representan los tipos de estrategias comunitarias están colocados en cada uno de los cuadros (una cámara de cine, un jardín comunitario, un taller comunitario, y una comida). Se muestran manos trabajando juntas para terminar el dibujo.",
       "resources": [
@@ -322,7 +326,7 @@
       "num": "6",
       "color": "#259be4",
       "link": "Stories",
-      "edit": "https://www.google.com/",
+      "edit": "https://docs.google.com/document/d/1fx2Z3RsQzdqbTevQWGXH26KHChDo58xnDm06rc63gtU",
       "print": "/workshops/es/Historias.pdf",
       "altText": "Un dibujo en blanco y negro que muestra un grupo diverso de habitantes de la comunidad sentados en un círculo conversando. Cada persona libera una burbuja que encierra la conversación y sobre el grupo las burbujas se mezclan y forman árboles en un bosque.",
       "resources": [

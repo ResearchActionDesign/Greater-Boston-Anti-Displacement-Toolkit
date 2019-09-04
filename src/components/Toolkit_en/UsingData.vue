@@ -35,8 +35,7 @@
             <li>3 signs to identify &quot;actors,&quot; which can be made out of file folders cut in half with holes punched in 2 of the corners with string ran through them long enough to hang around someone&#39;s neck.</li>
             <li>Flip-chart paper and markers.</li>
             <li>Masking tape or painter&#39;s tape.</li>
-            <li>Printed copies of a neighborhood infosheet (either the sample one provided <b>TODO - LINK</b>, on one you create yourself).</li>
-            <li>Create and print a handout listing relevant statistics about displacement in your community (or use the sample one provided in the toolkit).</li>
+            <li>Printed copies of a neighborhood infosheet (either <a target="_blank" href="/handouts/Infosheet_-_Displacement_in_Chelsea_and_Everett.pdf">the sample one provided</a>, on one you create yourself).</li>
             <li>Set up the room with a bit of open space to serve as the &quot;stage&quot; for the &quot;Convince Me!&quot; activity. Using tape, label &quot;start&quot; and &quot;finish&quot; lines along the floor in this space, with about 8 paces between the 2 lines. The photo below illustrates an example of how the activity could be set up:<img src="../../assets/workshop_images/using_data/RoomSetup.jpg" :alt="$t('altText.usingDataRoomSetup')"></li>
             <li><p>Pick a realistic situation where members of your community might be trying to convince an elected official or other stakeholder of something. Some examples:</p>
               <ul>
@@ -80,12 +79,12 @@
             <Facilitator>Think of the last time you tried to convince someone of something, like getting someone to help out with
               a household chore they didn&#39;t want to do, or in an organizing context, like lobbying an elected
               official to vote a certain way. What did you do to convince them? How did it go?</Facilitator>
-            <Instructions> Ask participants to share stories as they think of them. After each story, follow up to try
+            <Instructions>Ask participants to share stories as they think of them. After each story, follow up to try
               to identify what worked as a tactic/strategy, and list them to post at the front of the room. Close out by
               quickly debriefing the conversation with identified strategies.</Instructions>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h4 class="subcategory">Step 3: &quot;Convince Me!&quot; Activity (30-45 min)</h4>
-              <Facilitator> &quot;Convince Me!&quot; was originally developed by Catherine D&#39;Ignazio and Rahul
+              <Facilitator>&quot;Convince Me!&quot; was originally developed by Catherine D&#39;Ignazio and Rahul
                 Bhargava as part of the Data Culture Project (go to <a
                     href="https://databasic.io/en/culture/convince-me">https://databasic.io/en/culture/convince-me</a>
                 for the original).
@@ -101,7 +100,7 @@
                   </li>
                 </ul>
               </Facilitator>
-          <Facilitator><span class="instructions">Hand out infosheet <b>TODO: ADD LINK</b> to the group.</span>
+          <Facilitator><span class="instructions">Hand out <a target="_blank" href="/handouts/Infosheet_-_Displacement_in_Chelsea_and_Everett.pdf">infosheet</a> to the group.</span>
                   <ul>
                     <li>This infosheet lists some statistics about the impact of displacement in Everett and Chelsea,
                       if you want to use this information to try and convince stakeholders. But also feel free to draw

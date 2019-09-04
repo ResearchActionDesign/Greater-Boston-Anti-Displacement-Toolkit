@@ -93,7 +93,7 @@
           <Instructions>This discussion builds on the previous individual work. The goal of this segment allows participants to connect with 1 or 2 other members of the group to identify similarities in their personal narratives, to know that they are not alone, and share part of their journey to the community experiencing or combatting displacement.
             <p>Divide people into groups and hand out supplies.</p>
           </Instructions>
-          <Facilitator>Now we&#39;d like to ask you to get into small groups and share your stories with each other. We&#39;re hoping this will be a way to get to know each other, but also to learn what commonalities exist in your experiences with coming to this area. Once you&#39;ve gathered in your groups,  allow each person to share some of what they wrote. We&#39;ll remind you when it&#39;s time to change turns.
+          <Facilitator>Now we&#39;d like to ask you to get into small groups and share your stories with each other. We&#39;re hoping this will be a way to get to know each other, but also to learn what commonalities exist in your experiences with coming to this area. Once you&#39;ve gathered in your groups, allow each person to share some of what they wrote. We&#39;ll remind you when it&#39;s time to change turns.
             <p>As you&#39;re sharing your stories with each other, think about what sorts of commonalities and shared themes are coming up—you&#39;ll be using those to create a shared tree representing the story of your group.</p>
             <p>While you talk, we&#39;ll be passing out art supplies for the next part of the evening.</p>
           </Facilitator>
