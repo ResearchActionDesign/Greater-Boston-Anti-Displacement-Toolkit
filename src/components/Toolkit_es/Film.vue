@@ -80,7 +80,7 @@
             <li>Crea un espacio seguro para el público y ten una discusión abierta sobre el impacto de la película y sus reflexiones. Esto es especialmente cierto si conoces que los miembros del público tendrán diferentes perspectivas y puntos de vista sobre los temas discutidos. (Revisa los Acuerdos Comunitarios modificados y adoptados de <a href="http://aorta.coop/">Aorta</a>)</li>
             <li>Debes estar preparado para diferentes perspectivas y respuestas emocionales. Usa las metas de la proyección y los Acuerdos Comunitarios (u otras herramientas utilizadas para crear un espacio seguro) para dar espacio a las diferencias y reposicionar las conversaciones según sea necesario</li>
           </ul>
-          <h3>Community Agreements</h3>
+          <h3>Acuerdos Comunitarios</h3>
           <table class="community-agreements">
             <tbody>
             <tr>
