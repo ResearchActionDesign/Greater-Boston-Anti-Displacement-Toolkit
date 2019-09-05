@@ -26,7 +26,7 @@
       <table>
         <tr>
           <td class="partnerLogos">
-            <img src="../../assets/partnerLogos/echp-logo-no-sac-copy2.png" alt="Everett Community Health Partnership Logo">
+            <img src="../../assets/partnerLogos/echp-logo-no-sac-copy2.png" style="{ max-width: 8em; }" alt="Everett Community Health Partnership Logo">
             <img src="../../assets/partnerLogos/CHA_logo.png" alt="Cambridge Health Alliance Logo">
           </td>
           <td><p><a href="https://www.challiance.org/community/everett-health-partnership" class="org__name">Everett Community Health Partnership</a> (ECHP por sus siglas en inglés) es una coalición comunitaria multi-sectorial facilitada por el departamento sobre Avances en Salud Comunitaria de Cambridge Health Alliance. ECHP busca mejorar la salud y calidad de vida en Everett, creando oportunidades para abordar estratégicamente los retos a los que se enfrenta la comunidad, desarrollando la consciencia sobre el impacto de la urbanización en el bienestar de la comunidad y asegurando que los datos claves sobre la salud comunitaria estén ampliamente disponibles. ECHP es un socio en investigación comunitaria colaborando con Healthy Neighborhoods Study, un estudio de investigación y acción participativa co-liderado por la Conservation Law Foundation, Mariana Arcaya y MIT Community Innovators Lab (CoLab).</p>

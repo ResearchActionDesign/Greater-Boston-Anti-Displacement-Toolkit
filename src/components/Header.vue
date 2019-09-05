@@ -1,8 +1,10 @@
 <template>
 <div class="header">
+  <nav>
   <button @click="changeLanguage" class="langChanger" :aria-label="$t('translateTo')">
     <p class="langLabel">{{$t('translateTo')}}</p>
   </button>
+  </nav>
 
   <header><slot name="title">
     <router-link :to="{ name: 'Overview', params: { locale: $i18n.locale }}" class="routerLink">
@@ -37,6 +39,7 @@ export default {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: bold;
+    color: black;
   }
 
   .langChanger {

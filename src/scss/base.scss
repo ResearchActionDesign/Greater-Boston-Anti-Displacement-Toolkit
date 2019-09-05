@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-size: 12pt;
+  font-size: 14pt;
+  line-height: 1.33;
   transition: 0.2s;
 }
 
@@ -8,11 +9,11 @@ body {
 main { display: block; }
 
 a {
-  color: $proj_pink;
+  color: $proj_red;
 }
 
 a:visited {
-  color: #222222;
+  color: #4D0820;
 }
 
 // Header styles
@@ -33,7 +34,7 @@ h4 {
   font-size: 16pt;
 }
 h5 {
-  font-size: 13.28pt;
+  font-size: 14pt;
 }
 
 .subtitle {
@@ -164,7 +165,7 @@ table {
     text-decoration: none;
     transition: 0.2s;
 
-    &.router-link-exact-active {
+    &.router-link-active {
       background-color: $proj_blue
     }
   }
@@ -310,4 +311,16 @@ table {
 
 .note {
   color: $proj_pink;
+}
+
+// Screenreader only text.
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }

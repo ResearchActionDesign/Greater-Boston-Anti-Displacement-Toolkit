@@ -1,7 +1,10 @@
 <template>
-  <div class="toolkits">
+  <main>
+    <h1 :style="{ maxWidth: '700px', margin: 'auto' }">{{ $t('strings.toolkitContents') }}</h1>
+    <div class="toolkits">
     <ToolkitTiles :workshops="Object.values($t('toolkits'))"></ToolkitTiles>
   </div>
+  </main>
 </template>
 
 

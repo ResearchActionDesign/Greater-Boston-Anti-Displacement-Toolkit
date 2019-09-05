@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header><span v-if="$route.name === 'Overview'" slot="title"></span></Header>
+    <Header></Header>
     <nav class="nav">
-      <router-link  :to="{ name: 'Overview', params: { lang: this.$i18n.locale }}">{{ $t('overview') }}</router-link>
+      <router-link  :to="{ name: 'Overview', params: { lang: this.$i18n.locale }}" exact>{{ $t('overview') }}</router-link>
       <router-link :to="{ name: 'Toolkit' + (this.$i18n.locale === 'es' ? '-es' : ''), params: { lang: this.$i18n.locale }}" class="toolkitsNav">{{
         $t('toolkit') }}</router-link>
       <router-link :to="{ name: 'Film' + (this.$i18n.locale === 'es' ? '-es' : ''), params: { lang: this.$i18n.locale }}" class="toolkitsNav">{{ $t('film') }}</router-link>

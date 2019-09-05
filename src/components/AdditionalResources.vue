@@ -4,7 +4,7 @@
     <p v-if="$i18n.locale === 'es'"><em>Nota: la mayoría de los recursos solo están disponibles en inglés.</em></p>
     <ul>
       <li v-for="(resource, index) in toolkit.resources" :key="index">
-        <a :href="resource.link" target="_blank">{{resource.name}}</a> {{resource.text}}
+        <a :href="resource.link" target="_blank">{{resource.name}} <span class="sr-only">{{ $t('strings.openNewWindow') }}</span></a> {{resource.text}}
       </li>
     </ul>
   </section>

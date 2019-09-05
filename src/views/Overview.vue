@@ -2,10 +2,12 @@
   <div>
     <OverviewEng v-if="this.$i18n.locale == 'en'"></OverviewEng>
     <OverviewEs v-else></OverviewEs>
+    <nav>
     <h2 :style="{ borderBottom: '2px solid ' + $t('overviewToolkit').color, maxWidth: '700px', margin: 'auto' }">{{ $t('strings.toolkitContents') }}</h2>
     <div class="toolkits">
       <ToolkitTiles :workshops="Object.values($t('toolkits'))"></ToolkitTiles>
     </div>
+    </nav>
   </div>
 </template>
 

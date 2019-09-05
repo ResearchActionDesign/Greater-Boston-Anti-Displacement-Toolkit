@@ -1,5 +1,5 @@
 <template>
-    <article class="partners">
+    <footer class="partners">
         <div class="partnerLogos">
             <a href="https://www.challiance.org/"><img src="./../assets/partnerLogos/CHA_logo.png" alt="Cambridge Health Alliance Logo"></a>
             <a href="https://www.challiance.org/community/everett-health-partnership"><img src="./../assets/partnerLogos/echp-logo-no-sac-copy2.png" alt="Everett Community Health Partnership Logo"></a>
@@ -12,7 +12,7 @@
             <p> <strong>{{ $t('partnersDisclaimer.CreativeCommonsAttribution') }}</strong> {{ $t('partnersDisclaimer.AttributionContent') }}</p>
             <a class="license" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="./../assets/icons/cc.svg"/><img alt="Attribution" style="border-width:0" src="./../assets/icons/by.svg"/><img alt="Non-Commercial" style="border-width:0" src="./../assets/icons/nc.svg"/><img alt="Share Alike" style="border-width:0" src="./../assets/icons/sa.svg"/></a>
         </span>
-    </article>
+    </footer>
 </template>
 
 <style scoped>

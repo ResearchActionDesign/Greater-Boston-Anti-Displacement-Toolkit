@@ -7,6 +7,17 @@ module.exports = {
       localeDir: 'locales',
       enableInSFC: true
     },
+    pwa: {
+      name: 'Greater Boston Anti-Displacement Toolkit',
+      themeColor: '#5da352',
+      msTileColor: '#000000',
+      appleMobileWebAppCapable: 'yes',
+      appleMobileWebAppStatusBarStyle: 'black',
+
+      // configure the workbox plugin
+      workboxPluginMode: 'GenerateSW',
+
+    },
     prerenderSpa: {
       registry: undefined,
       renderRoutes: [
@@ -30,7 +41,7 @@ module.exports = {
         '/es/manual/políticas',
         '/es/manual/estrategias',
         '/es/manual/historias',
-        '/es/pelicula',
+        '/es/película',
         '/es/recursos',
       ],
       useRenderEvent: true,

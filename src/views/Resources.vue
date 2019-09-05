@@ -1,6 +1,7 @@
 <template>
   <div class="resources">
     <main>
+      <h1 :style="{ maxWidth: '700px', margin: 'auto', textAlign: 'center'}">{{ $t('resources') }}</h1>
       <p v-if="$i18n.locale === 'es'"><em>Nota: la mayoría de los recursos solo están disponibles en inglés.</em></p>
       <div class="sort_list">
         <div class="filter__text" @click="selectedWorkshop && selectWorkshop(null)">{{ selectedWorkshop === null ? $t('strings.filterByWorkshop') : $t('strings.clearFilter') }}</div>
@@ -19,7 +20,7 @@
          @mouseover="hoverLink = r.name"
          @mouseout="hoverLink = null">
         <div class="resource__bullet" :style="{borderColor: r.color}"></div>
-        <div class="resource__item"><span class="resource__item__name" :style="hoverLink === r.name ? { color: r.color } : {}">{{r.name}}</span><br/>{{r.text}}</div>
+        <div class="resource__item"><span class="resource__item__name" :style="hoverLink === r.name ? { color: r.color } : {}">{{r.name}}</span><br/>{{r.text}}<span class="sr-only">{{ $t('strings.openNewWindow') }}</span></div>
       </a>
     </main>
   </div>
