@@ -37,7 +37,7 @@ module.exports = {
         '/es/manual',
         '/es/manual/mapeo',
         '/es/manual/búsqueda-de-datos',
-        '/es/manual/so-de-estadísticas',
+        '/es/manual/uso-de-estadísticas',
         '/es/manual/políticas',
         '/es/manual/estrategias',
         '/es/manual/historias',

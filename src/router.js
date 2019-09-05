@@ -95,7 +95,7 @@ export default new Router({
       component: () => import( /* webpackChunkName: "Stories" */ './views/Toolkit/Stories.vue')
     },
     {
-      path: '/:locale/pelicula',
+      path: '/:locale/película',
       name: 'Film-es',
       component: () => import( /* webpackChunkName: "Film" */ './views/Film.vue')
     },

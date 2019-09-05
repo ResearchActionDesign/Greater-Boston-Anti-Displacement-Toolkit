@@ -306,11 +306,15 @@ table {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
 }
 
 .note {
   color: $proj_pink;
+}
+
+.translator-note {
+  color: #606060;
 }
 
 // Screenreader only text.
