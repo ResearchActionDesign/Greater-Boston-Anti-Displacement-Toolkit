@@ -14,7 +14,7 @@
         <li>Hyper-Accessibility: Multi-Generational + Multi-Lingual</li>
         <li>Community Rootedness: Hyper-Local + Shared + Generalizable</li>
       </ul>
-      <h2>How to use this Toolkit to fight displacement in Greater Boston</h2>
+      <h2>How to Use this Toolkit to fight displacement in Greater Boston</h2>
       <p>As communities protect themselves and organize against displacement, this toolkit can be a resource for residents working together to create change. Communities most vulnerable to displacement are the most in touch with what is happening on the ground, and know which solutions will work best for themselves. This toolkit will help residents, neighborhood councils, organizations, and anyone organizing against displacement engage with each other in meaningful ways. Whether a community is trying to further understand how displacement shows up, create awareness among allies, or push for specific policy and programmatic solutions, this toolkit can help. It can be used to build power within residents, as well as push for concrete changes within the community. Through the use of data and stories, it touches the minds and hearts of those who care deeply about their community and can implement change.</p>
       <p>This toolkit can be used by anyone wanting to work with others to fight displacement in their community, no matter their organizing experience. With easy-to-read, translatable, and accessible facilitation guides—whether you’re an experienced organizer, a service provider, a tenant or a homeowner, a life-long resident or newly arrived—this toolkit is for you and your community!</p>
       <p>Protection of residents and local business, production of affordable housing, and preservation of existing affordable housing stock are all key pieces of preventing displacement. Multiple possibilities lie in actions that can and should be taken—there is no one-size-fits-all solution. A community’s wants and needs must come from the ground up—and we hope this toolkit will help you get there!</p>
@@ -35,7 +35,7 @@
             <td class="partnerLogos">            <img src="../../assets/partnerLogos/GreenRootsLogo_flat.png" alt="Green Roots Logo">
             </td>
             <td>
-        <p><a href="https://www.greenrootschelsea.org/" class="org__name">GreenRoots</a>, a resident-led, community-based organization, is dedicated to improving and enhancing urban environment and public health in Chelsea and surrounding communities. GreenRoots carries out its work with deep community engagement and empowerment, youth leadership, and implementation of innovative projects and campaigns. GreenRoots is a community research partner with Healthy Neighborhoods Study, a participatory action research study led by Mariana Arcaya and CoLab.
+        <p><a href="https://www.greenrootschelsea.org/" class="org__name">GreenRoots</a>, a resident-led, community-based organization, is dedicated to improving and enhancing urban environment and public health in Chelsea and surrounding communities. GreenRoots carries out its work with deep community engagement and empowerment, youth leadership, and implementation of innovative projects and campaigns. GreenRoots is a community research partner with Healthy Neighborhoods Study, a participatory action research study co-led by the Conservation Law Foundation, Mariana Arcaya and MIT Community Innovators Lab (CoLab).
         </p>
         <p class="italic">Maria Belen Power, Indira Garmendia Alfaro</p>
             </td></tr>
@@ -57,7 +57,7 @@
         <p class="italic">Allegra Williams, Andrew Binet, Agustín Cepeda, Natalia Coachman, Taina McField, Taylor Cain.</p>
       </td></tr>
   </table>
-        <p>The film, <b>Desplazada</b> for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustín Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo. We also thank <a href="https://www.queerblackediting.com/">Queer Black Editing</a> for copyediting the toolkit, and Xenia Barahona for its translation.</p>
+        <p>The film, <b>Desplazada</b>, for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustín Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo. We also thank <a href="https://www.queerblackediting.com/">Queer Black Editing</a> for copyediting the toolkit, and Xenia Barahona for its translation.</p>
         <p>This project would not have been possible without the generous support of The Surdna Foundation.</p>
       <p>All materials developed for the toolkit are licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, which means they may be adapted to fit your community needs; however, you must give appropriate credit, indicate if changes were made, and distribute your contributions under the same license as the original. Please review the guidelines linked above.</p>
       <h3>METHODOLOGY</h3>
@@ -86,7 +86,7 @@
             <td>BE CURIOUS<br><br>SER CURIOSOS</td><td>We make better decisions when we approach our problems and challenges with questions (&quot;What if we... ?&quot;) and curiosity. Allow space for play, curiosity, and creative thinking.</td>
           </tr>
           <tr>
-            <td>ANYTHING TO ADD?<br><br>ALGO MÁS?</td><td></td>
+            <td>ANYTHING TO ADD?<br><br>¿ALGO MÁS?</td><td></td>
           </tr>
           </tbody>
         </table>

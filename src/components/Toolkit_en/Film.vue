@@ -63,8 +63,7 @@
           <li>Identify key questions you plan to ask the audience based on who is attending, size and diversity of the group, and desired outcomes for the conversation.</li>
           <li>Consider printing out and distributing questions for the audience to reference during the discussion.</li>
           <li>Make sure you have (and test how to set up) all A/V equipment (e.g., projector, laptop, screen).</li>
-          <li>The film is available at <a href="https://greaterbostontoolkit.org/film">https://greaterbostontoolkit.org/film</a>. <!--      TODO change to vimeo link-->
-            Each partner organization also has a copy of the film available for use.</li>
+          <li>The film is available at <a href="https://greaterbostontoolkit.org/en/film">https://greaterbostontoolkit.org/en/film</a>. Each partner organization also has a copy of the film available for use.</li>
           <li>If conducting the optional activity, you will need materials (paper, colored markers/pens, sticky notes) for participants to create their own future timelines.</li>
           </ul>
         </template>
@@ -121,7 +120,7 @@
             <p>Ask participants to share their reflections and comments.</p>
             <p><strong>General Opening Discussion</strong></p>
             <ol>
-              <li> How did it feel to watch this film? Pick a sequence that stood out to you and elaborate on your experience of watching it.</li>
+              <li>How did it feel to watch this film? Pick a sequence that stood out to you and elaborate on your experience of watching it.</li>
               <li>What are some of the forces this community is coming up against?</li>
               <li>In any given place, people can experience and witness the same things from different vantage points. Who are the different stakeholders in the film? What are their views or interests demonstrated throughout the film?</li>
             </ol>
@@ -228,7 +227,7 @@
       <p>Drone Videographer: Dane Christensen</p>
       <p>Editor(s): Puck Lo</p>
       <p>Music: Stefan Christoff</p>
-      <p>Special Thanks: Maria Belen Power, Kathleen O&#39;Brien, Andres Del Castillo, Indira Garmendia Alfaro, Sarah Levy, Sarah Gay, Justin Steil, Lad Dell, Amber Christofferson, Deanna Moran, Matt Spurlock, Hana Georg, Kim Garcia, Francine Harris, R.J. Lozada, Paloma Martinez, Maris Curran, Gael Gundin Guevara, Elivia Shaw</p>
+      <p>Special Thanks: Maria Belen Power, Kathleen O&#39;Brien, Andres Del Castillo, Indira Garmendia Alfaro, Sarah Levy, Sarah Gay, Justin Steil, Lad Dell, Amber Christofferson, Deanna Moran, Matt Spurlock, Hana Georg, Kim Garcia, Francine Harris, R.J. Lozada, Paloma Martinez, Maris Curran, Gael Gundin Guevara, Elivia Shaw, Caroline Rivas, Tim Stallmann, Taylor Cain, Andrew Binet, Taina McField</p>
     </div>
   </main>
 </template>

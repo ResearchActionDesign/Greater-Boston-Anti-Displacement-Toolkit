@@ -132,7 +132,7 @@
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Step 3: Share Back (10-15 min)</h5>
-          <Instructions>Ask each group to share the policy or strategy they focused on, and for each of the 4 questions, 1 highlight they discussed and documented (e.g., How they think it could be adopted, specific action steps, etc.).
+          <Instructions>Ask each group to share the policy or strategy they focused on, and for each of the four questions, one highlight they discussed and documented (e.g., How they think it could be adopted, specific action steps, etc.).
             <p>Share the discussion noted by groups on flip-chart/butcher paper for participants to review as a group.</p>
             <p>After each group shares, ask other participants if they have any questions or reflections on what the group shared.</p>
             <p>Once all of the groups have shared, reflect with participants on the ideas and information shared by asking:</p>

@@ -23,160 +23,159 @@
     </section>
     <div class="workshop_content">
       <Introduction :toolkit="toolkit">
-        <span slot="title">Discussion & Action Guide</span>
-        <p>Media and art are great organizing tools for understanding and fighting displacement in our communities. Film can be used in organizing to tell a story and call attention to a problem, expand and shift dialogues by unpacking and examining different narratives and experiences, mobilize communities for action, and influence policy change.</p>
-        <p><strong>Desplazada</strong> is set along the lower Mystic River watershed, which connects the communities of Chelsea, Everett, and East Boston to the generations-old cycles of dispossession, industrial pollution, displacement, and economic injustice in the region.</p>
-        <p>In Everett, residents have not been able to access the waterfront for many years, due to a long history of industrialization and contamination. Until recently, many Everett residents were not even aware of the river. Built on a former Monsanto site, Encore Boston Harbor Casino opened in June 2019. During the planning stage, the site was marketed to residents as a solution to finally cleaning up the contaminated land, allowing access to the river, and bringing much-needed jobs to the area.</p>
-        <p>Chelsea is surrounded by three waterways: the Island End River, Chelsea Creek, and Mill Creek; meanwhile, many in Chelsea still don&#39;t know that the area is surrounded by water, or considered a &quot;waterfront community.&quot; Similarly, Chelsea&#39;s waterfront has been inaccessible to most for generations—including Chelsea Creek, which has been designated as a DPA (Designated Port Area), prioritizing industrial usage for water-dependent industries.</p>
-        <p>While Chelsea provides regional and national industrial benefits—including storage for jet fuel, home heating fuel, and road salt used in hundreds of communities across the region—its residents have also sacrificed their public health and access to such valuable resources. After decades of working to improve  quality of life in the community and making the city a healthier and cleaner place to live, many of Chelsea&#39;s most vulnerable residents are being displaced.</p>
-        <p><strong>Desplazada</strong> depicts our history and current-day causes of displacement occurring in these communities (and beyond) along this same waterfront. The film was created as an organizing tool to raise the level of empathy and consciousness of displacement that then leads to community action. This film and action guide can be used to:</p>
+        <span slot="title">Discusión de la Película y Guía de Acción </span>
+        <p>El arte y los medios de comunicación son excelentes herramientas para entender y luchar contra el desplazamiento en nuestras comunidades. Las películas pueden ser utilizadas como parte del proceso organizativo de contar una historia y generar interés sobre un problema, expandir y cambiar los diálogos al revelar y examinar diferentes narrativas y experiencias, movilizar comunidades hacia la acción, e influir cambios en las políticas.</p>
+        <p><strong>Desplazada</strong> se desarrolla a lo largo de la cuenca baja del Mystic River, el cual por varias generaciones ha conectado a las comunidades de Chelsea, East Boston y Everett con ciclos de generación tras generación de despojo, contaminación industrial, desplazamiento, e injusticia económica en la región.</p>
+        <p>En Everett, los residentes no han tenido acceso a la ribera y costa por muchos años debido a una larga historia de industrialización y contaminación. Hasta hace poco, muchos residentes de Everett ni siquiera sabían de la existencia del río. El Casino Encore Boston Harbor abrió en junio de 2019, siendo construido en un sitio que perteneció anteriormente a Monsanto. Durante la etapa de planificación, esta obra fue presentada a les residentes como una solución para finalmente limpiar la tierra contaminada, permitir el acceso al río, y crear trabajos tan necesarios para el área.</p>
+        <p>Chelsea está rodeada por tres vertientes: el Island End River, el Chelsea Creek, y el Mill Creek; sin embargo, muchas personas en Chelsea todavía no saben que el área está rodeada por agua, o que es considerada una &quot;comunidad costera&quot;. De la misma manera, el frente costero de Chelsea no ha estado accessible para la mayoría por generaciones— incluyendo Chelsea Creek, la cual ha sido designada como Área Portuaria Designada (DPA por sus siglas en inglés), priorizando su uso industrial para las industrias que dependen del acceso al agua.</p>
+        <p>Aunque Chelsea provee beneficios industriales a nivel nacional y regional – incluyendo el almacenamiento de combustible para aviones, combustible para la calefacción de los hogares, y sal para las carreteras, los cuales son usados en cientos de comunidades en toda la región – sus residentes también han sacrificado su salud pública y el acceso a estos valiosos recursos. Después de trabajar por décadas para mejorar la calidad de vida de la comunidad y hacer que la ciudad fuese un lugar más limpio y saludable para vivir, muchos de les residentes más vulnerables de Chelsea han sido desplazados.</p>
+        <p><strong>Desplazada</strong> describe nuestra historia y las causas actuales del desplazamiento que está ocurriendo en estas comunidades (y más allá) a lo largo de esta misma ribera. Esta película fue creada como una herramienta organizativa para incrementar el nivel de empatía y conciencia sobre el desplazamiento, lo que luego conduce a la acción comunitaria. Esta película y guía de acción se pueden usar para:</p>
         <ul>
-          <li>Create opportunities for critical dialogue about displacement and its community impact.</li>
-          <li>Examine environmental and housing injustices.</li>
-          <li>Think critically about strategies to fight for environmental justice and end displacement.</li>
+          <li>Crear oportunidades para sostener un diálogo crítico acerca del desplazamiento y su impacto en la comunidad.</li>
+          <li>Examinar las injusticias ambientales y de vivienda.</li>
+          <li>Pensar críticamente sobre estrategias para luchar por la justicia ambiental y para terminar con el desplazamiento.</li>
         </ul>
-        <p>The facilitation guide below outlines steps for screening the film and offers guiding questions to engage participants in a conversation about the intersecting forces of displacement and environmental injustice. This guide is intended to be adapted as needed to fit the needs of your community and audience.</p>
+        <p>Esta guía de facilitación describe los pasos para proyectar la película y ofrece preguntas orientadoras para involucrar a les participantes en una conversación acerca de las fuerzas interelacionadas entre el desplazamiento y la injusticia ambiental. Esta guía puede ser adaptada según sea necesario para ajustarse a las necesidades de tu comunidad y el público.</p>
+
       </Introduction>
       <FacilitationGuide :toolkit="toolkit">
         <div slot="Workshop_Purpose">
-          <p>To open up space for dialogue and reflection about the lived experiences of gentrification, environmental injustice, and displacement.</p>
-          <p>To ask open-ended questions about the root causes of environmental injustice, resource distribution, land use, and property ownership.</p>
-          <p>To inspire inquiry around the relationship of people to nature, housing policies, economics, history, injustices, and trends normalized in this present moment.</p>
+          <p>Abrir un espacio para el diálogo y la reflexión sobre las experiencias vividas por la gentrificación, la injusticia ambiental y el desplazamiento.</p>
+          <p>Hacer preguntas abiertas sobre el origen de la injusticia ambiental, la distribución de los recursos, el uso de la tierra y el ser dueñe de una propiedad.</p>
+          <p>Inspirar la investigación sobre la relación de las personas con la naturaleza, las políticas de vivienda, la economía, la historia, las injusticias y las tendencias normalizadas en este preciso momento.</p>
         </div>
         <div slot="Workshop_Outcomes">
-          <p>These should be set by the organizers and facilitators based on &quot;what you want to know/have at the end&quot; of the film screening.</p>
+          <p>Estos deben ser establecidos por les organizadores y facilitadores basado en &quot;lo que quieren saber o tener al final&quot; de la proyección de la película.</p>
         </div>
         <template slot="Whom_to_Invite">
-          <p>Whom you invite (or exclude) will largely depend on the purpose (<em class="italic">Why do it?</em>) and outcomes (<em class="italic">What do you want to know/have at the end?</em>) of organizing a screening and conversation in your community.</p>
-          <p>Once this has been identified, then ask:</p>
+          <p>A quién invites (o excluyas) dependerá grandemente en el objetivo (<em>¿Porqué invitarles?</em>) y resultados (<em>¿Qué quieres saber o tener al final?</em>) de organizar la proyección de la película y conversación con tu comunidad.</p>
+          <p>Una vez que esto ha sido identificado, entonces debes preguntar:</p>
           <ul>
-            <li><em>Who could help fulfill this purpose?</em></li>
-            <li><em>Who is most relevant for this activity?</em></li>
-            <li><em>Who might threaten the purpose?</em></li>
+            <li><em>¿Quién podría ayudar a cumplir con este objetivo?</em></li>
+            <li><em>¿Quién es más importante para esta actividad?</em></li>
+            <li><em>¿Quién podría representar una amenaza para la realización de este objetivo?</em></li>
           </ul>
-          <p>For example: If bringing in new members to your coalition or network or building relationships and collaborating with allies around long-term issues of displacement is your goal, you could invite representatives from community organizations who share similar values, goals, and are working in the same communities. If you want to recruit and expand your membership base, invite residents experiencing displacement and gentrification. At the end of the screening, you might ask participants to sign up for your Listserv, attend a meeting or community action, or become a member of your coalition, network, or organization.</p>
+          <p>Por ejemplo: Si tu meta es incorporar nueves miembros a tu coalición o red o construir relaciones y colaborar con aliades en problemas de largo plazo relacionados al desplazamiento, podrías invitar a representantes de organizaciones comunitarias que comparten similares valores, metas y que están trabajando en las mismas comunidades. Si quieres reclutar y expandir tu membresía, invita a residentes que están siendo afectados por el desplazamiento y la gentrificación. Al final de la proyección, podrás invitar a les participantes a que se inscriban en tu lista de distribución, asistan a una reunión o que participen en una acción comunitaria, o que sean miembros de tu coalición, red u organización.</p>
         </template>
         <template slot="Materials_and_Preparation">
           <ul>
-            <li>Identify 1-2 facilitators and assign roles for the discussions, including 1 note taker and 1 timekeeper. If 2 facilitators are present, each one could support the other and the audience if the discussion becomes emotional.</li>
-            <li>Print out the brief introduction of the film to share with participants at the start of the screening.</li>
-            <li>Identify key questions you plan to ask the audience based on who is attending, size and diversity of the group, and desired outcomes for the conversation.</li>
-            <li>Consider printing out and distributing questions for the audience to reference during the discussion.</li>
-            <li>Make sure you have (and test how to set up) all A/V equipment (e.g., projector, laptop, screen).</li>
-            <li>The film is available at <a href="https://greaterbostontoolkit.org/film">https://greaterbostontoolkit.org/film</a>. <!--      TODO change to vimeo link-->
-              Each partner organization also has a copy of the film available for use.</li>
-            <li>If conducting the optional activity, you will need materials (paper, colored markers/pens, sticky notes) for participants to create their own future timelines.</li>
+            <li>Identifica 1-2 facilitadores y asignales funciones para las discusiones, incluyendo a alguien que tome notas y alguien que lleve control del tiempo.  Si 2 facilitadores están presentes, cada une puede apoyar a le otro y al público en caso que la discusión se vuelva emocional.</li>
+            <li>Imprime la breve introducción a la película para compartirla al inicio de la proyección con les participantes.</li>
+            <li>Identifica preguntas claves que planeas preguntar al público, de acuerdo a las personas que están presentes, al tamaño y diversidad del grupo, y a los resultados deseados para esta conversación.</li>
+            <li>Considera imprimir y distribuir las preguntas al público para que les sirva como referencia durante la discusión.</li>
+            <li>Asegúrate que tienes (y prueba instalarlo) todo el equipo audiovisual (ejemplo: proyector, computadora portátil, pantalla)</li>
+            <li>La película está disponible en <a href="https://greaterbostontoolkit.org/es/pelicula">https://greaterbostontoolkit.org/es/pelicula</a>. Cada organización socia también tiene disponible una copia para ser usada.</li>
+            <li>Si conduces la actividad opcional, necesitarás materiales (papeles, marcadores y lapiceros de colores, notas adhesivas) para que les participantes puedan crear sus propies cronogramas futuros.</li>
           </ul>
         </template>
 
         <!-- Tips -->
         <template slot="Tips">
           <ul>
-            <li>The film can be screened in organizations, community gatherings, meetings, forums, conferences, and even in your own home!</li>
-            <li>The film is approximately 14 minutes in length. The discussion and questions can be modified based on screening goals, audience, and time available.</li>
-            <li>Watch the film at least once—preferably with others—before you facilitate a community dialogue, which will help prepare you for your own reactions to and reflections of the film and how they compare to others.</li>
-            <li>Review the background and context of the film, the cast (in order of appearance) noted in the credits of the film, and the permissions to prepare for any questions about footage presented in the film.</li>
-            <li>Encourage the use of &quot;I&quot; when asking the audience to reflect and respond to questions.</li>
-            <li>Create a safe space for the audience and have a public discussion about the impact of the film and their reflections. This is especially true if you know your audience members will have different viewpoints and perspectives on the issue. (Review the modified Community Agreements adopted from <a href="http://aorta.coop/">Aorta</a> below.)</li>
-            <li>Be prepared for different emotional responses and perspectives. Use the goals of the screening and Community Agreements (or other tools used to create a safe space) to make room for differences and the re-grounding of conversations as needed.</li>
+            <li>¡La película puede ser proyectada en organizaciones, Encuentros comunitarios, reuniones, foros, conferencias y aún en tu propio hogar!</li>
+            <li>La película tiene una duración aproximada de 14 minutos. La discusión y preguntas pueden ser modificadas de acuerdo a las metas de la proyección, el público y el tiempo disponible.</li>
+            <li>Mira la película al menos una vez – preferiblemente con otras personas – antes de facilitar un diálogo comunitario, lo cual te ayudará a prepararte para tus propias reacciones y reflexiones a lo que has visto y como se comparan con las reacciones y reflexiones de otras personas.</li>
+            <li>Revisa los antecedentes y contexto de la película, el reparto (en orden de aparición) descrito en los créditos de la película, y los permisos para prepararte por cualquier pregunta sobre el material filmando presentado en la película.</li>
+            <li>Motiva el uso del &quot;Yo&quot; cuando solicites al público reflexionar y responder a las preguntas</li>
+            <li>Crea un espacio seguro para el público y ten una discusión abierta sobre el impacto de la película y sus reflexiones. Esto es especialmente cierto si conoces que los miembros del público tendrán diferentes perspectivas y puntos de vista sobre los temas discutidos. (Revisa los Acuerdos Comunitarios modificados y adoptados de <a href="http://aorta.coop/">Aorta</a>)</li>
+            <li>Debes estar preparado para diferentes perspectivas y respuestas emocionales. Usa las metas de la proyección y los Acuerdos Comunitarios (u otras herramientas utilizadas para crear un espacio seguro) para dar espacio a las diferencias y reposicionar las conversaciones según sea necesario</li>
           </ul>
           <h3>Community Agreements</h3>
           <table class="community-agreements">
             <tbody>
             <tr>
-              <td>ONE DIVA, ONE MIC<br><br>UNA DIVA, UN MICRÓFONO</td><td>Please, only 1 person speak at a time. (For those who need more time to process their words, or are less comfortable requesting airtime in a conversation, it could be useful to ask people to leave the space in between speakers.)</td>
+              <td>ONE DIVA, ONE MIC<br><br>UNA DIVA, UN MICRÓFONO</td><td>Por favor, solamente 1 persona puede hablar a la vez. (Para las personas que necesitan más tiempo para procesar sus palabras, o que se sienten menos cómodas solicitando su participación en una conversación, podría ser útil solicitarles que aprovechen el espacio entre las(os) exponentes para prepararse)</td>
             </tr>
             <tr>
-              <td>NO ONE KNOWS EVERYTHING; TOGETHER WE KNOW A LOT<br><br>NADIE SABE TODO; JUNTOS SABEMOS MUCHO</td><td>This means we all get to practice being humble, because we have something to learn from everyone in the room. It also means we all have a responsibility to share what we know, including our questions, so that others may learn from us.</td>
+              <td>NO ONE KNOWS EVERYTHING; TOGETHER WE KNOW A LOT<br><br>NADIE SABE TODO; JUNTOS SABEMOS MUCHO</td><td>Esto quiere decir que todes podemos practicar ser humildes, porque tenemos algo que aprender de cada persona en la habitación. También significa que todes tenemos la responsabilidad de compartir lo que sabemos, incluyendo nuestras preguntas, de manera que otras personas puedan aprender de nosotros también.</td>
             </tr>
             <tr>
-              <td>MOVE UP, MOVE UP<br><br>MOVÁMONOS ROLES</td><td>If you&#39;re someone who tends to speak less, please move up into a role of speaking more. If you tend to speak a lot, please move up into a role of listening more. This is a twist on the more commonly known &quot;step up, step back.&quot; The &quot;up/up&quot; confirms that in both experiences, growth is happening. (You don&#39;t go &quot;back&quot; by learning to be a better listener.) Saying &quot;move&quot; instead of &quot;step&quot; recognizes that not everyone can step.</td>
+              <td>MOVE UP, MOVE UP<br><br>MOVÁMONOS ROLES</td><td>Si eres alguien que tiende a hablar menos, por favor anímate a moverte a una función donde hables más.  Si tiendes a hablar mucho, por favor anímate a moverte a una función donde puedas escuchar más. Esto es una variación del comúnmente conocido &quot;paso adelante, paso atrás&quot;. El &quot;adelante/adelante&quot; confirma que en ambas experiencias está dándose un crecimiento. (No retrocedes al aprender a ser un mejor oyente).  Decir &quot;moverse&quot; en vez de &quot;dar un paso&quot; reconoce que no todas las personas pueden dar un paso.</td>
             </tr>
             <tr>
-              <td>WE CAN&#39;T BE ARTICULATE ALL THE TIME<br><br>NO LOGRAMOS ARTICULAR TODO EL TIEMPO</td><td>Often, people feel hesitant to participate in a workshop or meeting for fear of &quot;messing up&quot; or stumbling over their words. We want everyone to feel comfortable participating, even if you can&#39;t be as articulate as you&#39;d like.</td>
+              <td>WE CAN&#39;T BE ARTICULATE ALL THE TIME<br><br>NO LOGRAMOS ARTICULAR TODO EL TIEMPO</td><td>Con frecuencia, las personas se sienten indecisas de participar en un taller o reunión por temor a &quot;equivocarse&quot; o hablar entrecortado. Queremos que todes se sientan cómodes participando, incluso si no pueden ser tan elocuentes como quisieran.</td>
             </tr>
             <tr>
-              <td>BE AWARE OF TIME<br><br>SER CONSCIENTES DEL TIEMPO</td><td>This is helpful for your facilitator, and helps respect everyone&#39;s time and commitment. Please come back on time from breaks, and refrain from speaking in long monologues.</td>
+              <td>BE AWARE OF TIME<br><br>SER CONSCIENTES DEL TIEMPO</td><td>Esto es útil para la persona facilitando, y ayuda a respetar el tiempo y compromiso de cada persona. Por favor regresen a tiempo de los descansos, y eviten hablar por medio de largos monólogos.</td>
             </tr>
             <tr>
-              <td>BE CURIOUS<br><br>SER CURIOSOS</td><td>We make better decisions when we approach our problems and challenges with questions (&quot;What if we... ?&quot;) and curiosity. Allow space for play, curiosity, and creative thinking.</td>
+              <td>BE CURIOUS<br><br>SER CURIOSOS</td><td>Tomamos mejores decisiones cuando abordamos nuestros desafíos y problemas por medio de preguntas (&quot;Qué tal si nosotros …?&quot;) y curiosidad. Permite espacios para que se realicen juegos y se desarrolle la curiosidad y el pensamiento creativo.</td>
             </tr>
             <tr>
-              <td>ANYTHING TO ADD?<br><br>ALGO MÁS?</td><td></td>
+              <td>ANYTHING TO ADD?<br><br>¿ALGO MÁS?</td><td></td>
             </tr>
             </tbody>
           </table>
-          <p><strong>NOTE:</strong> A few community agreements that participants often bring up that we don&#39;t tend to use or bring with us include: &quot;assume best intentions&quot; and &quot;default to trust.&quot; We don&#39;t use these agreements because when someone is unable to do this (say they&#39;re feeling untrusting of someone, or unsafe), having a community agreement telling us to do so isn&#39;t going to change anything. Put short, these agreements aren&#39;t always possible, especially when we take into consideration that people have been harmed by sexism, racism, homophobia, transphobia, and classism. Instead, we offer, &quot;we can&#39;t be articulate all the time,&quot; &quot;be generous with each other,&quot; and &quot;this is a space for learning,&quot; which capture the spirit of building up the necessary tools to take care of and protect themselves/ourselves.</p>
+          <p><strong>NOTA:</strong> Algunes participantes con frecuencia mencionan algunos acuerdos comunitarios que tendemos a no usar o incorporar, estos incluyen: &quot;asumir las mejores intenciones&quot; y &quot;confiar de hecho&quot;. No usamos estos acuerdos debido a que si alguien es incapaz de hacer esto (decir que sienten desconfianza o se sienten inseguros de alguien), el tener un acuerdo comunitario que dice que deben hacer tal cosa realmente no va a cambiar nada. En otras palabras, estos acuerdos no son siempre posibles, especialmente cuando tomamos en consideración que algunas personas han sido heridas por el sexismo, el racismo, la homofobia, transfobia, y el clasismo. En vez, sugerimos, &quot;no podemos ser elocuentes todo el tiempo&quot;, &quot;ser generosos con el resto&quot;, y &quot;este es un espacio para aprender&quot;, los cuales reflejan el espíritu de construir las herramientas necesarias para cuidarnos y protegernos nosotres mismes.</p>
         </template>
         <template slot="Detailed_Plan">
           <FacilitatorImage :toolkit="toolkit" number="1"/>
-          <Instructions>The background and context for the film is provided to help the facilitator guide a discussion about the film. Use all or pieces of this information to create an invitation for the screening, introduce the film at an event, or to support open discussion.
-            <p><strong>Background and Context:</strong> The relationship between environmental degradation, selective &quot;green&quot; rehabilitation, extractive development, gentrification, and cycles of displacement is not often explicitly named. Movements that fail to account for these interlinked, dynamic, and historic forces may be tempted to legitimize unjust land-use policies that trade healthy, livable environments for short-term affordable housing. In our scarcity economy, we learn to fight over scraps. We witness this play out when we hyper-localize our concerns, caring more about  improving our own community than considering the runoff effects of our decisions on neighboring communities—this kind of thinking is historically rooted in a pervasive culture of settler-colonial resource extraction and land theft in the US that determines individual life chances and policy decisions.</p>
-            <p>On the flip side, many successful, collective efforts at community restoration of poisoned and abandoned landscapes have been co-opted by capitalism. Today, environmental remediation booms as a commercial enterprise, facilitating the growth of for-profit, &quot;green-lining&quot; industries and subsequent waves of white resettlement. It is clear that ecological clean-up; post-industrial, green spaces; and the very idea of enjoying these spaces are now available only to those who can literally afford that privilege. While the specifics of the aesthetics and terminology might be new, this classed and racialized double standard is not.</p>
-            <p>What kind of world do we deserve? How does our relationship to the earth and its elements define our experience of self, community, identity, and history? What does home mean? Our lives are contoured by migration and transience, inheritance, connection, and adaptation. Our different histories and possible futures vie for resolution on this stolen land.</p>
-            <p><strong>Desplazada</strong> asks these questions.</p>
+          <Instructions>Los antecedentes y contexto de la película son provistos para ayudar a la persona que facilita a orientar la discusión sobre la película.  Utiliza todas o partes de esta información para crear una invitación para la proyección de la película, presentarla en un evento o apoyar una discusión abierta.
+            <p><strong>Antecedentes y Contexto:</strong> Con frecuencia, no se menciona explícitamente la relación entre la degradación ambiental, la rehabilitación&quot;verde&quot;selectiva, el desarrollo extractivo, la gentrificación y los ciclos de desplazamiento. Los movimientos que no tienen en cuenta estas fuerzas interconectadas, dinámicas e históricas pueden verse tentados a legitimar las políticas injustas del uso de la tierra que canjean entornos saludables y habitables por viviendas asequibles a corto plazo. En nuestra economía de escasez, aprendemos a luchar por los desechos. Somos testigos de esto cuando hiperlocalizamos nuestras preocupaciones, nos preocupamos más por mejorar nuestra propia comunidad que por considerar los efectos secundarios de nuestras decisiones en las comunidades vecinas - este tipo de pensamiento está históricamente enraizado en una cultura dominante de extracción de recursos bajo el pensamiento de colonos-colonialismo y de robo de tierras en los EE. UU. que determina las oportunidades de vida individuales y las decisiones políticas.</p>
+            <p>Por otro lado, muchos esfuerzos colectivos exitosos para la restauración comunitaria de paisajes envenenados y abandonados han sido cooptados por el capitalismo. Hoy en día, la remediación ambiental está en auge como una empresa comercial, lo que facilita el crecimiento de las industrias &quot;verdes&quot; con fines de lucro y las posteriores oleadas de reasentamiento blanco. Está claro que la limpieza ecológica, posindustrial, los espacios verdes y la idea misma de disfrutar de estos espacios ahora están disponibles solo para quienes, literalmente, pueden permitirse ese privilegio. Si bien los detalles de la estética y la terminología pueden ser nuevos, este doble estándar vinculado a clase y raza no lo es.</p>
+            <p>¿Qué tipo de mundo merecemos? ¿Cómo nuestra relación con la tierra y sus elementos define nuestra experiencia del yo, la comunidad, la identidad y la historia? ¿Qué significa hogar? Nuestras vidas están moldeadas por la migración y la transitoriedad, la herencia, la conexión y la adaptación. Nuestras diferentes historias y posibles futuros compiten por resolución en esta tierra robada.</p>
+            <p><strong>Desplazada</strong> hace estas preguntas.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
-          <Instructions>The discussion questions outlined below are organized by key themes presented in the film. Start by asking the general opening discussion questions to begin the conversation before diving into any specific themes. Pick and choose which specific, thematic questions to ask depending on the conversation, audience, and goals for the viewing and discussion. The activity following the discussion questions is optional.
-            <p>Ask participants to share their reflections and comments.</p>
-            <p><strong>General Opening Discussion</strong></p>
+          <Instructions>Las preguntas de discusión detalladas a continuación están organizadas por los temas claves presentados en la película. Comienza por hacer las preguntas generales de apertura para comenzar la conversación antes de sumergirse en cualquier tema específico. Elije meticulosamente las preguntas temáticas específicas dependiendo de la conversación, el público y las metas de la exhibición de la película y el debate. La actividad posterior a las preguntas de discusión es opcional.
+            <p>Solicita a les participantes que compartan sus reflexiones y comentarios.</p>
+            <p><strong>Sesión General Inicial</strong></p>
             <ol>
-              <li> How did it feel to watch this film? Pick a sequence that stood out to you and elaborate on your experience of watching it.</li>
-              <li>What are some of the forces this community is coming up against?</li>
-              <li>In any given place, people can experience and witness the same things from different vantage points. Who are the different stakeholders in the film? What are their views or interests demonstrated throughout the film?</li>
+              <li>¿Cómo se sintió mirar esta película? Seleccione una secuencia que le haya llamado la atención y explique su experiencia al verla.</li>
+              <li>¿Cuáles son algunas de las fuerzas a las que se está enfrentando esta comunidad?</li>
+              <li>En cualquier parte, las personas pueden experimentar y ver las mismas cosas desde diferentes puntos de vista. ¿Quiénes son les diferentes actores-partes interesadas en esta película? ¿Cuáles son sus puntos de vista o intereses demostrados a lo largo de la película?</li>
             </ol>
-            <p><strong>Environmental Justice</strong></p>
+            <p><strong>Justicia Ambiental</strong></p>
             <ol start="4">
-              <li>What images of the landscape are being depicted during this opening segment? What do they convey to you? How might they relate to the names of the companies being named?</li>
-              <li>Who do you think wrote the letter and why? Who do you think received the letter? What does the letter tell (or not tell) you about the situation being explored in the film? What is the situation being explored?</li>
-              <li>What do you think is the purpose of the last scene? How does it compare to other segments of the film? What does it make you think about or feel? What is the relationship between the people shown, the land, river, and human-constructed development in this scene?</li>
+              <li>¿Qué imágenes del entorno se representan durante este segmento de apertura? ¿Qué te transmiten? ¿Cómo podrían relacionarse con los nombres de las empresas que se mencionan?</li>
+              <li>¿Quién crees que escribió la carta y porqué? ¿Quién crees que recibió la carta? ¿Qué es lo que la carta te dice (o no te dice) acerca de la situación explorada en esta película? ¿Cuál es la situación que está siendo explorada?</li>
+              <li>¿Cuál crees que sea el propósito de la última escena? ¿Cómo se compara con otros segmentos de la película? ¿Qué te hace pensar o sentir? ¿Cuál es la relación entre las personas, la tierra, el río, y el desarrollo construido por personas en esta escena?</li>
             </ol>
-            <p><strong>Historical Context of Development and Displacement</strong></p>
+            <p><strong>Contexto Histórico del Desarrollo y el Desplazamiento</strong></p>
             <ol start="7">
-              <li>What is the significance of the video footage from 1998? How does this new experience compare to past moments in history? How were things approached in the past vs. today?</li>
+              <li>¿Cuál es la importancia de los fragmentos de video de 1998? ¿Cómo se compara esta nueva experiencia con los momentos pasados de la historia? ¿Cómo se abordaron estas cosas en el pasado y como se abordan actualmente?</li>
             </ol>
-            <p><strong>Intersection of Race and Class, Environmental Justice, and Displacement</strong></p>
+            <p><strong>La Intersección entre Clase y Raza, Justicia Ambiental y Desplazamiento</strong></p>
             <ol start="8">
-              <li>The person referring to &quot;white tree-hugger environmentalists&quot; asked another, &quot;What are you doing about your trees, your creek?&quot; The speaker answers, &quot;We were just trying to hold onto open space that was being taken away.&quot; What is the conflict that the person speaking is describing? Can you relate to that conflict in the way it is framed?</li>
-              <li>&quot;The very same people who have worked so hard to clean up our communities are not going to be able to enjoy them, because literally they are being displaced right now,&quot; the speaker concludes. What does this statement make you think of, and how do you relate to this?</li>
-              <li>Who is being depicted in this sequence, and how do you think they relate to the larger story of environmental injustice and displacement?</li>
-              <li>Do these speakers remind you of anything or anyone in your life? Do they look like you or people who live in your community? Do the things they mention make you feel any particular way? Do you agree or disagree with what they say? Who do you think their audience is?</li>
-              <li>How does the example of &quot;walking through the city and smelling chocolate because there&#39;s a chocolate factory&quot; seem to relate to the industrial conditions noted in the film? Do you think this analogy is useful or appropriate to make? Why or why not?</li>
-              <li>What do you think the images and sounds below suggest of the film&#39;s point-of-view?</li>
-              <li>&quot;We think it&#39;s much more exciting to be playing basketball as an oil tanker passes within feet,&quot; says one of the speakers.</li>
-              <li>&quot;That&#39;s the kind of moments we&#39;re trying to cultivate in the work,&quot; followed by a frozen image of kids on a playground near an industrial site. Loud machines groan while children shout and shoot hoops.</li>
+              <li>La persona que se refería a los &quot;ambientalistas blancos abraza- árboles&quot; le preguntó a otra: &quot;¿Qué estás haciendo con tus árboles, tu arroyo?&quot; El narrador responde: &quot;Solo estábamos tratando de aferrarnos al espacio abierto que nos estaban quitando&quot; ¿Cuál es el conflicto que describe la persona que habla? ¿Puedes relacionarte con ese conflicto en la forma en que se enmarca?</li>
+              <li>&quot;Las mismas personas que han trabajado tan duro para limpiar nuestras comunidades no podrán disfrutar de ellas porque literalmente están siendo desplazadas en este momento&quot;, concluye el narrador. ¿En qué te hace pensar esta afirmación y cómo te relacionas con esto?</li>
+              <li>¿A quién se representa en esta secuencia y cómo crees que se relacionan con la historia más amplia de injusticia y desplazamiento ambiental?</li>
+              <li>¿Te recuerdan estas personas algo o alguien en tu vida? ¿Se parecen a ti o a las personas que viven en tu comunidad? ¿Las cosas que mencionan te hacen sentir de alguna manera en particular? ¿Estás de acuerdo o en desacuerdo con lo que dicen? ¿Quién crees que es su público?</li>
+              <li>¿Cómo se relaciona el ejemplo de &quot;caminar por la ciudad y oler chocolate porque hay una fábrica de chocolate&quot; con las condiciones industriales que se señalan en la película? ¿Crees que esta analogía es útil o apropiada? ¿Por qué o por qué no?</li>
+              <li>¿Qué crees que las imágenes y los sonidos a continuación sugieren sobre el punto de vista de la película?</li>
+              <li>&quot;Creemos que es mucho más emocionante jugar baloncesto cuando un petrolero pasa a unos metros&quot;, dice une de les personajes.</li>
+              <li>&quot;Ese es el tipo de momentos que estamos tratando de cultivar en el trabajo&quot;, seguido de una imagen congelada de niñes en un parque infantil cerca de un sitio industrial. Ruidosas máquinas gimen mientras les niñes gritan y juegan en baloncesto.</li>
             </ol>
-            <p><strong>Economic Justice and Displacement</strong></p>
+            <p><strong>Justicia Económica y Desplazamiento</strong></p>
             <ol start="16">
-              <li>&quot;Wynn Resorts has promised 4,000 temporary, construction-related jobs during the time of construction, and thousands of jobs in the hospitality industry,&quot; the speaker says. What do you make of this argument? If you are familiar with the situation of Wynn Resorts (now Encore), what does this segment make you think or feel?</li>
-              <li>Do you think that, as the mayor said here, that Encore has &quot;returned the Mystic to the people of Everett?&quot; Why or why not?</li>
-              <li>How does the hotel and clean-up relate to the creek/river, the region overall, and the themes of environmental injustice and displacement? Why do you think this segment was included in the film?
-              </li>
-              <li>Over the images of an industrial site, a woman says, &quot;If you don&#39;t have money, then you are on your own. You live however society deems you have to live. But if you have money, you can move out. You can go to a different place. You can choose how and where you live. But for some of us, that is not an option.&quot; How do you relate to her statement? How do you think her position is similar to or different from the architects who talked about how exciting it is to play basketball feet from where an oil tanker passes? How do you think her statement might relate to the history and current work of environmental justice activists mentioned earlier?</li>
-              <li>The woman standing in front of her house talks about the meaning of home ownership for herself, and the threat of gentrification and proliferation of investor-owned condominiums. Does she remind you of anything or anyone in your life? Does she look like you or people who live in your community? Do the things they mention make you feel any particular way?</li>
+              <li>&quot;Wynn Resorts ha prometido 4,000 empleos temporales en la construcción durante el período de construcción, y miles de empleos en la industria hotelera&quot;, dice el personaje. ¿Qué opinas de este argumento? Si estás familiarizado con la situación de Wynn Resorts (ahora Encore), ¿qué te hace pensar o sentir este segmento?</li>
+              <li>¿Piensas, como menciona ahí el alcalde, que Encore ha &quot;devuelto el Mystic a las personas de Everett?&quot; ¿Porqué o porqué no?</li>
+              <li>¿Cómo se relacionan el hotel y la limpieza con el arroyo/río, la región en general y los temas de injusticia ambiental y desplazamiento? ¿Por qué crees que este segmento se incluyó en la película?</li>
+              <li>Sobre las imágenes de un sitio industrial, una mujer dice: &quot;Si no tienes dinero, estás solo. Vives como la sociedad considera que tienes que vivir. Pero si tienes dinero, puedes mudarte. Puedes ir a un lugar diferente. Puedes elegir cómo y dónde vives. Pero para algunos de nosotres, esa no es una opción&quot;. ¿Qué te parece su aseveracíón? ¿Cómo crees que su posición es similar o diferente a la de les arquitectes que hablaron sobre lo emocionante que es jugar baloncesto apenas a unos pies de donde pasa un buque petrolero? ¿Cómo crees que su aseveración podría relacionarse con la historia y el trabajo actual de les activistes de justicia ambiental mencionados anteriormente?</li>
+              <li>La mujer parada frente a su casa habla sobre el significado para sí misma de ser dueña de su propia vivienda y la amenaza de la gentrificación y la proliferación de condominios propiedad de inversionistas. ¿Te recuerda algo o alguien en tu vida? ¿Se parece a ti o a las personas que viven en tu comunidad? ¿Las cosas que mencionan te hacen sentir de alguna manera en particular?</li>
             </ol>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="3"/>
-          <h4>Activity: Future Timeline (optional)</h4>
-          <Instructions>This activity uses the film to help participants imagine how the next 20-30 years would take shape in the community. Collectively, participants could figure out how to envision and build transformative possibilities for a just and ecologically healthy world.
+          <h4>Actividad: Cronograma Futuro (Opcional)</h4>
+          <Instructions>Esta actividad utiliza la película para ayudar a les participantes a imaginar cómo se formarán los próximos 20-30 años en la comunidad. Colectivamente, les participantes podrían descubrir cómo imaginar y construir posibilidades transformadoras para un mundo justo y ecológicamente saludable.
             <ul>
-              <li>Ask participants to design their own future timeline for the next 20-30 years by thinking about the film in context with any information or knowledge brought from the neighborhoods where they organize.</li>
-              <li><p>Ask participants to take approximately 10 minutes considering the following:</p>
+              <li>Solicita a les participantes que diseñen su propio cronograma futuro para los próximos 20-30 años, pensando en la película en contexto con cualquier información o conocimiento traído de los vecindarios donde se organizan.</li>
+              <li><p>Solicita a les participantes que tomen aproximadamente 10 minutos considerando lo siguiente:</p>
                 <ul>
-                  <li><em>How might we get to our most desired futures?</em></li>
-                  <li><em>What small steps can we take now, collectively and individually, to build toward that future?</em></li>
-                  <li><em>Feel free to draw inspiration from the past, but don&#39;t let history limit your creativity and imagination.</em></li>
+                  <li><em>¿Cómo podríamos lograr el futuro más deseado?</em></li>
+                  <li><em>¿Qué pequeños pasos podemos tomar ahora, colectivamente e individualmente, para construir ese futuro?</em></li>
+                  <li><em>Siéntete libre de inspirarte en el pasado, pero no dejes que la historia limite tu creatividad e imaginación.</em></li>
                 </ul>
               </li>
             </ul>
             <ul>
-              <li>After 10 minutes, ask participants to share back their future timelines with the larger group.</li>
+              <li>Después de 10 minutos, solicita a les participantes que compartan sus cronogramas con el resto del grupo.</li>
             </ul>
             <ul>
-              <li>Once all of the groups have shared, reflect with participants on the futures they each imagined in the activity by asking:
+              <li>Una vez que todos los grupos hayan compartido, reflexiona con les participantes sobre los futuros que han imaginado al preguntarles:
                 <ol>
-                  <li><em>What inspired or excited you?</em></li>
-                  <li><em>What steps could we take or explore further?</em></li>
+                  <li><em>¿Qué te inspiró o emocionó?</em></li>
+                  <li><em>¿Qué pasos podríamos tomar o explorar más?</em></li>
                 </ol>
               </li>
             </ul>
@@ -184,51 +183,51 @@
         </template>
       </FacilitationGuide>
       <TakingAction :toolkit="toolkit">
-        <p>Communities across the Boston Area are organizing to protect the health and lives of all residents, including the most vulnerable populations: im/migrants, communities of color, underserved communities, youth, and elders. The struggle for environmental justice and improved public health is inextricably linked to the struggle against displacement and for a right to self-determination. Front-line communities—those most impacted by the climate crisis and everyday environmental hazards—are at the forefront of this struggle in our region and across the country. Rise up in solidarity with these communities fighting against displacement and support grassroots efforts for environmental justice and improved public health.</p>
-        <p>To find more resources or get in touch with and support communities on the ground in Chelsea and Everett, visit the Greater Boston Anti-Displacement Toolkit website (<a href="https://greaterbostontoolkit.org">https://greaterbostontoolkit.org</a>) for more information.</p>
+        <p>Las comunidades del área de Boston se están organizando para proteger la salud y la vida de todes les residentes, incluyendo las poblaciones más vulnerables: inmigrantes /migrantes, comunidades de color, comunidades marginadas, jóvenes y ancianes. La lucha por la justicia ambiental y una mejor salud pública está inextricablemente unida a la lucha contra el desplazamiento y por el derecho a la libre determinación. Las comunidades en la primera línea – aquellas que son las más afectadas por la crisis climática y los peligros ambientales cotidianos - están a la vanguardia de esta lucha en nuestra región y en todo el país. Levántate en solidaridad con estas comunidades que luchan contra el desplazamiento y apoya los esfuerzos de base por la justicia ambiental y la mejora de la salud pública.</p>
+        <p>Para encontrar más recursos o ponerte en contacto y apoyar a las comunidades en el terreno en Chelsea y Everett, visita el sitio web del Manual Anti-Desplazamiento del Área Metropolitana de Boston (<a href="https://greaterbostontoolkit.org">https://greaterbostontoolkit.org</a>) para obtener más información.</p>
       </TakingAction>
       <AdditionalResources :toolkit="toolkit"></AdditionalResources>
-      <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }">Filming Permissions</h2>
-      <p>The following permissions are provided as an informational resource and can be utilized at the discretion of the facilitator.</p>
+      <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }">Permisos de filmación</h2>
+      <p>Los siguientes permisos son provistos como un recurso informativo y pueden ser utilizados a discreción de la persona que facilita.</p>
       <table>
         <thead>
         <tr>
-          <th><strong>Airspace</strong></th>
-          <th><strong>Property</strong></th>
+          <th><strong>Espacio Aéreo</strong></th>
+          <th><strong>Propiedad</strong></th>
         </tr>
         </thead>
         <tbody>
         <tr>
           <td>
             <ul>
-              <li>The drone videographer is an FAA- licensed drone pilot (Part 107 is the certification), meaning they are legally entitled and authorized to operate a drone. It&#39;s the operator&#39;s responsibility to fly safely and in an authorized manner.</li>
-              <li>The FAA drone certification minimizes liability and protects civilians during flights, and reduces risks involved with flying.</li>
-              <li>The Boston area is a &quot;Class B&quot; airspace, which means the drone operator needs to authorize any drone mission via a phone app that requires them to input credentials.</li>
-              <li>The drone has software geo-fencing installed, meaning that it literally will not leave the ground when too close to an airport, or when in a no-fly zone.</li>
-              <li>Airspace is regulated by the FAA but no one owns it.</li>
-              <li>We did not encounter any &quot;no-fly&quot; zones while filming, and took precautions to not pass any major roadways.</li>
+              <li>El camarógrafo del dron es un piloto de aviones licenciado por FAA (la certificación se llama Part 107), lo que quiere decir que está legalmente autorizado y con derecho para operar un avión no tripulado. Es la responsabilidad del operador el volar con seguridad y en una forma autorizada.</li>
+              <li>La certificación de dron de la FAA minimiza la responsabilidad y protege a los civiles durante los vuelos, y reduce los riesgos relacionados con volar.</li>
+              <li>El área de Boston es un espacio aéreo de &quot;Clase B&quot;, lo que implica que el operador de drones necesita autorizar cualquier misión de drones a través de una aplicación telefónica que requiere que ingrese sus credenciales.</li>
+              <li>El dron tiene instalado un software de geo-delimitación, lo que significa que, literalmente, no despegará del suelo cuando esté demasiado cerca de un aeropuerto o en una zona de &quot;exclusión aérea&quot;.</li>
+              <li>El espacio aéreo es regulado por la FAA aunque nadie es dueño del mismo.</li>
+              <li>No encontramos ninguna zona de &quot;exclusión aérea&quot; durante la filmación, y tomamos precauciones para no volar encima de las carreteras principales.</li>
             </ul>
           </td>
           <td>
             <ul>
-              <li>Produced as an outdoor film.</li>
-              <li>During the course of filming, we did not trespass on any property with the drone, not even to take off or land. <em>Note:</em> If property is viewable from a public sidewalk or area, it is generally considered filmable.</li>
-              <li>Film clips of The Eddy are from a <a href="https://www.youtube.com/watch?v=JDofnB_O7YU">promotional video</a> they posted on YouTube.</li>
-              <li>Likewise, <a href="https://www.youtube.com/watch?v=OIg9nTmICpc">audio from the news story</a> about Encore would be considered fair use.</li>
+              <li>Producida como una película al aire libre.</li>
+              <li>Durante el transcurso de la filmación, no invadimos ninguna propiedad con el dron, ni siquiera para despegar o aterrizar. <em>Nota:</em> Si la propiedad se puede ver desde una acera o área pública, generalmente se considera que se puede filmar.</li>
+              <li>Clips de la película The Eddy son de un <a href="https://www.youtube.com/watch?v=JDofnB_O7YU">video promocional</a> que ellos publicaron en YouTube.</li>
+              <li>De la misma manera, <a href="https://www.youtube.com/watch?v=OIg9nTmICpc">el audio</a> en las noticias sobre la historia de Encore sería considerado como de uso apropiado.</li>
             </ul>
           </td>
         </tr>
         </tbody>
       </table>
-      <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }">Film Acknowledgments &amp; Credits</h2>
-      <p>This film is a collaboration funded by The Surdna Foundation, in partnership with the Community Innovators Lab (Co-Lab) at the Department of Urban Studies and Planning at the Massachusetts Institute of Technology, Research Action Design, GreenRoots, and Everett Community Health Partnership.</p>
-      <p>Produced and Directed by: Puck Lo</p>
-      <p>Cast (In Order of Appearance): Grace Muwina, Damali Vidot, Mayra Romero, Mayra&#39;s son Bryant Romero, kids in playground, Jeffry Ramos, Tiffany Enriquez, Ericksson Enriquez</p>
-      <p>Director of Photography: Puck Lo</p>
-      <p>Drone Videographer: Dane Christensen</p>
-      <p>Editor(s): Puck Lo</p>
-      <p>Music: Stefan Christoff</p>
-      <p>Special Thanks: Maria Belen Power, Kathleen O&#39;Brien, Andres Del Castillo, Indira Garmendia Alfaro, Sarah Levy, Sarah Gay, Justin Steil, Lad Dell, Amber Christofferson, Deanna Moran, Matt Spurlock, Hana Georg, Kim Garcia, Francine Harris, R.J. Lozada, Paloma Martinez, Maris Curran, Gael Gundin Guevara, Elivia Shaw</p>
+      <h2 :style="{ borderBottom: '2px solid ' + toolkit.color }">Reconocimientos en la Película y Créditos</h2>
+      <p>Esta película es una colaboración financiada por la Fundación Surdna en sociedad con el Laboratorio de Innovadores Comunitarios (Co-Lab) en el Departamento de Planificación de MIT, Research Action Design, GreenRoots, y la Coalición de Salud Comunitaria de Everett.</p>
+      <p>Producida y Dirigida por: Puck Lo</p>
+      <p>Reparto (en orden de aparición): Grace Muwina, Damali Vidot, Mayra Romero, Bryant Romero quien es el hijo de Mayra, los niños(as) Jeffry Ramos, Tiffany Enriquez y Ericksson Enriquez</p>
+      <p>Directore de Fotografía: Puck Lo</p>
+      <p>Camarógrafe del Dron: Dane Christensen</p>
+      <p>Editore: Puck Lo</p>
+      <p>Música: Stefan Christoff</p>
+      <p>Agradecimiento especial a: Maria Belen Power, Kathleen O&#39;Brien, Andres Del Castillo, Indira Garmendia Alfaro, Sarah Levy, Sarah Gay, Justin Steil, Lad Dell, Amber Christofferson, Deanna Moran, Matt Spurlock, Hana Georg, Kim Garcia, Francine Harris, R.J. Lozada, Paloma Martinez, Maris Curran, Gael Gundin Guevara, Elivia Shaw, Caroline Rivas, Tim Stallmann, Taylor Cain, Andrew Binet, Taina McField</p>
     </div>
   </main>
 </template>
