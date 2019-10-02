@@ -52,8 +52,8 @@
         <template slot="Materials_and_Preparation">
           <ul>
             <li>Identify 1-2 facilitators and assign roles for the session, including 1 note taker and 1 timekeeper. (If 2 facilitators, the 2 can rotate roles—e.g., 1 facilitates and the other takes notes and keeps time).</li>
-            <li>Print <a href="/handouts/Identifying-and-Evaluating-Policies_Blank-Worksheets.pdf" target="_blank">blank group dialogue worksheets</a> for each participant.</li>
-            <li>Print <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">worksheet examples</a> for each facilitator. <strong>Note:</strong> If helpful, the worksheet examples can be printed and shared with participants.</li>
+            <li>Print <ExternalLink href="/handouts/Identifying-and-Evaluating-Policies_Blank-Worksheets.pdf">blank group dialogue worksheets</ExternalLink> for each participant.</li>
+            <li>Print <ExternalLink href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">worksheet examples</ExternalLink> for each facilitator. <strong>Note:</strong> If helpful, the worksheet examples can be printed and shared with participants.</li>
             <li>Pens and pencils for writing on worksheets.</li>
             <li>Flip-chart/butcher paper (blank) for capturing share-backs and discussions.</li>
             <li>Markers for flip-chart/butcher paper.</li>
@@ -82,24 +82,24 @@
           </Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Step 2: On Your Own (5 min)</h5>
-        <Instructions>Pass out Part 1 of the <a href="/handouts/Identifying-and-Evaluating-Policies_Blank-Worksheets.pdf" target="_blank">worksheet</a> to participants.
+        <Instructions>Pass out Part 1 of the <ExternalLink href="/handouts/Identifying-and-Evaluating-Policies_Blank-Worksheets.pdf">worksheet</ExternalLink> to participants.
         <p>Ask participants to take approximately 5 minutes to jot down on their own: (1) <em>What is the policy or strategy?</em> and (2) <em>Briefly describe how you have how you have used it or witnessed it being used?</em></p>
           <p>If helpful, you might think about sharing one of the following prompts:</p>
           <ul class="facilitator">
               <li>Think of policies and strategies as a vision or plan of action to achieve a specific goal. It sets the guidelines for how something does (or doesn&#39;t) get done. Policies and strategies guide decision-making within different systems and institutions, e.g. city/state government, corporations, schools, etc.).</li>
               <li>Think about your own stories and experiences with fighting displacement through your own movement and migration. This could be where you live now or in the past.</li>
               <li>Think of a time you&#39;ve witnessed a community successfully protect their homes. How did they do this?</li>
-            <li>Share <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">example cards</a> of other methods communities have considered and adopted with success.</li>
+            <li>Share <ExternalLink href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf">example cards</ExternalLink> of other methods communities have considered and adopted with success.</li>
             </ul>
             <p>Share that the goal is to get as many ideas as we can on the table in a short time—just jot down thoughts and ideas as they come to you.</p>
             <p>Ask participants if they have any questions about the exercise before starting the clock.</p>
-          <p>If it is helpful, you can share <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">examples for Part 1</a>. Start the time and provide participants with a 2- and 1-minute reminder of time left to work on their own.</p>
+          <p>If it is helpful, you can share <ExternalLink href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf">examples for Part 1</ExternalLink>. Start the time and provide participants with a 2- and 1-minute reminder of time left to work on their own.</p>
         </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h5>Step 3: Sharing Back (5 min)</h5>
             <Instructions>Ask participants to share (popcorn style) their ideas and briefly describe how they did/can help in our communities.
             <p>Share the ideas noted on flip-chart/butcher paper for participants to review as a group.</p>
-              <p>If they would like to expand the list, the facilitator can share <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">examples for Part 1</a> of other policies and strategies communities have considered and adopted as ideas to consider and examine in Part 2 of the exercise.</p>
+              <p>If they would like to expand the list, the facilitator can share <ExternalLink href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf">examples for Part 1</ExternalLink> of other policies and strategies communities have considered and adopted as ideas to consider and examine in Part 2 of the exercise.</p>
             <p>Once the group has shared and generated a list of ideas to consider, move to Part 2 of the exercise to dive deeper into a few of the ideas listed.</p>
             </Instructions>
           <h4 class="subcategory">Part 2: Evaluating Policies &amp; Strategies (25-30 min)</h4>
@@ -127,7 +127,7 @@
             <p>Review the worksheet steps with participants: (1) Identify policy or strategy to focus on and write it in at the top of the worksheet table, then (2) Think through answers together to the 4 questions outlined in the worksheet.</p>
             <p>Remind participants that the goal here is to evaluate what we already know and need to know for our community.</p>
             <p>Ask participants if they have any questions about the exercise before starting the clock.</p>
-            <p>If it is helpful, the facilitator can share <a href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf" target="_blank">examples for Part 2</a>.</p>
+            <p>If it is helpful, the facilitator can share <ExternalLink href="/handouts/Identifying-and-Evaluating-Policies_Sample-Worksheets.pdf">examples for Part 2</ExternalLink>.</p>
             <p>Start the time and provide participants with a 5-, 2-, and 1-minute reminder of time left to work in their groups.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
@@ -171,10 +171,12 @@ import FacilitatorImage from "./../../components/FacilitatorImage";
 import Instructions from "./../../components/Instructions";
 import TakingAction from "./../../components/TakingAction";
 import AdditionalResources from "./../../components/AdditionalResources";
+import ExternalLink from '../ExternalLink';
 
 export default {
   name: "workshops",
   components: {
+    ExternalLink,
     ToolkitIntro,
     Introduction,
     FacilitationGuide,

@@ -47,8 +47,8 @@
             <li>Masking or painter&#39;s tape</li>
             <li>Facial tissues</li>
             <li>Printed copies of <a href="/handouts/Stories-Worksheet.pdf">worksheets</a></li>
-            <li><a href="/handouts/Stories-Tree-Stencil.pdf" target="_blank">Tree stencil (print, trim, and tape together)</a> or <a href="/handouts/Stories-Tree-24x24.pdf" target="_blank">printed large-format tree</a></li>
-            <li>Printed and trimmed <a href="/handouts/Stories-Fruit.pdf" target="_blank">&quot;fruit&quot;</a> or cut-out shapes from construction paper</li>
+            <li><ExternalLink href="/handouts/Stories-Tree-Stencil.pdf">Tree stencil (print, trim, and tape together)</ExternalLink> or <ExternalLink href="/handouts/Stories-Tree-24x24.pdf">printed large-format tree</ExternalLink></li>
+            <li>Printed and trimmed <ExternalLink href="/handouts/Stories-Fruit.pdf">&quot;fruit&quot;</ExternalLink> or cut-out shapes from construction paper</li>
             <li>Count how many small groups you&#39;ll have. For each group, trace a tree onto a piece of flip-chart paper.</li>
             <li>Create a &quot;river&quot; on a wall made of blue poster board, or drawn across several pieces of flip-chart paper. During presentations, the trees will be taped up along the river.</li>
             <li>Make a plan as facilitators for how to support participants if the activities bring up strong emotions, trauma or sadness, and how to close the space.</li>
@@ -78,7 +78,7 @@
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h4 class="subcategory">Step 2: Individual Stories (10 min: 2 min for explanation, 8 min for individual work)</h4>
           <p>The goal of this section is to begin with individual work. This portion of the activity can happen in a quiet area, or soft and culturally appropriate music can be played in the background. Each participant should come away from this segment more connected to elements of their individual migration story. The background setting should be optimal for individual reflection, allowing participants to go deep or highlight high-level elements of their personal migration story.</p>
-          <Instructions>All participants should have a copy of the <a href="/handouts/Stories-Worksheet.pdf" target="_blank">story sharing worksheet</a>, which is a sheet of paper divided into 3 sections:
+          <Instructions>All participants should have a copy of the <ExternalLink href="/handouts/Stories-Worksheet.pdf">story sharing worksheet</ExternalLink>, which is a sheet of paper divided into 3 sections:
           <ol class="facilitator">
             <li>Who are my people?</li>
             <li>How did I get here, and what were the major turning points and struggles along the way?</li>
@@ -149,6 +149,7 @@
 
 
 <script>
+import ExternalLink from '../ExternalLink';
 import ToolkitIntro from "../ToolkitIntro";
 import Introduction from "./../../components/Introduction";
 import FacilitationGuide from "./../../components/FacilitationGuide";
@@ -161,6 +162,7 @@ import AdditionalResources from "./../../components/AdditionalResources";
 export default {
   name: "workshops",
   components: {
+    ExternalLink,
     ToolkitIntro,
     Introduction,
     FacilitationGuide,

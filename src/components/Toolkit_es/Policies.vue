@@ -1,7 +1,6 @@
 <template>
   <main class="workshop">
     <ToolkitIntro :toolkit="toolkit"></ToolkitIntro>
-
     <div class="workshop_content">
       <Introduction :toolkit="toolkit">
         <p>Las comunidades en todo el país están experimentando amenazas a sus hogares y vecindarios. Hay muchos modelos de políticas y estrategias que las comunidades pueden adoptar para proteger el lugar donde viven. Esta sección del taller está destinada a involucrar y desarrollar ideas y soluciones impulsadas por la comunidad.</p>
@@ -44,7 +43,7 @@
           </ul>
           <p>Por ejemplo:</p>
           <ul><li>Se ha propuesto un nuevo complejo de uso mixto (vivir, trabajar, jugar) que se extenderá a lo largo de dos cuadras en el centro en la comunidad, lo que potencialmente podría brindar nuevas oportunidades de empleo, vivienda y servicios. La comunidad se está organizando actualmente para proteger a los/las/les habitantes y negocios existentes y garantizar que el complejo sea beneficioso para los/las/les habitantes y negocios existentes. Puedes invitar a habitantes de la comunidad y dueños de negocios ubicados en el área que se está desarrollando o cerca de la misma, organizaciones u organizadores claves en el área que están luchando en contra de este complejo y cualquier otra persona que pueda verse directamente afectada por este proyecto de desarrollo.</li>
-          <li>La gentrificación y el desplazamiento son preocupaciones crecientes para tu comunidad y los alrededores. Más y más habitantes están siendo expulsados ​​de sus hogares debido al aumento en el costo de la vivienda. Puedes trabajar con la comunidad para identificar y explorar soluciones para abordar el problema invitando a defensores de viviendas, defensores ambientales, miembros de la comunidad en la actualidad y en el pasado, o representantes de instituciones, por ejemplo, de escuelas locales u organizaciones de atención médica. Una representación amplia de participantes puede ayudar a iniciar una conversación sobre posibles políticas y estrategias que la comunidad puede adoptar y promover para combatir el desplazamiento.</li>
+            <li>La gentrificación y el desplazamiento son preocupaciones crecientes para tu comunidad y los alrededores. Más y más habitantes están siendo expulsados ​​de sus hogares debido al aumento en el costo de la vivienda. Puedes trabajar con la comunidad para identificar y explorar soluciones para abordar el problema invitando a defensores de viviendas, defensores ambientales, miembros de la comunidad en la actualidad y en el pasado, o representantes de instituciones, por ejemplo, de escuelas locales u organizaciones de atención médica. Una representación amplia de participantes puede ayudar a iniciar una conversación sobre posibles políticas y estrategias que la comunidad puede adoptar y promover para combatir el desplazamiento.</li>
           </ul>
         </template>
 
@@ -52,8 +51,8 @@
         <template slot="Materials_and_Preparation">
           <ul>
             <li>Identificar 1-2 facilitadores y asigne roles para la sesión, incluidos 1 encargado/a/e de tomar notas y 1 moderador/a/e del tiempo. (Si son 2 facilitadores, los 2 pueden rotar roles, por ejemplo, 1 facilita y el otro toma notas y modera el tiempo).</li>
-            <li>Imprimir <a href="/handouts/Identificacion-y-Evaluacion-de-Politicas.pdf" target="_blank">hojas de trabajo en blanco de diálogos</a> para cada participante.</li>
-            <li>Imprimir <a href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf" target="_blank">ejemplos de hojas de trabajo</a> para cada facilitador/a/e. <strong>Nota</strong> : Si es útil, los ejemplos de la hoja de trabajo se pueden imprimir y compartir con los participantes.</li>
+            <li>Imprimir <ExternalLink href="/handouts/Identificacion-y-Evaluacion-de-Politicas.pdf">hojas de trabajo en blanco de diálogos</ExternalLink> para cada participante.</li>
+            <li>Imprimir <ExternalLink href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf">ejemplos de hojas de trabajo</ExternalLink> para cada facilitador/a/e. <strong>Nota</strong> : Si es útil, los ejemplos de la hoja de trabajo se pueden imprimir y compartir con los participantes.</li>
             <li>Lapiceros y lápices para escribir en hojas de trabajo.</li>
             <li>Rotafolio / papelógrafo (en blanco) para capturar acciones compartidas y discusiones</li>
             <li>Marcadores para rotafolio / pepelógrafo</li>
@@ -82,24 +81,24 @@
           </Facilitator>
           <FacilitatorImage :toolkit="toolkit" number="2"/>
           <h5>Paso 2: Trabajo Individual (5 min)</h5>
-          <Instructions>Distribuir la Parte 1 de la <a href="/handouts/Identificacion-y-Evaluacion-de-Politicas.pdf" target="_blank">hoja de trabajo</a> a los participantes.
+          <Instructions>Distribuir la Parte 1 de la <ExternalLink href="/handouts/Identificacion-y-Evaluacion-de-Politicas.pdf">hoja de trabajo</ExternalLink> a los participantes.
             <p>Pedir a los participantes que tomen aproximadamente 5 minutos para anotar solos: (1) <em>¿Cuál es la política o estrategia?</em> y (2) <em>una breve descripción de cómo la han usado o visto cómo se usa?</em>.</p>
             <p>Si es útil, puedes pensar en compartir una de las siguientes indicaciones:</p>
             <ul class="facilitator">
             <li>Piensen en las políticas y estrategias como una visión o plan de acción para lograr un objetivo específico. Este plan establece las pautas de cómo se logra hacer algo o no. Las políticas y estrategias guían la toma de decisiones dentro de diferentes sistemas e instituciones, por ejemplo, gobierno a nivel de la ciudad / estado, corporaciones, escuelas, etc.).</li>
             <li>Piensen en sus propias historias y experiencias en la lucha contra el desplazamiento utilizando sus propios ejemplos de movimiento y migración. Esto podría ser dónde viven ahora o han vivido anteriormente.</li>
             <li>Piensen en una ocasión en la que hayan presenciado cómo una comunidad protege con éxito sus hogares ¿Cómo hicieron esto?</li>
-              <li>Compartir <a href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf" target="_blank">tarjetas de ejemplo encontradas</a> de otros métodos que las comunidades hayan considerado y adoptado con éxito.</li>
+              <li>Compartir <ExternalLink href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf">tarjetas de ejemplo encontradas</ExternalLink> de otros métodos que las comunidades hayan considerado y adoptado con éxito.</li>
             </ul>
             <p>Compartir que el objetivo de este ejercicio es obtener el mayor número de ideas posibles en un corto tiempo, simplemente anota los pensamientos e ideas a medida que vayan fluyendo.</p>
             <p>Indagar si los participantes tienen alguna pregunta sobre el ejercicio antes de comenzar el reloj.</p>
-            <p>Si es útil, puedes compartir ejemplos para la Parte 1, que se encuentran <a href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf" target="_blank">AQUÍ</a>. Comienza el tiempo y recuérdales a los participantes que les restan 2 minutos para trabajar solos y luego hacer otro recordatorio cuando les resta un minuto.</p>
+            <p>Si es útil, puedes compartir ejemplos para la Parte 1, que se encuentran <ExternalLink href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf">AQUÍ</ExternalLink>. Comienza el tiempo y recuérdales a los participantes que les restan 2 minutos para trabajar solos y luego hacer otro recordatorio cuando les resta un minuto.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="1"/>
           <h5>Paso 3: Compartir en Plenario (5 min)</h5>
           <Instructions>Pedir a los participantes que mencionen sus ideas a como las vayan pensando y describan brevemente cómo ayudaron / pueden ayudar en nuestras comunidades.
             <p>Compartir las ideas anotadas en el rotafolio / papelelógrafo para que los participantes las revisen en grupo.</p>
-            <p>Si les gustaría ampliar la lista, el/la/elle facilitador/a/e puede compartir ejemplos de la Parte 1, encontrados <a href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf" target="_blank">AQUÍ</a> sobre otras políticas y estrategias que las comunidades han considerado y adoptado para ponderar y examinar en la Parte 2 del ejercicio.</p>
+            <p>Si les gustaría ampliar la lista, el/la/elle facilitador/a/e puede compartir ejemplos de la Parte 1, encontrados <ExternalLink href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf">AQUÍ</ExternalLink> sobre otras políticas y estrategias que las comunidades han considerado y adoptado para ponderar y examinar en la Parte 2 del ejercicio.</p>
             <p>Una vez el grupo haya compartido y generado una lista de ideas para considerar, pase a la Parte 2 del ejercicio para profundizar en algunas de las ideas enumeradas.</p>
           </Instructions>
           <h4 class="subcategory">Parte 2: Evaluación de políticas y estrategias (25-30 min)</h4>
@@ -128,7 +127,7 @@
             <p>Revisar con los participantes los pasos de la hoja de trabajo: (1) Identificar la política o estrategia en que se centrarán y escríbanla en la parte superior de la tabla de la hoja de trabajo, luego (2) Piensen en conjunto las respuestas a las 4 preguntas de la hoja de trabajo.</p>
             <p>Recordar a los participantes que el objetivo es evaluar lo que ya sabemos y lo que necesitamos saber sobre nuestra comunidad.</p>
             <p>Preguntar a los participantes si tienen alguna pregunta sobre el ejercicio antes de comenzar el reloj.</p>
-            <p>Si es útil, el/la/elle facilitador/a/e puede compartir ejemplos para la Parte 2, que se encuentran <a href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf" target="_blank">AQUÍ</a>.</p>
+            <p>Si es útil, el/la/elle facilitador/a/e puede compartir ejemplos para la Parte 2, que se encuentran <ExternalLink href="/handouts/Identificacion-y-Evaluacion-de-Politicas-Ejemplos.pdf">AQUÍ</ExternalLink>.</p>
             <p>Iniciar el reloj y proporcionar a los participantes un recordatorio de 5, 2 y 1 minuto del tiempo restante para trabajar en sus grupos.</p>
           </Instructions>
           <FacilitatorImage :toolkit="toolkit" number="2"/>

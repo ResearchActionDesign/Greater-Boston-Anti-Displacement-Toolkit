@@ -4,7 +4,7 @@
       <div class="workshop_content">
       <h2>Purpose, Values & Goals</h2>
       <p>This multimedia organizing toolkit is a collection of activities, how-to guides, facilitation plans, and resources that organizers and residents can use to fight displacement in their communities.</p>
-        <p>Chelsea and Everett, Massachusetts are facing pressure from developers, resulting in land being swallowed up by investors and increased housing prices, and the forced displacement (or pushing-out) of residents and small businesses. These two communities have been involved in the <a href="https://www.clf.org/healthy-neighborhoods-study/" target="_blank">Healthy Neighborhoods Study (HNS)</a>, a participatory action research project which aims to understand the relationship between development, neighborhood conditions, and health across nine communities in Massachusetts. HNS research from 2016-2019 indicates that 40% of Chelsea and 31% of Everett survey respondents expect to move in the next five years; of that research, 72% of Chelsea and 75% of Everett respondents indicated that they are proud to live in their community. However, the impact of displacement will negatively affect these respondents, other individuals, families, and communities. To learn more about displacement, including its impact on health, educational outcomes, and community power, view <a href="https://www.urbandisplacement.org/pushedout"><b>Pushed Out</b></a>, a short video produced by Urban Displacement Project.</p>
+        <p>Chelsea and Everett, Massachusetts are facing pressure from developers, resulting in land being swallowed up by investors and increased housing prices, and the forced displacement (or pushing-out) of residents and small businesses. These two communities have been involved in the <ExternalLink href="https://www.clf.org/healthy-neighborhoods-study/">Healthy Neighborhoods Study (HNS)</ExternalLink>, a participatory action research project which aims to understand the relationship between development, neighborhood conditions, and health across nine communities in Massachusetts. HNS research from 2016-2019 indicates that 40% of Chelsea and 31% of Everett survey respondents expect to move in the next five years; of that research, 72% of Chelsea and 75% of Everett respondents indicated that they are proud to live in their community. However, the impact of displacement will negatively affect these respondents, other individuals, families, and communities. To learn more about displacement, including its impact on health, educational outcomes, and community power, view <ExternalLink href="https://www.urbandisplacement.org/pushedout"><b>Pushed Out</b></ExternalLink>, a short video produced by Urban Displacement Project.</p>
       <p>Ensuring that our communities remain viable options in which residents can live and thrive is within our power. As we face continued large-scale developments and planning initiatives such as the East Boston Master Plan, the Chelsea Creek Municipal Harbor Plan, or the Encore Casino in Everett, it's important and timely for the local community to address displacement.</p>
       <p>We wanted to create a guide for community members to work together to protect and preserve their communities. Our goal is for you, the user, to build power through collective analysis (from your own knowledge), create shared goals and actions, and develop guiding principles of equitable development.</p>
       <h3>VALUES AND GOALS OF THIS TOOLKIT</h3>
@@ -57,14 +57,14 @@
         <p class="italic">Allegra Williams, Andrew Binet, Agustín Cepeda, Natalia Coachman, Taina McField, Taylor Cain.</p>
       </td></tr>
   </table>
-        <p>The film, <b>Desplazada</b>, for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustín Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo. We also thank <a href="https://www.queerblackediting.com/">Queer Black Editing</a> for copyediting the toolkit, and Xenia Barahona for its translation.</p>
+        <p>The film, <b>Desplazada</b>, for the toolkit was produced and directed by Puck Lo. Illustrations created by Agustín Cepeda and Natalia Coachman. Web design support and development by Maria Lamardo. We also thank <ExternalLink href="https://www.queerblackediting.com/">Queer Black Editing</ExternalLink> for copyediting the toolkit, and Xenia Barahona for its translation.</p>
         <p>This project would not have been possible without the generous support of The Surdna Foundation.</p>
-      <p>All materials developed for the toolkit are licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>, which means they may be adapted to fit your community needs; however, you must give appropriate credit, indicate if changes were made, and distribute your contributions under the same license as the original. Please review the guidelines linked above.</p>
+      <p>All materials developed for the toolkit are licensed under a <ExternalLink href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ExternalLink>, which means they may be adapted to fit your community needs; however, you must give appropriate credit, indicate if changes were made, and distribute your contributions under the same license as the original. Please review the guidelines linked above.</p>
       <h3>METHODOLOGY</h3>
       <p>This toolkit is a co-design project. In the first year of its development, community partner organizations identified, shared, and prioritized the problems, audiences, and potential tools needed to help influence change in their communities. In April 2018, the partners agreed upon a shared problem statement for the project: “We want people to be able to stay in their communities safely, affordably, and healthily. We want people to have a voice in shaping place. This is not currently happening in the communities of Chelsea, Everett, and East Boston.”</p>
       <p>Based on the problem statement, the community-partner organizations agreed on developing a multimedia organizing toolkit. The co-design process included reviewing existing toolkits and resources, developing the outline and components of the toolkit; co-creating the story and script for the film; and drafting, gathering, and reviewing content for each of the components. In March 2019, a co-design session was held to engage community-partner organizations and their community members and networks in the design and testing of the toolkit. The two-day co-design session and debrief consisted of conducting two idea labs to shape and generate content, three test labs to refine select components of the toolkit, and a small group screening and final review of the film cut. The feedback and evaluations from the co-design session were used to refine and finalize the multimedia organizing toolkit to fight displacement.</p>
         <h3>COMMUNITY AGREEMENTS</h3>
-        <p>The modified Community Agreements adopted from <a href="https://aorta.coop" target="_blank">Aorta</a> below were used to create a safe space and grounding throughout the co-design process. Facilitators may find it useful to introduce these at the opening of each workshop.</p>
+        <p>The modified Community Agreements adopted from <ExternalLink href="https://aorta.coop">Aorta</ExternalLink> below were used to create a safe space and grounding throughout the co-design process. Facilitators may find it useful to introduce these at the opening of each workshop.</p>
         <table class="community-agreements">
           <tbody>
           <tr>
@@ -96,11 +96,13 @@
 </template>
 
 <script>
+import ExternalLink from '../ExternalLink';
 import ToolkitIntro from '../ToolkitIntro';
 
 export default {
   name: "Overview",
   components: {
+    ExternalLink,
     ToolkitIntro,
   }
 };

@@ -75,14 +75,26 @@ export default new Router({
       component: () => import( /* webpackChunkName: "FindData" */ './views/Toolkit/FindData.vue')
     },
     {
+      path: '/es/manual/busqueda-de-datos', // Without accent.
+      redirect: { name: 'FindingData-es', params: { locale: 'es' }},
+    },
+    {
       path: '/:locale/manual/uso-de-estadísticas',
       name: 'UsingData-es',
       component: () => import( /* webpackChunkName: "UseData" */ './views/Toolkit/UsingData.vue')
     },
     {
+      path: '/es/manual/uso-de-estadisticas', // Without accent.
+      redirect: { name: 'UsingData-es', params: { locale: 'es' }},
+    },
+    {
       path: '/:locale/manual/políticas',
       name: 'Policies-es',
       component: () => import( /* webpackChunkName: "Policies" */ './views/Toolkit/Policies.vue')
+    },
+    {
+      path: '/es/manual/politicas', // Without accent.
+      redirect: { name: 'Policies-es', params: { locale: 'es' }},
     },
     {
       path: '/:locale/manual/estrategias',
@@ -100,20 +112,20 @@ export default new Router({
       component: () => import( /* webpackChunkName: "Film" */ './views/Film.vue')
     },
     {
+      path: '/es/pelicula', // Without accent.
+      redirect: { name: 'Film-es', params: { locale: 'es' }},
+    },
+    {
       path: '/:locale/recursos',
       name: 'Resources-es',
       component: () => import( /* webpackChunkName: "Resources" */ './views/Resources.vue')
     },
     {
       path: '/',
-      component: () => import( /* webpackChunkName: "Overview" */ './views/Overview.vue'),
       name: 'Home',
       beforeEnter(to, from, next) {
-        const browserLanguage = navigator.language.toLowerCase().substr(0, 2);
-        if (browserLanguage !== 'en') {
-          next({name: 'Overview', params: {locale: browserLanguage}});
-        }
-        next();
+        let browserLanguage = navigator.language.toLowerCase().substr(0, 2);
+        next({name: 'Overview', params: {locale: browserLanguage}});
       },
     },
     {

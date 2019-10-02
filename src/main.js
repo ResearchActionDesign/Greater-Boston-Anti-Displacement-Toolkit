@@ -21,6 +21,9 @@ router.beforeEach((to, from, next) => {
     language = browserLanguage;
   }
 
+  if (['en','es'].indexOf(language) === -1) {
+    language = 'en';
+  }
   if (!language) {
     language = i18n.locale;
   } else {
@@ -48,6 +51,10 @@ router.beforeEach((to, from, next) => {
   }
   else if (!(newName.endsWith('-es')) && language === 'es' && newName !== 'Overview' && newName !== 'Home') {
     newName = newName + '-es';
+  }
+
+  if (to.params.locale !== language || newName !== to.name) {
+    return next({ name: newName, params: { locale: language }});
   }
 
   // Dynamically set metadata.
@@ -89,12 +96,7 @@ router.beforeEach((to, from, next) => {
     Object.keys(tagDef).forEach((key) => { tag.setAttribute(key, tagDef[key]); });
   });
 
-  if (to.params.locale !== language || newName !== to.name) {
-    next({ name: newName, params: { locale: language }});
-  }
-  else {
-    next();
-  }
+  next();
 });
 
 new Vue({

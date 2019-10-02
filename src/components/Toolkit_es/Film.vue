@@ -5,8 +5,7 @@
         <h1 :style="{ color: toolkit.color }">{{toolkit.name}}</h1>
         <p class="subtitle">{{toolkit.question}}</p>
       </header>
-      <img :src="require(`@/assets/${toolkit.link}.png`)" class="workshopLogo_large" :alt="toolkit.altText" />
-      <!--      TODO change to vimeo embed link-->
+      <iframe class="workshopLogo_large" style="border: 0; margin-left: 0; margin-right: 0;" width="700px" height="400px" :alt="toolkit.altText" src='https://player.vimeo.com/video/304500732?&badge=0'></iframe>
       <p v-if="toolkit.num" :style="{ color: toolkit.color }" class="bold">{{$t('strings.workshop')}} {{toolkit.num}}</p>
       <div class="tileIcons">
         <a :href="toolkit.print" target="_blank" :aria-label="`${$t('print')} ${toolkit.name}`" @click.stop style="justify-self: end">

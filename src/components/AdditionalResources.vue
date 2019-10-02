@@ -4,14 +4,16 @@
     <p v-if="$i18n.locale === 'es'"><em>Nota: la mayoría de los recursos solo están disponibles en inglés.</em></p>
     <ul>
       <li v-for="(resource, index) in toolkit.resources" :key="index">
-        <a :href="resource.link" target="_blank">{{resource.name}} <span class="sr-only">{{ $t('strings.openNewWindow') }}</span></a> {{resource.text}}
+        <ExternalLink :href="resource.link">{{resource.name}}</ExternalLink> {{resource.text}}
       </li>
     </ul>
   </section>
 </template>
 
 <script>
+import ExternalLink from './ExternalLink';
 export default {
+  components: {ExternalLink},
   props: ["toolkit"],
 };
 </script>

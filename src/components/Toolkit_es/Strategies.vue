@@ -44,7 +44,7 @@
           <li>Identificar 2 facilitadores y asignar roles para la sesión, incluyendo un encargado/a/e de tomar notas y un/una/une moderador/a/e de tiempo. Si hay dos facilitadores, los dos pueden intercambiar roles, por ejemplo, 1 persona sirve de facilitador/a/e y el otro como encargado/a/e de tomar notas y moderador/a/e</li>
           <li>Rotafolio</li>
           <li>Papelógrafo</li>
-            <li>Imprimir copias de la <a href="/handouts/Design-Sprint.pdf" target="_blank">hoja de la actividad &quot;Carrera de Diseño&quot; / Design Sprint</a></li>
+            <li>Imprimir copias de la <ExternalLink href="/handouts/Design-Sprint.pdf">hoja de la actividad &quot;Carrera de Diseño&quot; / Design Sprint</ExternalLink></li>
           <li>Materiales de Arte – marcadores, lápices de colores, crayones, etc.</li>
           <li>Nota adhesivas (Post-it Notes)</li>
           <li>Paquetes de círculos adhesivos de 3 diferentes colores</li>
