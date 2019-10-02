@@ -7,10 +7,16 @@
   ## Uncomment to use this redirect for Single Page Applications like create-react-app. 
   ## Not needed for static site generators.
   [[redirects]]
-    from = "/*"
-    to = "/index.html"
-    status = 200
-  
+      from = "/*"
+      to = "/es.html"
+      status = 301
+      conditions = {Language = ["es"]}
+
+   [[redirects]]
+      from = "/*"
+      to = "/en.html"
+      status = 301
+
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/netlify-dev-plugin#project-detection
   #[dev] 
