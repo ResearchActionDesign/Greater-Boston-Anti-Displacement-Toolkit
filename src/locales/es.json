@@ -43,10 +43,12 @@
   "instructions": "Instrucciones",
 
   "partnersDisclaimer": {
+    "moreInfo": "Para más información, contactar: ",
     "SurdnaFoundation": "Este Proyecto fue financiado por la Fundación Surdna, ",
     "Surdnacontent": "y fue una colaboración entre GreenRoots, Everett Community Health Partnership/Coalición de Salud Comunitaria de Everett (ECHP por sus siglas en inglés), Research Action Design (RAD por sus siglas en inglés), y CoLab de MIT.",
     "CreativeCommonsAttribution": "Atribución a Creative Commons: ",
-    "AttributionContent": "Todos los materiales desarrollados para el manual están registrados bajo la licencia Creative Commons Attribution-ShareAlike 4.0 Internacional, lo que significa que pueden ser adaptados para satisfacer las necesidades de tu comunidad; sin embargo, debes dar el crédito apropiado, indicar si se han realizado cambios, y distribuir tus contribuciones bajo la misma licencia que el original. Revisar las normas vinculadas anteriormente."
+    "AttributionContent": "Todos los materiales desarrollados para el manual están registrados bajo la licencia Creative Commons Attribution-ShareAlike 4.0 Internacional, lo que significa que pueden ser adaptados para satisfacer las necesidades de tu comunidad; sin embargo, debes dar el crédito apropiado, indicar si se han realizado cambios, y distribuir tus contribuciones bajo la misma licencia que el original. Revisar las normas vinculadas anteriormente.",
+    "Github": "Ver código en GitHub"
   },
 
   "translateTo": "Translate to English",

@@ -8,6 +8,8 @@
             <a href="https://www.colab.mit.edu/"><img src="./../assets/partnerLogos/colab-logo.png" alt="MIT Community Innovators Lab Logo"></a>
         </div>
         <span class="partnersMessage">
+            <p> <strong>{{ $t('partnersDisclaimer.moreInfo' )}}</strong> <a href="mailto:info@greaterbostontoolkit.org">info@greaterbostoolkit.org</a></p>
+            <p> <strong><a href="https://github.com/ResearchActionDesign/Greater-Boston-Anti-Displacement-Toolkit/">{{ $t('partnersDisclaimer.Github') }}</a></strong></p>
             <p> <strong>{{ $t('partnersDisclaimer.SurdnaFoundation') }}</strong> {{ $t('partnersDisclaimer.Surdnacontent') }}</p>
             <p> <strong>{{ $t('partnersDisclaimer.CreativeCommonsAttribution') }}</strong> {{ $t('partnersDisclaimer.AttributionContent') }}</p>
             <a class="license" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="./../assets/icons/cc.svg"/><img alt="Attribution" style="border-width:0" src="./../assets/icons/by.svg"/><img alt="Non-Commercial" style="border-width:0" src="./../assets/icons/nc.svg"/><img alt="Share Alike" style="border-width:0" src="./../assets/icons/sa.svg"/></a>

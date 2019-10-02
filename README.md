@@ -1,11 +1,13 @@
 # Greater-Boston-Anti-Displacement-Toolkit
 Organizing toolkit for Anti-Displacement struggles in the greater Boston area. Produced by Research Action Design, with MIT CoLab, GreenRoots and Everett Community Health Partnership.
 
-Thanks to Maria Lamardo () for initial code architecture and front end development, Queer Black Editing for copy editing, and Xenia Barahona for translation.
+Thanks to [Maria Lamardo](https://github.com/mlama007) for initial code architecture and front end development, [Queer Black Editing](https://www.queerblackediting.com/) for copy editing, and Xenia Barahona for translation. Illustrations by Agustín Cepeda and Natalia Coachman.
+
+This site is covered under the GNU General Public License (see LICENSE document in repo for more information).
 
 ## Deployment
 
-This site is currently deployed via Netlify from the master branch.
+This site is currently deployed via Netlify from the master branch. The live site lives at https://www.greaterbostontoolkit.org
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/518285fa-ae52-4f5e-95c9-0f69138ed443/deploy-status)](https://app.netlify.com/sites/greater-boston-anti-displacement-toolkit/deploys)
 
@@ -19,6 +21,8 @@ Full toolkit content in long-form is written out in the `/src/components/Toolkit
 ```
 npm install
 ```
+
+Then copy `.env.example` to `.env`.
 
 ### Compiles and hot-reloads for development
 ```

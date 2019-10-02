@@ -43,10 +43,12 @@
   "instructions": "INSTRUCTIONS",
 
   "partnersDisclaimer": {
+    "moreInfo": "For more information, contact: ",
     "SurdnaFoundation": "This project was funded by the Surdna Foundation, ",
     "Surdnacontent": "and was a collaboration between GreenRoots, the Everett Community Health Partnership (ECHP), Research Action Design (RAD), and MIT CoLab.",
     "CreativeCommonsAttribution": "Creative Commons Attribution: ",
-    "AttributionContent": "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. This license lets you remix, tweak, and build upon this work non- commercially, as long as you credit us and license your new creations under the identical terms."
+    "AttributionContent": "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. This license lets you remix, tweak, and build upon this work non- commercially, as long as you credit us and license your new creations under the identical terms.",
+    "Github": "View the source code for this site on GitHub"
   },
 
   "translateTo": "Traducir a español",
