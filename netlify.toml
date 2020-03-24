@@ -11,11 +11,13 @@
       to = "/es"
       status = 301
       conditions = {Language = ["es"]}
+      force=true
 
    [[redirects]]
       from = "/"
       to = "/en"
       status = 301
+      force=true
 
     [[redirects]]
       from = "/*"
